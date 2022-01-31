@@ -8,7 +8,7 @@ You can click the Preview link to take a look at your changes.
 - 👀 My interests and a broad overview of my knowledge 
      can be found on my [LinkedIn](https://www.linkedin.com/in/jonas-pammer-2b340a1aa) and [stackshare](https://stackshare.io/privat/my-stack) profiles.
 - 🌱 I’m currently learning IaaC with Ansible, GitLab and Amazon S3/EC2.
-- 📫 You can reach me under [opensource@jonaspammer.at](mailto: opensource@jonaspammer.at). Please refrain from contacting me over my private or company e-mail.
+- 📫 You can reach me under [opensource@jonaspammer.at](mailto:opensource@jonaspammer.at). Please refrain from contacting me over my private or company e-mail.
 
 #### Foot notes
 I also sync my projects to a privately hosted GitLab instance.
