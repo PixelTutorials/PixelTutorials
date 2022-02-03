@@ -12,6 +12,10 @@ You can click the Preview link to take a look at your changes.
 - 🌱 I’m currently learning IaaC with Ansible, GitLab and Amazon S3/EC2.
 - 📫 You can reach me under [opensource@jonaspammer.at](mailto:opensource@jonaspammer.at). Please refrain from contacting me over my private or company e-mail.
 
+
+![Metrics](/github-metrics.svg)
+
+
 #### Foot notes
 I also sync my projects to a privately hosted GitLab instance.
 I do this mainly for archival purposes (GitHub is owned by Microsoft), as well as trying things out as we plan to move to GitLab in our company.
