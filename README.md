@@ -3,10 +3,12 @@ PixelTutorials/PixelTutorials is a ✨ special ✨ repository because its `READM
 You can click the Preview link to take a look at your changes.
 --->
 
-- 👋 Hi, I’m @PixelTutorials. 
+- 👋 Hi, I’m Jonas. 
 - 🤝 I use GitHub as my primary version control and collaboration platform<sup>*</sup>.
-- 👀 My interests and a broad overview of my knowledge 
-     can be found on my [LinkedIn](https://www.linkedin.com/in/jonas-pammer-2b340a1aa) and [stackshare](https://stackshare.io/privat/my-stack) profiles.
+- 👀 A broad overview of my interest and knowledge 
+     can be found on my 
+     [LinkedIn](https://www.linkedin.com/in/jonas-pammer-2b340a1aa) and 
+     [stackshare](https://stackshare.io/privat/my-stack) profile.
 - 🌱 I’m currently learning IaaC with Ansible, GitLab and Amazon S3/EC2.
 - 📫 You can reach me under [opensource@jonaspammer.at](mailto:opensource@jonaspammer.at). Please refrain from contacting me over my private or company e-mail.
 
