@@ -18,7 +18,6 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Vienna
           plugin_habits: yes
-          plugin_languages: yes
           plugin_stars: yes
           # TODO self host wakatime?
           #  https://github.com/muety/wakapi
