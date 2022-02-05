@@ -1,0 +1,17 @@
+* 👋 Hi, I am Jonas.
+* 🤝 I use GitHub as my primary version control and collaboration
+platform*.
+* 👀 A broad overview of my interest and knowledge can be found on my
+https://www.linkedin.com/in/jonas-pammer-2b340a1aa[LinkedIn] and
+https://stackshare.io/privat/my-stack[stackshare] profile.
+* 🌱 I am currently learning IaaC with Ansible, GitLab and Amazon S3/EC2.
+* 📫 You can reach me under opensource@jonaspammer.at. Please refrain
+from contacting me over my private or company e-mail.
+
+image::/github-metrics.svg[Metrics]
+
+== Foot notes
+
+I also sync my projects to a privately hosted GitLab instance. I do this
+mainly for archival purposes (GitHub is owned by Microsoft), as well as
+trying things out as we plan to move to GitLab in our company.
