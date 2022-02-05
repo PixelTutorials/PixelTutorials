@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          base: activity, repositories, metadata
+          base: activity, metadata
           config_timezone: Europe/Vienna
           plugin_habits: yes
           plugin_stars: yes
