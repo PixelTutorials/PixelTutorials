@@ -1,7 +1,13 @@
 * 👋 Hi, I am Jonas.
+
+I know my way around Linux, IT and programming. +
+I like to nerd-out and spend lots of time on learning. +
+I like to get behind the concept of a thing. +
+I like to embrace Documentation and Conventions.
+
 * 🤝 I use GitHub as my primary version control and collaboration
 platform*.
-* 👀 A broad overview of my interest and knowledge can be found on my
+* 👀 A broad overview of my knowledge and other interests can be found on my
 https://www.linkedin.com/in/jonas-pammer-2b340a1aa[LinkedIn] and
 https://stackshare.io/privat/my-stack[stackshare] profile.
 * 🌱 I am currently learning IaaC with Ansible, GitLab and Amazon S3/EC2.
