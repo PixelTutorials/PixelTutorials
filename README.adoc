@@ -21,3 +21,7 @@ image::/github-metrics.svg[Metrics]
 I also sync my projects to a privately hosted GitLab instance. I do this
 mainly for archival purposes (GitHub is owned by Microsoft), as well as
 trying things out as we plan to move to GitLab in our company.
+
+Do note that I am currently in the process of refactoring every of my projects
+and also try to figure out new development schemes now that I'm fairly confident
+in the knowledge i posses thanks to my last years of apprenticeshipment and enthusiasmnism.
