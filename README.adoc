@@ -26,5 +26,6 @@ Do note that I am currently in the process of refactoring every of my projects
 and also try to figure out new development schemes now that I'm fairly confident
 in the knowledge i posses thanks to my last years of apprenticeshipment and enthusiasmnism.
 
+image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[.]
 
-image:https://hit.yhype.me/github/profile?user_id=32995541[]
+image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe from the nerd above."]
