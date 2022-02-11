@@ -83,7 +83,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>cruft/cruft</span>
-                                        <span>starred 2 hours ago</span>
+                                        <span>starred 4 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of, and fully compatible with, CookieCutter.</div>
@@ -136,7 +136,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>airbnb/javascript</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 4 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">JavaScript Style Guide</div>
@@ -189,7 +189,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>so-fancy/diff-so-fancy</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 4 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -295,7 +295,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 11 Feb 2022, 00:21:58 (timezone Europe/Vienna) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 11 Feb 2022, 01:48:28 (timezone Europe/Vienna) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
