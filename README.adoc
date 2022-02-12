@@ -1,9 +1,10 @@
 = 👋 Hi, I am Jonas.
 
-I know my way around Linux, IT and programming. +
+__I know my way around Linux, IT and programming.__
+
 I like to nerd-out and spend lots of time on learning. +
 I like to get behind the concept of a thing. +
-I like to embrace Documentation and Conventions.
+I like to embrace Documentation and Conventions. 
 
 * 🤝 I use GitHub as my primary version control and collaboration
 platform*.
