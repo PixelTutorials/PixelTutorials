@@ -9,8 +9,9 @@ I like to embrace Documentation and Conventions.
 * 🤝 I use GitHub as my primary version control and collaboration
 platform*.
 * 👀 A broad overview of my knowledge and other interests can be found on my 
- https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]] 
- and https://stackshare.io/privat/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]] profile.
+ https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]], 
+ and https://stackshare.io/privat/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]], and
+ https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]] profile.
 * ❤️ I love the whole of DevOps and automation in general.
 * 🌱 I am currently learning IaaC with Ansible, GitHub, GitLab and Amazon S3/EC2. 
 * 📫 You can reach me under opensource@jonaspammer.at. Please refrain
