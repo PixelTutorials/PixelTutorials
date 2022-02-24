@@ -225,7 +225,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>codacy/codacy-analysis-cli</span>
-                                        <span>starred 6 days ago</span>
+                                        <span>starred 7 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Command line interface to execute Codacy code analysis locally</div>
@@ -275,7 +275,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 24 Feb 2022, 01:00:04 (timezone Europe/Vienna) with lowlighter/metrics@3.20.0</span>
+                <span>Last updated 24 Feb 2022, 01:50:44 (timezone Europe/Vienna) with lowlighter/metrics@3.20.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
