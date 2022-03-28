@@ -2,7 +2,6 @@
 
 __I know my way around Linux, IT and programming.__
 
-I like to nerd-out and spend lots of time on learning. +
 I like to get behind the concept of something and understand what it's _actually_ for. +
 I like to embrace Documentation and Conventions. 
 
