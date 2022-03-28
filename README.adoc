@@ -1,9 +1,9 @@
-= 👋 Hi, I am Jonas.
+= 👋 Hey there. My name's Jonas
 
 __I know my way around Linux, IT and programming.__
 
 I like to nerd-out and spend lots of time on learning. +
-I like to get behind the concept of a thing. +
+I like to get behind the concept of something and understand what it's _actually_ for. +
 I like to embrace Documentation and Conventions. 
 
 * 🤝 I use GitHub as my primary version control and collaboration
@@ -13,7 +13,7 @@ platform*.
  https://stackshare.io/privat/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]], and
  https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]] profile.
  __I also actively https://github.com/JonasPammer?tab=stars[star repositories I find useful and interesting].__
-* ❤️ I love Programming, Linux and the whole cycle of DevOps and Automation.
+* ❤️ I love Programming, Linux and the whole cycle of DevOps. This also includes an interest for the IT Infrastructure.
 * 🌱 I am currently learning IaaC with Ansible, GitHub, GitLab and Amazon S3/EC2. 
 * 📫 You can reach me under opensource@jonaspammer.at. Please refrain
 from contacting me over my private or company e-mail.
