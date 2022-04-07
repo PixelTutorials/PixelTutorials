@@ -1,7 +1,5 @@
 = 👋 Hey there. My name's Jonas
 
-__I know my way around Linux, IT and programming.__
-
 I like to get behind the concept of something and understand what it's _actually_ for - 
 I see myself more of as a Concept guy. +
 I like to embrace Documentation and Conventions. 
