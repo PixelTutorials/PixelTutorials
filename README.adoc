@@ -1,7 +1,7 @@
 = 👋 Hey there. My name's Jonas
 
 I like to get behind the concept of something and understand what it's _actually_ for - 
-I see myself more of as a Concept guy. +
+I see myself more of as a Concept guy, hence the plan and dream to get a master in informatics / computer science. +
 I like to embrace Documentation and Conventions. 
 
 * 👀 A broad overview of my knowledge and other interests can be found on my 
