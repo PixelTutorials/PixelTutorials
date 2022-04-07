@@ -2,7 +2,8 @@
 
 __I know my way around Linux, IT and programming.__
 
-I like to get behind the concept of something and understand what it's _actually_ for. +
+I like to get behind the concept of something and understand what it's _actually_ for - 
+I see myself more of as a Concept guy. +
 I like to embrace Documentation and Conventions. 
 
 * 👀 A broad overview of my knowledge and other interests can be found on my 
@@ -10,7 +11,7 @@ I like to embrace Documentation and Conventions.
  https://stackshare.io/privat/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]], and
  https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]] profile.
  __I also actively https://github.com/JonasPammer?tab=stars[star repositories I find useful and interesting].__
-* ❤️ I love Programming, Linux and the whole cycle of DevOps. This also includes an interest for the IT Infrastructure.
+* ❤️ I love Programming, Linux and the whole cycle of DevOps. This also includes an interest for IT Infrastructure.
 * 🌱 I am currently learning IaaC with Ansible, GitHub, GitLab and Amazon S3/EC2. 
 * 🤝 I use GitHub as my primary version control and collaboration platform. +
   📫 You can reach me under opensource@jonaspammer.at for personal inqueries of open source matters. 
