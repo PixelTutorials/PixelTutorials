@@ -5,8 +5,7 @@ __I know my way around Linux, IT and programming.__
 I like to get behind the concept of something and understand what it's _actually_ for. +
 I like to embrace Documentation and Conventions. 
 
-* 🤝 I use GitHub as my primary version control and collaboration
-platform*.
+* 🤝 I use GitHub as my primary version control and collaboration platform*.
 * 👀 A broad overview of my knowledge and other interests can be found on my 
  https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]], 
  https://stackshare.io/privat/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]], and
@@ -21,12 +20,12 @@ image::/github-metrics.svg[Metrics]
 
 == Foot notes
 
-I also sync my projects to a privately hosted GitLab instance. I do this
-mainly for archival purposes (GitHub is owned by Microsoft), as well as
-trying things out as we plan to move to GitLab in our company.
+I also sync my projects to a privately hosted GitLab instance. 
+I do this mainly for archival purposes (GitHub is owned by Microsoft), 
+but also to just try things out of course.
 
 Do note that I am currently in the process of refactoring every of my projects
-and also try to figure out new development schemes now that I'm fairly confident
-in the knowledge i posses thanks to my last years of apprenticeshipment and enthusiasmnism.
+and also try to figure out new development schemes 
+now that I'm fairly confident in the knowledge i posses
 
 image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe from the nerd above."]
