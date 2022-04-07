@@ -13,8 +13,7 @@ I like to embrace Documentation and Conventions.
 * ❤️ I love Programming, Linux and the whole cycle of DevOps. This also includes an interest for the IT Infrastructure.
 * 🌱 I am currently learning IaaC with Ansible, GitHub, GitLab and Amazon S3/EC2. 
 * 🤝 I use GitHub as my primary version control and collaboration platform. +
-  📫 You can reach me under opensource@jonaspammer.at. 
-  Please refrain from contacting me over my private or company e-mail.
+  📫 You can reach me under opensource@jonaspammer.at for personal inqueries of open source matters. 
 
 image::/github-metrics.svg[Metrics]
 
