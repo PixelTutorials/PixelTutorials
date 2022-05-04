@@ -16,7 +16,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          committer_message: "chore: update metrics [Skip GitHub Action] [skip pre-commit.ci]"
+          committer_message: "chore: update metrics [skip ci]"
 
           # Options
           base: activity, metadata
