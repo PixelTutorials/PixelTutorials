@@ -1,23 +1,27 @@
 = 👋 Hey there. My name's Jonas
 
-I like to get behind the concept of something and understand what it's _actually_ for. +
-I see myself more of as a Concept guy, hence the plan and lifelong dream of mine to get a master in informatics / computer science.
+I like to get behind the concept of something and understand what it's _actually_ for.
 
-I like to embrace Documentation and Conventions. 
+I place a high value on adherence to conventions, documentation, and structured problem solving.
 
-* 👀 A broad overview of my knowledge and other interests can be found on my 
+* As for my interest in IT, I don't limit myself to knowing only part of it. +
+  I'm interested in programming, Linux, and the whole DevOps automation cycle, 
+  but I also cherish an good understanding of IT infrastructures and network protocols/network communications.
+* 🌱 Having just completed an IT technician apprenticeship, I am currently studying for various networking certifications on the side to solidify my knowledge in this area.
+* 🌱 As for my interest in the programming side, I'm currently fascinated by the topics of IaaC with Ansible, GitHub, Terraform, and Amazon S3/EC2. 
+* 👀 A broad overview of the knowledge and experience I acquired over the years can be found on my 
  https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]], 
  https://stackshare.io/privat/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]], and
- https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]] profile.
+ https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]] profile -
+ as well of course on my OSS GitHub Projects.
  __I also actively https://github.com/JonasPammer?tab=stars[star repositories I find useful and interesting].__
-* ❤️ I love Programming, Linux and the whole cycle of DevOps. This also includes an interest for IT Infrastructure.
-* 🌱 I am currently learning IaaC with Ansible, GitHub, GitLab and Amazon S3/EC2. 
-* 🤝 I use GitHub as my primary version control and collaboration platform. +
-  📫 You can reach me under opensource@jonaspammer.at for personal inqueries of open source matters. 
 
 image::/github-metrics.svg[Metrics]
 
-== Foot notes
+
+==== Footnote on GitHub
+
+I use GitHub as my primary version control and collaboration platform.
 
 I also sync my projects to a privately hosted GitLab instance. 
 I do this mainly for archival purposes (GitHub is owned by Microsoft), 
