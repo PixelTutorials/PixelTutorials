@@ -8,7 +8,15 @@ I place a high value on adherence to conventions, documentation, and structured 
   I'm interested in programming, Linux, and the whole DevOps automation cycle,
   but I also cherish an good understanding of IT infrastructures and network protocols/network communications.
 * 🌱 Having just completed an IT technician apprenticeship, I am currently studying for various networking certifications on the side to solidify my knowledge in this area.
-* 🌱 As for my interest in the programming side, I'm currently fascinated by the topics of IaaC with Ansible, GitHub, Terraform, and Amazon S3/EC2.
+* 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
++
+These are very fascinating topics that are fundamentally changing the way software development and deployment is done.
+Servers / VMs are transformed from sacred "don't touch" black box systems into simple disposable and on-demand createable goods.
+It is the pinnacle of automation and reproducibility.
++
+And the crazy thing is that nothing has fundamentally changed - 
+It's just that the solutions (Linux, SSH, ..) and concepts (TCP/IP, ..) that were created a long time ago by very smart people are so crazily thought-of princibles
+which we're all just slowly sticking together and extending continously. IT is amazing.
 * 👀 A broad overview of the knowledge and experience I acquired over the years can be found on my
  https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]],
  https://stackshare.io/privat/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]], and
