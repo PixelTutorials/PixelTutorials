@@ -1,6 +1,6 @@
 = 👋 Hey there. My name's Jonas
 
-I like to get behind the concept of something and understand what it's _actually_ for.
+I like to get behind the concept of things and understand what they're _actually_ for before discussing anything.
 
 I place a high value on adherence to conventions, documentation, and structured problem solving.
 
