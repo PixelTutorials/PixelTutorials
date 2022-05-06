@@ -7,6 +7,13 @@ I place a high value on adherence to conventions, documentation, and structured 
 * As for my interest in IT, I don't limit myself to knowing only part of it. +
   I'm interested in programming, Linux, and the whole DevOps automation cycle,
   but I also cherish an good understanding of IT infrastructures and network protocols/network communications.
++
+I also could talk for hours about my enthusiasm for the concept of the Browser and the HTTP protocol and the prospects they still offer and continue to enable today.
+__Strong Men may look into the source code of this README document to find some words of mine on this.__
+// At the end of the day the browser is like a JRE, and HTML/CSS/JS/HTTP/... are the Specifications for it's JVM -
+// just with the fact that a "program" (website) "runs it's code" as a second class citizen, 
+// and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
+// (You can hang me for this comparison if you want but it's true).
 * 🌱 Having just completed an IT technician apprenticeship, I am currently studying for various networking certifications on the side to solidify my knowledge in this area.
 * 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
 +
@@ -15,7 +22,7 @@ Servers / VMs are transformed from sacred "don't touch" black box systems into s
 It is the pinnacle of automation and reproducibility.
 +
 And the crazy thing is that nothing has fundamentally changed - 
-It's just that the solutions (Linux, SSH, ..) and concepts (TCP/IP, ..) that were created a long time ago by very smart people are so crazily thought-of princibles
+It's just that the solutions (Linux, SSH, HTTP, TLS, ..) and concepts (TCP/IP, ..) that were created a long time ago by very smart people are so crazily thought-of princibles
 which we're all just slowly sticking together and extending continously. IT is amazing.
 * 👀 A broad overview of the knowledge and experience I acquired over the years can be found on my
  https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]],
