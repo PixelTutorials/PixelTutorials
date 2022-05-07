@@ -1,2 +1,76 @@
+== Minecraft
+It all started with my fondness and enthusiasm for the computer game Minecraft, 
+which I played on a Mac Mini in the living room from the moment the browser preview was released.
+It was to be the only game I played for a very long time and I still have a strong connection with it. +
+I was very intrigued by the update which introduced https://minecraft.fandom.com/wiki/Command_Block[Command Blocks].
+I started watching Videos of people making tutorials on interesting concepts that can be implemented using these Command Blocks,
+up to the point of recreating games and making fun parkour / story maps.
+// I also loved SkyBlock and Mods that added Technical Stuff.
 
-#I bought a [C++ Bootcamp Videocourse Series on Udemy](https://www.udemy.com/course/cpp-bootcamp),#
+I got my first own PC - of course with the primary purpose being for ~Minecraft~ School.
+I installed Windows 10 on it and watched Videos and read diverse Materials Internet on using it.
+
+I started watching videos that showed how to create software that could add/change the functionality of Minecraft servers using Java and Eclipse.
+I bought an aaS Minecraft Server. 
+I had plans on creating a Minecraft Server Network with some Friends, where everything was programmed by me.
+My hopes and plans were obviously too high, but I kept going anyway.
+I joined some other Servers as a co-developer of Minigames or a Builder of Maps.
+
+I soon bought a VPS running GNU/Linux Debian on which I installed and managed my Server(s) myself -
+it was more cost effective and learning new stuff is always fun.
+SSH, PuTTY, screen, FileZilla, IP, DNS, ..? All very intriguing
+
+I made dozens of Minecraft Hack Clients - the first ones being blank copies of Videos from youtube, 
+and the lasts ones being big rewrites of rewrites implementing my own frameworks, systems, menus, functionality and mods.
+
+== It's 2017. 
+I knew that my overall interest in IT was very strong, and I wanted to continue doing what I was doing 
+because I enjoyed it and it was all so fascinatingly logical. 
+I knew I wanted to be a Software Engineer (or similiar) and thus **study** Informatics. +
+But I also knew that my basic knowledge of some things was only based on a few crappy YouTube videos 
+and that this dream would require a lot of concentration and effort.
+To add salt to Injury I also didn't have good grades because I literally neglected all my homework, 
+even though I was one of the best students in the class (especially in math and English / except for Geography or History ;) ).
+
+I decided to do an additional voluntary year in a school that focuses on 
+helping young people get an education in form of apprenticeship in one year.
+I got a taste of many professions, learned the basics of electrical engineering and job applications.
+
+#I bought a https://www.udemy.com/course/cpp-bootcamp[C++ Bootcamp Videocourse Series on Udemy],#
+#which was one of the best investments of my life.#
+I re-learned Java through a Book on it and a Dive into Design Patterns 
+(We're still talking about self-taught Java without any real applications here, to remind you).
+I joined a small Arduino course which got me to apply and show-off [;)] my knowledge.
+
+== It's 2018
+My people skills were low, my expressions in writing snooty 
+and my appearance anything but appealing, which I can still fully confirm today.
+Although I was initially rejected by all offers, +
+I managed to show-off on the internship trial day at one of the last companies still looking for apprenticeships for that year.
+
+Although I arrived at the vocational school 3 months late, 
+I managed to grasp and understand even challenging topics in a short time.
+The best thing about this small company I joined was that I was given all the time in the world to learn.
+
+As for the programming side of IT:
+I bought a book about HTML/CSS/JS.
+I bought a book about Linux.
+I read lots of articles and best practices.
+I bought a Server/DNS at Hetzner and later OVH.
+I installed many things on it.
+I got to embrace OSS.
+
+I planned, developed, managed and deployed various company-internal applications from the ground up all by myself.
+The first was a proof-of-concept app for booking meals 
+(probably to test if I really have the knowledge and spirit of a full stack'er)
+and one of the last being a freight cost tracker or a tool for validating server racks.
+I also introduced many new things to the company, such as an actually maintained and useful wiki 
+and a revised network documentation and monitoring. 
+
+I was interested in everything, constantly asking friends at school what they were doing
+and was interested in what and how big companies make things happen.
+
+== It's in README.adoc
+
+So, that was it. My path to IT.
+Everything after it is Career.
