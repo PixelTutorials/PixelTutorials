@@ -1,10 +1,23 @@
 = 👋 Hey there. My name's Jonas
 
+== About Me
+
 I like to get behind the concept of things and understand what they're _actually_ for before discussing anything.
 
 I place a high value on adherence to conventions, documentation, and structured problem solving.
 
-* As for my interest in IT, I don't limit myself to knowing only part of it. +
+Favourite Series::
+Star Trek
+
+Hobbies and Interests::
+Programming, Linux, Nerding-Out, Planning things, Cooking, Chilling with Friends
+
+Location::
+EU, Austria, Vorarlberg (CET +1 hour)
+
+== My Interest in IT
+
+* I don't limit myself to knowing only part of it. +
   I'm interested in programming, Linux, and the whole DevOps automation cycle,
   but I also cherish an good understanding of IT infrastructures and network protocols/network communications.
 +
@@ -14,7 +27,9 @@ __Strong Men may look into the source code of this README document to find some 
 // just with the fact that a "program" (website) "runs it's code" as a second class citizen, 
 // and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
 // (You can hang me for this comparison if you want but it's true).
+
 * 🌱 Having just completed an IT technician apprenticeship, I am currently studying for various networking certifications on the side to solidify my knowledge in this area.
+
 * 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
 +
 These are very fascinating topics that are fundamentally changing the way software development and deployment is done.
@@ -24,6 +39,9 @@ It is the pinnacle of automation and reproducibility.
 And the crazy thing is that nothing has fundamentally changed - 
 It's just that the solutions (Linux, SSH, HTTP, TLS, ..) and concepts (TCP/IP, ..) that were created a long time ago by very smart people are so crazily thought-of princibles
 which we're all just slowly sticking together and extending continously. IT is amazing.
+
+=== My knowledge in IT
+
 * 👀 A broad overview of the knowledge and experience I acquired over the years can be found on my
  https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]],
  https://stackshare.io/privat/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]], and
@@ -45,13 +63,5 @@ Do note that I am currently in the process of refactoring every of my projects
 and also try to figure out new development schemes 
 now that I'm fairly confident in the knowledge i posses
 ____
-
-== About Me
-
-Favourite Series::
-Star Trek
-
-Favourite Music::
--
 
 image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe from the nerd above."]
