@@ -33,6 +33,13 @@ which we're all just slowly sticking together and extending continously. IT is a
 
 image::/github-metrics.svg[Metrics]
 
+== About Me
+
+Favourite Series::
+Star Trek
+
+Favourite Music::
+-
 
 ==== Footnote on GitHub
 
