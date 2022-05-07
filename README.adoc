@@ -83,4 +83,8 @@ NOTE: The following document is very lenghty and nostalgic.
 
 link:JOURNEY.adoc[]
 
+
 image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe from the nerd above."]
+
+== Pinned Repositories / Recent Contributions
+(see below)
