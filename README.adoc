@@ -50,7 +50,7 @@ as well of course on my OSS GitHub Projects.
 +
 I also actively https://github.com/JonasPammer?tab=stars[star repositories I find useful and interesting].
 Below is an automatically generated overview of my GitHub profile, showing mostly my recently starred projects.
-(which give a good indication of what I'm currently onto).:
+(which **give a good indication of what I'm currently onto**).:
 +
 image::/github-metrics.svg[Metrics]
 +
