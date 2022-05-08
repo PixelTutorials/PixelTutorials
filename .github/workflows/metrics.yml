@@ -19,10 +19,10 @@ jobs:
           # Options
           base: activity, metadata
           config_timezone: Europe/Vienna
-          plugin_stars: yes
+          plugin_stars: true
           # TODO self host wakatime?
           #  https://github.com/muety/wakapi
           #  Found out about this thanks to https://github.com/lowlighter/metrics/blob/master/source/plugins/wakatime/README.md
-#          plugin_wakatime: yes
+#          plugin_wakatime: true
 #          plugin_wakatime_url: https://wakatime.com
 #          plugin_wakatime_user: JonasPammer

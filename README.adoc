@@ -25,7 +25,7 @@ EU, Austria, Vorarlberg (CET +1 hour)
 I also could talk for hours about my enthusiasm for Web Development, especially about the concepts of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
 __Strong Men may look into the source code of this README document to find some words of mine on this.__
 // At the end of the day the browser is like a JRE, and HTML/CSS/JS/HTTP/... are the Specifications for it's JVM -
-// just with the fact that a "program" (website) "runs it's code" as a second class citizen, 
+// just with the fact that a "program" (website) "runs it's code" as a second class citizen,
 // and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
 // (You can hang me for this comparison if you want but it's true).
 
@@ -37,7 +37,7 @@ These are very fascinating topics that are fundamentally changing the way softwa
 Servers / VMs are transformed from sacred "don't touch" black box systems into simple disposable and on-demand createable goods.
 It is the pinnacle of automation and reproducibility.
 +
-And the crazy thing is that nothing has fundamentally changed - 
+And the crazy thing is that nothing has fundamentally changed -
 It's just that the solutions (Linux, SSH, HTTP, TLS, ..) and concepts (TCP/IP, ..) that were created a long time ago by very smart people are so crazily thought-of princibles
 which we're all just slowly sticking together and extending continously. IT is amazing.
 
@@ -63,8 +63,8 @@ I also sync my projects to a privately hosted GitLab instance.
 I do this mainly for archival purposes (GitHub is owned by Microsoft),
 but also to just try things out of course.
 
-Do note that I am currently in the process of refactoring every of my projects 
-and also try to figure out new development schemes 
+Do note that I am currently in the process of refactoring every of my projects
+and also try to figure out new development schemes
 now that I'm fairly confident in the knowledge i posses
 ____
 
@@ -79,7 +79,7 @@ ____
 [discrete]
 === My humble beginnings (for the very very interested)
 
-NOTE: The following document is very lenghty and nostalgic. 
+NOTE: The following document is very lenghty and nostalgic.
 
 link:JOURNEY.adoc[]
 
