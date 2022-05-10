@@ -29,7 +29,7 @@ __Strong Men may look into the source code of this README document to find some 
 // and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
 // (You can hang me for this comparison if you want but it's true).
 
-* 🌱 Having just completed an IT technician apprenticeship, I am currently studying for various networking certifications on the side to solidify my knowledge in this area.
+* 🌱 Having just completed an IT apprenticeship, I am currently studying for various networking certifications to solidify _and prove_ my knowledge / know that I could definitely own it (if i let go of my imposter complex).
 
 * 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
 +
