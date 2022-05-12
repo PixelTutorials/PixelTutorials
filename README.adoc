@@ -78,21 +78,22 @@ ____
 === My knowledge in IT, a Certification Overview
 
 
-=== My Private / Work Setup
-
-include::SETUP.adoc[]
-
-=== My Applications
-
-link:APPLICATIONS.adoc[]
-
-
 [discrete]
 === My humble beginnings (for the very very interested)
 
 NOTE: The following document is very lenghty and nostalgic.
 
 link:JOURNEY.adoc[]
+
+
+
+== My Private / Work Setup
+
+include::SETUP.adoc[]
+
+== My Applications
+
+link:APPLICATIONS.adoc[]
 
 
 image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe from the nerd above."]
