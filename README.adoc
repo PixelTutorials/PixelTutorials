@@ -82,6 +82,13 @@ ____
 
 === My Private / Work Setup
 
+include::SETUP.adoc[]
+
+=== My Applications
+
+link:APPLICATIONS.adoc[]
+
+
 [discrete]
 === My humble beginnings (for the very very interested)
 
