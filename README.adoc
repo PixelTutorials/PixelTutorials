@@ -11,8 +11,6 @@ I like my software's to do one thing and do it good.
 
 I place a high value on adherence to conventions, documentation, and structured problem solving.
 
-In other words, I'm a creative nerd.
-
 Favourite Series::
 Star Trek
 
