@@ -15,7 +15,7 @@ Favourite Series::
 Star Trek
 
 Hobbies and Interests::
-Programming, Linux, Sports, Nerding-Out, Planning things, Cooking, Chilling with Friends
+Programming, Linux, Sports, Learning things, Planning things, Cooking, Watching Movies with Friends
 
 Location::
 EU, Austria, Vorarlberg (CET +1 hour)
