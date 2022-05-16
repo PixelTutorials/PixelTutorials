@@ -33,8 +33,10 @@ __Strong Men may look into the source code of this README document to find some 
 // and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
 // (You can hang me for this comparison if you want but it's true).
 
+// NOTE: The following sentence is to be kept in sync with my LinkedIn Info
 * 🌱 Having just completed an IT apprenticeship, I am currently studying for various networking certifications to solidify, prove and deepen my knowledge.
 
+// NOTE: The following sentence is to be kept in sync with my LinkedIn Info
 * 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
 +
 These are very fascinating topics that are fundamentally changing the way software development and deployment is done.
