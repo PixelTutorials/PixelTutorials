@@ -1,4 +1,5 @@
 :toc:
+:toc-placement!:
 = 👋 Hey there. My name's Jonas
 
 == About Me
@@ -20,6 +21,7 @@ Programming, Linux, Sports, Learning things, Planning things, Cooking, Watching 
 Location::
 EU, Austria, Vorarlberg (CET +1 hour)
 
+toc::[]
 == My Interest in IT
 
 * I don't limit myself to knowing only part of it. +
