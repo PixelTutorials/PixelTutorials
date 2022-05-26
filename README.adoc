@@ -12,16 +12,16 @@ I like my software's to do one thing and do it good.
 
 I place a high value on adherence to conventions, documentation, and structured problem solving.
 
-Favourite Series::
+📺 Favourite Series::
 Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
 
-Hobbies and Interests::
+⛳ Hobbies and Interests::
 Programming, Linux, Sports, Learning things, Planning things, Cooking, Watching Movies with Friends
 
-Current Primary Fascinations::
+🔝 Current Primary Fascinations::
 Ansible Automation and CI/CD (because its Awesome), Cooking (because I have a apartment and lots of services to pay ;) )
 
-Location::
+📍 Location::
 EU, Austria, Vorarlberg (CET +1 hour)
 
 toc::[]
