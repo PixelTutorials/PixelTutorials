@@ -18,6 +18,9 @@ Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
 Hobbies and Interests::
 Programming, Linux, Sports, Learning things, Planning things, Cooking, Watching Movies with Friends
 
+Current Primary Fascinations::
+Ansible Automation and CI/CD (because its Awesome), Cooking (because I have a apartment and lots of services to pay ;) )
+
 Location::
 EU, Austria, Vorarlberg (CET +1 hour)
 
