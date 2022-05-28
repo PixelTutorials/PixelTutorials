@@ -7,6 +7,7 @@
 I know my way around Linux, IT and Programming.
 
 I like to get behind the concept of things (*Software is not magic.*) 
+// in fact, nothing is magic. it's all just concepts. that's what I love about IT.
 and understand what they're _actually_ for before discussing anything or using them. 
 I like my software's to do one thing and do it good.
 
