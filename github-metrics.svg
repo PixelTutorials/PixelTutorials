@@ -113,7 +113,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>pytest-dev/pytest-testinfra</span>
-                                        <span>starred 8 days ago</span>
+                                        <span>starred 9 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Testinfra test your infrastructures</div>
@@ -263,7 +263,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 5 Jun 2022, 00:25:15 (timezone Europe/Vienna) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 5 Jun 2022, 02:13:19 (timezone Europe/Vienna) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
