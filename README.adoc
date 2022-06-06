@@ -6,14 +6,18 @@
 
 I know my way around Linux, IT and Programming.
 
-I like to get behind the concept of things (*Software is not magic.*) 
-// in fact, nothing is magic. it's all just concepts. that's what I love about IT.
+I like to get behind the concept of things (*Software is not magic*) 
+// in fact, nothing is magic. it's all just concepts
 and understand what they're _actually_ for before discussing anything or using them. 
-I like my software's to do one thing and do it good.
+There's so much [aaS] software and platforms popping up with magic words 
+that don't delineate what part of the problem they actually solve 
+nor do they say what they _actually_ (most-often-then-not "just") do
+these days, which is really frustrating at first.
+I like Software that does one thing very awesomely.
 
-I place a high value on adherence to 
+I like to place a high value on adherence to 
 http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions], 
-documentation, and structured problem solving.
+documentation, and structured problem analyzation.
 
 📺 Favourite Series::
 Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
