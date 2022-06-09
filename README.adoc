@@ -38,7 +38,7 @@ toc::[]
 
 * I don't limit myself to knowing only part of it. +
   I'm interested in programming, Linux, and the whole DevOps automation cycle,
-  but I also cherish an good understanding of IT infrastructures and network protocols/network communications.
+  but I also cherish an good understanding of IT infrastructures and network protocols/network parts and design.
 +
 I also could talk for hours about my enthusiasm for Web Development, especially about the concepts of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
 // At the end of the day the browser is like a JRE, and HTML/CSS/JS/HTTP/... are the Specifications for it's JVM -
