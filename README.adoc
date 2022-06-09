@@ -23,7 +23,7 @@ documentation, and structured problem analyzation.
 Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
 
 ⛳ Hobbies and Interests::
-Programming, Linux, Planning things, Sports, Learning things, Cooking, Watching Movies with Friends
+Programming, Linux, Planning things, Cooking, Sports, Watching Movies with Friends
 
 🔝 Current Primary Fascinations::
 Ansible Automation and CI/CD (because its Awesome), Cooking (because I have a apartment and lots of services to pay ;) )
