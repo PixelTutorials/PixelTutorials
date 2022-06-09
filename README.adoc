@@ -39,7 +39,6 @@ toc::[]
   but I also cherish an good understanding of IT infrastructures and network protocols/network communications.
 +
 I also could talk for hours about my enthusiasm for Web Development, especially about the concepts of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
-__Strong Men may look into the source code of this README document to find some words of mine on this.__
 // At the end of the day the browser is like a JRE, and HTML/CSS/JS/HTTP/... are the Specifications for it's JVM -
 // just with the fact that a "program" (website) "runs it's code" as a second class citizen,
 // and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
