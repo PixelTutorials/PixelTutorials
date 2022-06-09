@@ -85,7 +85,7 @@ and also try to figure out new development schemes
 now that I'm fairly confident in the knowledge i posses
 ____
 
-=== My knowledge in IT, a Carrer Overview
+=== My knowledge in IT, a more in-depth Stack Overview
 
 
 === My knowledge in IT, a Certification Overview
