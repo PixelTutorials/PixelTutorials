@@ -52,7 +52,8 @@ I also could talk for hours about my enthusiasm for Web Development, especially 
 // NOTE: The following sentence is to be kept in sync with my LinkedIn Info
 * 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
 +
-These are very fascinating topics that are fundamentally changing the way software development and deployment is done.
+These are very fascinating topics that are fundamentally changing the way software development and deployment is 
+https://landscape.cncf.io/[done].
 Servers / VMs are transformed from sacred "don't touch" black box systems into simple disposable and on-demand createable goods.
 It is the pinnacle of automation and reproducibility.
 +
