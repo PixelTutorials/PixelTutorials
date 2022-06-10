@@ -1,0 +1,74 @@
+= Transpilers
+Jonas Pammer <opensource@jonaspammer.at>;
+:toc:
+:source-highlighter: rouge
+
+== Introduction
+Transpilers, or *source-to-source compilers*, are tools that read source code written in one programming language, and produce the equivalent code in another language
+
+You've probably heard about http://coffeescript.org/[CoffeeScript] and https://www.typescriptlang.org/[TypeScript]. CoffeeScript provides *syntactic sugar* for a number of features not yet native to JavaScript, while discouraging some of JavaScript's "bad parts". TypeScript is more drastic, adding classical object-oriented semantics to a fundamentally different language. Anything you can write in JavaScript, you can write in CoffeeScript or TypeScript. +
+
+Trouble is, JavaScript environments (e.G. your Browser) only understand ... Well, JavaScript.
+You also need to understand that https://www.codecademy.com/articles/javascript-versions[Javascript is not Javascript].
+
+That's where transpilers come in: They read CoffeeScript, TypeScript, and ES2015 (or any other version that you wrote your JS-Code in), and spit out JavaScript guaranteed to work anywhere or in a specified environment (e.G. Internet Explorer 8).
+
+Also, if you use React, you https://reactjs.org/docs/react-without-jsx.html[may] (hopefully) also use https://reactjs.org/docs/introducing-jsx.html[JSX]-Syntax to define your React-Elements.
+Thus, your Transpiler needs to handle the job of converting your JSX-Syntax to `React.createElement(...)`-Calls which JavaScript then can understand.
+
+=== In Defense of Transpilers
+If your workflow doesn't already include a transpiler, you might wonder why you'd even bother. Why learn new syntax and pick up new tools if all we get at the end of the day is the JavaScript we could have written in the first place?
+
+In the case of languages that target JavaScript, it's largely a matter of preference or background. Writing in a language that "thinks" the way you do makes you more productive. People with backgrounds in OOP often like TypeScript because it's familiar territory. Pythonistas like CoffeeScript. Clojurists write ClojureScript. You get the idea. +
+*I (Jonas Pammer) strongly defend and encourage the use and https://instil.co/blog/static-vs-dynamic-types/[benefits of statically and strongly _typed_ languages].*
+
+But even the people who are perfectly fine with writing plain JavaScript (thus getting a headache) still use transpilers, because they're the only reliable way to use features from ES2015 but also want to support older browsers.
+
+=== Appendix: _Tomorrow's JavaScript, Along the Way_
+Transpilers also play an important role in guiding the decisions of the TC39 committee, which is the group in charge of designing the ECMAScript standard.
+
+For one, transpilers can contribute directly to the inclusion of a feature in the standard. For a potential feature to move from Stage 1 (Proposal) to Stage 2 (Draft):
+
+[quote]
+____
+Two experimental implementations of the feature are needed, but one of them can be in a transpiler such as Babel.
+____
+
+Probably more important than this contribution is that feedback from users and implementers of transpilers like https://babeljs.io/[Babel] or Traceur help TC39 iterate on syntax and proposals. This comes up often during TC39 meetings:
+If you read every line of the https://github.com/tc39/tc39-notes[TC39 Meeting Notes] you'll find that Babel was mentioned 36 times, and spot that the conclusion of the March 25, 2015 meeting on This-binding syntax was: `"Get more feedback from users of Babel"`!
+
+== Transpiler: Babel
+
+Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
+
+Through the notion of presets (which basically are a collection of https://babeljs.io/docs/en/plugins[plugins]) it allows you to:
+
+* use the newest JavaScript Syntax (e.G. ES2020)
+* use React's JSX-Syntax (https://babeljs.io/docs/en/babel-preset-react[@babel/preset-react])
+* use Type Annotations by writing in TypeScript (https://babeljs.io/docs/en/babel-preset-typescript[@babel/preset-typescript]) or using Flow (https://babeljs.io/docs/en/babel-preset-flow[@babel/preset-flow])-Comments
+* specify which browsers you want to support in simple or precise words thanks to the official https://github.com/browserslist/browserslist[browserlist] / https://github.com/kangax/compat-table[compat-table]-Integration (https://babeljs.io/docs/en/babel-preset-env[@babel/preset-env])
+
+== Transpiler: Webpack
+
+Webpack itself is *not* a Transpiler, but a xref:module_bundlers.adoc[Module Bundler].
+
+Through the notion of
+https://webpack.js.org/configuration/module/#modulerules[rules]
+you can specify that specific files are passed to
+specific https://webpack.js.org/concepts/loaders/[loaders]
+that transform the resource into JavaScript that is valid for webpack to understand
+(which MUST be CommonJS because Node and therefore webpack only understand CommonJS).
+
+Loaders are transformations that are applied to the source code of a module.
+They allow you to pre-process files as you import or “load” them.
+Thus, loaders are kind of like “tasks” in other build tools and provide a powerful way to handle front-end build steps. +
+Loaders can, for example:
+
+* transform files from a different language like https://github.com/TypeStrong/ts-loader[TypeScript to JavaScript],
+* load inline images as data URLs,
+* https://webpack.js.org/loaders/css-loader[allow you to import CSS files directly from your JavaScript modules] (crazy, right?)
+
+[#sauce]
+== Appendix: Sources
+
+* https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them["JavaScript Transpilers: What They Are & Why We Need Them"] by "Peleke Sengstacke" (published on https://scotch.io[scotch.io])

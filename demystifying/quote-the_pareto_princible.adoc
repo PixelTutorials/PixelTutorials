@@ -1,0 +1,6 @@
+[quote, The Pareto principle]
+____
+For many outcomes roughly 80% of consequences come from 20% of the causes.
+80% of the time spent on a coding project should be devoted to the first 20% of starting it.
+Conversely, the hardest 20% of the code takes 80% of the time.
+____

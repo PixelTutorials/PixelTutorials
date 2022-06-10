@@ -6,17 +6,17 @@
 
 I know my way around Linux, IT and Programming.
 
-I like to get behind the concept of things (*Software is not magic*) 
+I like to get behind the concept of things (*Software is not magic*)
 // in fact, nothing is magic. it's all just concepts
-and understand what they're _actually_ for before discussing anything or using them. 
-There's so much [aaS] software and platforms popping up with magic words 
-that don't delineate what part of the problem they actually solve 
+and understand what they're _actually_ for before discussing anything or using them.
+There's so much [aaS] software and platforms popping up with magic words
+that don't delineate what part of the problem they actually solve
 nor do they say what they _actually_ (most-often-then-not "just") do
 these days, which is really frustrating at first.
 I like Software that does one thing very awesomely.
 
-I like to place a high value on adherence to 
-http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions], 
+I like to place a high value on adherence to
+http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions],
 documentation, and structured problem analyzation.
 __In other words__, I https://www.stilldrinking.org/programming-sucks[thankfully] can and do still live in and with this dream world mindset.__
 // because of my lack in experience working on more real projects with more real people in a more real/defined field ;).
@@ -52,7 +52,7 @@ I also could talk for hours about my enthusiasm for Web Development, especially 
 // NOTE: The following sentence is to be kept in sync with my LinkedIn Info
 * 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
 +
-These are very fascinating topics that are fundamentally changing the way software development and deployment is 
+These are very fascinating topics that are fundamentally changing the way software development and deployment is
 https://landscape.cncf.io/[done].
 Servers / VMs are transformed from sacred "don't touch" black box systems into simple disposable and on-demand createable goods.
 It is the pinnacle of automation and reproducibility.
@@ -112,6 +112,18 @@ include::SETUP.adoc[]
 link:APPLICATIONS.adoc[]
 
 
+== Demystifying
+
+Some Summarizations on various Topics I wrote to easily link to.
+Sources always linked.
+
+* link:demystifying/module_bundlers.adoc[Demystifying JavaScript Module Bundlers]
+* link:demystifying/transpilers.adoc[Demystifying JavaScript Transpilers]
+* link:demystifying/linters_and_formatters.adoc[Demystifying Linters and Formatters]
+* link:demystifying/asciidoctor.adoc[Demystifying Asciidoc / Asciidoctor]
+* link:demystifying/gitignore.adoc[Demystifying `.gitignore`]
+
+---
 image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe from the nerd above."]
 
 == Pinned Repositories / Recent Contributions

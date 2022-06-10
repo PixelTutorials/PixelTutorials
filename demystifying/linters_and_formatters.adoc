@@ -1,0 +1,92 @@
+= Linters and Formatters
+Jonas Pammer <opensource@jonaspammer.at>;
+:toc:
+:source-highlighter: rouge
+
+
+== Linters
+
+Linting is the automated checking of your source code for programmatic and stylistic errors.
+This is done by using a lint tool (otherwise known as linter).
+A lint tool is a basic static code analyzer.
+
+Linters have two categories of rules:
+
+* *Code-quality rules*: e.G. (ESLint): `no-unused-vars`, `no-extra-bind`, `no-implicit-globals`, `prefer-promise-reject-errors`...
+
+* *Formatting rules*: e.G. (ESLint): `max-len`, `no-mixed-spaces-and-tabs`, `keyword-spacing`, `comma-style`...
+
+
+[[formatters_vs_linters]]
+== Formatters (vs. Linters)
+
+While many linters *_can_* check formatting and adherence to code style and warn you if you’re off,
+*formatters go straight ahead and just apply a preferred formatting* and code style completely automatically.
+Most of the time, the decision to create a more coherent code style on a team will include the introduction of both linters and formatters.
+
+Note that it is a somewhat blurred line between formatters and linters, especially since formatters are getting more opinionated for a lot of languages recently.
+Go ships a built-in one (`gofmt`), Rust develops an official formatter (https://github.com/rust-lang/rustfmt[rustfmt]), Python’s https://github.com/psf/black[Black] is incredibly popular and so is https://github.com/prettier/prettier[Prettier] for JavaScript.
+
+
+[[embracing_as_a_team]]
+== Embracing Linters and Formatters as a Team
+
+===  Let the linter build the bikesheds.
+https://en.wiktionary.org/wiki/bikeshedding[Bikeshedding], is when people fall into the trap of discussing something small and trivial around a more complicated project.
+Tabs? Spaces? Double quotes? Single quotes? Let the linter hoover up all these little style questions before they take up time during pull request (PR) reviews with peers.
+Get rid of the https://workplace.stackexchange.com/questions/160542/how-can-i-get-a-new-developer-to-significantly-improve-their-code[style] questions that are truly not worth arguing about.
+
+The introduction of linters might not only free up time during code review for more important decision making and learning, it might even reduce the number of requests in total. Lint out those that were about style bickery. Standardizing your code is a great way to move the conversation to a more productive level.
+
+Welch Canavan puts it nicely on https://welchcanavan.com/why-i-lint-everything[his blog]:
+
+[quote, Welch Canavan]
+____
+You will never be on a team that is completely aligned on best practices. Part of being a great team member is setting your ego aside and recognizing that it is much more important to agree on a standard than your standard.
+____
+
+=== Let the linter create a unified voice.
+The reality is that code has many (sometimes many, many, many) authors. But the fact that many people have contributed should not be visible in the code. https://www.youtube.com/watch?v=BLJXG5LPEsA[In his talk], Matt Rose describes this as the narrative voice of the writing.  You can have oral or written agreements on style conventions to keep this voice consistent but they https://www.reddit.com/r/reactjs/comments/93kuc2/how_come_a_lot_of_developers_dont_use_code_linters/e3eewtv/[will never work as well as automatic convention]. Your team of many code authors can write with one indistinguishable voice – https://en.wikipedia.org/wiki/Shakespeare_authorship_question[just like Shakespeare].
+
+=== Let the linter help keep your code healthy.
+Code smells, style guide mismatches, security issues or poorly designed code—many modern linters will help you look after your https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it[code base’s health]. You can see linters as a check-up, a way to measure your code’s health to then discuss in retrospective or architecture meetings.
+
+=== Let the linter help you automate.
+Make your life easier and invest the time to automate what can be automated. Most linters are command-line tools first and foremost and thus are excellently suited for automation. Examples are Prettier, Pylint, https://eslint.org/[ESLint] or https://rubocop.org/[RuboCop].
+
+This enables Linters to ben run in an CI/CD-Workflow, as part of the build & compiling process, and using various other scripts.
+
+
+[[embracing_as_an_individual]]
+== Embracing Linters and Formatters as an Individual (on a team)
+=== Embrace the learning opportunities.
+It might be tough to change your mindset from seeing each pop-up not as on obstruction, but, as Matt Eland https://medium.com/better-programming/warnings-are-not-pieces-of-flair-2acc8f894eb7[writes],
+
+[quote, Matt Eland]
+____
+Sometimes, just searching and understanding a warning will teach you new things about programming and shore up vulnerabilities you didn’t even know you had.”
+____
+
+=== Gamify it.
+If it already feels to you like “you vs. the linter” why not take that to the max. https://medium.com/better-programming/warnings-are-not-pieces-of-flair-2acc8f894eb7[Block out 15-minute of time]. And then, much like getting an inbox to zero, see how many warnings you can tackle during this period.
+
+=== Code drunk, linter sober.
+Linked to the above, it is all about limiting linters (and potential frustrations with it) to a specific time. If you are in the flow, cranking out that prototype, turn it off. But allow time to address some of the flags before you waste that time with a peer in a review. _And of course, we are by no means encouraging having a drink at work. Stay hydrated tho!_
+
+=== Think of linters as a pedantic friend.
+We enjoyed the suggestion of treating a linter as https://news.ycombinator.com/item?id=14921255[a weirdly pedantic code review friend]. Assume that they know more than you. But since they are your friend, you can also tell them to go away when you’re trying to focus. Just make sure to ask them to come back later to check your code and make you look smart in front of your peers. Note: they are a loyal friend, but take their pedantry with a grain of salt and add your human judgment.
+
+== Conclusion: Linting isn’t just for you. It is for the other people on the team.
+Linting can help with the https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it[heterogeneous knowledge] on a team.
+For juniors, a linter is like an invisible senior team member that points out style guideline documentation, causes them to pause and question steps, and ultimately helps https://spin.atomicobject.com/2018/09/20/learn-by-linting/[learn a new language].
+For seniors, it is an easy way to enforce, not their style, but the use of a consistent style on a team. Leading by example becomes more visible and somewhat built in. It saves many shoulder taps and time during code reviews.
+
+The process of linting  can be time consuming when starting out a project; it requires the discipline to catch linter messages https://welchcanavan.com/why-i-lint-everything[from your first line of code]. It is, however, worth taking advantage of the ways to customize. Make use of best practices. Some companies publish their configuration settings. Like https://www.npmjs.com/package/eslint-config-airbnb[Airbnb’s .eslintrc]. Github not only published their linter config, but even open-sourced their https://www.zdnet.com/article/microsofts-github-now-open-source-developers-get-one-linter-to-rule-them-all/[unified version] of over 20 linters last month.
+
+*A linter is exactly like the spelling/grammar checker in your word processor. It’s there to advise you.*
+
+
+[[sources]]
+== Appendix: Sources
+
+* https://stackoverflow.blog/2020/07/20/linters-arent-in-your-way-theyre-on-your-side/["Linters are not in your way, they are on your side!"] by "Medi Madelen Gwosdz" on StackOverflow

@@ -1,0 +1,207 @@
+= gitignore
+Jonas Pammer <opensource@jonaspammer.at>;
+:toc:
+:source-highlighter: rouge
+
+
+Git sees every file in your working copy as one of three things:
+
+. `tracked` - a file which has been previously staged or committed;
+. `untracked` - a file which has not been staged or committed; or
+. `ignored` - a file which Git has been explicitly told to ignore.
+
+*A `.gitignore` file specifies intentionally untracked files that Git should ignore.*
+Files already tracked by Git are not affected;
+
+
+[[multiple_gitignores]]
+== Using multiple `.gitignore`-Files
+A local `.gitignore` file is usually placed in the repository’s root directory.
+However, *it is possible to have multiple `.gitignore` files in different subdirectories* in your repository.
+The patterns in the `.gitignore` files are matched relative to the directory where the file resides.
+Patterns defined in the files that reside in lower-level directories (sub-directories)
+have precedence over those in higher-level directories.
+
+
+[[personal_and_global_gitignores]]
+== Personal and Global `.gitignore`-files
+Local `.gitignore` files are shared with other developers and should contain patterns
+that are useful for all other users of the repository.
+
+Patterns that are specific to *_your_* local repository and should not be distributed to other peoples' repositories
+should be set in the `.git/info/exclude` file.
+
+Using `git config --global core.excludesfile FILEPATH` you can also have a file that contains patterns
+that are specific to  *every local repository of _yours_*.
+
+
+[[debugging]]
+== Why is File X being ignored - Debugging `.gitignore`
+Sometimes it can be challenging to determine why a specific file is being ignored,
+especially when using multiple `.gitignore` files or complex patterns.
+This is where the https://git-scm.com/docs/git-check-ignore[`git check-ignore`] command with the `-v` option,
+which tells git to display details about the matching pattern, comes handy.
+
+Example ::
+The command also accepts more than one filename as arguments, and the file doesn’t have to exist in your working tree.
++
+[source]
+----
+$ git check-ignore -v logs/
+----
+
+Example Output::
+The output shows the path to the gitignore file, the number of the matching line, and the actual pattern.
++
+[source,text]
+----
+.gitignore:252:logs	logs/
+----
+
+
+[[patterns_explained]]
+== Patterns explained
+`.gitignore` uses https://linux.die.net/man/7/glob[linux's globbing patterns] to match against file names.
+Below you can find a summarized explanation of the patterns that can be used:
+
+
+====
+Comments ::
+Lines starting with a hash mark (#) are comments and are ignored.
+Empty lines can be used to improve the readability of the file and to group related lines of patterns.
+
+Slash ::
+The slash symbol (`/`) represents a directory separator.
+The slash at the beginning of a pattern is relative to the directory where the `.gitignore` resides.
++
+If the pattern starts with a slash, it matches files and directories only in the repository root.
++
+If the pattern doesn’t start with a slash, it matches files and directories in any directory or subdirectory.
++
+If the pattern ends with a slash, it matches only directories.
+*When a directory is ignored, all of its files and subdirectories are also ignored.*
+
+Literal File Names ::
+The most straightforward pattern is a literal file name without any special characters.
++
+|===
+| Pattern | Example matches
+
+| `/access.log`
+| `access.log`
+
+| `access.log`
+|
+`access.log` +
+`logs/access.log` +
+`var/logs/access.log`
+
+| `build`
+| `build`
+|===
+
+Wildcard Symbols ::
+`*` - The asterisk symbol matches zero or more characters.
++
+|===
+| Pattern | Example matches
+
+| `*.log`
+|
+`error.log` +
+`logs/debug.log` +
+`build/logs/error.log`
+|===
++
+`**` - Two adjacent asterisk symbols match any file or zero or more directories.
+When followed by a slash (`/`), it matches only directories.
++
+|===
+| Pattern | Example matches
+
+| `logs/**`
+| Matches anything inside ANY (no `/` at the beginning) directory named `logs`.
+
+| `**/build`
+|
+`var/build` +
+`pub/build` +
+`build`
+
+| `foo/**/bar`
+|
+`foo/bar` +
+`foo/a/bar` +
+`foo/a/b/c/bar`
+|===
++
+`+` - The question mark matches any single character.
++
+|===
+| Pattern | Example matches
+
+| `access?.log`
+|
+`access0.log` +
+`access1.log` +
+`accessA.log`
+
+| `foo??`
+|
+`fooab` +
+`foo23` +
+`foo0s`
+|===
+
+Square Brackets ::
+`[...]` - Matches any of the characters enclosed in the square brackets.
+When two characters are separated by a hyphen - it denotes a range of characters.
+The range includes all characters that are between those two characters.
+The ranges can be alphabetic or numeric.
++
+If the first character following the `[` is an exclamation mark (`!`),
+then the pattern matches any character except those from the specified set.
++
+|===
+| Pattern | Example matches
+
+| `*.[oa]`
+|
+`file.o` +
+`file.a`
+
+| `*.[!oa]`
+|
+`file.s` +
+`file.1` +
+`file.0`
+
+| `access.[0-2].log`
+|
+`access.0.log` +
+`access.1.log` +
+`access.2.log`
+
+| `file.[a-c].out`
+|
+`file.a.out` +
+`file.b.out` +
+`file.c.out`
+
+| `file.[a-cx-z].out`
+|
+`file.a.out` +
+`file.b.out` +
+`file.c.out` +
+`file.x.out` +
+`file.y.out` +
+`file.z.out`
+
+| `access.[!0-2].log`
+|
+`access.3.log` +
+`access.4.log` +
+`access.Q.log`
+
+|===
+====

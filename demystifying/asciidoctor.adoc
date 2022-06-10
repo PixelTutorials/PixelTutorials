@@ -1,0 +1,74 @@
+= Asciidoctor (aka. Asciidoc)
+
+[[metaphor]]
+== Introduction to the Metaphor of Lightweight Markup Languages
+__“Writing is hard.”__
+
+That's what experience has conditioned us to believe.
+
+But, we can't just avoid it, especially in the tech industry.
+We _must_ write.
+Even the most brilliant software is useless without good documentation.
+If the users fail, so does the project.
+
+[quote, Nick Coghlan]
+Unless your UI discoverability is *really good*, saying “the feature isn't documented”
+is the same as saying “the product can't do it.”
+
+In other words,
+
+[quote, Matthew Ginnard]
+Live and die by documentation.
+
+Then why, _oh why_, do we make it more difficult by burying the content in XML schemas like DocBook,
+allowing complex word processors to distract us or wasting time battling with finicky WYSIWYG editors?
+
+Imagine if writing documentation was as simple as writing an email. +
+_It *can* be._
+
+That’s the idea behind lightweight markup languages such as https://asciidoctor.org/[AsciiDoc].
+They offer a plain-text syntax, embellished with subtle, yet intuitive markup, that’s designed for humans to read,
+write and edit in raw form. The natural feel of the syntax keeps you focused on the content.
+Best of all, the plain text can quickly and easily be translated into output formats such as HTML5 for presentation.
+
+AsciiDoc belongs to the family of lightweight markup languages,
+the most renowned of which is https://markdown.de/[**Markdown**].
+*AsciiDoc* stands out from this group because it **supports all the structural elements necessary for
+drafting articles, technical manuals, books, presentations and prose**.
+In fact, it’s capable of meeting even the most advanced publishing requirements and technical semantics.
+
+Lightweight Markup languages are designed to enable humans to write documents, and for other humans to be able to read them, as is, in raw form.
+
+In conclusion:
+
+[quote, Linus Torvalds]
+Use AsciiDoc for document markup.
+Really.
+It's actually *readable* by humans, easier to parse and way more flexible than XML.
+
+Appendix:: For a more indepth wording, see
+https://asciidoctor.org/docs/what-is-asciidoc/[AsciiDoctors' Article on "What is AsciiDoc? Why do we need it?"].
+
+
+[[comparison_of_asciidoc_and_asciidoctor]]
+== Asciidoc vs. AsciiDoctor
+`AsciiDoc` is actually two things:
+
+* A mature (introduced 2002), plain-text *writing format* for authoring notes, articles, documentation, books, ebooks, web pages, slide decks, blog posts, man pages and more.
+* A *text processor* and toolchain for translating AsciiDoc documents into various formats (called backends), including HTML, DocBook, PDF and ePub.
+
+There are two implementations of the AsciiDoc processor.
+
+* The **original processor, named AsciiDoc**, is written in Python.
+* A **more modern implementation, named Asciidoctor**, provides a compliant and substantially faster implementation of the AsciiDoc processor written in Ruby.
+This implementation can also be run on the JVM (with AsciidoctorJ) or using JavaScript (with Asciidoctor.js).
+
+*The Asciidoctor project now maintains the official definition of the AsciiDoc syntax and delivers ongoing development, as officially stated on https://asciidoc.org/[AsciiDocs' Website] and https://github.com/asciidoc/asciidoc[Github].*
+
+AsciiDoc itself is not a publishing format. It’s more like a shorthand. That’s where an AsciiDoc processor comes in. #This Project uses AsciiDoctor as the processor.#
+
+Since AsciiDoc was and is not published as is, the processing step provided/provides an opportunity to augment the document by **expanding shorthand codes**, layering in https://asciidoctor.org/docs/extensions/[**integrations**] (e.G. to generate https://asciidoctor.org/docs/asciidoctor-diagram/[various Diagrams] in-line), and applying a pleasant visual style. That augmentation is a large part of what Asciidoctor does.
+
+* For an introduction, see https://asciidoctor.org[AsciiDoctors' Landing Page].
+* For a *Quick Reference* of AsciiDoc's Syntax, see https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[AsciiDoctors' Quick Reference Guide].
+* For a gentle but *in-depth* Introduction to AsciiDoc, see https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoctors' AsciiDoc Writers Guide].

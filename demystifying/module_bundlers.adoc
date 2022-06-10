@@ -1,0 +1,213 @@
+= Module Bundlers
+Jonas Pammer <opensource@jonaspammer.at>;
+:toc:
+:source-highlighter: rouge
+
+
+== Introduction
+Module bundlers are tools frontend developers use to bundle https://lihautan.com/javascript-modules/[JavaScript modules] into a single JavaScript files that can be executed in the browser.
+
+
+== The Problem
+
+A Module bundler is required because:
+
+* Browsers do not support the notion of a module system, https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/[although this is not entirely true nowadays]
+* It helps us to manage the dependency relationship of our code. It will load modules in dependency order for you.
+* It helps us to load your assets in dependency order, image asset, css asset, etc.
+
+To illustrate, imagine you are building a web application, which is made up of multiple JavaScript files. You add JavaScript files into html via script tags:
+
+[source,html]
+----
+<html>
+    <script src="/src/foo.js"></script>
+    <script src="/src/bar.js"></script>
+    <script src="/src/baz.js"></script>
+</html>
+----
+
+Each file requires a separate http requests, which is 3 round trip requests in order to get the application started. So it would be better**^1^** if we could combine all 3 files into 1:
+
+[source,html]
+----
+<html>
+    <script src="/dist/bundle.js"></script>
+</html>
+----
+
+[NOTE]
+====
+*^1^* The introduction of https://developers.google.com/web/fundamentals/performance/http2/[HTTP/2] made this problem less impactful. This assumes that:
+
+1. the browsers of your users support HTTP/2 https://caniuse.com/http2[support it],
+2. your CDN/Web-Server(s) https://en.wikipedia.org/wiki/HTTP/2#Server-side_support[support it]
+3. your CDN/Web-Server(s) have been https://en.wikipedia.org/wiki/HTTP/2#Server-side_support[configured to use it].
+====
+
+So how do we generate the `dist/bundle.js`? +
+Several challenges arise in the process:
+
+* How do we *maintain the order* of the "files" to be included?
+** It would be great that there would be some sort of dependency order amongst the "files"
+* How do we *prevent naming conflicts* between "files"?
+* How do we determine any unused "file" within the bundle?
+* How to we determine any unused "constructs" within the bundle?
+
+All of these can be solved if we know the relationship amongst each files, such as:
+
+* Which file is depended on another?
+* What are the interface exposed from a file? and
+* Which exposed interfaces are being used by another?
+
+
+== The Solution
+
+This information, granted, can solve the challenges brought up respectively.
+So, what we need is a declarative method to describe the relationship between files,
+which led us to the https://lihautan.com/javascript-modules/[JavaScript Module System].
+
+https://requirejs.org/docs/commonjs.html[CommonJS] or https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import[ES6 Modules] provide a way for us to specify what files we are dependening on, and which of their interface we are using in our file.
+
+[source, javascript]
+----
+// CommonJS
+const foo = require('./foo');
+module.exports = bar;
+----
+
+[source, javascript]
+----
+// ES Modules
+import foo from './foo';
+export default bar;
+----
+
+
+[[webpack]]
+== Appendix: How webpack's bundling works
+
+Let's illustrate this topic with an example.
+
+We have 3 files: `circle.js`, `square.js` and `app.js`. For simplicity, they're all in the same folder.
+
+[source, javascript]
+----
+// filename: circle.js
+const PI = 3.141;
+export default function area(radius) {
+  return PI * radius * radius;
+}
+----
+
+[source, javascript]
+----
+// filename: square.js
+export default function area(side) {
+  return side * side;
+}
+----
+
+[source, javascript]
+----
+// filename: app.js
+import squareArea from './square';
+import circleArea from './circle';
+console.log('Area of square: ', squareArea(5));
+console.log('Area of circle', circleArea(5));
+----
+
+If we run this through webpack (with `app.js` being the `main` starting-point), we'd get something like this (simplified):
+[source, javascript]
+----
+// filename: webpack-bundle.js
+const modules = {
+  'circle.js': function(exports, require) {
+    const PI = 3.141;
+    exports.default = function area(radius) {
+      return PI * radius * radius;
+    }
+  },
+  'square.js': function(exports, require) {
+    exports.default = function area(side) {
+      return side * side;
+    }
+  },
+  'app.js': function(exports, require) {
+    const squareArea = require('square.js').default;
+    const circleArea = require('circle.js').default;
+    console.log('Area of square: ', squareArea(5))
+    console.log('Area of circle', circleArea(5))
+  }
+}
+
+webpackStart({
+  modules,
+  entry: 'app.js'
+});
+----
+
+First thing you would notice is the **"module map"**. It is a dictionary that maps the module name to the module itself, which is wrapped by a function. The "module map" is like a registry, it makes it easy to register modules by adding entries.
+
+Secondly, **each module is wrapped and represented by a function**. The function simulates the module scope, where everything declared within the module is scoped within itself. The function itself is called the "module factory function". As you can see, it takes in a few parameters, to allow the module to exports its interface, as well as to require from other modules.
+
+Thirdly, the application is start via webpackStart, which is *a function that glues everything together*. The function itself, often called as the "runtime", is the most important piece of the bundle. It uses the "module map" and the entry module to start the application. +
+It looks like this (simplified):
+
+[source, javascript]
+----
+// filename: webpack-bundle.js
+function webpackStart({ modules, entry }) {
+  const moduleCache = {};
+  const require = moduleName => {
+    // if in cache, return the cached version
+    if (moduleCache[moduleName]) {
+      return moduleCache[moduleName];
+    }
+    const exports = {};
+    // this will prevent infinite "require" loop
+    // from circular dependencies
+    moduleCache[moduleName] = exports;
+
+    // "require"-ing the module,
+    // exported stuff will assigned to "exports"
+    modules[moduleName](exports, require);
+    return moduleCache[moduleName];
+  };
+
+  // start the program
+  require(entry);
+}
+----
+
+`webpackStart` defines 2 things, the "`require`" function and the "module cache".
+
+The "`require`" function is not the same as the `require` from CommonJS. +
+"`require`" takes in the module name, and returns the exported interface from a module, eg: for `circle.js` it would be `{ default: function area(radius){ … } }`. +
+The exported interface is cached in the module cache, so that if we call "`require`" of the same module name repeatedly, the "module factory function" will only be executed once.
+
+With "`require`" defined, starting the application would be just "require"ing the entry module.
+
+
+[[summary]]
+== Appendix: Topic Summarized
+
+* Module bundler helps us to combine multiple JavaScript modules (files) into 1 JavaScript file.
+* Different bundlers bundle differently, and we've looked into 2 of the modern bundler, webpack and rollup
+* the "webpack way":
+** uses module map
+** uses function to wrap each module
+** has a runtime code that glues the module together
+* the "rollup way":
+** flatter and smaller bundle
+** does not use function to wrap module
+** order matters, require sorting based on dependency
+** circular dependency may not work
+
+
+[[sources]]
+== Appendix: Sources
+
+* https://lihautan.com/what-is-module-bundler-and-how-does-it-work/["What is module bundler and how does it work?"] by "Tan Li Hau"
+* https://lihautan.com/javascript-modules/["History of Web Development: JavaScript Modules"] by "Tan Li Hau"
+* https://lihautan.com/understand-the-frontend-tools/["Understanding Frontend Tools"] by "Tan Li Hau"
