@@ -44,3 +44,16 @@ message
 == Reminders
 
 * Put newline before extended commit body
+
+
+== FAQ
+
+What do I do if the commit conforms to more than one of the commit types? ::
+Go back and make multiple commits whenever possible.
+Part of the benefit of Conventional Commits is its ability to drive us to make more organized commits and PRs.
+
+Doesn’t this discourage rapid development and fast iteration? ::
+It discourages moving fast in a disorganized way.
+It helps you be able to move fast long term across multiple projects with varied contributors.
+
+More at https://www.conventionalcommits.org/en/v1.0.0/[conventionalcommits.org]
