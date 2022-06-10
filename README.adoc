@@ -122,6 +122,7 @@ Sources always linked.
 * link:demystifying/linters_and_formatters.adoc[Demystifying Linters and Formatters]
 * link:demystifying/asciidoctor.adoc[Demystifying Asciidoc / Asciidoctor]
 * link:demystifying/gitignore.adoc[Demystifying `.gitignore`]
+* link:demystifying/conventional_commits.adoc[Demystifying Conventional Commits]
 
 ---
 image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe from the nerd above."]

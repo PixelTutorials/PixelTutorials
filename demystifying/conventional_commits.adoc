@@ -1,0 +1,46 @@
+The Conventional Commits specification is a lightweight convention on
+top of commit messages. It provides an easy set of rules for creating an
+explicit commit history; which makes it easier to write automated tools
+on top of. This convention dovetails with SemVer, by describing the
+features, fixes, and breaking changes made in commit messages.
+
+The commit message should be structured as follows:
+
+....
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+....
+
+== Commit types
+
+* *`feat`: A new feature (this correlates to a `MINOR`, e.g. 0.1.0*,
+in Semantic Versioning)**
+* *`fix`: A bug fix (this correlates to a `PATCH`, e.g. 0.0.1*, in
+Semantic Versioning)
+* `refactor`: A code change that neither fixes a bug nor adds a
+feature
+* `build`: Changes that affect the build system or external
+dependencies
+* `ci`: Changes to CI configuration files and scripts
+* `perf`: A code change that improves performance
+* `test`: Adding missing tests or correcting existing tests
+* `revert`: Revert something
+* `docs`: Documentation only changes
+* `style`: Changes that do not affect the meaning of the code
+(white-space, formatting, missing semi-colons, etc)
+* *`chore`: Changes which doesn’t change source code or tests*
+e.g. changes to the build process, auxiliary tools, libraries
+
+A new *`MAJOR`* is represented by either
+
+* appending `!` after the type/scope of the commit message
+(e.g. `refactor!: drop support for Internet Explorer`)
+* adding the phrase `BREAKING CHANGE:` in the footer of the commit
+message
+
+== Reminders
+
+* Put newline before extended commit body
