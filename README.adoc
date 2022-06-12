@@ -13,7 +13,7 @@ There's so much [aaS] software and platforms popping up with magic words
 that don't delineate what part of the problem they actually solve
 nor do they say what they _actually_ (most-often-then-not "just") do
 these days, which is really frustrating at first.
-I like Software that does one thing very awesomely.
+I like Software that does one thing very awesomely (not necesarrily one thing _only_ - i don't use Arch btw).
 
 I like to place a high value on adherence to
 http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions],
