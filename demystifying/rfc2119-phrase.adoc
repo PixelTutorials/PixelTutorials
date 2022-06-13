@@ -1,0 +1,7 @@
+// This is the exact same phrase as used in nearly all RFCs and any other Document that mention that they use it:
+The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”,
+and “OPTIONAL” in this Documentation are to be interpreted
+as described in https://www.ietf.org/rfc/rfc2119.txt[RFC 2119].
+// Additionally, we specify that we do acknowledge the use of the BEST PRACTICE that has been set by RFC 8147:
+To reduce ambiguity, only UPPERCASE usage of the key words have the defined special meanings,
+as recommended by https://tools.ietf.org/html/rfc8174[RFC 8174].
