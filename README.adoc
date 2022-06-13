@@ -37,7 +37,7 @@ toc::[]
 == My Interest in IT
 
 * I don't limit myself to knowing only part of it. +
-  I'm interested in programming, Linux, and the whole https://roadmap.sh/backend[Dev] https://roadmap.sh/devops[Ops] automation cycle,
+  I'm interested in programming, Linux, and the whole world around https://roadmap.sh/backend[Dev] https://roadmap.sh/devops[Ops],
   but I also cherish an good understanding of IT infrastructures and network protocols/network parts and design.
 +
 I also could talk for hours about my enthusiasm for Web Development, especially about the concepts of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
