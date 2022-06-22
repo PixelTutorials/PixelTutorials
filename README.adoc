@@ -2,6 +2,9 @@
 :toc-placement!:
 = 👋 Hey there. My name's Jonas
 
+https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]] 
+https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]]
+
 == About Me
 
 I know my way around Linux, Windows, IT and Programming.
