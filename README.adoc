@@ -49,7 +49,7 @@ I also could talk for hours about my enthusiasm for Web Development, especially 
 I started with Java and Linux server administration, did several C++ projects with Arduino, moved from simple web development to modern web development and now mainly use and fell in love with Python for all-the-things surrounding programming.
 
 // NOTE: The following sentence is to be kept in sync with my LinkedIn Info
-* 🌱 Having just completed an IT apprenticeship, I am currently studying for various networking certifications to solidify, prove and deepen my knowledge.
+* 🌱 Having just completed an IT apprenticeship, I am currently studying for various networking certifications (CCNA, MSCA, FSNE 1-4, RHCSA, ...) to solidify, prove and deepen my knowledge.
 
 // NOTE: The following sentence is to be kept in sync with my LinkedIn Info
 * 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
