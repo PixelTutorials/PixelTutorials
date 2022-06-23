@@ -66,7 +66,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>ueberdosis/alldocs.app</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 10 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Online text file converter</div>
@@ -113,7 +113,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>erikwiffin/0.30000000000000004</span>
-                                        <span>starred 2 days ago</span>
+                                        <span>starred 3 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Floating Point Math Examples</div>
@@ -166,7 +166,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>tauri-apps/tauri</span>
-                                        <span>starred 3 days ago</span>
+                                        <span>starred 4 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Build smaller, faster, and more secure desktop applications with a web frontend.</div>
@@ -269,7 +269,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 22 Jun 2022, 19:35:13 (timezone Europe/Vienna) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 23 Jun 2022, 02:10:56 (timezone Europe/Vienna) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
