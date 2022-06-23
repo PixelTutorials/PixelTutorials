@@ -7,7 +7,7 @@ https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/st
 
 == About Me
 
-I know my way around Linux, Windows, IT and Programming.
+I know my way around Linux, Windows, IT, Programming and most of the other things as well.
 
 I like to get behind the concept of things (*Software is not magic*)
 // in fact, nothing is magic. it's all just concepts
