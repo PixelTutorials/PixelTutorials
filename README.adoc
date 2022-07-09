@@ -10,7 +10,7 @@ https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/st
 I know my way around Linux, Windows, IT, Programming and most of the other things as well.
 
 I like to get behind the concept of things 
-(https://blog.nelhage.com/post/computers-can-be-understood/[*Software is not magic*])
+(https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic; Software can be understood*])
 // in fact, nothing is magic. it's all just concepts
 and understand what they're _actually_ for before discussing anything or using them.
 There's so much [aaS] software and platforms popping up with magic words
