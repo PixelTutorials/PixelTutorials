@@ -266,7 +266,6 @@ Only works with Linux in combination with X11
 
 _Update 2021-Q3: Cancelled Adobe Abo because dont need it._
 
-
 [cols="a,a"]
 |===
 | Program | Usage
@@ -278,7 +277,7 @@ _Update 2021-Q3: Cancelled Adobe Abo because dont need it._
 |
 
 | https://helpx.adobe.com/at/camera-raw/using/supported-cameras.html[Camera Raw]
-| Plugin for Adobe Photoshop / Adobe Bridge to handle RAW-Pictures.
+| Official Plugin for Adobe Photoshop / Adobe Bridge to handle RAW-Pictures.
 
 | https://www.adobe.com/de/products/premiere.html[Premiere (Pro)]
 |
@@ -294,6 +293,8 @@ _Update 2021-Q3: Cancelled Adobe Abo because dont need it._
 
 | https://1password.com/de/[*1Password*]
 | Favored Secret-Manager. (Not only Passwords)
+
+Update 2022: Going to switch to self-hosted Bitwarden.
 
 | NordVPN
 | Favored VPN, available for all Platforms.
