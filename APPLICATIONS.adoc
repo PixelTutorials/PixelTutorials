@@ -846,9 +846,6 @@ main page and good music comes out ;).
 
 | https://play.google.com/store/apps/details?id=com.audible.application[_Audible_]
 |
-_The leading provider of audiobooks and radio plays in which you can
-also download your audio-titles for offline-usage and listen to them
-even when your phone is in "stand-by"._
 
 | https://play.google.com/store/apps/details?id=com.bose.monet[Bose Connect]
 | Used to change settings of my Bose headphone.
