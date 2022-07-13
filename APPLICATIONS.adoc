@@ -72,12 +72,6 @@ Available for any OS (Java/Groovy-Program).
 | https://git-scm.com/[*Git*]
 | Favored Version Control System
 
-| https://www.gitkraken.com/git-client/[GitKraken-Client]
-|
-Awesome Git-GUI with a massive Amount of Features and a very modern design etc.
-(Update June 2021: They've introduced an Monthly Subscription Model.
-No longer using it because I'm to poor for their model ;)
-
 | https://subversion.apache.org/[*SVN (Subversion)*]
 | Version Control System (VCS) used in my companies' internally
 
