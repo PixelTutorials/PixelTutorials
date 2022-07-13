@@ -565,8 +565,14 @@ click OK on my Phone and I'm logged in.
 | https://play.google.com/store/apps/details?id=com.twitter.android[*Twitter*]
 |
 Favored Social Media Platform where users can post short
-messages/status updates, so called "tweets". A Tweet can be liked,
-re-posted (retweeted) and commented.
+messages/status updates, so called "tweets".
+A Tweet can be liked, re-posted (retweeted) and commented.
+
+I do not use it for memes nor politics.
+I follow a handful of aspiring developers
+that post interesting stuff.
+
+I also use it to keep my sanity by Posting stuff that's on my mind ;).
 
 | https://play.google.com/store/apps/details?id=com.life360.android.safetymapd[Life360]
 | "Family Locator", GPS Tracker with Notification Messages
