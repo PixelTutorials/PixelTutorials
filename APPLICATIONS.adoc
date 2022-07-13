@@ -137,6 +137,8 @@ but all for free and every platform
 (Everyone can create his own community server, totally for free with a lot of
 settings, permissions, groups, bots, and much more.).
 
+.Disclaimer
+[NOTE]
 Yes, I know that Discord may not be the most secure Chatting Application.
 But who cares? Try to treat every message and every Chat
 with the Reaility in mind that anybody could
@@ -157,8 +159,7 @@ Brave is used for naughty stuff (do with that interpreation as you wish, NSA).
 Vivaldi has nice tab displaying functionality.
 
 |https://www.rainmeter.net/[Rainmeter]
-|
-Used to customize the Windows-Desktop with Widgets
+| Used to customize the Windows-Desktop with Widgets.
 
 My Widget-Packs:
 
