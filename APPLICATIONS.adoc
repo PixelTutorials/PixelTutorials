@@ -170,9 +170,6 @@ My Widget-Packs:
 * https://github.com/khanhas/mnmlUI[mnmlUI]
 (Clock Future Style)
 
-Update: I am a simpler man now.
-I praise an empty desktop with a nice Wallpaper, and just a nice Wallpaper.
-
 | https://obsproject.com/de/download[*OBS Studio*]
 | Open-Source-Software for recording Videos and broadcasting Livestreams
 
