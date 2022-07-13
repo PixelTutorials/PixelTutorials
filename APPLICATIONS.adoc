@@ -174,13 +174,19 @@ My Widget-Packs:
 | Open-Source-Software for recording Videos and broadcasting Livestreams
 
 | https://www.putty.org/[*PuTTY*]
-| Favored SSH-Client (Secure Shell Protocol for ~Remote Console Access~).
+|
+https://stackshare.io/JonasPammer/decisions/108493381948748350[
+image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
 
 | https://github.com/jimradford/superputty/releases[SuperPuTTY]
 |
 Wrapper for PuTTY in which one can maintain multiple SSH/RDP-Sessions in one window.
 Each Session is represented by a Tab.
 Only available for Windows, though!
+
+https://stackshare.io/JonasPammer/decisions/108493381948748350[
+image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+(links to same as PuTTY)
 
 | https://ttssh2.osdn.jp/index.html.en[TeraTerm]
 |
@@ -189,8 +195,16 @@ of a serial cable on Windows systems.
 This program shows me if Windows detected my serial cables
 and lets me select them using a drop-down menu.
 
+https://stackshare.io/JonasPammer/decisions/108493381948748350[
+image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+(links to same as PuTTY)
+
 | https://remmina.org[Remmina]
 | *RDP*, *VNC*, NX, XDMCP, *SPICE* and *SSH*-Client for POSIX Systems.
+
+https://stackshare.io/JonasPammer/decisions/108493381948748350[
+image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+(links to same as PuTTY)
 
 | https://filezilla-project.org/[*FileZilla*]
 | Favored, customizeable and widely-used FTP-Client (File-Transfer Protocol)
