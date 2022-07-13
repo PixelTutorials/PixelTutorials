@@ -525,14 +525,6 @@ using a "0 to 5 Stars" Rating System with attachable (360* or normal) Images.
 certain building in our App or even Website
 * You can see where you were in the past
 
-| https://play.google.com/store/apps/details?id=com.google.android.apps.magazines[*Google News*]
-|
-Preferred App that collects Headlines from multiple
-News-Companies and shows you those which fit to your Profile (You can
-easily say "I do (not) want more of Category X" or "Do (not) show me an
-article like this for the next few times" or "I do (not) want to read
-articles from [Source]" etc.)
-
 | https://play.google.com/store/apps/details?id=com.google.android.apps.adm[Gerät finden]
 |
 Smartphone/Tablet/Smart-Watch finder which allows me to
