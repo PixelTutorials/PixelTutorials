@@ -61,7 +61,7 @@ C\+\+ IDE which has all the Stuff which I like most about IntelliJ,
 https://jonaspammer.at/mediawiki/index.php/Arduino[Arduino Micro Controller]
 |===
 
-=== Others
+=== General
 
 [cols="a,a"]
 |===
@@ -264,28 +264,6 @@ animated GIFs, but you can also directly record to WebM or MP4 if you prefer.
 
 Only works with Linux in combination with X11
 (Wayland support might be added. it got lots of stars and is open source).
-
-|===
-
-=== Adobe
-
-_Update 2021-Q3: Cancelled Adobe Abo because dont need it._
-
-[cols="a,a"]
-|===
-| Program | Usage
-
-| https://www.adobe.com/de/products/media-encoder.html[Media Encoder]
-| Multimedia File Type Converter.
-
-| https://www.adobe.com/at/products/photoshop.html[Photoshop]
-|
-
-| https://helpx.adobe.com/at/camera-raw/using/supported-cameras.html[Camera Raw]
-| Official Plugin for Adobe Photoshop / Adobe Bridge to handle RAW-Pictures.
-
-| https://www.adobe.com/de/products/premiere.html[Premiere (Pro)]
-|
 
 |===
 
@@ -493,6 +471,26 @@ in order to essentially make it a Oculus Rift headset.
 
 |===
 
+=== [line-through]#Adobe#
+
+_Update 2021-Q3: Cancelled Adobe Abo because dont need it._
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://www.adobe.com/de/products/media-encoder.html[Media Encoder]
+| Multimedia File Type Converter.
+
+| https://www.adobe.com/at/products/photoshop.html[Photoshop]
+|
+
+| https://helpx.adobe.com/at/camera-raw/using/supported-cameras.html[Camera Raw]
+| Official Plugin for Adobe Photoshop / Adobe Bridge to handle RAW-Pictures.
+
+| https://www.adobe.com/de/products/premiere.html[Premiere (Pro)]
+|
+|===
 
 == Android Apps
 
