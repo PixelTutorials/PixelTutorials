@@ -780,15 +780,6 @@ price information*
 |===
 | Program | Usage
 
-| https://play.google.com/store/apps/details?id=com.cisco.wx2.android[Cisco Webex Teams]
-|
-Used in Combination with my companies Cisco VoIP-Phone Setup.
-(e.G: "To make/join a video call/conference from my mobile phone
-to one of our big Cisco Collaboration Endpoints in our meeting rooms)
-
-| https://play.google.com/store/apps/details?id=com.monday.monday[Monday.com]
-| (Sadly we switched to ClickUp because of Monday.com's Price Scheme)
-
 | https://play.google.com/store/apps/details?id=co.mangotechnologies.clickup[*ClickUp*]
 | Mobile App of the Project Managing Tool used by my current Company
 
