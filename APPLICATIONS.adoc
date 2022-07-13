@@ -525,9 +525,6 @@ using a "0 to 5 Stars" Rating System with attachable (360* or normal) Images.
 certain building in our App or even Website
 * You can see where you were in the past
 
-| https://play.google.com/store/apps/details?id=com.huawei.bone[Huawei Wear]
-| Google's Recommended App to setup/manage my Huawei Smartwatch
-
 | https://play.google.com/store/apps/details?id=com.google.android.apps.magazines[*Google News*]
 |
 Preferred App that collects Headlines from multiple
