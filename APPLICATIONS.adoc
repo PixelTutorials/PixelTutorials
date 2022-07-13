@@ -334,7 +334,6 @@ https://github.com/gcla/termshark[termshark]
 [[image_flashers]]
 === Image Flashers
 
-
 [cols="a,a"]
 |===
 | Program | Usage
@@ -366,9 +365,6 @@ backup and restore all files on a Huawei Smartphone.
 
 | https://www.razer.com/de-de/downloads[Razer Synapse 3]
 | Razer's Laptop Control Software
-
-| https://support.logitech.com/de_ch/software/lgs[Logitech Gaming Software 9]
-| Logitech's Keyboard Control-Software
 
 | https://www.logitech.com/de-at/product/options[_Logitech Options_]
 |
