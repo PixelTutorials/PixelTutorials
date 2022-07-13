@@ -826,9 +826,6 @@ everyone can have their own 1TB of storage for their microsoft account.
 
 | https://play.google.com/store/apps/details?id=ru.pt.iconpack.pixel[Pixel Pie (Icon Pack)]
 |
-
-| https://play.google.com/store/apps/details?id=com.luzapplications.alessio.wallooppro[WALLOOP PRIME/PRO]
-|(live and static) wallpapers app
 |===
 
 === Music & Movies
