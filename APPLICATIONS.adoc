@@ -574,9 +574,6 @@ that post interesting stuff.
 
 I also use it to keep my sanity by Posting stuff that's on my mind ;).
 
-| https://play.google.com/store/apps/details?id=com.life360.android.safetymapd[Life360]
-| "Family Locator", GPS Tracker with Notification Messages
-
 | https://play.google.com/store/apps/details?id=com.reddit.frontpage[Reddit]
 |
 Wasting Time and some News. No - I don't use it for porn or
