@@ -495,62 +495,7 @@ in order to essentially make it a Oculus Rift headset.
 
 == Android Apps
 
-=== Google
-
-
-[cols="a,a"]
-|===
-| Program | Usage
-
-| https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=de[*Google Calendar*]
-|
-Cross-Platform and simple to use Calendar - available for every OS (even a Web-App),
-simply integrateable in any App using
-https://developers.google.com/calendar/[Google's Calendar API]
-
-| https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=de[*Google Maps*]
-|
-Cross-Platform and simple to use Map - available for every OS (even a Web-App),
-simply integrateable in any App using
-https://developers.google.com/maps/documentation/?hl=de[Google's Maps API].
-Emphasizing Features:
-
-* It contains almost every facility
-each with detailed, quick accesable information
-(e.G: opening hours, at which time there will likely be many people, the Website linked with the Facility etc.)
-* Every user can contribute by commiting a review of a certain facility
-using a "0 to 5 Stars" Rating System with attachable (360* or normal) Images.
-* Visualization of Traffic Jam gathered through data shared by other drivers?
-* You can save Streets/Facilitys, give them a special labels
-(e.G. "Home", "Work" or "Best Friend") and categories
-(e.G. "Favored", "Want to visit")
-* Programmers like me can simply integrate a "Map-View" showing a
-certain building in our App or even Website
-* You can see where you were in the past
-
-| https://play.google.com/store/apps/details?id=com.google.android.apps.adm[Gerät finden]
-|
-Smartphone/Tablet/Smart-Watch finder which allows me to
-
-* track the devices location,
-* force them to make a sound,
-* see the battery life and network status,
-* lock it down or even
-* delete all data on it.
-
-| https://play.google.com/store/apps/details?id=com.google.android.contacts[*Google Contacts*]
-|
-Online (Cloud) Contact Manager in which every Person can have a
-fully detailed Portfolio (aka. many Fields) and custom Tags added
-to them for even more Categorization matters.
-
-| https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin[*Gboard*]
-| Favored Android-Keyboard wich supports Glide-Typing.
-
-|===
-
 === Social
-
 
 [cols="a,a"]
 |===
@@ -606,7 +551,6 @@ Used by my current company, for example.
 
 === Authentication
 
-
 [cols="a,a"]
 |===
 | Program | Usage
@@ -628,7 +572,6 @@ Used by my current company, for example.
 
 === Learn
 
-
 [cols="a,a"]
 |===
 | Program | Usage
@@ -642,7 +585,6 @@ Dark-Mode is pretty nice too.
 |===
 
 === Tools
-
 
 [cols="a,a"]
 |===
@@ -737,7 +679,6 @@ price information*
 [[banking_shopping]]
 === Banking + Shopping
 
-
 [cols="a,a"]
 |===
 | Program | Usage
@@ -795,7 +736,6 @@ everyone can have their own 1TB of storage for their microsoft account.
 
 === Customization
 
-
 [cols="a,a"]
 |===
 | Program | Usage
@@ -815,7 +755,6 @@ everyone can have their own 1TB of storage for their microsoft account.
 |===
 
 === Music & Movies
-
 
 [cols="a,a"]
 |===
@@ -848,8 +787,60 @@ Used to manage by BOOM speaker. Functions include:
 
 |===
 
-=== Other
+=== Google
 
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=de[*Google Calendar*]
+|
+Cross-Platform and simple to use Calendar - available for every OS (even a Web-App),
+simply integrateable in any App using
+https://developers.google.com/calendar/[Google's Calendar API]
+
+| https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=de[*Google Maps*]
+|
+Cross-Platform and simple to use Map - available for every OS (even a Web-App),
+simply integrateable in any App using
+https://developers.google.com/maps/documentation/?hl=de[Google's Maps API].
+Emphasizing Features:
+
+* It contains almost every facility
+each with detailed, quick accesable information
+(e.G: opening hours, at which time there will likely be many people, the Website linked with the Facility etc.)
+* Every user can contribute by commiting a review of a certain facility
+using a "0 to 5 Stars" Rating System with attachable (360* or normal) Images.
+* Visualization of Traffic Jam gathered through data shared by other drivers?
+* You can save Streets/Facilitys, give them a special labels
+(e.G. "Home", "Work" or "Best Friend") and categories
+(e.G. "Favored", "Want to visit")
+* Programmers like me can simply integrate a "Map-View" showing a
+certain building in our App or even Website
+* You can see where you were in the past
+
+| https://play.google.com/store/apps/details?id=com.google.android.apps.adm[Gerät finden]
+|
+Smartphone/Tablet/Smart-Watch finder which allows me to
+
+* track the devices location,
+* force them to make a sound,
+* see the battery life and network status,
+* lock it down or even
+* delete all data on it.
+
+| https://play.google.com/store/apps/details?id=com.google.android.contacts[*Google Contacts*]
+|
+Online (Cloud) Contact Manager in which every Person can have a
+fully detailed Portfolio (aka. many Fields) and custom Tags added
+to them for even more Categorization matters.
+
+| https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin[*Gboard*]
+| Favored Android-Keyboard wich supports Glide-Typing.
+
+|===
+
+=== Other
 
 [cols="a,a"]
 |===
