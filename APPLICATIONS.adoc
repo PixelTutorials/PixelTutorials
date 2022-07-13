@@ -123,7 +123,7 @@ I am a strong defender of the benefits of strong typing.)
 |===
 
 
-== Other
+== General
 
 [cols="a,a"]
 |===
@@ -143,10 +143,10 @@ settings, permissions, groups, bots, and much more.).
 
 .Disclaimer
 [NOTE]
-Yes, I know that Discord may not be the most secure Chatting Application.
-But who cares? Try to treat every message and every Chat
-with the Reaility in mind that anybody could
-potentially screenshot and read it!
+Yes, I know that Discord may not be the most secure Chatting Application. +
+But who cares? +
+Try to treat every message and every Chat with the Reality in mind +
+that anybody could potentially screenshot and read it!
 
 |
 https://www.mozilla.org/de/firefox/new/[*Firefox*]
