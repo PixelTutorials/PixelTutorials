@@ -41,7 +41,7 @@ Graph]
 ** https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm[SVN]
 
 | https://www.jetbrains.com/idea/[Jetbrains' *IntelliJ IDEA _Ultimate_*]
-| *My favorite IDE for Java/Web-Development with*
+| *My favorite IDE for Java/Web-Development.*
 
 https://stackshare.io/JonasPammer/decisions/108521050744396979[
 image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
