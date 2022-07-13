@@ -670,7 +670,7 @@ BSSID, IP address, subnet mask , signal strength, etc.)
 * and many more...
 
 | https://play.google.com/store/apps/details?id=com.nordvpn.android[NordVPN]
-| Favored VPN Service Provider
+| Android App for NordVPN
 
 | https://play.google.com/store/apps/details?id=com.gamebasic.decibel[Schallmessung]
 |
@@ -755,7 +755,7 @@ price information*
 |
 
 | https://play.google.com/store/apps/details?id=at.cineplexx.app[Cineplexx]
-| App for the cinemas in my country.
+| _Cineplexx = Local Mainstream Cinema Provider_
 
 |===
 
