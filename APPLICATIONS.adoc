@@ -305,7 +305,8 @@ Honestly bought it for its cheap x-years deal.
 
 | https://www.netacad.com/courses/packet-tracer[*Cisco Packet Tracer*]
 |
-Powerful networking simulation tool. Used in my School and many others.
+Powerful networking simulation tool.
+Used in my School and many others.
 The best way to learn about networking, routing, switching, how the
 TCP/OSI-Layers and Packets work (You can inspect and watch the process
 and steps an individual packet goes through - on each Layer - and see
@@ -315,15 +316,19 @@ why something (doesnt) work), etc...
 |
 Free and open source, nearly-all-plattform
 (It is a CLI-Tool, but I use it only with its
-https://nmap.org/zenmap/[(official) GUI named "Zenmap"]), portable
-utility for network discovery and security auditing.
+https://nmap.org/zenmap/[(official) GUI named "Zenmap"]),
+portable utility for network discovery and security auditing.
 
 | https://www.wireshark.org/[Wireshark]
 |
-"The world's foremost and widely-used network protocol analyzer which lets you see what's
-happening on your network at a microscopic level and is the de facto
+[quote]
+The world's foremost and widely-used network protocol analyzer
+which lets you see what's happening on your network at a microscopic level and is the de facto
 (and often de jure) standard across many commercial and non-profit
-enterprises, government agencies, and educational institutions."
+enterprises, government agencies, and educational institutions.
+
+Terminal User Interface (TUI) Alternative:
+https://github.com/gcla/termshark[termshark]
 |===
 
 [[image_flashers]]
