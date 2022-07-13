@@ -226,7 +226,7 @@ Support Website (Login needed).
 | Remote Control Software used nearly everywhere and known by nearly everyone
 
 | https://www.videolan.org/vlc/index.de.html[Videolan's VLC Media Player]
-| Media Player for `.vlc`-Files (OBS-Studio exports as .vlc)
+| Media Player for `.vlc`-Files (OBS-Studio exports as `.vlc`)
 
 | https://picpick.app/[PicPick]
 |
@@ -335,7 +335,6 @@ Terminal User Interface (TUI) Alternative:
 https://github.com/gcla/termshark[termshark]
 |===
 
-[[image_flashers]]
 === Image Flashers
 
 [cols="a,a"]
@@ -344,16 +343,16 @@ https://github.com/gcla/termshark[termshark]
 
 | https://www.balena.io/etcher/[Balena's Etcher]
 |
-Cross-Plattform (https://electronjs.org/[Electron(js)]) Image Flashing Utility for SD-Cards
-as well as USB-Mediums.
+Cross-Plattform (https://electronjs.org/[Electron.js]) Image Flashing Utility for SD-Cards
+as well as USB.
 
 | https://rufus.ie/[Rufus]
-| Windows-Only Image Flasing Utility for USB-Mediums
+| Windows-Only Image Flasing Utility for USB.
 
 | https://www.microsoft.com/de-de/software-download/windows10[Windows Media Creation Tool]
 |
-Official Tool which allows one to download the latest Windows ISO to a File
-or to directly burn it to an USB-Thumbdrive.
+Microsoft's Official Tool to download or burn Windows 10
+to the local system or to a bootable USB.
 
 |===
 
@@ -613,7 +612,7 @@ Used by my current company, for example.
 | Program | Usage
 
 | https://play.google.com/store/apps/details?id=com.agilebits.onepassword[*1Password*]
-| Android-App for 1Password, my favored Password Manager.
+|
 
 | https://play.google.com/store/apps/dev?id=5700313618786177705[*Google Authenticator*]
 | "Recommended" 2FA App
