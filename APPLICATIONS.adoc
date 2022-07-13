@@ -669,23 +669,6 @@ v6), DNS server, HTTP proxy, Wifi network information such as SSID,
 BSSID, IP address, subnet mask , signal strength, etc.)
 * and many more...
 
-| https://termius.com/[_Termius_]
-|
-_SSH client that works on Desktop and Mobile.
-Features (most only available for the "Premium"-Tier):_
-
-* _Modern UI._
-
-* _Integrated SFTP, MOSH and TELNET Client._
-
-* _Securely (End-To-End) Syncs Data Across All my Devices (Hosts/Groups,
-Connection and Command History)_
-* _Hosts can be sorted into groups, which in turn can have shared
-settings._
-* _Artificial Autocomplete for mobile devices (Termius gathers commands
-from all my servers and provides suggestions while I type)_
-* _On Mobile: Fingerprint Unlockable_
-
 | https://play.google.com/store/apps/details?id=com.nordvpn.android[NordVPN]
 | Favored VPN Service Provider
 
