@@ -1,6 +1,5 @@
 = My Applications
 
-
 == Programming
 
 === Editors
@@ -47,13 +46,18 @@ https://stackshare.io/JonasPammer/decisions/108521050744396979[
 image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
 
 | https://www.jetbrains.com/clion/[_Jetbrains' CLion_]
-| C++ IDE which has all the Stuff which I like most about IntelliJ, but for C++.
+|
+C\+\+ IDE which has all the Stuff which I like most about IntelliJ,
+ but for C\+\+. Projects
 
 | https://visualstudio.microsoft.com/[_Visual Studio_]
-| C++ IDE (Only in use to follow along with most C++ related Tutorials because most of them use VS)
+| C\+\+ IDE
+(Primarily used out of convinience to be able to completely
+ follow along with most C\+\+ related Tutorials)
 
 | https://www.arduino.cc/[Arduino IDE]
-| IDE for programming with the https://jonaspammer.at/mediawiki/index.php/Arduino[Arduino Micro Controller]
+| IDE for programming with the
+https://jonaspammer.at/mediawiki/index.php/Arduino[Arduino Micro Controller]
 |===
 
 === Others
