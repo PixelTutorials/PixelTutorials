@@ -775,7 +775,6 @@ price information*
 
 === Company
 
-
 [cols="a,a"]
 |===
 | Program | Usage
@@ -786,7 +785,6 @@ price information*
 |===
 
 === System
-
 
 [cols="a,a"]
 |===
@@ -816,21 +814,17 @@ everyone can have their own 1TB of storage for their microsoft account.
 |===
 | Program | Usage
 
-| https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher[*Nova
-Launcher*]
+| https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher[*Nova Launcher*]
 | Favored Android Launcher with many configurable Options
 (Changes the UI and UX of the Homescreen)
 
-| https://play.google.com/store/apps/details?id=ru.pt.iconpack.miui_10_pixel[
-MIUI 10 Pixel (Icon Pack)]
+| https://play.google.com/store/apps/details?id=ru.pt.iconpack.miui_10_pixel[MIUI 10 Pixel (Icon Pack)]
 |
 
-|https://play.google.com/store/apps/details?id=com.cris87.oxygen[
-OXYGEN (Icon Pack)]
+|https://play.google.com/store/apps/details?id=com.cris87.oxygen[OXYGEN (Icon Pack)]
 |
 
-| https://play.google.com/store/apps/details?id=ru.pt.iconpack.pixel[
-Pixel Pie (Icon Pack)]
+| https://play.google.com/store/apps/details?id=ru.pt.iconpack.pixel[Pixel Pie (Icon Pack)]
 |
 
 | https://play.google.com/store/apps/details?id=com.luzapplications.alessio.wallooppro[WALLOOP PRIME/PRO]
