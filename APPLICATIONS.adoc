@@ -17,29 +17,98 @@ image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stacksh
 [[vscode-extensions]]
 Extensions in use:
 
-* Programming Languages Support:
+GUI::
+* https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager[*Project Manager*]
+* https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency[Project Manager for Java]
+
+* https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens[*GitLens*]
+* https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory[*Git History*]
+* https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph[*Git Graph*]
+* https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm[SVN]
+
+* https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub[*GitHub Remote Repositories*]
+* https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github[GitHub Pull Requests]
+
+* https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow[GitLab Workflow]
+
+* https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager[Python Environment Manager]
+
+* https://marketplace.visualstudio.com/items?itemName=humao.rest-client[REST Client]
+
+
+Editor Theming::
+* https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme[*GitHub VSCode Theme*]
+* https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons[*vscode-icons*]
+* https://marketplace.visualstudio.com/items?itemName=muuvmuuv.vscode-sundial[*Sundial*] -- Automatic night mode and settings switch
+
+Language Support / IntelliSense Extensions::
+* https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack[*Python Language Extension Pack*]
 ** https://marketplace.visualstudio.com/items?itemName=ms-python.python[Python]
-** https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools[C/C++]
-** https://marketplace.visualstudio.com/items?itemName=redhat.java[Language
-Support for Java(TM) by Red Hat]
-** https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell[PowerShell]
-** https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML]
-* Web:
-** https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint[ESLint]
-** https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets[Javascript
-(ES6) code snippets]
-** https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion[IntelliSense
-for CSS class names in HTML]
-* Look:
-** https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons[vscode-icons]
-** https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer[Bracket
-Pair Colorizer]
-** https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode[Prettier]
-* Other
-** https://marketplace.visualstudio.com/items?itemName=jakeboone02.mediawiki[Mediawiki]
-** https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph[Git
-Graph]
-** https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm[SVN]
+** https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja[Jinja]
+** https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django[Django]
+** https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode[Visual Studio IntelliCode  -- AI-assisted development
+** Python Environment Manager
+** https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring[*Python Docstring Generator*]
+** https://marketplace.visualstudio.com/items?itemName=wwm.better-align[Python Indent]
+** https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter[Jupyter]
+
+* https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance[Pylance]
+
+* https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack[*Java Language Extension Pack*]
+** https://marketplace.visualstudio.com/items?itemName=redhat.java[Language Support for Java by Red Hat]
+** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug[Debugger for Java]
+** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test[Test Runner for Java]
+** Project Manager for Java
+** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven[Maven for Java]
+
+* https://marketplace.visualstudio.com/items?itemName=redhat.ansible[Ansible language support by RedHat]
+* https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML language support by RedHat] -- also features built-in Kubernetes syntax support
+* https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml[Better Jinja Syntax Highlighting]
+
+* https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz[Graphviz language support]
+* https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker[Docker] (includes extension to GUI, which I don't use)
+* https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp[_C#_]
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode.powershell[PowerShell]
+
+* https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense[npm IntelliSense]
+* https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense[Path IntelliSense]
+
+* https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[Asciidoctor]
+
+
+
+In-Editor::
+* https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments[Better Comments] -- Categorize Comments into alerts, queries, TODOs, Highlights and explicitily-Commented-Out-Code.
+* https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles[Markdown Preview GitHub]
+* https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost[Import Cost] -- Display import/require package size in the editor
+* https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer[Log Output Colorizer]
+
+* https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer[SQLite Viewer]
+* https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf[vscode-pdf]
+* https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer[Excel Viewer]
+
+
+Auto Formatting::
+* https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode[Prettier]
+* https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format[shell-format]
+
+
+Other::
+* https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype[Paste JSON as code] -- Copy JSON, paste as Go, TypeScript, C#, C++ and more.
+* https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode[Discord Presence] -- Update your discord status with a rich presence.
+* https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime[WakaTime]
+* https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser[Open In Browser]
+
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack[Remote Development Extension pack]
+** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[*Remote - Containers*] -- Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
+** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[Remote - SSH] -- Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set.
+** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit[Remote - SSH: Extension]
+** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[Remote - WSL] -- Open any folder in the Windows Subsystem for Linux (WSL) and take advantage of Visual Studio Code's full feature set.
+** https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories[Remote Repositories] -- Remotely browse and edit git repositories
+
+* https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-de[German Language Pack]
+* https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings[IntelliJ Key Bindings]
+
 
 | https://www.jetbrains.com/idea/[Jetbrains' *IntelliJ IDEA _Ultimate_*]
 | *My favorite IDE for Java/Web-Development.*
