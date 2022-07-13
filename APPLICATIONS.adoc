@@ -87,6 +87,9 @@ that comes out 2 years later after current version.
 The BEST and most multi-Purpose Diagram-Making Software in existence.
 Works on every Computer, even in the Web.
 
+https://stackshare.io/JonasPammer/decisions/108572592002597404[
+image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+
 | https://www.apachefriends.org/[*XAMPP*]
 |
 preferred https://de.wikipedia.org/wiki/LAMP_(Softwarepaket)[LAMP]-Stack with
