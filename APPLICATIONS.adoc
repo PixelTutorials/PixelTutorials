@@ -92,10 +92,11 @@ image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stacksh
 
 | https://www.apachefriends.org/[*XAMPP*]
 |
-preferred https://de.wikipedia.org/wiki/LAMP_(Softwarepaket)[LAMP]-Stack with
-useful add-on programs like https://de.wikipedia.org/wiki/PhpMyAdmin[phpMyAdmin],
+https://de.wikipedia.org/wiki/LAMP_(Softwarepaket)[LAMP]-Stack
+with useful add-on programs like
+https://de.wikipedia.org/wiki/PhpMyAdmin[phpMyAdmin],
 available for any OS
-_(XAMPP stands for: **C**ross Plattform, **A**pache Webserver, **M**ariaDB, **P**erl und **P**HP)_
+_(XAMPP stands for: **C**ross Plattform, **A**pache Webserver, **M**ariaDB, **P**erl und **P**HP)_.
 
 |===
 
@@ -105,13 +106,13 @@ _(XAMPP stands for: **C**ross Plattform, **A**pache Webserver, **M**ariaDB, **P*
 |===
 | Program | Usage
 
-| *Java*
+| Java
 | https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html[8]+
 
-| *Python*
+| Python
 | 3.6
 (https://www.python.org/dev/peps/pep-0484/[PEP 484] is love.
-I am a strong defender of the benefits of strong typing!)
+I am a strong defender of the benefits of strong typing.)
 
 | Grails
 | 3
