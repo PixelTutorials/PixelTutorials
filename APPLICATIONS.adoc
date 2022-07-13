@@ -684,7 +684,7 @@ from all my servers and provides suggestions while I type)_
 * _On Mobile: Fingerprint Unlockable_
 
 | https://play.google.com/store/apps/details?id=com.nordvpn.android[NordVPN]
-| Favored VPN Service Provider, available for every OS
+| Favored VPN Service Provider
 
 | https://play.google.com/store/apps/details?id=com.gamebasic.decibel[Schallmessung]
 |
@@ -716,14 +716,11 @@ https://fahrplan.vmobil.at/[web application].
 | https://play.google.com/store/apps/details?id=com.navigation.offlinemaps.gps[*Offline Maps & Navigation*]
 |
 The most well-rated, most-downloaded and most-feature-packed
-Navigational-Map that allows you to download the data of entire
-countries on your phone for offline usage.
+Navigational-Map that allows you to download the data of entire countries
+on your phone for offline usage.
 (In Google Maps you can only download a small set of even small regions!)
-It has got all of the features that Google Maps also has -
-except (*obviously*) the syncing with a Google Maps Accounts'
-Activity/Points/Labels/Rating/... It even has got more features than Google.
-https://play.google.com/store/apps/details?id=com.navigation.offlinemaps.gps[Features
-include:]
+It even has got more features than Google.
+https://play.google.com/store/apps/details?id=com.navigation.offlinemaps.gps[Features] include:
 
 * *Offline maps of all countries in the world, from TomTom and other providers*
 * Free map updates several times a year
@@ -766,7 +763,7 @@ price information*
 |
 
 | https://play.google.com/store/apps/details?id=com.shpock.android[*Shpock*]
-|
+| I got banned off of e-bay at one point for no reason so I use this for selling.
 
 | https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping[*Amazon Shop*]
 |
