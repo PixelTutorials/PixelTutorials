@@ -238,11 +238,11 @@ an enormous amount of formats (e.g. Photoshop Files).
 | https://www.qoppa.com/pdfstudio/de/[*Qoppa's PDFStudio PRO*]
 |
 THE BEST PDF Editing Software, available for all major OS (Java Application)!
-It has got *everything* you can do with a PDF, and even more. Some of my
-main use cases are: Bookmarking (scanned) PDFs, Merging/Splitting PDF's
-*WHILE* keeping all the bookmarks (I wouldn't use this program without
-this 2 features), OCR with After-Editing features, Conversion to/from
-other formats.
+It has got *everything* you can do with a PDF, and even more.
+Some of my main use cases are: Bookmarking (scanned) PDFs, Merging/Splitting PDF's
+*WHILE* keeping all the bookmarks
+(I wouldn't use this program without these 2 features),
+OCR with After-Editing features, Conversion to/from other formats.
 
 | Outlook
 | Favored E-Mail Client.
