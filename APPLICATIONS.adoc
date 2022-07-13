@@ -576,25 +576,28 @@ I also use it to keep my sanity by Posting stuff that's on my mind ;).
 
 | https://play.google.com/store/apps/details?id=com.reddit.frontpage[Reddit]
 |
-Wasting Time and some News. No - I don't use it for porn or
-watch-people-dying. Update 2021: Don't use it. Stop wasting time on
-phone with no meaning. You'll feel less depressed.
+Wasting Time and some News.
+
+Extensively used during the COV19 pandemic (who would've guessed).
+Stopped the habit of wasting time on phone with no meaning afterwards again though ;).
 
 | https://play.google.com/store/apps/details?id=com.patreon.android[__Patreon__]
-| __Patreon is a social platfrom where users can support their favorite
-creators for making the stuff they're crazy about.__
+| __Patreon is a social platfrom where users can support their favorite creators for making the stuff they're crazy about.__
 
 | https://play.google.com/store/apps/details?id=com.whatsapp[*WhatsApp*]
 |
-THE most widely-known Internet-Messaging-Platform one can think of.
-Features include chat-groups, voice-calls, video-calls, end-to-end
-encrypted chat with one person, chat-backups, sending all kinds of media
-within chats, being spyed on by Facebook, etc.
+The most widely-known Internet-Messaging-Platform one can think of.
+Features include being spyed on by Facebook,
+chat-groups, video-calls, chat-backups,
+sending all kinds of media within chats
+(I sometimes find myself using it with colleagues to compress images ad-hocly lol),
+etc.
 
 | https://play.google.com/store/apps/details?id=ch.threema.app[*Threema*]
 |
-Like a paid version of WhatsApp, but with more encryption and anonymity
-made in Switzerland. Used by my current company, for example.
+Like a paid version of WhatsApp,
+but with more encryption and anonymity made in Switzerland.
+Used by my current company, for example.
 
 |===
 
@@ -615,8 +618,7 @@ made in Switzerland. Used by my current company, for example.
 |
 2FA App needed to validate Transactions or Login with my locale bank institution.
 
-| https://play.google.com/store/apps/details?id=com.azure.authenticator[Microsoft
-Authenticator]
+| https://play.google.com/store/apps/details?id=com.azure.authenticator[Microsoft Authenticator]
 | 2FA App needed for Office 365.
 
 |===
