@@ -474,94 +474,6 @@ in order to essentially make it a Oculus Rift headset.
 
 == Android Apps
 
-=== Social
-
-[cols="a,a"]
-|===
-| Program | Usage
-
-| https://play.google.com/store/apps/details?id=com.discord[*Discord*]
-| Mobile-App of Discord.
-
-Most awesome feature: If I want to log-in to my Account on another
-device, I use my smartphone to scan a QR-Code twice
-(first-time it opens Discord in its own scanning mode,
-and the second time Discord does its thing),
-click OK on my Phone and I'm logged in.
-
-| https://play.google.com/store/apps/details?id=com.twitter.android[*Twitter*]
-|
-Favored Social Media Platform where users can post short
-messages/status updates, so called "tweets".
-A Tweet can be liked, re-posted (retweeted) and commented.
-
-I do not use it for memes nor politics.
-I follow a handful of aspiring developers
-that post interesting stuff.
-
-I also use it to keep my sanity by Posting stuff that's on my mind ;).
-
-| https://play.google.com/store/apps/details?id=com.reddit.frontpage[Reddit]
-|
-Wasting Time and some News.
-
-Extensively used during the COV19 pandemic (who would've guessed).
-Stopped the habit of wasting time on phone with no meaning afterwards again though ;).
-
-| https://play.google.com/store/apps/details?id=com.patreon.android[__Patreon__]
-| __Patreon is a social platfrom where users can support their favorite creators for making the stuff they're crazy about.__
-
-| https://play.google.com/store/apps/details?id=com.whatsapp[*WhatsApp*]
-|
-The most widely-known Internet-Messaging-Platform one can think of.
-Features include being spyed on by Facebook,
-chat-groups, video-calls, chat-backups,
-sending all kinds of media within chats
-(I sometimes find myself using it with colleagues to compress images ad-hocly lol),
-etc.
-
-| https://play.google.com/store/apps/details?id=ch.threema.app[*Threema*]
-|
-Like a paid version of WhatsApp,
-but with more encryption and anonymity made in Switzerland.
-Used by my current company, for example.
-
-|===
-
-=== Authentication
-
-[cols="a,a"]
-|===
-| Program | Usage
-
-| https://play.google.com/store/apps/details?id=com.agilebits.onepassword[*1Password*]
-|
-
-| https://play.google.com/store/apps/dev?id=5700313618786177705[*Google Authenticator*]
-| "Recommended" 2FA App
-
-| https://play.google.com/store/apps/details?id=at.hypovbg.smartid[Meine smartID]
-|
-2FA App needed to validate Transactions or Login with my locale bank institution.
-
-| https://play.google.com/store/apps/details?id=com.azure.authenticator[Microsoft Authenticator]
-| 2FA App needed for Office 365.
-
-|===
-
-=== Learn
-
-[cols="a,a"]
-|===
-| Program | Usage
-| https://play.google.com/store/apps/details?id=com.grupet.web.app[*Untis Mobile*]
-| Used to look up the current Timetable and upcoming Tests in higher schools
-
-| https://play.google.com/store/apps/details?id=org.wikipedia[Wikipedia]
-|
-Native (feeling?) Wikipedia where you offline-store pages and view your timeline.
-Dark-Mode is pretty nice too.
-|===
 
 === Tools
 
@@ -652,31 +564,6 @@ availability*
 * Set up your fuel type and recharge at the best price with *live fuel
 price information*
 * Avoid parking tickets with *warning about speed cameras*
-
-|===
-
-[[banking_shopping]]
-=== Banking + Shopping
-
-[cols="a,a"]
-|===
-| Program | Usage
-
-| https://play.google.com/store/apps/details?id=at.hypovbg.banking[*Meine Hypo*]
-| Mobile Banking App
-
-| https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile[*PayPal*]
-|
-
-| https://play.google.com/store/apps/details?id=com.shpock.android[*Shpock*]
-| I got banned off of e-bay at one point for no reason so I use this for selling.
-
-| https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping[*Amazon Shop*]
-|
-
-| https://play.google.com/store/apps/details?id=at.cineplexx.app[Cineplexx]
-| _Cineplexx = Local Mainstream Cinema Provider_
-
 |===
 
 === Company
@@ -763,6 +650,117 @@ Used to manage by BOOM speaker. Functions include:
 * Tweaking the Speakers' EQ Settings/Profiles (e.G: To boost the bass)
 * _Connecting up multiple Speakers ("PartyUp")_
 * _To keep the software of the speaker up-to-date._
+
+|===
+
+=== Social
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.discord[*Discord*]
+| Mobile-App of Discord.
+
+Most awesome feature: If I want to log-in to my Account on another
+device, I use my smartphone to scan a QR-Code twice
+(first-time it opens Discord in its own scanning mode,
+and the second time Discord does its thing),
+click OK on my Phone and I'm logged in.
+
+| https://play.google.com/store/apps/details?id=com.twitter.android[*Twitter*]
+|
+Favored Social Media Platform where users can post short
+messages/status updates, so called "tweets".
+A Tweet can be liked, re-posted (retweeted) and commented.
+
+I do not use it for memes nor politics.
+I follow a handful of aspiring developers
+that post interesting stuff.
+
+I also use it to keep my sanity by Posting stuff that's on my mind ;).
+
+| https://play.google.com/store/apps/details?id=com.reddit.frontpage[Reddit]
+|
+Wasting Time and some News.
+
+Extensively used during the COV19 pandemic (who would've guessed).
+Stopped the habit of wasting time on phone with no meaning afterwards again though ;).
+
+| https://play.google.com/store/apps/details?id=com.patreon.android[__Patreon__]
+| __Patreon is a social platfrom where users can support their favorite creators for making the stuff they're crazy about.__
+
+| https://play.google.com/store/apps/details?id=com.whatsapp[*WhatsApp*]
+|
+The most widely-known Internet-Messaging-Platform one can think of.
+Features include being spyed on by Facebook,
+chat-groups, video-calls, chat-backups,
+sending all kinds of media within chats
+(I sometimes find myself using it with colleagues to compress images ad-hocly lol),
+etc.
+
+| https://play.google.com/store/apps/details?id=ch.threema.app[*Threema*]
+|
+Like a paid version of WhatsApp,
+but with more encryption and anonymity made in Switzerland.
+Used by my current company, for example.
+|===
+
+=== Authentication
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.agilebits.onepassword[*1Password*]
+|
+
+| https://play.google.com/store/apps/dev?id=5700313618786177705[*Google Authenticator*]
+| "Recommended" 2FA App
+
+| https://play.google.com/store/apps/details?id=at.hypovbg.smartid[Meine smartID]
+|
+2FA App needed to validate Transactions or Login with my locale bank institution.
+
+| https://play.google.com/store/apps/details?id=com.azure.authenticator[Microsoft Authenticator]
+| 2FA App needed for Office 365.
+|===
+
+=== Learn
+
+[cols="a,a"]
+|===
+| Program | Usage
+| https://play.google.com/store/apps/details?id=com.grupet.web.app[*Untis Mobile*]
+| Used to look up the current Timetable and upcoming Tests in higher schools
+
+| https://play.google.com/store/apps/details?id=org.wikipedia[Wikipedia]
+|
+Native (feeling?) Wikipedia where you offline-store pages and view your timeline.
+Dark-Mode is pretty nice too.
+|===
+
+[[banking_shopping]]
+=== Banking + Shopping
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=at.hypovbg.banking[*Meine Hypo*]
+| Mobile Banking App
+
+| https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile[*PayPal*]
+|
+
+| https://play.google.com/store/apps/details?id=com.shpock.android[*Shpock*]
+| I got banned off of e-bay at one point for no reason so I use this for selling.
+
+| https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping[*Amazon Shop*]
+|
+
+| https://play.google.com/store/apps/details?id=at.cineplexx.app[Cineplexx]
+| _Cineplexx = Local Mainstream Cinema Provider_
 
 |===
 
