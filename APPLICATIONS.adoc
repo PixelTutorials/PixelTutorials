@@ -297,7 +297,8 @@ _Update 2021-Q3: Cancelled Adobe Abo because dont need it._
 Update 2022: Going to switch to self-hosted Bitwarden.
 
 | NordVPN
-| Favored VPN, available for all Platforms.
+| VPN available for all Platforms.
+Honestly bought it for its cheap x-years deal.
 
 | Windows Defender
 | Favored Antivirus for Windows.
