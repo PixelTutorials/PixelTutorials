@@ -387,12 +387,6 @@ and to check if a CPU is Power-Throtteling.
 Intel's "Driver Support Assistent" finds the newest Drivers of
 Intel Hardware (like WiFi or Blueetooth) for a given Computer.
 
-| https://www.msi.com/page/afterburner[_MSI Afterburner_]
-|
-_Universal Graphics-Card Control-Software with many Features like showing
-Hardware-Informationen, displaying the current Temperature/Perfomance
-using a HUD or even controlling the Clock-Speeds of the GPU_
-
 | https://www.hwinfo.com/download/[HWINFO]
 |
 Advanced System Monitoring Utility -
