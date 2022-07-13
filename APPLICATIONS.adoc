@@ -620,7 +620,7 @@ everyone can have their own 1TB of storage for their microsoft account.
 |
 |===
 
-=== Music & Movies
+=== Music & co.
 
 [cols="a,a"]
 |===
@@ -651,6 +651,8 @@ Used to manage by BOOM speaker. Functions include:
 * _Connecting up multiple Speakers ("PartyUp")_
 * _To keep the software of the speaker up-to-date._
 
+| https://play.google.com/store/apps/details?id=at.cineplexx.app[Cineplexx]
+| _Cineplexx = Local Mainstream Cinema Provider_
 |===
 
 === Social
@@ -758,10 +760,6 @@ Dark-Mode is pretty nice too.
 
 | https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping[*Amazon Shop*]
 |
-
-| https://play.google.com/store/apps/details?id=at.cineplexx.app[Cineplexx]
-| _Cineplexx = Local Mainstream Cinema Provider_
-
 |===
 
 === Google
