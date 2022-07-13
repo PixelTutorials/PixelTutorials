@@ -1,1 +1,941 @@
+= My Applications
 
+
+== Programming
+
+=== Editors
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://code.visualstudio.com/[*VS-Code*]
+|
+General Porpuse Text-Editor with
+
+* a nice GUI,
+* a great and big Plugin-System,
+* Auto-Caching of unsaved Files (like in Notepad++) and
+* available for any OS (Program build using https://electronjs.org/[Electron(js)])
+
+Extensions in use:
+
+* Programming Languages Support:
+** https://marketplace.visualstudio.com/items?itemName=ms-python.python[Python]
+** https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools[C/C++]
+** https://marketplace.visualstudio.com/items?itemName=redhat.java[Language
+Support for Java(TM) by Red Hat]
+** https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell[PowerShell]
+** https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML]
+* Web:
+** https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint[ESLint]
+** https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets[Javascript
+(ES6) code snippets]
+** https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion[IntelliSense
+for CSS class names in HTML]
+* Look:
+** https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons[vscode-icons]
+** https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer[Bracket
+Pair Colorizer]
+** https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode[Prettier]
+* Other
+** https://marketplace.visualstudio.com/items?itemName=jakeboone02.mediawiki[Mediawiki]
+** https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph[Git
+Graph]
+** https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm[SVN]
+
+| https://www.jetbrains.com/idea/[Jetbrains' *IntelliJ IDEA _Ultimate_*]
+| *My favorite IDE for Java/Web-Development with*
+
+* an overwhelming Amount of Features (e.G: Automatic-Generation of
+Getters/Setters/Constructors/toString/..., Bytecode-Previewer, awesome
+Debugger, built-in decompiler, Grails support,
+Complete-Text-Search, awesome working Renamer/Searcher of Files and
+even Literals - which finds all right occurences, even in comments or
+strings) and
+* an even bigger Plugin-System and Customization-Possibilities
+
+| https://www.jetbrains.com/clion/[_Jetbrains' CLion_]
+| C++ IDE which has all the Stuff which I like most about IntelliJ, but for C++.
+
+| https://visualstudio.microsoft.com/[_Visual Studio_]
+| C++ IDE (Only in use to follow along with most C++ related Tutorials because most of them use VS)
+
+| https://www.arduino.cc/[*Arduino IDE*]
+| IDE for programming with the https://jonaspammer.at/mediawiki/index.php/Arduino[Arduino Micro Controller]
+|===
+
+=== Others
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| http://java-decompiler.github.io/[JDGUI]
+|
+Fast, Standalone, Open-Source Java-Decompiler with many nice features
+(Drag and Drop, supports CLASS/JAR/WAR/EAR/ZIP-files,
+color-coded preview of decompiled source-code with class-hierarchy, ... ).
+Available for any OS (Java/Groovy-Program).
+
+| https://git-scm.com/[*Git*]
+| Favored Version Control System
+
+| https://www.gitkraken.com/git-client/[GitKraken-Client]
+|
+Awesome Git-GUI with a massive Amount of Features and a very modern design etc.
+(Update June 2021: They've introduced an Monthly Subscription Model.
+No longer using it because I'm to poor for their model ;)
+
+| https://subversion.apache.org/[*SVN (Subversion)*]
+| Version Control System (VCS) used in my companies' internally
+
+| https://www.smartsvn.com/[*SmartSVN*]
+|
+The only sane way one can use SVN without headaches.
+Awesome License-Plan: Buy it one time, have it forever -
+Only need to buy a new License if one wants to use a version
+that comes out 2 years later after current version.
+
+| http://alexdp.free.fr/violetumleditor/page.php[VioletUML]
+| Basic UML Editing, available for any OS (Java-Program)
+
+| https://www.draw.io/[*draw.io*]
+|
+The BEST and most multi-Purpose Diagram-Making Software in existence.
+Works on every Computer, even in the Web.
+
+| https://www.apachefriends.org/[*XAMPP*]
+|
+preferred https://de.wikipedia.org/wiki/LAMP_(Softwarepaket)[LAMP]-Stack with
+useful add-on programs like https://de.wikipedia.org/wiki/PhpMyAdmin[phpMyAdmin],
+available for any OS
+_(XAMPP stands for: **C**ross Plattform, **A**pache Webserver, **M**ariaDB, **P**erl und **P**HP)_
+
+|===
+
+=== Favored Versions of Programming Languages and Frameworks
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| *Java*
+| https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html[8]+
+
+| *Python*
+| 3.6
+(https://www.python.org/dev/peps/pep-0484/[PEP 484] is love.
+I am a strong defender of the benefits of strong typing!)
+
+| Grails
+| 3
+|===
+
+
+== Other
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| *https://chocolatey.org/[Chocolatey]*
+| A Package Manager for Windows. A dream come true.
+
+| https://discordapp.com/[*Discord*]
+|
+The best cross-platform chat app for text, video and voice chat -
+used by more than 250 million people worldwide.
+It's like the best of Skype and TeamSpeak³ combined,
+but all for free and every platform
+(Everyone can create his own community server, totally for free with a lot of
+settings, permissions, groups, bots, and much more.).
+
+Yes, I know that Discord may not be the most secure Chatting Application.
+But who cares? Try to treat every message and every Chat
+with the Reaility in mind that anybody could
+potentially screenshot and read it!
+
+|
+https://www.mozilla.org/de/firefox/new/[*Firefox*]
+https://vivaldi.com/de/[*Vivaldi*]
+https://www.google.de/chrome/[Chrome]
+
+https://brave.com/[*Brave*]
+
+|
+Favored Web-Browsers
+
+Firefox runs much better on some systems or with some web apps.
+Brave is used for naughty stuff (do with that interpreation as you wish, NSA).
+Vivaldi has nice tab displaying functionality.
+
+|https://www.rainmeter.net/[Rainmeter]
+|
+Used to customize the Windows-Desktop with Widgets
+
+My Widget-Packs:
+
+* https://www.deviantart.com/satyajit00/art/Flat-and-Blurry-v1-5-524848816[Flat & Blurry]
+(CPU, RAM, Netzwork <3, C Drive, Uptime and Weather)
+* https://www.deviantart.com/arkenthera/art/TranslucentTaskbar-1-2-656402039[Translucent Taskbar]
+(Sample)
+* https://github.com/khanhas/mnmlUI[mnmlUI]
+(Clock Future Style)
+
+Update: I am a simpler man now.
+I praise an empty desktop with a nice Wallpaper, and just a nice Wallpaper.
+
+| https://obsproject.com/de/download[*OBS Studio*]
+| Open-Source-Software for recording Videos and broadcasting Livestreams
+
+| https://www.putty.org/[*PuTTY*]
+| Favored SSH-Client (Secure Shell Protocol for ~Remote Console Access~).
+
+| https://github.com/jimradford/superputty/releases[SuperPuTTY]
+|
+Wrapper for PuTTY in which one can maintain multiple SSH/RDP-Sessions in one window.
+Each Session is represented by a Tab.
+Only available for Windows, though!
+
+| https://ttssh2.osdn.jp/index.html.en[TeraTerm]
+|
+I find it a pain-in-the-ass to find out the COM port number
+of a serial cable on Windows systems.
+This program shows me if Windows detected my serial cables
+and lets me select them using a drop-down menu.
+
+| https://remmina.org[Remmina]
+| *RDP*, *VNC*, NX, XDMCP, *SPICE* and *SSH*-Client for POSIX Systems.
+
+| https://filezilla-project.org/[*FileZilla*]
+| Favored, customizeable and widely-used FTP-Client (File-Transfer Protocol)
+
+| FortiExplorer for Windows (Development Discontinued)
+|
+FortiExplorer allows one to have access to the FortiOS setup wizard, Web-based
+Manager, and a simulated CLI console by connecting the PC to a Fortinet
+Device that has a USB-AB Port. It's a standalone Application that also
+installs some brand-own drivers for this communication. It was
+discontinued in 2016 but is still available for download on their
+Support Website (Login needed).
+
+| https://www.teamviewer.com/de/[*TeamViewer*]
+| Remote Control Software used nearly everywhere and known by nearly everyone
+
+| https://www.videolan.org/vlc/index.de.html[Videolan's VLC Media Player]
+| Media Player for `.vlc`-Files (OBS-Studio exports as .vlc)
+
+| https://app.prntscr.com/en/index.html[Lightshot (PRNTSCR)]
+|
+Simple Screenshot Software that has exactly the right amount of features
+(I hate the cluttered Greenshot)
+
+| https://picpick.app/[PicPick]
+| All-in-one Graphic Design, Screen Capture Software, Image Editor, Color Picker, Pixel Ruler and More.
+Started using it when i started to make pictures for my text-tutorials.
+(Lightshot is more for "quick screenshots")
+
+| https://sourceforge.net/projects/sagethumbs/[*Sagethumbs 2*]
+|
+Program which extends the Preview-Icon-Functionality of Windows's Explorer with
+an enormous amount of formats (e.g. Photoshop Files).
+
+| https://www.qoppa.com/pdfstudio/de/[*Qoppa's PDFStudio PRO*]
+|
+THE BEST PDF Editing Software, available for all major OS (Java Application)!
+It has got *everything* you can do with a PDF, and even more. Some of my
+main use cases are: Bookmarking (scanned) PDFs, Merging/Splitting PDF's
+*WHILE* keeping all the bookmarks (I wouldn't use this program without
+this 2 features), OCR with After-Editing features, Conversion to/from
+other formats.
+
+| Outlook
+| Favored E-Mail Client.
+I especially like it for its Export-to-File Functionality.
+
+| https://github.com/phw/peek[Peek]
+|
+Peek makes it easy to create short screencasts of a screen area.
+It was built for the specific use case of recording screen areas, e.g. for
+easily showing UI features of your own apps or for showing a bug in bug reports.
+With Peek, you simply place the Peek window over the area you
+want to record and press "Record". Peek is optimized for generating
+animated GIFs, but you can also directly record to WebM or MP4 if you prefer.
+
+Only works with Linux in combination with X11
+(Wayland support might be added. it got lots of stars and is open source).
+
+|===
+
+=== Adobe
+
+_Update 2021-Q3: Cancelled Adobe Abo because dont need it._
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://www.adobe.com/de/products/media-encoder.html[Media Encoder]
+| Multimedia File Type Converter.
+
+| https://www.adobe.com/at/products/photoshop.html[Photoshop]
+|
+
+| https://helpx.adobe.com/at/camera-raw/using/supported-cameras.html[Camera Raw]
+| Plugin for Adobe Photoshop / Adobe Bridge to handle RAW-Pictures.
+
+| https://www.adobe.com/de/products/premiere.html[Premiere (Pro)]
+|
+
+|===
+
+=== Security/Privacy Tools
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://1password.com/de/[*1Password*]
+| Favored Secret-Manager. (Not only Passwords)
+
+| NordVPN
+| Favored VPN, available for all Platforms.
+
+| Windows Defender
+| Favored Antivirus for Windows.
+
+| https://www.netacad.com/courses/packet-tracer[*Cisco Packet Tracer*]
+|
+Powerful networking simulation tool. Used in my School and many others.
+The best way to learn about networking, routing, switching, how the
+TCP/OSI-Layers and Packets work (You can inspect and watch the process
+and steps an individual packet goes through - on each Layer - and see
+why something (doesnt) work), etc...
+
+| https://nmap.org/[*nmap*]
+|
+Free and open source, nearly-all-plattform
+(It is a CLI-Tool, but I use it only with its
+https://nmap.org/zenmap/[(official) GUI named "Zenmap"]), portable
+utility for network discovery and security auditing.
+
+| https://www.wireshark.org/[Wireshark]
+|
+"The world's foremost and widely-used network protocol analyzer which lets you see what's
+happening on your network at a microscopic level and is the de facto
+(and often de jure) standard across many commercial and non-profit
+enterprises, government agencies, and educational institutions."
+|===
+
+[[image_flashers]]
+=== Image Flashers
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://www.balena.io/etcher/[Balena's Etcher]
+|
+Cross-Plattform (https://electronjs.org/[Electron(js)]) Image Flashing Utility for SD-Cards
+as well as USB-Mediums.
+
+| https://rufus.ie/[Rufus]
+| Windows-Only Image Flasing Utility for USB-Mediums
+
+| https://www.microsoft.com/de-de/software-download/windows10[Windows Media Creation Tool]
+|
+Official Tool which allows one to download the latest Windows ISO to a File
+or to directly burn it to an USB-Thumbdrive.
+
+|===
+
+=== Computer Management Utilities
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+|https://consumer.huawei.com/en/support/hisuite/[*HiSuite*]
+| Huawei's "Android Device Manager" used to manage,
+backup and restore all files on a Huawei Smartphone.
+
+| https://www.razer.com/de-de/downloads[Razer Synapse 3]
+| Razer's Laptop Control Software
+
+| https://support.logitech.com/de_ch/software/lgs[Logitech Gaming Software 9]
+| Logitech's Keyboard Control-Software
+
+| https://www.logitech.com/de-at/product/options[_Logitech Options_]
+|
+_If one is on Windows 10 and plugs in a Logitech Mouse, a pop-up (like the
+one known from most Antivirus Softwares) appears which hints one to
+install this Software._
+
+| https://downloadcenter.intel.com/de/download/24075/Intel-Extreme-Tuning-Utility-Intel-XTU-[Intel XTU]
+|
+Intel's "Extreme Tuning Utility" lets you tune, overview and
+benchmark like every parameter a cpu can possibly have
+(And it isn't software-level-configuration. It is configuring
+the cpu parameters itself - so they stay until a system-crash
+(like BSOD) occurs and resets them to their defaults).
+I mostly use it for undervolting Laptop CPU's
+and to check if a CPU is Power-Throtteling.
+
+| https://downloadcenter.intel.com/de/download/28425/Intel-Driver-Support-Assistant[Intel DSA]
+|
+Intel's "Driver Support Assistent" finds the newest Drivers of
+Intel Hardware (like WiFi or Blueetooth) for a given Computer.
+
+| https://www.msi.com/page/afterburner[_MSI Afterburner_]
+|
+_Universal Graphics-Card Control-Software with many Features like showing
+Hardware-Informationen, displaying the current Temperature/Perfomance
+using a HUD or even controlling the Clock-Speeds of the GPU_
+
+| https://www.hwinfo.com/download/[HWINFO]
+|
+Advanced System Monitoring Utility -
+including Temperatures and Clockspeeds of every Hardware of every core.
+
+| https://www.ccleaner.com/[CCleaner]
+|Computer and Registry Cleaner (Used on rare occasions)
+
+| https://www.duplicatecleaner.com[*Duplicate Cleaner Pro*]
+| BEST Duplicate Cleaning Application
+
+| https://crystalmark.info/en/software/crystaldiskmark/[*CrystalDiskMark*]
+|
+Most wide-spread and long established Disk Perfomance Benchmark
+(Can also benchmark my NAS with the feature to select a specific Folder).
+
+| https://crystalmark.info/en/software/crystaldiskinfo/[CrystalDiskInfo]
+|
+(Never really used it, but it also comes from CrystalMark and is
+trusted to be one of the best Inspection Program for Hard Drives,
+which is why I have it installed.)
+
+|===
+
+=== Games
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://www.teamviewer.com/de/[*Steam*]
+|
+Game-Hub for
+
+* Anno 2205
+* ARK: Survival Evolved
+* Bloons TD Battles
+* Bloons TD 5
+* Borderlands 2
+* Call of Duty: Black Ops III
+* _Counter Strike: Global Offensive_
+* _Don't Starve Together_
+* Factorio
+* LEGO Star Wars: The Complete Saga
+* _Shellshock Live_
+* _Space Engineers_
+* Stronghold Crusader 2
+* Tom Clancy's Rainbow Six Siege
+* Phasmophobia
+
+|https://www.blizzard.com/de-de/[BattleNET-Launcher]
+| Game-Hub for Overwatch
+
+|https://ubisoftconnect.com/[Ubisoft Connect]
+| Game-Hub for Anno and R6.
+
+|https://minecraft.net/de-de/[*Minecraft*]
+|
+*My favourite game of all time.*
+
+* Clients
+** ...
+* Recource-Packs:
+** https://resourcepack.net/oerlis-realistic-photo-pro-resource-pack/[Oerlis
+Realistic Photo Pro x256] - mostly used in context with the below
+mentioned shaders for that awesome realistic feel from time to time
+** https://rodrigo-al.jimdo.com/texture-packs/8x8-rodrigo-s-pack/[Rodrigo's
+Pack] - for the sweet and awesome minimalistic look
+** (Before 2018 I mostly/always used https://bdcraft.net/["Spaxh"
+BDCraft] for _everything ;)_.)
+* Shaders
+** http://shadersmods.com/sildurs-shaders-mod/[Sildurs Vibrant Shaders]
+* Mod-Packs
+** https://www.feed-the-beast.com/projects/ftb-lite[FTB-Lite] - Good old
+https://www.youtube.com/watch?v=ItOTriUJIaM&list=PL2CkP1Bfxjsv8PqTWLpnm48afT32Z_1sf[#MegaProjekt]-Times,
+hottests Modpack for me with a lot of technology / energy and even magic
+stuff
+** https://www.technicpack.net/modpack/tekkitlite.552675[Tekkit Lite] -
+Similar to FTB-Lite, but without magic
+** https://www.technicpack.net/modpack/tekkit.552560[Tekkit-Classic] -
+*Most awesome Skyblock-Idea of all time which i fell in love with*:
+*** Concept: Nearly each block in the game has a "material-value". Using
+a magic table or chest, you can transform your farmed items into this
+value, store it, and also exchange it back into items that match your
+gathered value.
+*** You can build automated farms to harvest the value and exchange them
+into the items you want (e.G: Tubes for Item-Transport, Redstone that
+can stick to side of blocks, Block-Breakers, "Solar-like Panels" which
+turn sun-energy into the material-value, and much more...)
+*** The Modpack includes a big amount of Mods from Tekkit-Lite with
+energy but also adds lots of magic (e.G: A ring that lets you fly freely
+at the cost of the mentioned material-value)
+*** Onliest Problem: Old Minecraft Version (1.2.5)
+
+|https://www.oculus.com/setup/[Oculus Quest Link] |Official Software by
+Oculus used in combination with a combatible USB3-Cable to connect my
+Oculus Quest with the Power of my PC - To play all Games playable on the
+Oculus Rift or any other App on my computer.
+
+|===
+
+
+== Android Apps
+
+=== Google
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=de[*Google Calendar*]
+|
+Cross-Platform and simple to use Calendar - available for every OS (even a Web-App),
+simply integrateable in any App using
+https://developers.google.com/calendar/[Google's Calendar API]
+
+| https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=de[*Google Maps*]
+|
+Cross-Platform and simple to use Map - available for every OS (even a Web-App),
+simply integrateable in any App using
+https://developers.google.com/maps/documentation/?hl=de[Google's Maps API].
+Emphasizing Features / What I like about it:
+
+* It contains almost every facility - each with detailed, quick
+accesable information (e.G: opening hours, at which time there will
+likely be many people, the Website linked with the Facility, is it
+Wheelchair accessible, how much does the hotel cost, etc.)
+* Every user can contribute to the map by adding Information about
+certain Facilitys at a certain location, or even "create" a new facility
+* Every user can contribute by commiting a review of a certain facility
+using a "0 to 5 Stars" Rating System with attachable (360* or normal)
+Images.
+* Traffic Jam gets shown when driving. _(Either it is being calculated
+using the anonymously shared background-Information from other devices
+or Google Maps is being informed by local news or other drivers
+directly?)_
+* Active Building Sites as well as the ability to choose between Highway
+or not Highway are included when calculating the perfect route.
+* You can save Streets/Facilitys, give them a special labels (e.G.
+"Home", "Work" or "Best Friend") and categories (e.G. "Favored", "Want
+to visit")
+* The whole UI is minimalistic and materialistic. Anyone can use it -
+even if you just want to know "What's the opening Time for ****" - you
+can just google the exact sentence you would ask a stranger and google
+fetches you the answer using the data collected by google maps
+* Programmers like me can simply integrate a "Map-View" showing a
+certain building in our App or even Website
+* You can choose between different views (Even a View from the Satelite
+- almost like in https://www.google.com/intl/de/earth/[Google Earth], or
+Terrain-Highlighting View)
+* Mosts Places can be "visited/viewed as if you stand there" using
+captured 360* Camera-Footage from either Google or even normal user
+uploads (So called [https://maps-satellit.com/ Google Street View])
+* You can see where you were in the past
+
+| https://play.google.com/store/apps/details?id=com.huawei.bone[Huawei Wear]
+| Google's Recommended App to setup/manage my Huawei Smartwatch
+
+| https://play.google.com/store/apps/details?id=com.google.android.apps.magazines[*Google News*]
+|
+Preferred App that collects Headlines from multiple
+News-Companies and shows you those which fit to your Profile (You can
+easily say "I do (not) want more of Category X" or "Do (not) show me an
+article like this for the next few times" or "I do (not) want to read
+articles from [Source]" etc.)
+
+| https://play.google.com/store/apps/details?id=com.google.android.apps.adm[Gerät finden]
+|
+Smartphone/Tablet/Smart-Watch finder which allows me to
+
+* track the devices location,
+* force them to make a sound,
+* see the battery life and network status,
+* lock it down or even
+* delete all data on it.
+
+| https://play.google.com/store/apps/details?id=com.google.android.contacts[*Google Contacts*]
+|
+Online (Cloud) Contact Manager in which every Person can have a
+fully detailed Portfolio (aka. many Fields) and custom Tags added
+to them for even more Categorization matters.
+
+| https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin[*Gboard*]
+| Favored Android-Keyboard wich supports Glide-Typing.
+
+|===
+
+=== Social
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.discord[*Discord*]
+| Mobile-App of Discord.
+
+Most awesome feature: If I want to log-in to my Account on another
+device, I use my smartphone to scan a QR-Code twice
+(first-time it opens Discord in its own scanning mode,
+and the second time Discord does its thing),
+click OK on my Phone and I'm logged in.
+
+| https://play.google.com/store/apps/details?id=com.twitter.android[*Twitter*]
+|
+Favored Social Media Platform where users can post short
+messages/status updates, so called "tweets". A Tweet can be liked,
+re-posted (retweeted) and commented.
+
+| https://play.google.com/store/apps/details?id=com.life360.android.safetymapd[Life360]
+| "Family Locator", GPS Tracker with Notification Messages
+
+| https://play.google.com/store/apps/details?id=com.reddit.frontpage[Reddit]
+|
+Wasting Time and some News. No - I don't use it for porn or
+watch-people-dying. Update 2021: Don't use it. Stop wasting time on
+phone with no meaning. You'll feel less depressed.
+
+| https://play.google.com/store/apps/details?id=com.patreon.android[__Patreon__]
+| __Patreon is a social platfrom where users can support their favorite
+creators for making the stuff they're crazy about.__
+
+| https://play.google.com/store/apps/details?id=com.whatsapp[*WhatsApp*]
+|
+THE most widely-known Internet-Messaging-Platform one can think of.
+Features include chat-groups, voice-calls, video-calls, end-to-end
+encrypted chat with one person, chat-backups, sending all kinds of media
+within chats, being spyed on by Facebook, etc.
+
+| https://play.google.com/store/apps/details?id=ch.threema.app[*Threema*]
+|
+Like a paid version of WhatsApp, but with more encryption and anonymity
+made in Switzerland. Used by my current company, for example.
+
+|===
+
+=== Authentication
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.agilebits.onepassword[*1Password*]
+| Android-App for 1Password, my favored Password Manager.
+
+| https://play.google.com/store/apps/dev?id=5700313618786177705[*Google Authenticator*]
+| "Recommended" 2FA App
+
+| https://play.google.com/store/apps/details?id=at.hypovbg.smartid[Meine smartID]
+|
+2FA App needed to validate Transactions or Login with my locale bank institution.
+
+| https://play.google.com/store/apps/details?id=com.azure.authenticator[Microsoft
+Authenticator]
+| 2FA App needed for Office 365.
+
+|===
+
+=== Learn
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.enki.insights[Enki]
+|
+Used for learning/starting out on new Programming Languages/Paradigmas
+or other IT-Related Stuff like Linux
+
+| https://play.google.com/store/apps/details?id=com.duolingo[_Duolingo_]
+| _Used for learning new Languages_
+
+| https://play.google.com/store/apps/details?id=com.grupet.web.app[*Untis Mobile*]
+| Used to look up the current Timetable and upcoming Tests in higher schools
+
+| https://play.google.com/store/apps/details?id=org.wikipedia[Wikipedia]
+| Native (feeling?) Wikipedia where you offline-store pages and view your
+timeline. Dark-Mode is pretty nice too.
+|===
+
+=== Tools
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=net.techet.netanalyzer.an[*Net Analyzer (Pro)*]
+|
+Multi-Functional Network Diagnosis Tool with an overwhelming amount of
+features, including:
+
+* A *Wifi-Signal meter* with a visual Representation showing which Wifi
+takes up/overlaps with which signal-band
+* A *LAN Scanner* to see who is using my Network + WOL Ability
+* A tool similiar to the linux *netstat*-Command to see network
+connections made by other apps
+* Ability to *see the Routing Table* (Destination & Gateway)
+* Graphical *Ping and Traceroute*
+* *Port Scanner* for detection of closed, firewalled, and open ports
+* *Whois*
+* *DNS Lookup*
+* *Internet Speed Tester*
+* *Network Information Grabber* (Default gateway, external IP (v4 and
+v6), DNS server, HTTP proxy, Wifi network information such as SSID,
+BSSID, IP address, subnet mask , signal strength, etc.)
+* and many more...
+
+| https://termius.com/[_Termius_]
+|
+_SSH client that works on Desktop and Mobile.
+Features (most only available for the "Premium"-Tier):_
+
+* _Modern UI._
+
+* _Integrated SFTP, MOSH and TELNET Client._
+
+* _Securely (End-To-End) Syncs Data Across All my Devices (Hosts/Groups,
+Connection and Command History)_
+* _Hosts can be sorted into groups, which in turn can have shared
+settings._
+* _Artificial Autocomplete for mobile devices (Termius gathers commands
+from all my servers and provides suggestions while I type)_
+* _On Mobile: Fingerprint Unlockable_
+
+| https://play.google.com/store/apps/details?id=com.nordvpn.android[NordVPN]
+| Favored VPN Service Provider, available for every OS
+
+| https://play.google.com/store/apps/details?id=com.gamebasic.decibel[Schallmessung]
+|
+
+| https://play.google.com/store/apps/details?id=com.philips.lighting.hue2[Hue]
+| Used to control my Philipps-Hue Smart-Home Peripherals
+
+| https://play.google.com/store/apps/details?id=com.google.android.apps.translate[*Google Translate*]
+| Most well-known Translator app. Features to highlight:
+
+* You can download "language-packs" for offline translation
+* It supports every language one can think off
+* You can live-translate the text-contents of an image.
+Awesome for translating from languages which don't use our alphabet
+and you don't know how to type it in.
+
+| https://play.google.com/store/apps/details?id=com.amazon.dee.app[Amazon Alexa]
+| Used to manage my Alexa Peripherals and to _find out who asked_ :D.
+
+| https://play.google.com/store/apps/details?id=de.hafas.android.vvv[*cleVVVer mobil*]
+|
+Awesome App that calculate routes using my country's local buses/trains/trams
+(https://de.wikipedia.org/wiki/Verkehrsverbund_Vorarlberg[
+ **V**orarlberger **V**erkehrs **V**erbund]) at a given time.
+It also takes into consideration if there are any disruptions
+or a connection can't be made because of Delays. By the way, there's also an
+https://fahrplan.vmobil.at/[web application].
+
+| https://play.google.com/store/apps/details?id=com.navigation.offlinemaps.gps[*Offline Maps & Navigation*]
+|
+The most well-rated, most-downloaded and most-feature-packed
+Navigational-Map that allows you to download the data of entire
+countries on your phone for offline usage.
+(In Google Maps you can only download a small set of even small regions!)
+It has got all of the features that Google Maps also has -
+except (*obviously*) the syncing with a Google Maps Accounts'
+Activity/Points/Labels/Rating/... It even has got more features than Google.
+https://play.google.com/store/apps/details?id=com.navigation.offlinemaps.gps[Features
+include:]
+
+* *Offline maps of all countries in the world, from TomTom and other providers*
+* Free map updates several times a year
+* Voice-guided GPS navigation with precise directional information
+and spoken street names
+* *Millions of Interesting Places (POI)*
+* *Real-time sharing of the route* allows sharing your estimated time of
+arrival and current location on a map *
+* GPS navigation for pedestrians with walking direction and tourist
+attractions (POI)
+* *Speed Alerts* show you the current speed limit and speed limit
+changes on the way in front of you
+* The *Dynamic Lane Assistant* guides you in the right direction.
+* The *Head-up Display (HUD)* configures the navigation for more safety
+during night driving on the windshield of your car.
+* The *Dashcam records the road in front of you* and automatically saves
+the video in the event of an accident.
+* *Real View Navigation is an augmented reality feature* for an even
+better and safer driving experience
+* Easy parking with *suggestions for parking and live info on prices and
+availability*
+* Set up your fuel type and recharge at the best price with *live fuel
+price information*
+* Avoid parking tickets with *warning about speed cameras*
+
+|===
+
+[[banking_shopping]]
+=== Banking + Shopping
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=at.hypovbg.banking[*Meine Hypo*]
+| Mobile Banking App
+
+| https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile[*PayPal*]
+|
+
+| https://play.google.com/store/apps/details?id=com.shpock.android[*Shpock*]
+|
+
+| https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping[*Amazon Shop*]
+|
+
+| https://play.google.com/store/apps/details?id=at.cineplexx.app[Cineplexx]
+| App for the cinemas in my country.
+
+|===
+
+=== Company
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.cisco.wx2.android[Cisco Webex Teams]
+|
+Used in Combination with my companies Cisco VoIP-Phone Setup.
+(e.G: "To make/join a video call/conference from my mobile phone
+to one of our big Cisco Collaboration Endpoints in our meeting rooms)
+
+| https://play.google.com/store/apps/details?id=com.monday.monday[Monday.com]
+| (Sadly we switched to ClickUp because of Monday.com's Price Scheme)
+
+| https://play.google.com/store/apps/details?id=co.mangotechnologies.clickup[*ClickUp*]
+| Mobile App of the Project Managing Tool used by my current Company
+
+|===
+
+=== System
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.microsoft.appmanager[Begleiter für Ihr Smartphone]
+|
+An App from Microsoft used in combination with an equivalent
+Microsoft-Store-App on my PC to overview my Notifications,
+take a look at my latest taken Pictures and view/send SMS
+
+| https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile[TeamViewer]
+| Mobile Version of TeamViewer, the most well-known remote-access software
+
+| https://play.google.com/store/apps/details?id=com.microsoft.skydrive[Microsoft OneDrive]
+|
+Current in-use cloud-storage solution because i get it for
+free with my Office-365 subscription for up to 5 Accounts of which
+everyone can have their own 1TB of storage for their microsoft account.
+
+|===
+
+=== Customization
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher[*Nova
+Launcher*]
+| Favored Android Launcher with many configurable Options
+(Changes the UI and UX of the Homescreen)
+
+| https://play.google.com/store/apps/details?id=ru.pt.iconpack.miui_10_pixel[
+MIUI 10 Pixel (Icon Pack)]
+|
+
+|https://play.google.com/store/apps/details?id=com.cris87.oxygen[
+OXYGEN (Icon Pack)]
+|
+
+| https://play.google.com/store/apps/details?id=ru.pt.iconpack.pixel[
+Pixel Pie (Icon Pack)]
+|
+
+| https://play.google.com/store/apps/details?id=com.luzapplications.alessio.wallooppro[WALLOOP PRIME/PRO]
+|(live and static) wallpapers app
+|===
+
+=== Music & Movies
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music[*Youtube Music*]
+|
+Favored Music-Streaming Service with Options to download for
+offline-listening, enable/disable the video-view, play while phone is
+turned to standby and other things a music streaming service can. I
+especially like its automatic music playlist generation (i.e. its
+algorithms) - 99,9% of the time I just click on one music video on the
+main page and good music comes out ;).
+
+| https://play.google.com/store/apps/details?id=com.audible.application[_Audible_]
+|
+_The leading provider of audiobooks and radio plays in which you can
+also download your audio-titles for offline-usage and listen to them
+even when your phone is in "stand-by"._
+
+| https://play.google.com/store/apps/details?id=com.bose.monet[Bose Connect]
+| Used to change settings of my Bose headphone.
+
+| https://play.google.com/store/apps/details?id=com.logitech.ueboom[UE BOOM]
+|
+Used to manage by BOOM speaker. Functions include:
+
+* Turning on (and off) the speaker from afar / without needing to get to it
+(I really like this feature. It's one of the main reasons i use the app.)
+* Tweaking the Speakers' EQ Settings/Profiles (e.G: To boost the bass)
+* _Connecting up multiple Speakers ("PartyUp")_
+* _To keep the software of the speaker up-to-date._
+
+|===
+
+=== Other
+
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://play.google.com/store/apps/dev?id=5700313618786177705[Chrome]
+| Favored Mobile Browser
+
+|===
