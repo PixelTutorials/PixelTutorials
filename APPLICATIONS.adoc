@@ -82,9 +82,6 @@ Awesome License-Plan: Buy it one time, have it forever -
 Only need to buy a new License if one wants to use a version
 that comes out 2 years later after current version.
 
-| http://alexdp.free.fr/violetumleditor/page.php[VioletUML]
-| Basic UML Editing, available for any OS (Java-Program)
-
 | https://www.draw.io/[*draw.io*]
 |
 The BEST and most multi-Purpose Diagram-Making Software in existence.
