@@ -14,6 +14,7 @@
 https://stackshare.io/JonasPammer/decisions/108521050744396979[
 image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
 
+[[vscode-extensions]]
 Extensions in use:
 
 * Programming Languages Support:
