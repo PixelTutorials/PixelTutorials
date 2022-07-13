@@ -510,38 +510,19 @@ https://developers.google.com/calendar/[Google's Calendar API]
 Cross-Platform and simple to use Map - available for every OS (even a Web-App),
 simply integrateable in any App using
 https://developers.google.com/maps/documentation/?hl=de[Google's Maps API].
-Emphasizing Features / What I like about it:
+Emphasizing Features:
 
-* It contains almost every facility - each with detailed, quick
-accesable information (e.G: opening hours, at which time there will
-likely be many people, the Website linked with the Facility, is it
-Wheelchair accessible, how much does the hotel cost, etc.)
-* Every user can contribute to the map by adding Information about
-certain Facilitys at a certain location, or even "create" a new facility
+* It contains almost every facility
+each with detailed, quick accesable information
+(e.G: opening hours, at which time there will likely be many people, the Website linked with the Facility etc.)
 * Every user can contribute by commiting a review of a certain facility
-using a "0 to 5 Stars" Rating System with attachable (360* or normal)
-Images.
-* Traffic Jam gets shown when driving. _(Either it is being calculated
-using the anonymously shared background-Information from other devices
-or Google Maps is being informed by local news or other drivers
-directly?)_
-* Active Building Sites as well as the ability to choose between Highway
-or not Highway are included when calculating the perfect route.
-* You can save Streets/Facilitys, give them a special labels (e.G.
-"Home", "Work" or "Best Friend") and categories (e.G. "Favored", "Want
-to visit")
-* The whole UI is minimalistic and materialistic. Anyone can use it -
-even if you just want to know "What's the opening Time for ****" - you
-can just google the exact sentence you would ask a stranger and google
-fetches you the answer using the data collected by google maps
+using a "0 to 5 Stars" Rating System with attachable (360* or normal) Images.
+* Visualization of Traffic Jam gathered through data shared by other drivers?
+* You can save Streets/Facilitys, give them a special labels
+(e.G. "Home", "Work" or "Best Friend") and categories
+(e.G. "Favored", "Want to visit")
 * Programmers like me can simply integrate a "Map-View" showing a
 certain building in our App or even Website
-* You can choose between different views (Even a View from the Satelite
-- almost like in https://www.google.com/intl/de/earth/[Google Earth], or
-Terrain-Highlighting View)
-* Mosts Places can be "visited/viewed as if you stand there" using
-captured 360* Camera-Footage from either Google or even normal user
-uploads (So called [https://maps-satellit.com/ Google Street View])
 * You can see where you were in the past
 
 | https://play.google.com/store/apps/details?id=com.huawei.bone[Huawei Wear]
