@@ -629,21 +629,13 @@ Used by my current company, for example.
 [cols="a,a"]
 |===
 | Program | Usage
-
-| https://play.google.com/store/apps/details?id=com.enki.insights[Enki]
-|
-Used for learning/starting out on new Programming Languages/Paradigmas
-or other IT-Related Stuff like Linux
-
-| https://play.google.com/store/apps/details?id=com.duolingo[_Duolingo_]
-| _Used for learning new Languages_
-
 | https://play.google.com/store/apps/details?id=com.grupet.web.app[*Untis Mobile*]
 | Used to look up the current Timetable and upcoming Tests in higher schools
 
 | https://play.google.com/store/apps/details?id=org.wikipedia[Wikipedia]
-| Native (feeling?) Wikipedia where you offline-store pages and view your
-timeline. Dark-Mode is pretty nice too.
+|
+Native (feeling?) Wikipedia where you offline-store pages and view your timeline.
+Dark-Mode is pretty nice too.
 |===
 
 === Tools
