@@ -12,7 +12,7 @@ I know my way around Linux, Windows, IT, Programming and most of the other thing
 I like to get behind the concept of things
 (https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic; Software can be understood*])
 // in fact, nothing is magic. it's all just concepts
-and understand what they're _actually_ for before discussing anything or using them.
+and understand what they're _actually_ for.
 There's so much [aaS] software and platforms popping up with magic words
 that don't delineate what part of the problem they actually solve
 nor do they say what they _actually_ (most-often-then-not "just") do
