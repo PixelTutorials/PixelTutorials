@@ -224,15 +224,11 @@ Support Website (Login needed).
 | https://www.videolan.org/vlc/index.de.html[Videolan's VLC Media Player]
 | Media Player for `.vlc`-Files (OBS-Studio exports as .vlc)
 
-| https://app.prntscr.com/en/index.html[Lightshot (PRNTSCR)]
-|
-Simple Screenshot Software that has exactly the right amount of features
-(I hate the cluttered Greenshot)
-
 | https://picpick.app/[PicPick]
-| All-in-one Graphic Design, Screen Capture Software, Image Editor, Color Picker, Pixel Ruler and More.
-Started using it when i started to make pictures for my text-tutorials.
-(Lightshot is more for "quick screenshots")
+|
+All-in-one Graphic Design, Screen Capture Software, Image Editor,
+Color Picker, Pixel Ruler and More.
+Started using it when i started to make pictures for home-made text-tutorials.
 
 | https://sourceforge.net/projects/sagethumbs/[*Sagethumbs 2*]
 |
