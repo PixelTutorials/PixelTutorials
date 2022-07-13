@@ -393,7 +393,7 @@ Advanced System Monitoring Utility -
 including Temperatures and Clockspeeds of every Hardware of every core.
 
 | https://www.ccleaner.com/[CCleaner]
-|Computer and Registry Cleaner (Used on rare occasions)
+| Computer and Registry Cleaner (Used on rare occasions)
 
 | https://www.duplicatecleaner.com[*Duplicate Cleaner Pro*]
 | BEST Duplicate Cleaning Application
@@ -451,20 +451,19 @@ Game-Hub for
 * Clients
 ** ...
 * Recource-Packs:
-** https://resourcepack.net/oerlis-realistic-photo-pro-resource-pack/[Oerlis
-Realistic Photo Pro x256] - mostly used in context with the below
+** https://resourcepack.net/oerlis-realistic-photo-pro-resource-pack/[
+Oerlis Realistic Photo Pro x256] - mostly used in context with the below
 mentioned shaders for that awesome realistic feel from time to time
-** https://rodrigo-al.jimdo.com/texture-packs/8x8-rodrigo-s-pack/[Rodrigo's
-Pack] - for the sweet and awesome minimalistic look
-** (Before 2018 I mostly/always used https://bdcraft.net/["Spaxh"
-BDCraft] for _everything ;)_.)
+** https://rodrigo-al.jimdo.com/texture-packs/8x8-rodrigo-s-pack/[
+Rodrigo's Pack] - for the sweet and awesome minimalistic look
+** (Before 2018 I mostly/always used
+https://bdcraft.net/["Spaxh" BDCraft] for _everything ;)_.)
 * Shaders
 ** http://shadersmods.com/sildurs-shaders-mod/[Sildurs Vibrant Shaders]
 * Mod-Packs
 ** https://www.feed-the-beast.com/projects/ftb-lite[FTB-Lite] - Good old
 https://www.youtube.com/watch?v=ItOTriUJIaM&list=PL2CkP1Bfxjsv8PqTWLpnm48afT32Z_1sf[#MegaProjekt]-Times,
-hottests Modpack for me with a lot of technology / energy and even magic
-stuff
+hottests Modpack for me with a lot of technology / energy and even magic stuff
 ** https://www.technicpack.net/modpack/tekkitlite.552675[Tekkit Lite] -
 Similar to FTB-Lite, but without magic
 ** https://www.technicpack.net/modpack/tekkit.552560[Tekkit-Classic] -
@@ -482,10 +481,11 @@ energy but also adds lots of magic (e.G: A ring that lets you fly freely
 at the cost of the mentioned material-value)
 *** Onliest Problem: Old Minecraft Version (1.2.5)
 
-|https://www.oculus.com/setup/[Oculus Quest Link] |Official Software by
-Oculus used in combination with a combatible USB3-Cable to connect my
-Oculus Quest with the Power of my PC - To play all Games playable on the
-Oculus Rift or any other App on my computer.
+|https://www.oculus.com/setup/[Oculus Quest Link]
+|
+Official Software needed to connect my Oculus Quest headset
+to the "power" of the computer over USB
+in order to essentially make it a Oculus Rift headset.
 
 |===
 
