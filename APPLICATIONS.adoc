@@ -412,7 +412,7 @@ to the local system or to a bootable USB.
 | Huawei's "Android Device Manager" used to manage,
 backup and restore all files on a Huawei Smartphone.
 
-| https://www.razer.com/de-de/downloads[Razer Synapse 3]
+| https://www.razer.com/de-de/synapse-3[Razer Synapse 3]
 | Razer's Laptop Control Software
 
 | https://www.logitech.com/de-at/product/options[_Logitech Options_]
