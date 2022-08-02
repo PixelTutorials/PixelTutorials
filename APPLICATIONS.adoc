@@ -296,6 +296,9 @@ Support Website (Login needed).
 | https://www.videolan.org/vlc/index.de.html[Videolan's VLC Media Player]
 | Media Player for `.vlc`-Files (OBS-Studio exports as `.vlc`)
 
+| https://getgreenshot.org/downloads/[*Greenshot*]
+| Easy go-to screenshot tool for windows.
+
 | https://picpick.app/[PicPick]
 |
 All-in-one Graphic Design, Screen Capture Software, Image Editor,
