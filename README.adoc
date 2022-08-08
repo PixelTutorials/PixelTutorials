@@ -51,7 +51,7 @@ I also could talk for hours about my enthusiasm for Web Development, especially 
 // (You can hang me for this comparison if you want but it's true).
 
 // NOTE: The following sentence is to be kept in sync with my LinkedIn Info
-* 🌱 Having just completed an IT apprenticeship, I am currently studying for various networking certifications (CCNA, MSCA, FSNE 1-4, RHCSA, ...) to solidify, prove and deepen my knowledge.
+* 🌱 Having just completed an IT apprenticeship, I am currently studying for various networking certifications (CCNA, MSCA, FSNE 1-4, RHCSA, ...) to solidify my knowledge and help myself making the decision on which path to truly pursue by digging into each of them.
 
 // NOTE: The following sentence is to be kept in sync with my LinkedIn Info
 * 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
