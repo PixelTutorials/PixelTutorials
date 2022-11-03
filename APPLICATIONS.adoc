@@ -216,20 +216,6 @@ But who cares? +
 Try to treat every message and every Chat with the Reality in mind +
 that anybody could potentially screenshot and read it!
 
-|
-https://www.mozilla.org/de/firefox/new/[*Firefox*]
-https://vivaldi.com/de/[*Vivaldi*]
-https://www.google.de/chrome/[Chrome]
-
-https://brave.com/[*Brave*]
-
-|
-Favored Web-Browsers
-
-Firefox runs much better on some systems or with some web apps.
-Brave is used for naughty stuff (do with that interpreation as you wish, NSA).
-Vivaldi has nice tab displaying functionality.
-
 |https://www.rainmeter.net/[+++<del>+++Rainmeter+++</del>+++]
 | Used to customize the Windows-Desktop with Widgets.
 
@@ -335,6 +321,31 @@ animated GIFs, but you can also directly record to WebM or MP4 if you prefer.
 Only works with Linux in combination with X11
 (Wayland support might be added. it got lots of stars and is open source).
 
+|===
+
+=== Web
+
+// todo section for browsers, extensions and useful sites
+
+[cols="a,a"]
+|===
+| Program | Usage
+
+| https://www.mozilla.org/de/firefox/new/[*Firefox*]
+// https://www.google.de/chrome/[Chrome]
+
+https://brave.com/[*Brave*]
+
+https://vivaldi.com/de/[Vivaldi]
+
+|_Favored Web-Browsers_
+
+Firefox runs much better on some systems or with some web apps
+and has become my preferred browser overall.
+
+Brave is used for more secret stuff.
+
+Vivaldi has a very intersting tab group tiling feature.
 |===
 
 === Security/Privacy Tools
