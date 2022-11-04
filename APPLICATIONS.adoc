@@ -348,6 +348,76 @@ Brave is used for more secret stuff.
 Vivaldi has a very intersting tab group tiling feature.
 |===
 
+==== Firefox Extensions
+
+// todo: alter descriptions to include own words in second paragraph.
+
+[cols="a,a"]
+|===
+| Extension | Description
+
+| https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/[1Password]
+| Extension for my Password Manager of choice as per 2022
+(may switch to self-hosted one in 2023+)
+
+| https://addons.mozilla.org/en-US/firefox/addon/colorzilla[ColorZilla]
+| Advanced Eyedropper, Color Picker, Gradient Generator and other colorful goodies.
+
+| https://addons.mozilla.org/en-US/firefox/addon/compat-report[Combat Report]
+| This extension creates a Developer Tools panel that provides a basic overview of potential browser compatibility issues, using data from MDN. It's compatible with Mozilla Firefox and Google Chrome.
+
+| https://addons.mozilla.org/en-US/firefox/addon/darkreader[Dark Reader]
+| Dark design for any website.
+
+| https://addons.mozilla.org/en-US/firefox/addon/disable-javascript[Disable Javascript]
+| Adds the ability to disable JavaScript on specific sites.
+
+| https://addons.mozilla.org/en-US/firefox/addon/flagfox[Flagfox]
+| Shows the country flag of the server location of the currently displayed page
+
+| https://addons.mozilla.org/en-US/firefox/addon/image-search-options[Image Search Options]
+| Customizable Image Search right click context options
+
+| https://addons.mozilla.org/en-US/firefox/addon/keepa[Keepa - Amazon Price Tracker]
+| Adds price history charts and the option to be alerted on price drops to all Amazon sites.
+
+| https://addons.mozilla.org/en-US/firefox/addon/minimaltwitter[Minimal Theme for Twitter]
+| Declutter the Twitter web experience.
+
+| https://addons.mozilla.org/en-US/firefox/addon/print-edit-we[Print Edit WE]
+| Edit web pages prior to printing. Delete, hide and format elements. Edit text. Remove adverts and sidebars.
+
+| https://addons.mozilla.org/en-US/firefox/addon/react-devtools[React Developer Tools]
+| Adds React debugging tools to the Firefox Developer Tools.
+
+| https://addons.mozilla.org/en-US/firefox/addon/redux-devtools[Redux DevTools]
+| Redux Developer Tools for debugging application state changes.
+
+| https://addons.mozilla.org/en-US/firefox/addon/refined-github[Refined GitHub]
+| Simplifies the GitHub interface and adds useful features
+
+| https://addons.mozilla.org/en-US/firefox/addon/tab-image-saver[Tab Image Saver]
+| Save images from open tabs. 
+
+| https://addons.mozilla.org/en-US/firefox/addon/tabliss[Tabliss]
+| A beautiful New Tab page with many customisable backgrounds and widgets that does not require any permissions.
+
+| https://addons.mozilla.org/en-US/firefox/addon/ublock-origin[uBlock Origin]
+| Finally, an efficient blocker that consumes little processor power and memory.
+
+| https://addons.mozilla.org/en-US/firefox/addon/wappalyzer[Wappalyzer - Technology profiler]
+| Wappalyzer is a browser extension that uncovers the technologies used on websites. It detects content management systems, eCommerce platforms, web servers, JavaScript frameworks, analytics tools and many more.
+
+| https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new[Wayback Machine]
+| The Official Wayback Machine Extension - by the Internet Archive. 
+
+| https://addons.mozilla.org/en-US/firefox/addon/web-developer[Web Developer]
+| Adds a toolbar button with various web developer tools.
+
+
+|===
+
+
 === Security/Privacy Tools
 
 
