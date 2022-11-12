@@ -10,10 +10,10 @@ https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/st
 I know my way around Linux, Windows, IT, Programming and also try to grasp an understanding about most other things as well.
 
 In today's IT world there are a lot of patterns and software.
-My main concern and mantra is to keep the idea alive that one must not forget that https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*]-
+My main concern and mantra is to keep the idea alive that one must not forget that https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*] -
 This applies to computer systems, computer networks, communication patterns/flows, and everything else as well.
-One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the new software and things actually (mostly just only) do at the principled level, but the important thing is that it is still possible and that
-_it's all still just some sand that we tricked into doing things through the use of electricity passing through a complex pattern of logic gates - Nothing more!_
+One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the new software and things actually (mostly just only) do at the principled level, but the important thing is that it is still possible.
+_It's all still just some sand that we tricked into doing things through the use of electricity passing through a complex pattern of logic gates - Nothing more!_
 
 I like Software that does one thing very awesomely (not necesarrily one thing _only_ - i don't use Arch btw).
 
