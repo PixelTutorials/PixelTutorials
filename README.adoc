@@ -29,10 +29,10 @@ __In other words__, I https://www.stilldrinking.org/programming-sucks[thankfully
 Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
 
 ⛳ Hobbies and Interests::
-Programming, Linux, Planning things, Cooking, Light Sports, Watching Movies with Friends
+Cooking, Watching Movies with Friends, Programming / Linux / IT News, Keeping a clean and organized home and setup
 
 🔝 Current Primary Fascinations::
-Ansible Automation and CI/CD (because its Awesome), Cooking (because I have a apartment and lots of services to pay ;) )
+Ansible Automation and CI/CD (because its Awesome), Cooking (I spend too much on other things ;))
 
 📍 Location::
 EU, Austria, Vorarlberg (CET +1 hour)
