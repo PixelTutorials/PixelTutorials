@@ -397,7 +397,7 @@ Vivaldi has a very intersting tab group tiling feature.
 | Simplifies the GitHub interface and adds useful features
 
 | https://addons.mozilla.org/en-US/firefox/addon/tab-image-saver[Tab Image Saver]
-| Save images from open tabs. 
+| Save images from open tabs.
 
 | https://addons.mozilla.org/en-US/firefox/addon/tabliss[Tabliss]
 | A beautiful New Tab page with many customisable backgrounds and widgets that does not require any permissions.
@@ -409,7 +409,7 @@ Vivaldi has a very intersting tab group tiling feature.
 | Wappalyzer is a browser extension that uncovers the technologies used on websites. It detects content management systems, eCommerce platforms, web servers, JavaScript frameworks, analytics tools and many more.
 
 | https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new[Wayback Machine]
-| The Official Wayback Machine Extension - by the Internet Archive. 
+| The Official Wayback Machine Extension - by the Internet Archive.
 
 | https://addons.mozilla.org/en-US/firefox/addon/web-developer[Web Developer]
 | Adds a toolbar button with various web developer tools.
