@@ -21,8 +21,8 @@ I like Software that does one thing very awesomely (not necesarrily one thing _o
 I like to place a high value on adherence to
 http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions],
 documentation, and structured problem analyzation.
-__In other words__, I https://www.stilldrinking.org/programming-sucks[thankfully] can and do still live in and with this dream world ✌️.
-// because of my lack in experience working on more real projects with more real people in a more real/defined field ✌️.
+__In other words__, I https://www.stilldrinking.org/programming-sucks[thankfully] can and do still live in and with this dream world 🙂.
+// because of my lack in experience working on more real projects with more real people in a more real/defined field 🙂.
 
 📺 Favourite Series::
 Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
