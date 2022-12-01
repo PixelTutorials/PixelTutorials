@@ -111,7 +111,7 @@ Other::
 
 
 | https://www.jetbrains.com/idea/[Jetbrains' *IntelliJ IDEA*]
-| *My favorite IDE for Java/Web-Development.*
+| *My favorite IDE for Java-Development or when I need to go real and am not out of money :).*
 
 https://stackshare.io/JonasPammer/decisions/108521050744396979[
 image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
