@@ -46,7 +46,7 @@ Language Support / IntelliSense Extensions::
 ** https://marketplace.visualstudio.com/items?itemName=ms-python.python[Python]
 ** https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja[Jinja]
 ** https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django[Django]
-** https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode[Visual Studio IntelliCode  -- AI-assisted development
+** https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode[Visual Studio IntelliCode]
 ** Python Environment Manager
 ** https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring[*Python Docstring Generator*]
 ** https://marketplace.visualstudio.com/items?itemName=wwm.better-align[Python Indent]
