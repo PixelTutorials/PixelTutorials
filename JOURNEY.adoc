@@ -20,8 +20,10 @@ I soon bought a VPS running GNU/Linux Debian on which I installed and managed my
 it was more cost effective and learning new stuff is always fun.
 SSH, PuTTY, screen, FileZilla, IP, DNS, ..? All very intriguing
 
-I made dozens of Minecraft Hack Clients - the first ones being blank copies of Videos from youtube,
-and the lasts ones being big rewrites of rewrites implementing my own frameworks, systems, menus, functionality and mods.
+A big step that got me into programming and understanding things was creating dozens of Minecraft hack clients.
+The first ones were just blank copies of videos from Youtube,
+but the last ones were big rewrites of rewrites that contained my own frameworks, systems, menus, functions and mods
+into which I put hours of debugging -even if it was all done to a poor standard and no real programming/design pattern knowledge.
 
 == It's 2017.
 I knew that my overall interest in IT was very strong, and I wanted to continue doing what I was doing
