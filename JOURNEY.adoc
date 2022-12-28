@@ -31,10 +31,8 @@ because I enjoyed it and it was all so fascinatingly logical.
 I knew I wanted to be a Software Engineer (or similiar) and thus **study** Informatics. +
 But I also knew that my basic knowledge of some things was only based on a few crappy YouTube videos
 and that this dream would require a lot of concentration and effort.
-To add salt to Injury I also didn't have good grades because I literally neglected all my homework,
-even though I was one of the best students in the class (especially in math and English / except for Geography or History ;) ).
-Note though that my school was very ground level as far as education goes
-(not even things like log/sin/cos/e were teached. the best it got was like function theorem).
+// Note though that my school was very ground level as far as education goes
+// (not even things like log/sin/cos/e were teached. the best it got was like function theorem).
 
 I decided to do an additional voluntary year in a school that focuses on
 helping young people get an education in form of apprenticeship in one year.
