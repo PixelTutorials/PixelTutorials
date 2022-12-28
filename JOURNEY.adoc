@@ -38,16 +38,14 @@ I decided to do an additional voluntary year in a school that focuses on
 helping young people get an education in form of apprenticeship in one year.
 I got a taste of many professions, learned the basics of electrical engineering and job applications.
 
-#I bought a https://www.udemy.com/course/cpp-bootcamp[C++ Bootcamp Videocourse Series on Udemy],#
-#which was one of the best investments of my life.#
+**I bought a https://www.udemy.com/course/cpp-bootcamp[C++ Bootcamp Videocourse Series on Udemy],**
+**which was one of the best investments of my life.**
 I re-learned Java through a Book on it and a Dive into Design Patterns
 (We're still talking about self-taught Java without any real applications here, to remind you).
 I joined a small Arduino course which got me to apply and show-off my knowledge and help others.
+I had an online friend (which later went on to study Mathematics) which I was able to ask to help explain to me many intriguing questions I had while I was digging through my C++ course which helped me a lot.
 
 == It's 2018
-My people skills were low, my expressions in writing snooty
-and my appearance anything but appealing, which I can still fully confirm today.
-Although I was initially rejected by all offers, +
 I managed to show-off on the internship trial day at one of the last companies still looking for apprenticeships for that year.
 
 Although I arrived at the vocational school 3 months late,
