@@ -7,13 +7,13 @@ https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/st
 
 == About Me
 
-I know my way around Linux, Windows, IT, programming and 
+I know my way around Linux, Windows, IT, programming and
 generally like to always try to understand most of the things I stumble across every day.
 
 In today's IT world there are a lot of patterns and software.
 My mantra is to never forget that https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*] --
 // - This applies to computer systems, computer networks, communication patterns/flows, and everything else as well.
-// One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the [new] software and things actually 
+// One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the [new] software and things actually
 // (mostly just only) do, but the important thing is that it is still of course possible.
 _It is still all just sand that we tricked into thinking by arranging it in complex logical patterns through which electricity paths its way in a very fast way._
 
