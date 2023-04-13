@@ -38,14 +38,14 @@ I decided to do an additional voluntary year in a school that focuses on
 helping young people get an education in form of apprenticeship in one year.
 I got a taste of many professions, learned the basics of electrical engineering and job applications.
 
-**I bought a https://www.udemy.com/course/cpp-bootcamp[C++ Bootcamp Videocourse Series on Udemy],**
+**I bought a https://www.udemy.com/course/cpp-bootcamp[CPP Bootcamp Videocourse Series on Udemy*]**,
 **which was one of the best investments of my life.**
 I re-learned Java through a Book on it and a Dive into Design Patterns
 (We're still talking about self-taught Java without any real applications here, to remind you).
 I joined a small Arduino course which got me to apply and show-off my knowledge and help others.
 I had an online friend (which later went on to study Mathematics) which I was able to ask to help explain to me many intriguing questions I had while I was digging through my C++ course which helped me a lot.
 
-== It's 2018
+== It's 2018-2022
 I managed to show-off on the internship trial day at one of the last companies still looking for apprenticeships for that year.
 
 Although I arrived at the vocational school 3 months late,
@@ -63,12 +63,14 @@ I got to embrace OSS.
 I planned, developed, managed and deployed various company-internal applications from the ground up all by myself.
 The first was a proof-of-concept app for booking meals
 (probably to test if I really have the knowledge and spirit of a full stack'er)
-and one of the last being a freight cost tracker or a tool for validating server racks.
-I also introduced many new things to the company, such as an actually maintained and useful wiki
+and one of the last being a freight cost tracker
+as well as a tool for validating server racks.
+I also introduced many new things to the company, 
+such as an actually maintained and useful wiki
 and a revised network documentation and monitoring.
 
-I was interested in everything, constantly asking friends at school what they were doing
-and was interested in what and how big companies make things happen.
+I was interested in everything, constantly asking friends at school
+what they were doing and interested in how big companies make things happen.
 
 == It's in README.adoc
 
