@@ -1,9 +1,12 @@
 = Applications I use
 :toc:
+:toc-placement!:
 
 Applications I almost use often are in bold. +
 Applications I almost never really use are at the end of tables and in italic. +
 Applications I no longer use are striked through.
+
+toc::[]
 
 == Programming
 === Editors
