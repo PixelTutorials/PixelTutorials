@@ -31,6 +31,7 @@ GUI::
 * https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm[SVN]
 * https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub[*GitHub Remote Repositories*]
 * https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github[GitHub Pull Requests]
+* https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions[Github Actions]
 * https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow[GitLab Workflow]
 * https://marketplace.visualstudio.com/items?itemName=humao.rest-client[REST Client]
 * https://marketplace.visualstudio.com/items?itemName=mutantdino.resourcemonitor[Resource Monitor]
