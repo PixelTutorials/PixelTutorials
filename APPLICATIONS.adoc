@@ -33,6 +33,7 @@ GUI::
 * https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github[GitHub Pull Requests]
 * https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow[GitLab Workflow]
 * https://marketplace.visualstudio.com/items?itemName=humao.rest-client[REST Client]
+* https://marketplace.visualstudio.com/items?itemName=mutantdino.resourcemonitor[Resource Monitor]
 
 Editor Theming::
 * https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme[*GitHub VSCode Theme*]
