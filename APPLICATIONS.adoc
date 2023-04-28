@@ -78,6 +78,7 @@ In-Editor::
 * https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer[Excel Viewer]
 
 Auto Formatting::
+* https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig[EditorConfig]
 * https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode[Prettier]
 * https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format[shell-format]
 
