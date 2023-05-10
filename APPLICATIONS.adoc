@@ -127,8 +127,8 @@ C++ IDE which has all the Stuff which I like most about IntelliJ,
 | https://git-scm.com/[*Git*]
 | Favored Version Control System.
 
-Associated tools in use: 
-https://cli.github.com/[Official GitHub command line utility (`gh`)], 
+Associated tools in use:
+https://cli.github.com/[Official GitHub command line utility (`gh`)],
 https://git-lfs.com/[GitLFS]
 
 | https://www.draw.io/[*draw.io*]
@@ -222,8 +222,8 @@ Vivaldi has a very intersting tab group tiling feature.
 (may switch to self-hosted one in 2024+)
 
 | https://addons.mozilla.org/en-US/firefox/addon/wappalyzer[*Wappalyzer* - Technology profiler]
-| Wappalyzer is a browser extension that uncovers the technologies used on websites. 
-It detects content management systems, eCommerce platforms, web servers, 
+| Wappalyzer is a browser extension that uncovers the technologies used on websites.
+It detects content management systems, eCommerce platforms, web servers,
 JavaScript frameworks, analytics tools and many more.
 *The most cool extension.*
 
@@ -271,7 +271,7 @@ of potential browser compatibility issues, using data from MDN
 | Declutters the Twitter web experience
 
 | https://addons.mozilla.org/en-US/firefox/addon/flagfox[Flagfox]
-| Niche little extension to show the country of the current urls' web server 
+| Niche little extension to show the country of the current urls' web server
 right in the address bar
 
 | https://addons.mozilla.org/en-US/firefox/addon/print-edit-we[_Print Edit WE_]
@@ -323,9 +323,9 @@ link:about:profiles[Firefox Profiles]
 | Program | Usage
 | https://discordapp.com/[*Discord*]
 |
-Discord is the ultimate cross-platform community chat application for text, 
-video, and voice communication, with a whopping 250+ million users worldwide. 
-It's like the best of Skype and TeamSpeak³ combined, 
+Discord is the ultimate cross-platform community chat application for text,
+video, and voice communication, with a whopping 250+ million users worldwide.
+It's like the best of Skype and TeamSpeak³ combined,
 but without any cost and available on every platform,
 and dozens of other brand-new features.
 Everyone can create his own community server, totally for free with a lot of
@@ -334,9 +334,9 @@ settings, permissions, groups, bots, and much more.
 .Disclaimer
 [NOTE]
 However, it's essential to keep in mind that while Discord is an excellent communication tool,
-it may not be the most secure chatting application out there. 
-It's important to treat every message and chat with caution, 
-knowing that anyone could potentially screenshot and read it. 
+it may not be the most secure chatting application out there.
+It's important to treat every message and chat with caution,
+knowing that anyone could potentially screenshot and read it.
 So, be mindful of the content you share and who you communicate with on the platform.
 
 | Outlook
@@ -379,9 +379,9 @@ Started using it when i started to make pictures for adhoc documentation.
 |
 FortiExplorer allows one to have access to the FortiOS setup wizard, Web-based
 Manager, and a simulated CLI console by connecting the PC to a older Fortinet
-Device (e.g. FortiWifi-30D) that has a USB-AB Port. 
-It's a standalone Application that also installs some brand-own drivers. 
-It was discontinued in 2016 but is still available for download on their 
+Device (e.g. FortiWifi-30D) that has a USB-AB Port.
+It's a standalone Application that also installs some brand-own drivers.
+It was discontinued in 2016 but is still available for download on their
 Support Website (Login needed).
 
 |https://www.rainmeter.net/[_+++<del>Rainmeter</del>+++_]
@@ -418,7 +418,7 @@ image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stacksh
 | https://github.com/jimradford/superputty/releases[SuperPuTTY]
 |
 Wrapper for PuTTY in which one can maintain multiple SSH/RDP-Sessions in one window.
-This tool simplifies the process of saving connections 
+This tool simplifies the process of saving connections
 and provides a more streamlined experience to do so.
 Each Session is represented by a Tab.
 
@@ -430,9 +430,9 @@ image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stacksh
 
 | https://ttssh2.osdn.jp/index.html.en[TeraTerm]
 |
-TeraTerm is a console application that simplifies the process of 
-"does my console cable work / which COM port is it" 
-by providing a clear display of all detected serial cables 
+TeraTerm is a console application that simplifies the process of
+"does my console cable work / which COM port is it"
+by providing a clear display of all detected serial cables
 and allowing for easy selection via a convenient drop-down menu
 even displaying the detected name given by the driver.
 
@@ -450,8 +450,8 @@ and steps an individual packet goes through - on each Layer - and see
 why something (doesnt) work), etc...
 
 | https://nmap.org/[*nmap*]
-| 
-Free and open source portable utility for network discovery 
+|
+Free and open source portable utility for network discovery
 and (through the use of nmap scripts) security auditing.
 
 | https://www.wireshark.org/[Wireshark]
@@ -478,7 +478,7 @@ https://github.com/gcla/termshark[termshark]
 | Cloud-based Secret/Credentials Manager
 
 | https://nordvpn.com/[NordVPN]
-| 
+|
 Public VPN service available for all Platforms;
 Honestly bought it for its cheap 5-years deal and immense advertising somehow convinced me.
 

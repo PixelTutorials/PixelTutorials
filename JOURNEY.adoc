@@ -65,7 +65,7 @@ The first was a proof-of-concept app for booking meals
 (probably to test if I really have the knowledge and spirit of a full stack'er)
 and one of the last being a freight cost tracker
 as well as a tool for validating server racks.
-I also introduced many new things to the company, 
+I also introduced many new things to the company,
 such as an actually maintained and useful wiki
 and a revised network documentation and monitoring.
 
