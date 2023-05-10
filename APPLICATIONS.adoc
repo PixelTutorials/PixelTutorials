@@ -2,7 +2,7 @@
 :toc:
 :toc-placement!:
 
-Applications I almost use often are in bold. +
+Applications I use very often are in bold. +
 Applications I almost never really use are at the end of tables and in italic. +
 Applications I no longer use are striked through.
 
@@ -125,17 +125,11 @@ C++ IDE which has all the Stuff which I like most about IntelliJ,
 |===
 | Program | Usage
 | https://git-scm.com/[*Git*]
-| Favored Version Control System
+| Favored Version Control System.
 
-| https://subversion.apache.org/[_SVN (Subversion)_]
-| Version Control System (VCS) used by my current company
-
-| https://www.smartsvn.com/[*SmartSVN*]
-|
-The only sane way one can use SVN without headaches.
-Awesome License-Plan: Buy it one time, have it forever -
-Only need to buy a new License if one wants to use a version
-that comes out 2 years later after current version.
+Associated tools in use: 
+https://cli.github.com/[Official GitHub command line utility (`gh`)], 
+https://git-lfs.com/[GitLFS]
 
 | https://www.draw.io/[*draw.io*]
 |
@@ -144,6 +138,25 @@ Works on every Computer, even in the Web.
 
 https://stackshare.io/JonasPammer/decisions/108572592002597404[
 image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+
+| https://www.docker.com/products/docker-desktop/[*Docker Desktop*]
+| Easy way of installing and managing Docker for easy graphical home use
+
+| https://www.vagrantup.com/[Vagrant]
+| Vagrant enables the creation and configuration of lightweight, reproducible, and portable virtual machine environments.
+
+| https://www.vmware.com/products/workstation-pro.html[VMWare Workstation Pro]
+| de-facto industry standard desktop hypervisor for IT professionals
+
+| https://subversion.apache.org/[_SVN (Subversion)_]
+| Version Control System (VCS) used by my current company
+
+| https://www.smartsvn.com/[SmartSVN]
+|
+The only sane way one can use SVN without headaches.
+Awesome License-Plan: Buy it one time, have it forever -
+Only need to buy a new License if one wants to use a version
+that comes out 2 years later after current version.
 
 | https://www.apachefriends.org/[_XAMPP_]
 |
@@ -336,6 +349,10 @@ I especially like it for its Export-to-File Functionality.
 | https://getgreenshot.org/downloads/[*Greenshot*]
 | Easy go-to screenshot tool for windows.
 
+| https://www.screentogif.com/[ScreenToGif]
+| Easily Record and Export a selected part of the screen.
+Windows-Replacement for Peek.
+
 | https://www.qoppa.com/pdfstudio/de/[Qoppa's PDFStudio PRO]
 |
 THE BEST PDF Editing Software, available for all major OS (Java Application)!
@@ -390,6 +407,9 @@ My Widget-Packs:
 | https://filezilla-project.org/[*FileZilla*]
 | Favored, customizeable and widely-used FTP-Client (File-Transfer Protocol)
 
+| WinSCP
+| FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer application
+
 | https://www.putty.org/[*PuTTY*]
 |
 https://stackshare.io/JonasPammer/decisions/108493381948748350[
@@ -430,8 +450,9 @@ and steps an individual packet goes through - on each Layer - and see
 why something (doesnt) work), etc...
 
 | https://nmap.org/[*nmap*]
-| Free and open source portable utility for network discovery and 
-(through the use of nmap script) security auditing.
+| 
+Free and open source portable utility for network discovery 
+and (through the use of nmap scripts) security auditing.
 
 | https://www.wireshark.org/[Wireshark]
 |
@@ -443,6 +464,9 @@ enterprises, government agencies, and educational institutions.
 
 Terminal User Interface (TUI) Alternative:
 https://github.com/gcla/termshark[termshark]
+
+| https://github.com/c0re100/qBittorrent-Enhanced-Edition#readme[qBittorrent Enhanced Edition]
+| Although not often used it's nice to have a torrent client for some heavy load ocassions.
 |===
 
 === Security/Privacy Tools
@@ -451,15 +475,19 @@ https://github.com/gcla/termshark[termshark]
 |===
 | Program | Usage
 | https://1password.com/[*1Password*]
-| Favored Login/Password Manager.
+| Cloud-based Secret/Credentials Manager
 
 | https://nordvpn.com/[NordVPN]
-| VPN available for all Platforms.
+| 
+Public VPN service available for all Platforms;
 Honestly bought it for its cheap 5-years deal and immense advertising somehow convinced me.
 
 | Windows Defender
 | Favored Antivirus for Windows.
 Bitdefender if i need to go real otherwise.
+
+| https://keepass.info/[*KeePass*]
+| File-based Password Manager
 |===
 
 === Computer Management Utilities
@@ -474,18 +502,27 @@ Nowadays replaced by the official `winget`.
 | https://www.duplicatecleaner.com[*Duplicate Cleaner Pro*]
 | BEST Duplicate Cleaning Application
 
-| https://www.ccleaner.com/[CCleaner]
-| Computer and Registry Cleaner (Used on rare occasions).
+| https://windirstat.net/[*WinDirStat*]
+| Disk Usage Statistics Viewer (treemap)
 
 | https://crystalmark.info/en/software/crystaldiskmark/[*CrystalDiskMark*]
 | Disk Perfomance Benchmark
 (Can also benchmark my NAS with the feature to select a specific Folder).
+
+| https://www.ccleaner.com/[CCleaner]
+| Computer and Registry Cleaner (Used on rare occasions).
 
 | https://www.hwinfo.com/download/[HWINFO]
 | "Advanced System Monitoring Utility". Use case of mine is to measure Temperatures.
 
 |https://consumer.huawei.com/en/support/hisuite/[HiSuite]
 | Used to backup and restore all files and settings off of my Huawei Smartphone.
+
+| https://www.oo-software.com/en/shutup10[ShutUp10]
+| Free antispy tool to change many Windows settings to a more sane suite of values at the click of a button.
+
+| https://learn.microsoft.com/en-us/windows/powertoys/[Microsoft PowerToys]
+| Extends Windows with many Microsoft-made power user capabilities
 
 | https://crystalmark.info/en/software/crystaldiskinfo/[_CrystalDiskInfo_]
 | De-facto Disk Information Reader
@@ -512,7 +549,7 @@ and to check if it was Power-Throtteling.
 2023: No longer have a Razer computer and will never buy one again.
 |===
 
-=== Games
+=== Gaming
 
 [cols="a,a"]
 |===
@@ -583,15 +620,22 @@ at the cost of the mentioned material-value)
 Official Software needed to connect my Oculus Quest headset
 to the "power" of the computer over USB
 in order to essentially make it a Oculus Rift headset.
+
+| https://www.nvidia.com/de-at/geforce/geforce-experience/[NVIDIA Geforce Experience]
+| Used for Instant Replay functionality; eases GPU driver updates
+
 |===
 
-=== _Image Flashers_
+=== Other
 
 [cols="a,a"]
 |===
 | Program | Usage
+| NanaZip
+| Modern Fork of 7-Zip
+
 | https://rufus.ie/[Rufus]
-| Windows-Only Image Flasing Utility for USB.
+| Most well-known USB Image Flasing Utility for Windows.
 
 | https://www.balena.io/etcher/[Balena's Etcher]
 | Cross-Plattform (https://electronjs.org/[Electron.js]) Image Flashing Utility
