@@ -351,18 +351,6 @@ All-in-one Graphic Design, Screen Capture Software, Image Editor,
 Color Picker, Pixel Ruler and More.
 Started using it when i started to make pictures for adhoc documentation.
 
-| https://github.com/phw/peek[Peek]
-|
-Peek makes it easy to create short screencasts of a screen area.
-It was built for the specific use case of recording screen areas, e.g. for
-easily showing UI features of your own apps or for showing a bug in bug reports.
-With Peek, you simply place the Peek window over the area you
-want to record and press "Record". Peek is optimized for generating
-animated GIFs, but you can also directly record to WebM or MP4 if you prefer.
-
-Only works with Linux in combination with X11
-(Wayland support might be added. it got lots of stars and is open source).
-
 | https://sourceforge.net/projects/sagethumbs/[Sagethumbs 2]
 | Program which extends the Preview-Icon-Functionality of Windows's Explorer with
   an enormous amount of formats (e.g. Photoshop Files).
@@ -432,14 +420,6 @@ https://stackshare.io/JonasPammer/decisions/108493381948748350[
 image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
 (links to same as PuTTY)
 
-| https://remmina.org[Remmina]
-| *RDP*, *VNC*, NX, XDMCP, *SPICE* and *SSH*-Client for POSIX Systems.
-
-https://stackshare.io/JonasPammer/decisions/108493381948748350[
-image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
-(links to same as PuTTY)
-
-| Program | Usage
 | https://www.netacad.com/courses/packet-tracer[*Cisco Packet Tracer*]
 |
 Powerful networking simulation tool.
@@ -619,4 +599,26 @@ for SD-Cards as well as USB.
 
 | https://www.microsoft.com/de-de/software-download/windows10[Windows Media Creation Tool]
 | Microsoft's Official Tool to download or burn Windows 10.
+|===
+
+
+== Linux
+
+[cols="a,a"]
+|===
+| https://remmina.org[Remmina]
+| *RDP*, *VNC*, NX, XDMCP, *SPICE* and *SSH*-Client for POSIX Systems.
+
+https://stackshare.io/JonasPammer/decisions/108493381948748350[
+image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+(links to same as PuTTY)
+
+| https://github.com/phw/peek[Peek]
+|
+Peek makes it easy to create short screencasts of a screen area.
+It was built for the specific use case of recording screen areas, e.g. for
+easily showing UI features of your own apps or for showing a bug in bug reports.
+With Peek, you simply place the Peek window over the area you
+want to record and press "Record". Peek is optimized for generating
+animated GIFs, but you can also directly record to WebM or MP4 if you prefer.
 |===
