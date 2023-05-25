@@ -91,9 +91,9 @@ function SetupPowershellProfile() {
 function ConfigureGit() {
   Show-Output "Changing max-cache-ttl in gpg-agent.conf..."
   # (assigning to a variable to make output silent)
-  $null = New-Item -Force -Path ~\.gnupg\ -ItemType Directory
-  Set-Content -Path ~\.gnupg\gpg-agent.conf -Value "default-cache-ttl 86400$([System.Environment]::NewLine)max-cache-ttl 86400"
+  Set-Content -Path "${env:APPDATA}\gnupg\gpg-agent.conf" -Value "default-cache-ttl 86400$([System.Environment]::NewLine)max-cache-ttl 86400"
   gpgconf.exe --reload gpg-agent
+  # Verify with: gpgconf.exe --list-options gpg-agent
 
   Show-Output "Executing commands to alter git config..."
   $gpg_program = $(Get-Command gpg | Select-Object source)
