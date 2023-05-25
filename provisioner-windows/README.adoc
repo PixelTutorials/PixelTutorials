@@ -1,0 +1,5 @@
+Attributions:
+
+https://github.com/AgenttiX/windows-scripts (Powershell Goodies)::
+MIT License (c) 2020-2023 Mika Mäki
+
