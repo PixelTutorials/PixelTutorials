@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "applications": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Application" }
+    }
+  },
+  "$defs": {
+    "Application": {
+      "type": "object",
+      "required": [
+        "display_name",
+        "category",
+        "status"
+      ],
+      "properties": {
+        "display_name": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string",
+          "description": "Used to hyperlink the display_name is Asciidoc."
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+              "Programming",
+              "Programming / Editors",
+              "Programming / General Programs",
+              "Programming / Programming Languages",
+              "Web / Browsers",
+              "Windows",
+              "Windows / Networking Tools",
+              "Windows / Security/Privacy Tools",
+              "Windows / Computer Management Utilities",
+              "Windows / Gaming",
+              "Windows / Other",
+              "Uninstall"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["daily-driver", "normal", "adhoc", "eh", "not-used"]
+        },
+        "provider": {
+          "type": "string",
+          "enum": ["winget", "chocolatey"]
+        },
+        "winget_id": {
+          "type": "string"
+        },
+        "winget_scope": {
+          "type": ["string", "null"],
+          "enum": ["machine", "user", null]
+        },
+        "chocolatey_name": {
+          "type": "string"
+        },
+        "description_short": {
+          "type": "string",
+          "description": "Displayed in script. Should denote generic purpose in few words."
+        },
+        "description_full": {
+          "type": ["string", "null"],
+          "description": "Inserted into Asciidoc. Recommended to put last as may be long."
+        }
+      }
+    }
+  }
+}
