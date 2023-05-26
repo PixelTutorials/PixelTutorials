@@ -37,12 +37,15 @@
               "Windows / Computer Management Utilities",
               "Windows / Gaming",
               "Windows / Other",
-              "Uninstall"
+              "Bloat"
           ]
         },
         "status": {
           "type": "string",
           "enum": ["daily-driver", "normal", "adhoc", "eh", "not-used"]
+        },
+        "uninstall": {
+          "type": "boolean"
         },
         "provider": {
           "type": "string",

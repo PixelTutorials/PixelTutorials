@@ -313,7 +313,7 @@ applications:
     winget_scope: machine
     description_short: Software for Code-defined software development environment VMs
     description_full: |
-      Vagrant enables the creation and configuration of lightweight, 
+      Vagrant enables the creation and configuration of lightweight,
       reproducible, and portable virtual machine environments.
 
   - display_name: "Hashicorp Terraform"
@@ -429,7 +429,7 @@ applications:
     winget_id: Anaconda.Anaconda3
     winget_scope: machine
     description_full: |
-      Python Programming in Form of interactive Step-by-Step Notebooks 
+      Python Programming in Form of interactive Step-by-Step Notebooks
       (apparently loved by Data Scienticts)
 
   ### Web / Browsers
@@ -535,7 +535,7 @@ applications:
     winget_scope: machine
     description_short: Professional Photo Management Software
     description_full: |
-      light-weight (uses flat-file sqlite db for caching); 
+      light-weight (uses flat-file sqlite db for caching);
       has Face Recognizition ability
 
   - display_name: "Greenshot"
@@ -816,7 +816,7 @@ applications:
     description_short:
     description_full: |
       Paid Public VPN service available for all Platforms;
-      Honestly bought it for its cheap 5-years deal 
+      Honestly bought it for its cheap 5-years deal
       and immense advertising somehow convinced me.
 
   - display_name: "Windows Defender"
@@ -900,7 +900,7 @@ applications:
     winget_scope: machine
     description_short: Hardware Monitoring Tool
     description_full: |
-      "Advanced System Monitoring Utility". 
+      "Advanced System Monitoring Utility".
       Use case of mine is to measure Temperatures.
 
   - display_name: "HiSuite"
@@ -918,7 +918,7 @@ applications:
     winget_id: OO-Software.ShutUp10
     winget_scope: machine
     description_full: |
-      Free antispy tool to change many Windows settings to 
+      Free antispy tool to change many Windows settings to
       a more sane suite of values at the click of a button.
 
   - display_name: "Microsoft PowerToys"
@@ -969,8 +969,8 @@ applications:
     winget_id: Logitech.Options
     winget_scope: ~
     description_full: |
-      _If one is on Windows 10 and plugs in a Logitech Mouse, a pop-up 
-      (like the one known from most Antivirus Softwares) 
+      _If one is on Windows 10 and plugs in a Logitech Mouse, a pop-up
+      (like the one known from most Antivirus Softwares)
       appears which hints one to install this Software._
 
   - display_name: "Intel XTU"
@@ -1101,7 +1101,7 @@ applications:
     winget_id: Nvidia.GeForceExperience
     winget_scope: machine
     description_full: |
-      My main use-case is its Instant Replay functionality; 
+      My main use-case is its Instant Replay functionality;
       Also no longer need to worry about GPU driver installation and updates
 
   ## Other
@@ -1122,7 +1122,7 @@ applications:
     winget_id: Balena.Etcher # never tested
     winget_scope: machine # never tested
     description_full: |
-      Cross-Plattform (https://electronjs.org/[Electron.js]) 
+      Cross-Plattform (https://electronjs.org/[Electron.js])
       Image Flashing Utility for SD-Cards as well as USB.
 
   - display_name: "NanaZip"
@@ -1186,78 +1186,87 @@ applications:
 
   ### Uninstall
   - display_name: Skype
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: Microsoft.Skype
     winget_scope: machine
-    description_short:
 
   - display_name: Xbox
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: 9MV0B5HZVK9Z
     winget_scope: machine
 
   - display_name: Cortana
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: 9NFFX4SZZ23L
     winget_scope: machine
 
   - display_name: Disney+
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: 9NXQXXLFST89
     winget_scope: machine
 
   - display_name: Mail and Calendar
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: 9WZDNCRFHVQM
     winget_scope: machine
     description_short:
 
   - display_name: Microsoft News
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: 9WZDNCRFHVFW
     winget_scope: machine
     description_short:
 
   # - display_name: OneDrive
-  #   category: Uninstall
+  #   category: Bloat
   #   status: not-used
   #   winget_id: Microsoft.OneDrive
   #   winget_scope: machine
   #   description_short:
 
   - display_name: Microsoft Tips
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: 9WZDNCRDTBJJ
     winget_scope: machine
 
   - display_name: MSN Weather
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: 9WZDNCRFJ3Q2
     winget_scope: machine
 
   # - display_name: Movies & TV
-  #   category: Uninstall
+  #   category: Bloat
   #   status: not-used
   #   winget_id: 9WZDNCRFJ3P2
   #   winget_scope: machine
 
   - display_name: Spotify
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: Spotify.Spotify
     winget_scope: machine
     description_short: I use Youtube Music
 
   - display_name: Windows Maps
-    category: Uninstall
+    category: Bloat
+    uninstall: True
     status: not-used
     winget_id: 9WZDNCRDTBVB
     winget_scope: machine

@@ -18,52 +18,96 @@ Param(
   [switch]$Elevated
 )
 
+### Constants
+$UpdateAppsIfInstalled = $true
+
+
+### Init
 . ".\utils.ps1"
+Start-Transcript -Path "${LogsPath}\$($MyInvocation.MyCommand.Name)--$(Get-Date -Format "yyyy-MM-dd--HH_mm_ss").txt"
 Elevate($MyInvocation.MyCommand.Definition)
 
 
+### Functions
 function UpdateWindows() {
-  Show-Output "Update Windows and Reboot if necessary..."
-  Install-Module PSWindowsUpdate -Scope AllUsers -Confirm:$false -Force
-  Import-Module PSWindowsUpdate
+  Show-Output ">> Update Windows and Reboot if necessary."
+  Install-Module -Name PSWindowsUpdate -Scope AllUsers -Force
+  Import-Module -Name PSWindowsUpdate
   $updates = Get-WindowsUpdate -AcceptAll -AutoReboot -Install
   $rebootRequired = $updates.IsRebootRequired
   if ($rebootRequired) {
-    Show-Output "Reboot required because of update! Aborting..."
+    Show-Output "Reboot required because of update! Aborting script."
     # reboot with a warning (curiously not always initiated by above command):
     shutdown /r
+    Stop-Transcript
     exit 0
   }
-  Show-Output "No Reboot required because of update!"
-}
-
-function Install1PasswordCLI() {
-  # From https://developer.1password.com/docs/cli/get-started/
-  Write-Host ""
-  Show-Output "Installing 1Password CLI over PowerShell"
-  $arch = (Get-CimInstance Win32_OperatingSystem).OSArchitecture
-  switch ($arch) {
-    '64-bit' { $opArch = 'amd64'; break }
-    '32-bit' { $opArch = '386'; break }
-    Default { Write-Error "Sorry, your operating system architecture '$arch' is unsupported" -ErrorAction Stop }
-  }
-  $installDir = Join-Path -Path $env:ProgramFiles -ChildPath '1Password CLI'
-  Invoke-WebRequest -Uri "https://cache.agilebits.com/dist/1P/op2/pkg/v2.4.1/op_windows_$($opArch)_v2.4.1.zip" -OutFile op.zip
-  Expand-Archive -Path op.zip -DestinationPath $installDir -Force
-  $envMachinePath = [System.Environment]::GetEnvironmentVariable('PATH', 'machine')
-  if ($envMachinePath -split ';' -notcontains $installDir) {
-    [Environment]::SetEnvironmentVariable('PATH', "$envMachinePath;$installDir", 'Machine')
-  }
-  Remove-Item -Path op.zip
-  # Refresh PATH to get new `op` command
-  $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
+  Show-Output "No Reboot required, at least not because of update!"
 }
 
 function InstallAndUpdateApplications() {
-  # TODO re-implement
+  Show-Output ">> Install and Update Applications"
+  Install-Chocolatey
+  Install-Winget
+
+  Show-Output "Reading .\applications.yml"
+  Install-Module -Name powershell-yaml -Force
+  Import-Module -Name powershell-yaml
+  $_content = Get-Content -Raw ".\applications.yml"
+  $applicationsYAML = ConvertFrom-YAML -Ordered $_content
+
+  Show-Output "Updating all winget sources"
+  winget source update
+  Write-Host ""
+
+  ForEach ($app in $applicationsYAML.applications) {
+    #$app
+    Show-Output "-> Looping: " $app.display_name " (" $app.description_short ")"
+    if ($app.provider -eq "winget") {
+      $listApp = winget list  --accept-source-agreements --exact -q $app.winget_id
+      if (![String]::Join("", $listApp).Contains($app.winget_id) -And !$app.uninstall) {
+        # if ($app.interactive) {
+        #   Show-Output "[WINGET] --> Installing " $app.winget_id " in interactive mode..."
+        #   winget install --accept-source-agreements --accept-package-agreements --exact --id $app.winget_id --interactive --scope $app.winget_scope
+        # }
+        # else
+        if ($null -eq $app.winget_scope) {
+          Show-Output "--> Installing " $app.winget_id " in silent, non-interactive mode [ambigious scope]..."
+          winget install --accept-source-agreements --accept-package-agreements --exact --id $app.winget_id --silent
+        }
+        else {
+          Show-Output "--> Installing " $app.winget_id " in silent, non-interactive mode..."
+          winget install --accept-source-agreements --accept-package-agreements --exact --id $app.winget_id --silent --scope $app.winget_scope
+        }
+      }
+      else {
+        if ($app.uninstall) {
+          Show-Output "--> Uninstalling " $app.winget_id "..."
+          winget uninstall $app.winget_id
+        } elseif ($UpdateAppsIfInstalled){
+          Show-Output "--> Updating " $app.winget_id "..."
+          winget upgrade $app.winget_id
+        }
+      }
+    } elseif ($app.provider -eq "chocolatey") {
+      Show-Output "Installing " $app.chocolatey_name "..."
+      #choco feature enable -n=allowGlobalConfirmation#
+      choco install -y $app.chocolatey_name
+      #choco feature disable -n=allowGlobalConfirmation#
+    } else {
+      Show-Output "--> Application does not have an installation provider!"
+      if ([bool]($app.PSobject.Properties.name -match "link") -And ($app.link)){
+        Show-Output "--> Install/Download yourself at " $app.link
+      }
+      Write-Host ""
+      continue # don't show "done"
+    }
+    Write-Host ""
+  }
 }
 
 function SetupPowershellProfile() {
+  Show-Output ">> Setup Powershell Profile"
   ## PowerShell environment for Git (e.g. adds tab completion)
   Show-Output "Adding PoshGit to PowerShell Profile"
   Set-ExecutionPolicy RemoteSigned -Scope Process
@@ -89,6 +133,7 @@ function SetupPowershellProfile() {
 
 
 function ConfigureGit() {
+  Show-Output ">> Configure Git"
   Show-Output "Changing max-cache-ttl in gpg-agent.conf..."
   # (assigning to a variable to make output silent)
   Set-Content -Path "${env:APPDATA}\gnupg\gpg-agent.conf" -Value "default-cache-ttl 86400$([System.Environment]::NewLine)max-cache-ttl 86400"
@@ -148,6 +193,11 @@ function ConfigureGit() {
 }
 
 function RunBleachBit() {
+  <#
+  .NOTES
+      Has very verbose and long output.
+  #>
+  Show-Output ">> Run defined List of Bleachbit cleaners"
   $bleachbit_path_native = "${env:ProgramFiles}\BleachBit\bleachbit_console.exe"
   $bleachbit_path_x86 = "${env:ProgramFiles(x86)}\BleachBit\bleachbit_console.exe"
   $bleachbit_path = $bleachbit_path_native
@@ -378,11 +428,11 @@ function RunBleachBit() {
     #    "zoom.recordings"
   )
 
-  Show-Output "Run BleachBit cleaners..."
   & $bleachbit_path --clean $bleachbit_cleaners
 }
 
 function RunAntivirus() {
+  Show-Output ">> Run Antivirus"
   if (Test-CommandExists "Update-MpSignature") {
     Show-Output "Updating Windows Defender definitions. If you have another antivirus program installed, Windows Defender may be disabled, causing this to fail."
     Update-MpSignature
@@ -399,10 +449,14 @@ function RunAntivirus() {
   }
 }
 
+### Main
+#RunBleachBit
 UpdateWindows
-Install1PasswordCLI
-#InstallAndUpdateApplications
-SetupPowershellProfile
-ConfigureGit
-RunBleachBit
-RunAntivirus
+Install-1PasswordCLI
+InstallAndUpdateApplications
+#SetupPowershellProfile
+#ConfigureGit
+#RunAntivirus
+
+### End
+Stop-Transcript

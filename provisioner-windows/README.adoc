@@ -3,3 +3,5 @@ Attributions:
 https://github.com/AgenttiX/windows-scripts (Powershell Goodies)::
 MIT License (c) 2020-2023 Mika Mäki
 
+https://gist.github.com/dougwaldron/d510f2d67a922da169aca1aeff7e4c4d (Winget)::
+This got me started on my private pc-setup script back in 2022-03-02

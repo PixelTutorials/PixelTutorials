@@ -1,3 +1,11 @@
+### Constants
+$RepoPath = $PSScriptRoot
+New-Item -Path "$RepoPath" -Name "downloads" -ItemType "directory" -Force | Out-Null
+New-Item -Path "$RepoPath" -Name "logs" -ItemType "directory" -Force | Out-Null
+$DownloadsPath = "${RepoPath}\downloads"
+$LogsPath = "${RepoPath}\logs"
+
+### Functions
 function Show-Output() {
   Write-Host "[provisioner] $args" -BackgroundColor White -ForegroundColor Black
 }
@@ -70,6 +78,7 @@ function Elevate {
     }
     exit
   }
+  Show-Output "Running as Administrator!"
 }
 
 function Test-RebootPending {
@@ -109,4 +118,101 @@ function Test-RebootPending {
       return $false
     }
   }
+}
+
+function Update-PathEnvironmentVariable() {
+  <#
+  .LINK
+      https://stackoverflow.com/a/31845512/13953427
+  #>
+  # https://stackoverflow.com/questions/17794507/reload-the-path-in-powershell#comment70758762_31845512
+  if (Test-CommandExists "refreshenv"){
+    Show-Output "Refreshing PATH Environment Variable using 'refreshenv' function from chocolatey.."
+    refreshenv
+  } else {
+    Show-Output "Refreshing PATH Environment Variable.."
+    $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
+  }
+}
+
+function Install-Winget {
+  [OutputType([bool])]
+  Param()
+
+  if (Test-CommandExists "winget") {
+    Show-Output "Microsoft App Install command ('winget') exists, skipping installation."
+    return $true
+  }
+
+  if (Get-AppxPackage -Name "Microsoft.DesktopAppInstaller") {
+    Show-Output "App Installer seems to be installed on your system, but Winget was not found."
+    return $false
+  }
+
+  if (Get-AppxPackage -Name "Microsoft.WindowsStore") {
+    # https://stackoverflow.com/a/75334942/13953427
+    Show-Output "Downloading and installing latest release of winget from GitHub..."
+    $URL = "https://api.github.com/repos/microsoft/winget-cli/releases/latest"
+    $URL = (Invoke-WebRequest -Uri $URL).Content | ConvertFrom-Json |
+    Select-Object -ExpandProperty "assets" |
+    Where-Object "browser_download_url" -Match '.msixbundle' |
+    Select-Object -ExpandProperty "browser_download_url"
+
+    # Download $URL
+    Invoke-WebRequest -Uri $URL -OutFile "Setup.msix" -UseBasicParsing
+    # Install
+    Add-AppxPackage -Path "Setup.msix"
+    # Cleanup
+    Remove-Item "Setup.msix"
+
+    Update-PathEnvironmentVariable
+    return (Test-CommandExists "winget");
+  }
+  Show-Output "Cannot install App Installer, as Microsoft Store appears not to be installed. This is normal on servers. Winget will not be available."
+  return $false
+}
+
+function Install-Chocolatey() {
+  <#
+  .SYNOPSIS
+      Execute command as seen in https://chocolatey.org/install#individual if "choco" command does not exist.
+  #>
+  param(
+    [switch]$Force
+  )
+  if ($Force -Or (-Not (Test-CommandExists "choco"))) {
+    Show-Output "Installing the Chocolatey package manager by downloading and running official install script"
+    Set-ExecutionPolicy Bypass -Scope Process -Force
+    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+  }
+  # "Please use choco upgrade chocolatey to handle upgrades of Chocolatey itself."
+  Show-Output "Chocolatey command ('choco') exists. Upgrading chocolatey using chocolatey.."
+  choco upgrade chocolatey -y
+  Write-Host ""
+}
+
+function Install-1PasswordCLI() {
+  if (-Not (Test-CommandExists "op")){
+    # From https://developer.1password.com/docs/cli/get-started/
+    Show-Output "'Installing' 1Password CLI over PowerShell (Download / Unpack / Add to PATH).."
+    $arch = (Get-CimInstance Win32_OperatingSystem).OSArchitecture
+    switch ($arch) {
+      '64-bit' { $opArch = 'amd64'; break }
+      '32-bit' { $opArch = '386'; break }
+      Default { Write-Error "Sorry, your operating system architecture '$arch' is unsupported" -ErrorAction Stop }
+    }
+    $installDir = Join-Path -Path $env:ProgramFiles -ChildPath '1Password CLI'
+    Invoke-WebRequest -Uri "https://cache.agilebits.com/dist/1P/op2/pkg/v2.4.1/op_windows_$($opArch)_v2.4.1.zip" -OutFile op.zip
+    Expand-Archive -Path op.zip -DestinationPath $installDir -Force
+    $envMachinePath = [System.Environment]::GetEnvironmentVariable('PATH', 'machine')
+    if ($envMachinePath -split ';' -notcontains $installDir) {
+      [Environment]::SetEnvironmentVariable('PATH', "$envMachinePath;$installDir", 'Machine')
+    }
+    Remove-Item -Path op.zip
+
+    # Refresh PATH to get new `op` command
+    Update-PathEnvironmentVariable
+  }
+  Show-Output "1Password CLI command ('op') exists, skipping installation."
 }
