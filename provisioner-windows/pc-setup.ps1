@@ -453,13 +453,13 @@ function RunAntivirus() {
 }
 
 ### Main
-#RunBleachBit
+RunBleachBit
 UpdateWindows
 Install-1PasswordCLI
 InstallAndUpdateApplications
-#SetupPowershellProfile
-#ConfigureGit
-#RunAntivirus
+SetupPowershellProfile
+ConfigureGit
+RunAntivirus
 
 ### End
 Stop-Transcript
