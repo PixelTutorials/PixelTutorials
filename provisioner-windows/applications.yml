@@ -18,14 +18,6 @@ applications:
       https://cli.github.com/[Official GitHub command line utility (`gh`)],
       https://git-lfs.com/[GitLFS]
 
-  - display_name: "Github CLI"
-    category: Programming
-    status: daily-driver
-    provider: winget
-    winget_id: GitHub.cli
-    winget_scope: machine
-    description_short: GitHub on the command line (gh)
-
   - display_name: "Windows Terminal"
     link: https://github.com/microsoft/terminal
     category: Programming
@@ -98,8 +90,7 @@ applications:
     chocolatey_name: terraform
     description_short: Infrastructure as Code
 
-  - display_name: "Hashicorp Packer"
-    link: "https://github.com/hashicorp/packer"
+  - display_name: "Github CLI"
     category: Programming
     status: normal
     provider: chocolatey
@@ -113,6 +104,14 @@ applications:
     winget_id: GitHub.GitLFS
     winget_scope: machine
     description_short: Command line extension for managing large files with Git
+
+  - display_name: "Hashicorp Packer"
+    link: "https://github.com/hashicorp/packer"
+    category: Programming
+    status: normal
+    provider: chocolatey
+    chocolatey_name: packer
+    description_short: Used in combination with Terraform
 
   - display_name: "VMWare Workstation Pro"
     link: ""
