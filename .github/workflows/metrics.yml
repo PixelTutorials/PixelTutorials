@@ -16,13 +16,14 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_message: "chore: update metrics [skip ci]"
 
-          # Options
+          # configure base plugin:
           base: activity, metadata
+          # configure rendering options:
           config_timezone: Europe/Vienna
+
+          # enable/configure other plugins:
           plugin_stars: true
-          # TODO self host wakatime?
-          #  https://github.com/muety/wakapi
-          #  Found out about this thanks to https://github.com/lowlighter/metrics/blob/master/source/plugins/wakatime/README.md
-#          plugin_wakatime: true
-#          plugin_wakatime_url: https://wakatime.com
-#          plugin_wakatime_user: JonasPammer
+          plugin_habits: true
+          plugin_wakatime: true
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_user: JonasPammer
