@@ -524,6 +524,15 @@ applications:
     winget_scope: machine
     description_short: OBS-Studio plugin to simulate a directshow webcam
 
+  - display_name: "KDEenlive"
+    link: "https://kdenlive.org/"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: KDE.Kdenlive
+    winget_scope: machine
+    description_short: Free and Open Source Video Editor
+
   - display_name: "KDE Digikam"
     link: "https://www.digikam.org/"
     category: General
