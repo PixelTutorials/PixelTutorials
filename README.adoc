@@ -74,19 +74,19 @@ Below is an automatically generated overview of my GitHub profile, showing mostl
 (which may give somewhat of an indication of what I'm currently onto):
 +
 image::/github-metrics.svg[Metrics]
-+
-.Footnote on GitHub
-____
-I use GitHub as my primary version control and collaboration platform.
-
-I also sync my projects to a privately hosted GitLab instance.
-I do this mainly for archival purposes (GitHub is owned by Microsoft),
-but also to just try things out of course.
-
-Do note that I am currently in the process of refactoring every of my projects
-and also try to figure out new development schemes
-now that I'm fairly confident in the knowledge i posses
-____
+// +
+// .Footnote on GitHub
+// ____
+// I use GitHub as my primary version control and collaboration platform.
+//
+// I also sync my projects to a privately hosted GitLab instance.
+// I do this mainly for archival purposes (GitHub is owned by Microsoft),
+// but also to just try things out of course.
+//
+// Do note that I am currently in the process of refactoring every of my projects
+// and also try to figure out new development schemes
+// now that I'm fairly confident in the knowledge i posses
+// ____
 
 // === My knowledge in IT, a more in-depth Stack Overview
 
