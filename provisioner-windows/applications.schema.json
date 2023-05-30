@@ -28,15 +28,15 @@
           "enum": [
               "Programming",
               "Programming / Editors",
-              "Programming / General Programs",
+              "Programming",
               "Programming / Programming Languages",
               "Web / Browsers",
-              "Windows",
-              "Windows / Networking Tools",
-              "Windows / Security/Privacy Tools",
-              "Windows / Computer Management Utilities",
-              "Windows / Gaming",
-              "Windows / Other",
+              "General",
+              "Networking Tools",
+              "Security/Privacy Tools",
+              "Computer Management Utilities",
+              "Gaming",
+              "Other",
               "Bloat"
           ]
         },

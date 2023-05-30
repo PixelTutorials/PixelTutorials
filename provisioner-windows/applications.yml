@@ -2,6 +2,175 @@
 ---
 
 applications:
+  ### Programming
+  - display_name: "Git"
+    link: "https://git-scm.com/"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: Git.Git
+    winget_scope: machine
+    description_short: de-facto Version Control System
+    description_full: |
+      Favored Version Control System.
+
+      Associated tools in use:
+      https://cli.github.com/[Official GitHub command line utility (`gh`)],
+      https://git-lfs.com/[GitLFS]
+
+  - display_name: "Github CLI"
+  - display_name: "Windows Terminal"
+    link: https://github.com/microsoft/terminal
+    category: Programming
+    status: normal
+    provider: winget
+    winget_id: Microsoft.WindowsTerminal
+    winget_scope: machine
+    description_short: A modern, tabbed command line aggregator by Microsoft
+
+  - display_name: "Oh My POSH"
+    link: https://github.com/jandedobbeleer/oh-my-posh
+    category: Programming
+    status: normal
+    provider: winget
+    winget_id: JanDeDobbeleer.OhMyPosh
+    winget_scope: machine
+    description_short: Prompt theme engine for any shell (Compareable to oh-my-zsh or bash-it)
+
+  - display_name: "GnuPG.Gpg4win"
+    category: Programming
+    status: daily-driver # background
+    provider: winget
+    winget_id: GnuPG.Gpg4win
+    winget_scope: machine
+    description_short: GnuPG (encryption tool) for Windows
+
+  - display_name: "draw.io"
+    link: "https://www.draw.io/"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: JGraph.Draw
+    winget_scope: machine
+    description_short: Modern Diagramming Tool
+    description_full: |
+      The BEST and most multi-Purpose Diagramming Software in existence.
+      Works on every Computer, even in the Web.
+
+      https://stackshare.io/JonasPammer/decisions/108572592002597404[
+      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+
+  - display_name: "Docker Desktop"
+    link: "https://www.docker.com/products/docker-desktop/"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: Docker.DockerDesktop
+    winget_scope: machine
+    description_short: All-in-One OCI-Compliant Container Manager
+    description_full: |
+      Easy way of installing and managing Docker for easy graphical home use
+
+  - display_name: "Vagrant"
+    link: "https://www.vagrantup.com/"
+    category: Programming
+    status: normal
+    provider: winget
+    winget_id: Hashicorp.Vagrant
+    winget_scope: machine
+    description_short: Software for Code-defined software development environment VMs
+    description_full: |
+      Vagrant enables the creation and configuration of lightweight,
+      reproducible, and portable virtual machine environments.
+
+  - display_name: "Hashicorp Terraform"
+    link: "https://github.com/hashicorp/terraform"
+    category: Programming
+    status: normal
+    provider: chocolatey
+    chocolatey_name: terraform
+    description_short: Infrastructure as Code
+
+  - display_name: "Hashicorp Packer"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: GitHub.cli
+    winget_scope: machine
+    description_short: GitHub on the command line (gh)
+
+  - display_name: "Github LFS"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: GitHub.GitLFS
+    winget_scope: machine
+    description_short: Command line extension for managing large files with Git
+
+    link: "https://github.com/hashicorp/packer"
+    category: Programming
+    status: normal
+    provider: chocolatey
+    chocolatey_name: packer
+    description_short: Used in combination with Terraform
+
+  - display_name: "VMWare Workstation Pro"
+    link: ""
+    category: Programming
+    status: not-used
+    provider: winget
+    # winget_id: VMware.WorkstationPro
+    # winget_scope: machine
+    description_short: de-facto industry standard desktop hypervisor for IT professionals
+    description_full: |
+      no longer used since i now have an own server (again) running VMWare ESXi
+      and my PC isnt that strong anymore.
+
+  - display_name: "SVN (Subversion)"
+    link: "https://subversion.apache.org/"
+    category: Programming
+    status: not-used
+    provider: winget
+    winget_id: TortoiseSVN.TortoiseSVN
+    winget_scope: machine
+    description_short: Inferior Version Control System
+    description_full: |
+      Version Control System (VCS) used in one of my past companies
+
+  - display_name: "SmartSVN"
+    link: "https://www.smartsvn.com/"
+    category: Programming
+    status: eh
+    description_full: |
+      The only sane way one can use SVN without headaches.
+      Awesome License-Plan: Buy it one time, have it forever -
+      Only need to buy a new License if one wants to use a version
+      that comes out 2 years later after current version.
+
+  - display_name: "XAMPP"
+    link: "https://www.apachefriends.org/"
+    category: Programming
+    status: not-used
+    provider: winget
+    winget_id: ApacheFriends.Xampp.8.2 # never tested
+    winget_scope: machine # never tested
+    description_full: |
+      Easily installable https://de.wikipedia.org/wiki/LAMP_(Softwarepaket)[LAMP]-Stack
+      (**C**ross Plattform, **A**pache Webserver, **M**ariaDB, **P**erl und **P**HP)
+      with phpMyAdmin.
+
+  - display_name: "JDGUI"
+    link: "http://java-decompiler.github.io/"
+    category: Programming
+    status: eh
+    provider: chocolatey # never tested
+    chocolatey_name: javadecompiler-gui
+    description_full: |
+      Fast, Standalone, Open-Source Java-Decompiler with many nice features
+      (Drag and Drop, supports CLASS/JAR/WAR/EAR/ZIP-files,
+      color-coded preview of decompiled source-code with class-hierarchy, ...).
+      Available for any OS (Java/Groovy-Program).
+
   ### Programming / Editors
   - display_name: "Visual Studio Code"
     link: "https://code.visualstudio.com/"
@@ -220,176 +389,6 @@ applications:
       (Primarily used out of convinience to be able to completely
       follow along with most C related Tutorials)
 
-  ### Programming / General Programs
-  - display_name: "Git"
-    link: "https://git-scm.com/"
-    category: Programming / General Programs
-    status: daily-driver
-    provider: winget
-    winget_id: Git.Git
-    winget_scope: machine
-    description_short: de-facto Version Control System
-    description_full: |
-      Favored Version Control System.
-
-      Associated tools in use:
-      https://cli.github.com/[Official GitHub command line utility (`gh`)],
-      https://git-lfs.com/[GitLFS]
-
-  - display_name: "Github CLI"
-    category: Programming / General Programs
-    status: daily-driver
-    provider: winget
-    winget_id: GitHub.cli
-    winget_scope: machine
-    description_short: GitHub on the command line (gh)
-
-  - display_name: "Github LFS"
-    category: Programming / General Programs
-    status: daily-driver
-    provider: winget
-    winget_id: GitHub.GitLFS
-    winget_scope: machine
-    description_short: Command line extension for managing large files with Git
-
-  - display_name: "Windows Terminal"
-    link: https://github.com/microsoft/terminal
-    category: Programming / General Programs
-    status: normal
-    provider: winget
-    winget_id: Microsoft.WindowsTerminal
-    winget_scope: machine
-    description_short: A modern, tabbed command line aggregator by Microsoft
-
-  - display_name: "Oh My POSH"
-    link: https://github.com/jandedobbeleer/oh-my-posh
-    category: Programming / General Programs
-    status: normal
-    provider: winget
-    winget_id: JanDeDobbeleer.OhMyPosh
-    winget_scope: machine
-    description_short: Prompt theme engine for any shell (Compareable to oh-my-zsh or bash-it)
-
-  - display_name: "GnuPG.Gpg4win"
-    category: Programming / General Programs
-    status: daily-driver # background
-    provider: winget
-    winget_id: GnuPG.Gpg4win
-    winget_scope: machine
-    description_short: GnuPG (encryption tool) for Windows
-
-  - display_name: "draw.io"
-    link: "https://www.draw.io/"
-    category: Programming / General Programs
-    status: daily-driver
-    provider: winget
-    winget_id: JGraph.Draw
-    winget_scope: machine
-    description_short: Modern Diagramming Tool
-    description_full: |
-      The BEST and most multi-Purpose Diagramming Software in existence.
-      Works on every Computer, even in the Web.
-
-      https://stackshare.io/JonasPammer/decisions/108572592002597404[
-      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
-
-  - display_name: "Docker Desktop"
-    link: "https://www.docker.com/products/docker-desktop/"
-    category: Programming / General Programs
-    status: daily-driver
-    provider: winget
-    winget_id: Docker.DockerDesktop
-    winget_scope: machine
-    description_short: All-in-One OCI-Compliant Container Manager
-    description_full: |
-      Easy way of installing and managing Docker for easy graphical home use
-
-  - display_name: "Vagrant"
-    link: "https://www.vagrantup.com/"
-    category: Programming / General Programs
-    status: normal
-    provider: winget
-    winget_id: Hashicorp.Vagrant
-    winget_scope: machine
-    description_short: Software for Code-defined software development environment VMs
-    description_full: |
-      Vagrant enables the creation and configuration of lightweight,
-      reproducible, and portable virtual machine environments.
-
-  - display_name: "Hashicorp Terraform"
-    link: "https://github.com/hashicorp/terraform"
-    category: Programming / General Programs
-    status: normal
-    provider: chocolatey
-    chocolatey_name: terraform
-    description_short: Infrastructure as Code
-
-  - display_name: "Hashicorp Packer"
-    link: "https://github.com/hashicorp/packer"
-    category: Programming / General Programs
-    status: normal
-    provider: chocolatey
-    chocolatey_name: packer
-    description_short: Used in combination with Terraform
-
-  - display_name: "VMWare Workstation Pro"
-    link: ""
-    category: Programming / General Programs
-    status: not-used
-    provider: winget
-    # winget_id: VMware.WorkstationPro
-    # winget_scope: machine
-    description_short: de-facto industry standard desktop hypervisor for IT professionals
-    description_full: |
-      no longer used since i now have an own server (again) running VMWare ESXi
-      and my PC isnt that strong anymore.
-
-  - display_name: "SVN (Subversion)"
-    link: "https://subversion.apache.org/"
-    category: Programming / General Programs
-    status: not-used
-    provider: winget
-    winget_id: TortoiseSVN.TortoiseSVN
-    winget_scope: machine
-    description_short: Inferior Version Control System
-    description_full: |
-      Version Control System (VCS) used in one of my past companies
-
-  - display_name: "SmartSVN"
-    link: "https://www.smartsvn.com/"
-    category: Programming / General Programs
-    status: eh
-    description_full: |
-      The only sane way one can use SVN without headaches.
-      Awesome License-Plan: Buy it one time, have it forever -
-      Only need to buy a new License if one wants to use a version
-      that comes out 2 years later after current version.
-
-  - display_name: "XAMPP"
-    link: "https://www.apachefriends.org/"
-    category: Programming / General Programs
-    status: not-used
-    provider: winget
-    winget_id: ApacheFriends.Xampp.8.2 # never tested
-    winget_scope: machine # never tested
-    description_short:
-    description_full: |
-      Easily installable https://de.wikipedia.org/wiki/LAMP_(Softwarepaket)[LAMP]-Stack
-      (**C**ross Plattform, **A**pache Webserver, **M**ariaDB, **P**erl und **P**HP)
-      with phpMyAdmin.
-
-  - display_name: "JDGUI"
-    link: "http://java-decompiler.github.io/"
-    category: Programming / General Programs
-    status: eh
-    provider: chocolatey # never tested
-    chocolatey_name: javadecompiler-gui
-    description_full: |
-      Fast, Standalone, Open-Source Java-Decompiler with many nice features
-      (Drag and Drop, supports CLASS/JAR/WAR/EAR/ZIP-files,
-      color-coded preview of decompiled source-code with class-hierarchy, ...).
-      Available for any OS (Java/Groovy-Program).
-
   ### Programming / Programming Languages
   - display_name: "Java (JDK)"
     link: "https://www.oracle.com/java/technologies/downloads/#java8"
@@ -464,22 +463,22 @@ applications:
     description_full: |
       lorem ipsum
 
-  ### Windows
-  - display_name: OneDrive
-    category: Windows
+  ### General
+  - display_name: "OneDrive"
+    category: General
     status: normal
     winget_id: 9WZDNCRFJ1P3
     winget_scope: machine
 
-  - display_name: Microsoft 365 (Office)
-    category: Windows
+  - display_name: "Microsoft 365 (Office)"
+    category: General
     status: normal
     winget_id: 9WZDNCRD29V9
     winget_scope: machine
 
   - display_name: "Discord"
     link: "https://discordapp.com/"
-    category: Windows
+    category: General
     status: daily-driver
     provider: winget
     winget_id: Discord.Discord
@@ -503,7 +502,7 @@ applications:
       So, be mindful of the content you share and who you communicate with on the platform.
 
   - display_name: "Outlook"
-    category: Windows
+    category: General
     status: daily-driver
     description_short: Favored E-Mail Client
     description_full: |
@@ -511,7 +510,7 @@ applications:
 
   - display_name: "OBS Studio"
     link: "https://obsproject.com/de/download"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: OBSProject.OBSStudio
@@ -519,7 +518,7 @@ applications:
     description_short: Free and open source software for video recording and live streaming
 
   - display_name: "OBS Virtual Cam"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: Fenrirthviti.obs-virtual-cam
@@ -528,7 +527,7 @@ applications:
 
   - display_name: "KDE Digikam"
     link: "https://www.digikam.org/"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: KDE.digikam
@@ -540,7 +539,7 @@ applications:
 
   - display_name: "Greenshot"
     link: "https://getgreenshot.org/downloads/"
-    category: Windows
+    category: General
     status: daily-driver
     provider: winget
     winget_id: Greenshot.Greenshot
@@ -549,7 +548,7 @@ applications:
 
   - display_name: "ScreenToGif"
     link: "https://www.screentogif.com/"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: NickeManarin.ScreenToGif
@@ -560,7 +559,7 @@ applications:
 
   - display_name: "Qoppa's PDFStudio PRO"
     link: "https://www.qoppa.com/pdfstudio"
-    category: Windows
+    category: General
     status: eh
     description_full: |
       THE BEST PDF Editing Software, available for all major OS (Java Application)!
@@ -572,12 +571,11 @@ applications:
 
   - display_name: "PicPick"
     link: "https://picpick.app/"
-    category: Windows
+    category: General
     status: not-used
     provider: winget
     winget_id: NGWIN.PicPick # never tested
     winget_scope: machine # never tested
-    description_short:
     description_full: |
       All-in-one Graphic Design, Screen Capture Software, Image Editor,
       Color Picker, Pixel Ruler and More.
@@ -585,7 +583,7 @@ applications:
 
   - display_name: "Sagethumbs 2"
     link: "https://sourceforge.net/projects/sagethumbs/"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: CherubicSoftware.SageThumbs
@@ -596,7 +594,7 @@ applications:
 
   - display_name: "youtube-dl"
     link: "https://github.com/MrS0m30n3/youtube-dl-gui"
-    category: Windows
+    category: General
     status: eh
     provider: winget # doesnt seem to install all required deps
     winget_id: jely2002.youtube-dl-gui
@@ -605,7 +603,7 @@ applications:
 
   - display_name: "Handbrake"
     link: "https://handbrake.fr/"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: HandBrake.HandBrake
@@ -614,7 +612,7 @@ applications:
 
   - display_name: "CaesiumPH"
     link: "https://github.com/Lymphatus/caesium-image-compressor"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: SaeraSoft.CaesiumPH
@@ -623,7 +621,7 @@ applications:
 
   - display_name: "VLC Media Player"
     link: "https://www.videolan.org/vlc"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: VideoLAN.VLC
@@ -633,7 +631,7 @@ applications:
 
   - display_name: "Rainmeter"
     link: "https://www.rainmeter.net/"
-    category: Windows
+    category: General
     status: not-used
     description_full: |
       My Widget-Packs:
@@ -647,7 +645,7 @@ applications:
 
   - display_name: "Notepad++.Notepad++"
     link: "https://visualstudio.microsoft.com/"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: Notepad++.Notepad++
@@ -657,17 +655,17 @@ applications:
 
   - display_name: "Microsoft Teams"
     link: "https://www.microsoft.com/en-us/microsoft-teams/download-app"
-    category: Windows
+    category: General
     status: eh
     provider: winget
     winget_id: Microsoft.Teams
     winget_scope: machine
     description_short: Bussiness Communcations Platform
 
-  ### Windows / Networking Tools
+  ### Networking Tools
   - display_name: "TeamViewer"
     link: "https://www.teamviewer.com/"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: daily-driver
     provider: winget
     winget_id: TeamViewer.TeamViewer
@@ -677,7 +675,7 @@ applications:
 
   - display_name: "FileZilla"
     link: "https://filezilla-project.org/"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: eh
     provider: chocolatey
     chocolatey_name: filezilla
@@ -685,7 +683,7 @@ applications:
       Widely-used FTP (File-Transfer Protocol)-Client
 
   - display_name: "WinSCP"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: not-used
     provider: winget
     winget_id: WinSCP.WinSCP
@@ -694,7 +692,7 @@ applications:
 
   - display_name: "PuTTY"
     link: "https://www.putty.org/"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: eh
     provider: winget
     winget_id: PuTTY.PuTTY
@@ -706,7 +704,7 @@ applications:
 
   - display_name: "SuperPuTTY"
     link: "https://github.com/jimradford/superputty/releases"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: normal
     provider: chocolatey
     chocolatey_name: superputty.install
@@ -725,7 +723,7 @@ applications:
 
   - display_name: "TeraTerm"
     link: "https://ttssh2.osdn.jp/index.html.en"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: normal
     provider: winget
     winget_id: TeraTermProject.teraterm
@@ -744,7 +742,7 @@ applications:
 
   - display_name: "nmap"
     link: "https://nmap.org/"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: normal
     provider: winget
     winget_id: Insecure.Nmap
@@ -755,7 +753,7 @@ applications:
 
   - display_name: "Cisco Packet Tracer"
     link: "https://www.netacad.com/courses/packet-tracer"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: normal
     description_full: |
       Easy to use networking simulation tool.
@@ -769,7 +767,7 @@ applications:
 
   - display_name: "Wireshark"
     link: "https://www.wireshark.org/"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: eh
     provider: winget
     winget_id: WiresharkFoundation.Wireshark
@@ -787,7 +785,7 @@ applications:
 
   - display_name: "qBittorrent Enhanced Edition"
     link: "https://github.com/c0re100/qBittorrent-Enhanced-Edition"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: eh
     provider: winget
     winget_id: c0re100.qBittorrent-Enhanced-Edition
@@ -796,10 +794,10 @@ applications:
     description_full: |
       Although not often used it's nice to have a torrent client for some heavy load ocassions.
 
-  ### Windows / Security/Privacy Tools
+  ### Security/Privacy Tools
   - display_name: "1Password"
     link: "https://1password.com/"
-    category: Windows / Security/Privacy Tools
+    category: Security/Privacy Tools
     status: daily-driver
     provider: winget
     winget_id: AgileBits.1Password
@@ -808,19 +806,18 @@ applications:
 
   - display_name: "NordVPN"
     link: "https://nordvpn.com/"
-    category: Windows / Security/Privacy Tools
+    category: Security/Privacy Tools
     status: eh
     provider: winget
     winget_id: NordVPN.NordVPN
     winget_scope: machine
-    description_short:
     description_full: |
       Paid Public VPN service available for all Platforms;
       Honestly bought it for its cheap 5-years deal
       and immense advertising somehow convinced me.
 
   - display_name: "Windows Defender"
-    category: Windows / Security/Privacy Tools
+    category: Security/Privacy Tools
     status: eh
     description_short: Favored Antivirus for Windows.
     description_full: |
@@ -828,17 +825,17 @@ applications:
 
   - display_name: "KeePass"
     link: "https://keepass.info/"
-    category: Windows / Security/Privacy Tools
+    category: Security/Privacy Tools
     status: not-used
     provider: winget
     winget_id: DominikReichl.KeePass
     winget_scope: machine
     description_short: File-based Password Manager
 
-  ### Windows / Computer Management Utilities
+  ### Computer Management Utilities
   - display_name: "Chocolatey"
     link: "https://chocolatey.org/"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: normal
     description_full: |
       A Package Manager for Windows. A dream come true.
@@ -846,7 +843,7 @@ applications:
 
   - display_name: "Duplicate Cleaner Pro"
     link: "https://www.duplicatecleaner.com"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: normal
     description_short: BEST Duplicate Cleaning Application.
     description_full: |
@@ -854,7 +851,7 @@ applications:
 
   - display_name: "WinDirStat"
     link: "https://windirstat.net/"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: normal
     provider: winget
     winget_id: WinDirStat.WinDirStat
@@ -863,7 +860,7 @@ applications:
 
   - display_name: "CrystalDiskMark"
     link: "https://crystalmark.info/en/software/crystaldiskmark/"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: normal
     provider: winget
     winget_id: CrystalDewWorld.CrystalDiskMark
@@ -871,21 +868,11 @@ applications:
     description_short: Disk Perfomance Benchmark Tool
     description_full: |
       (Can also benchmark my NAS with the feature to select a specific Folder).
-
-  - display_name: ""
-    link: ""
-    category:
-    status:
-    provider:
-    winget_id:
-    winget_scope:
-    description_short:
-    description_full: |
       lorem ipsum
 
   - display_name: "CCleaner"
     link: "https://www.ccleaner.com/"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: not-used
     description_short: Computer and Registry Cleaner
     description_full: |
@@ -893,7 +880,7 @@ applications:
 
   - display_name: "HWiNFO"
     link: "https://www.hwinfo.com/download/"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: eh
     provider: winget
     winget_id: REALiX.HWiNFO
@@ -905,14 +892,14 @@ applications:
 
   - display_name: "HiSuite"
     link: "https://consumer.huawei.com/en/support/hisuite/"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: eh
     description_full: |
       Used to backup and restore all files and settings off of my Huawei Smartphone.
 
   - display_name: "ShutUp10"
     link: "https://www.oo-software.com/en/shutup10"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: eh
     provider: winget
     winget_id: OO-Software.ShutUp10
@@ -923,7 +910,7 @@ applications:
 
   - display_name: "Microsoft PowerToys"
     link: "https://learn.microsoft.com/en-us/windows/powertoys/"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: eh
     provider: winget
     winget_id: Microsoft.PowerToys
@@ -931,20 +918,9 @@ applications:
     description_full: |
       Extends Windows with many Microsoft-made power user capabilities
 
-  - display_name: ""
-    link: ""
-    category:
-    status:
-    provider:
-    winget_id:
-    winget_scope:
-    description_short:
-    description_full: |
-      lorem ipsum
-
   - display_name: "CrystalDiskInfo"
     link: "https://crystalmark.info/en/software/crystaldiskinfo/"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: eh
     provider: winget
     winget_id: CrystalDewWorld.CrystalDiskInfo
@@ -953,7 +929,7 @@ applications:
 
   - display_name: "Intel DSA"
     link: "https://downloadcenter.intel.com/de/download/28425/Intel-Driver-Support-Assistant"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: not-used
     provider: winget
     winget_id: Intel.IntelDriverAndSupportAssistant # never tested
@@ -963,7 +939,7 @@ applications:
 
   - display_name: "Logitech Options"
     link: "https://www.logitech.com/de-at/product/options"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: eh
     provider: winget
     winget_id: Logitech.Options
@@ -975,7 +951,7 @@ applications:
 
   - display_name: "Intel XTU"
     link: "https://downloadcenter.intel.com/de/download/24075/Intel-Extreme-Tuning-Utility-Intel-XTU-"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: not-used
     provider: chocolatey
     chocolatey_name: intel-xtu
@@ -991,7 +967,7 @@ applications:
 
   - display_name: "Razer Synapse 3"
     link: "https://www.razer.com/de-de/synapse-3"
-    category: Windows / Computer Management Utilities
+    category: Computer Management Utilities
     status: not-used
     provider: chocolatey
     chocolatey_name: razer-synapse-3 # never tested
@@ -999,10 +975,10 @@ applications:
     description_full: |
       2023: No longer have a Razer computer and will never buy one again.
 
-  ### Windows / Gaming
+  ### Gaming
   - display_name: "Steam"
     link: "https://steampowered.com/"
-    category: Windows / Gaming
+    category: Gaming
     status: daily-driver
     provider: winget
     winget_id: Valve.Steam
@@ -1029,7 +1005,7 @@ applications:
 
   - display_name: "Ubisoft Connect"
     link: "https://ubisoftconnect.com/"
-    category: Windows / Gaming
+    category: Gaming
     status: eh
     provider: winget
     winget_id: Ubisoft.Connect
@@ -1038,13 +1014,13 @@ applications:
 
   - display_name: "BattleNET-Launcher"
     link: "https://www.blizzard.com/"
-    category: Windows / Gaming
+    category: Gaming
     status: eh
     description_short: Game-Hub for Overwatch
 
   - display_name: "Minecraft"
     link: "https://minecraft.net"
-    category: Windows / Gaming
+    category: Gaming
     status: daily-driver
     provider: winget
     winget_id: Mojang.MinecraftLauncher
@@ -1086,7 +1062,7 @@ applications:
 
   - display_name: "Oculus Quest Link"
     link: "https://www.oculus.com/setup/"
-    category: Windows / Gaming
+    category: Gaming
     status: eh
     description_full: |
       Official Software needed to connect my Oculus Quest headset
@@ -1095,7 +1071,7 @@ applications:
 
   - display_name: "NVIDIA Geforce Experience"
     link: "https://www.nvidia.com/de-at/geforce/geforce-experience/"
-    category: Windows / Gaming
+    category: Gaming
     status: normal
     provider: winget
     winget_id: Nvidia.GeForceExperience
@@ -1107,7 +1083,7 @@ applications:
   ## Other
   - display_name: "Rufus"
     link: "https://rufus.ie/"
-    category: Windows / Other
+    category: Other
     status: eh
     provider: winget
     winget_id: Rufus.Rufus
@@ -1116,7 +1092,7 @@ applications:
 
   - display_name: "Balena Etcher"
     link: "https://www.balena.io/etcher/"
-    category: Windows / Other
+    category: Other
     status: eh
     provider: winget
     winget_id: Balena.Etcher # never tested
@@ -1127,17 +1103,17 @@ applications:
 
   - display_name: "NanaZip"
     link: "https://github.com/M2Team/NanaZip"
-    category: Windows / Other
+    category: Other
     status: daily-driver
     provider: winget
     winget_id: M2Team.NanaZip
     winget_scope: machine
     description_short: Modern Fork of 7-Zip
 
-  ### Windows / Other (previously not mentioned in adoc)
+  ### Other (previously not mentioned in adoc)
   - display_name: "Windows Auto Dark Mode"
     link: "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode"
-    category: Windows / Other
+    category: Other
     status: eh
     # TODO app doesnt seem to work
     provider: winget
@@ -1147,7 +1123,7 @@ applications:
 
   - display_name: "Search Deflector"
     link: ""
-    category: Windows / Other
+    category: Other
     status: eh
     # TODO app doesnt seem to work
     provider: winget
@@ -1157,7 +1133,7 @@ applications:
 
   - display_name: "Electrum"
     link: "https://github.com/spesmilo/electrum"
-    category: Windows / Other
+    category: Other
     status: eh
     provider: winget
     winget_id: Electrum.Electrum
@@ -1166,7 +1142,7 @@ applications:
 
   - display_name: "Sweet Home 3D"
     link: "https://www.sweethome3d.com/"
-    category: Windows / Other
+    category: Other
     status: eh
     provider: winget
     winget_id: eTeks.SweetHome3D
@@ -1174,7 +1150,7 @@ applications:
     description_short: OSS Java interior design application
 
   - display_name: "FortiExplorer for Windows (Development Discontinued)"
-    category: Windows / Networking Tools
+    category: Networking Tools
     status: not-used
     description_full: |
       FortiExplorer allows one to have access to the FortiOS setup wizard, Web-based
@@ -1185,49 +1161,47 @@ applications:
       Support Website (Login needed).
 
   ### Uninstall
-  - display_name: Skype
+  - display_name: "Skype"
     category: Bloat
     uninstall: True
     status: not-used
     winget_id: Microsoft.Skype
     winget_scope: machine
 
-  - display_name: Xbox
+  - display_name: "Xbox"
     category: Bloat
     uninstall: True
     status: not-used
     winget_id: 9MV0B5HZVK9Z
     winget_scope: machine
 
-  - display_name: Cortana
+  - display_name: "Cortana"
     category: Bloat
     uninstall: True
     status: not-used
     winget_id: 9NFFX4SZZ23L
     winget_scope: machine
 
-  - display_name: Disney+
+  - display_name: "Disney+"
     category: Bloat
     uninstall: True
     status: not-used
     winget_id: 9NXQXXLFST89
     winget_scope: machine
 
-  - display_name: Mail and Calendar
+  - display_name: "Mail and Calendar"
     category: Bloat
     uninstall: True
     status: not-used
     winget_id: 9WZDNCRFHVQM
     winget_scope: machine
-    description_short:
 
-  - display_name: Microsoft News
+  - display_name: "Microsoft News"
     category: Bloat
     uninstall: True
     status: not-used
     winget_id: 9WZDNCRFHVFW
     winget_scope: machine
-    description_short:
 
   # - display_name: OneDrive
   #   category: Bloat
@@ -1236,14 +1210,14 @@ applications:
   #   winget_scope: machine
   #   description_short:
 
-  - display_name: Microsoft Tips
+  - display_name: "Microsoft Tips"
     category: Bloat
     uninstall: True
     status: not-used
     winget_id: 9WZDNCRDTBJJ
     winget_scope: machine
 
-  - display_name: MSN Weather
+  - display_name: "MSN Weather"
     category: Bloat
     uninstall: True
     status: not-used
@@ -1256,7 +1230,7 @@ applications:
   #   winget_id: 9WZDNCRFJ3P2
   #   winget_scope: machine
 
-  - display_name: Spotify
+  - display_name: "Spotify"
     category: Bloat
     uninstall: True
     status: not-used
@@ -1264,7 +1238,7 @@ applications:
     winget_scope: machine
     description_short: I use Youtube Music
 
-  - display_name: Windows Maps
+  - display_name: "Microsoft Maps"
     category: Bloat
     uninstall: True
     status: not-used
