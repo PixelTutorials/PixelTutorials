@@ -73,7 +73,7 @@ I also actively https://github.com/JonasPammer?tab=stars[star repositories I fin
 Below is an automatically generated overview of my GitHub profile, showing mostly my recently starred projects
 (which may give somewhat of an indication of what I'm currently onto):
 +
-image::/github-metrics.svg[Metrics]
+image::./github-metrics.svg[Metrics]
 // +
 // .Footnote on GitHub
 // ____
