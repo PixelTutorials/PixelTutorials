@@ -20,9 +20,9 @@ jobs:
           base: activity, metadata
           # configure rendering options:
           config_timezone: Europe/Vienna
+          config_order: stars, wakatime, base.activity, base.metadata
 
           # enable/configure other plugins:
           plugin_stars: true
-          plugin_habits: true
           plugin_wakatime: true
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
