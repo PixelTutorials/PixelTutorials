@@ -26,4 +26,3 @@ jobs:
           plugin_habits: true
           plugin_wakatime: true
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_user: JonasPammer
