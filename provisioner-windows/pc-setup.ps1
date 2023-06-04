@@ -287,7 +287,9 @@ function InstallAndUpdateApplications() {
   ForEach ($app in $applicationsYAML.applications) {
     #$app
     Show-Output "-> Looping: " $app.display_name " (" $app.description_short ")"
-    if ($app.provider -eq "winget") {
+    if ($app.status -eq "not-used"){
+      Show-Output "--> Skipping (status: not-used)"
+    } elseif ($app.provider -eq "winget") {
       $listApp = winget list  --accept-source-agreements --exact -q $app.winget_id
       if (![String]::Join("", $listApp).Contains($app.winget_id) -And !$app.uninstall) {
         # if ($app.interactive) {
