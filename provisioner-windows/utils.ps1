@@ -216,3 +216,43 @@ function Install-1PasswordCLI() {
   }
   Show-Output "1Password CLI command ('op') exists, skipping installation."
 }
+
+function RunAntivirus() {
+  param (
+    [Parameter(Mandatory = $true)] [string] $ScanType
+  )
+
+  Show-Output ">> Run Antivirus"
+  if (Test-CommandExists "Update-MpSignature") {
+    Show-Output "Updating Windows Defender definitions. If you have another antivirus program installed, Windows Defender may be disabled, causing this to fail."
+    Update-MpSignature
+  }
+  else {
+    Show-Output "Virus definition updates are not supported - Check them manually."
+  }
+  if (Test-CommandExists "Start-MpScan") {
+    Show-Output "Running Windows Defender full scan. If you have another antivirus program installed, Windows Defender may be disabled, causing this to fail."
+    Start-MpScan -ScanType $ScanType
+  }
+  else {
+    Show-Output "Virus scan is not supported - Run it manually."
+  }
+  Write-Host ""
+}
+
+function UpdateWindows() {
+  Show-Output ">> Update Windows and Reboot if necessary."
+  Install-Module -Name PSWindowsUpdate -Scope AllUsers -Force
+  Import-Module -Name PSWindowsUpdate
+  $updates = Get-WindowsUpdate -AcceptAll -AutoReboot -Install
+  $rebootRequired = $updates.IsRebootRequired
+  if ($rebootRequired) {
+    Show-Output "Reboot required because of update! Aborting script."
+    # reboot with a warning (curiously not always initiated by above command):
+    shutdown /r
+    Stop-Transcript
+    exit 0
+  }
+  Show-Output "No Reboot required, at least not because of update!"
+  Write-Host ""
+}
