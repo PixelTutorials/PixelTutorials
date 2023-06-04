@@ -266,6 +266,7 @@ function UpdateWindows() {
     exit 0
   }
   Show-Output "No Reboot required, at least not because of update!"
+  Write-Host ""
 }
 
 function InstallAndUpdateApplications() {
@@ -325,11 +326,10 @@ function InstallAndUpdateApplications() {
       if ([bool]($app.PSobject.Properties.name -match "link") -And ($app.link)) {
         Show-Output "--> Install/Download yourself at " $app.link
       }
-      Write-Host ""
-      continue # don't show "done"
     }
     Write-Host ""
   }
+  Write-Host ""
 }
 
 function SetupPowershellProfile() {
@@ -355,6 +355,7 @@ function SetupPowershellProfile() {
   if ($null -eq $SEL) {
     Add-Content -Path $profile.CurrentUserAllHosts -Value "`r`nStart-SshAgent -Quiet"
   }
+  Write-Host ""
 }
 
 
@@ -416,6 +417,7 @@ function ConfigureGit() {
   git config --global status.showUntrackedFiles "all"
 
   git config --global --add --bool push.autoSetupRemote true
+  Write-Host ""
 }
 
 function RunBleachBit() {
@@ -432,6 +434,7 @@ function RunBleachBit() {
   }
 
   & $bleachbit_path --clean $BleachBitCleaners
+  Write-Host ""
 }
 
 function RunAntivirus() {
@@ -450,6 +453,7 @@ function RunAntivirus() {
   else {
     Show-Output "Virus scan is not supported - Run it manually."
   }
+  Write-Host ""
 }
 
 ### Main
