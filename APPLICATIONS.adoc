@@ -1,26 +1,21 @@
 = Applications I use
-:toc:
-:toc-placement!:
+// :toc:
+// :toc-placement!:
 
 [NOTE]
-Currently doing a rewrite to manage this info in machine-readable format for both my pc setup script and this doc.
+I now manage my applications in machine-readable format over at
+`link:provisioner-windows/applications.yml[applications.yml]`,
+which is as part of my `link:provisioner-windows/pc-setup.ps1[pc-setup.ps1]`.
+In the future this document will be generated from the above mentioned file when I figured out how I want to do it.
+For now this document contains only stuff not fitting for the current yaml file's usage.
 
-Applications I use very often are in bold. +
-Applications I almost never really use are at the end of tables and in italic. +
-Applications I no longer use are striked through.
+// Applications I use very often are in bold. +
+// Applications I almost never really use are at the end of tables and in italic. +
+// Applications I no longer use are striked through.
 
 toc::[]
 
-== Programming
-=== Editors
-=== General Programs
-=== Programming Languages
-
-== Web
-=== Browsers
-
-=== Firefox Extensions
-// todo: alter descriptions to include own words in second paragraph.
+== Firefox Extensions
 
 [cols="a,a"]
 |===
@@ -122,13 +117,6 @@ https://github.com/iluwatar/java-design-patterns[GitHub - java-design-patterns] 
 https://www.exploit-db.com/[exploit-db]
 
 link:about:profiles[Firefox Profiles]
-
-== Windows
-=== Networking Tools
-=== Security/Privacy Tools
-=== Computer Management Utilities
-=== Gaming
-=== Other
 
 == Linux
 
