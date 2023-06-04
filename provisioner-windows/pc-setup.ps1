@@ -450,7 +450,8 @@ function RunAntivirus() {
   }
   if (Test-CommandExists "Start-MpScan") {
     Show-Output "Running Windows Defender full scan. If you have another antivirus program installed, Windows Defender may be disabled, causing this to fail."
-    Start-MpScan -ScanType "FullScan"
+    # TODO: add FullScan in maintenance.ps1
+    Start-MpScan -ScanType "QuickScan"
   }
   else {
     Show-Output "Virus scan is not supported - Run it manually."
