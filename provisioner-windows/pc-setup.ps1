@@ -182,9 +182,21 @@ function ConfigureGit() {
   Write-Host ""
 }
 
+function AddGodMode() {
+  Show-Output ">> Add Windows God Mode Icon to desktop"
+	$GodModeSplat = @{
+		Path = "$HOME\Desktop"
+		Name = "GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"
+		ItemType = 'Directory'
+	}
+	$null = new-item @GodModeSplat
+  Write-Host ""
+}
+
 
 ### Main
 UpdateWindows
+AddGodMode
 Install-1PasswordCLI
 InstallAndUpdateApplications
 SetupPowershellProfile
