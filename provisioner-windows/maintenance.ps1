@@ -1,14 +1,16 @@
 <#
 .SYNOPSIS
-  Fix potential windows problems
+    Fix potential windows problems.
+    This script aims to be fully automated and not ask anything.
 
 .EXAMPLE
     Set-ExecutionPolicy Bypass -Scope Process -Force
     .\pc-setup.ps1
 
 .NOTES
-  Author:         Jonas Pammer
-  Creation Date:  2023-06-04
+    Author:         Jonas Pammer
+    Creation Date:  2023-06-04
+    Based on: https://github.com/AgenttiX/windows-scripts/blob/master/Repair-Computer.ps1
 
 .PARAMETER Elevated
     This parameter is for internal use to check whether an UAC prompt has already been attempted.
@@ -274,13 +276,72 @@ function UpdateHelp() {
   Write-Host ""
 }
 
+function RunWindowsSFC() {
+  <#
+  .SYNOPSIS
+      The System File Checker (SFC) is a Windows utility that scans and verifies the integrity of protected system files.
+      It relies on a cached copy of system files stored in the Windows Resource Protection (WRP) folder.
+      SFC compares the hashes of the files in the WRP folder with the hashes of the files on the system.
+      If any files are found to be corrupted or modified, SFC replaces them with the correct versions
+      from the cached copy or from the Windows installation source.
+  #>
+  Show-Output ">> Running Windows 'System File Checker' (verify integrity of protected system files)"
+  sfc /scannow
+  Write-Host ""
+}
+
+function RunWindowsCHKDSK() {
+  <#
+  .SYNOPSIS
+      CHKDSK is a command-line utility in Windows that checks the integrity of a file system
+      and the logical structure of a disk. It scans the file system for errors, bad sectors,
+      and other inconsistencies, and attempts to fix them if possible.
+      CHKDSK is commonly used to diagnose and repair issues related to disk errors,
+      such as sudden system crashes, disk read/write errors, or data corruption.
+  #>
+  Show-Output ">> Running Windows CHKDSK (filesystem-level repair attempt)."
+  chkdsk /R
+}
+
+function RunWindowsDISM() {
+  <#
+  .SYNOPSIS
+      SFC primarily targets system files, while DISM /RestoreHealth has a wider scope.
+      It can repair not only system files but also other components and features
+      of the Windows image, including drivers, updates, and Windows features.
+
+      DISM relies on the Windows Update service to provide the necessary files for repair,
+      causing this function to require internet access.
+  #>
+  Show-Output ">> Running Windows 'Deployment Image Servicing and Management' (dism) scan / check / restore"
+  DISM /Online /Cleanup-Image /ScanHealth
+  DISM /Online /Cleanup-Image /CheckHealth
+  DISM /Online /Cleanup-Image /RestoreHealth
+  Write-Host ""
+}
+
+function RunWindowsMemoryDiag() {
+  <#
+  .SYNOPSIS
+      When you run MdSched, it restarts your computer and performs a comprehensive scan of the memory.
+      It checks for various types of memory problems, such as random bit errors, faulty memory cells,
+      and incorrect voltage settings. The tool runs a series of extensive tests on the RAM,
+      including different patterns and data sequences, to identify any issues.
+  #>
+  Show-Output ">> Running Windows Memory Diagnostics."
+  Start-Process -NoNewWindow MdSched
+}
+
 
 ### Main
 Update-Help
 UpdateWindows
 RunBleachBit
-# TODO other (DISM etc)
+RunWindowsSFC
+RunWindowsCHKDSK
+RunWindowsDISM
 RunAntivirus -ScanType "FullScan"
+RunWindowsMemoryDiag
 
 
 ### End
