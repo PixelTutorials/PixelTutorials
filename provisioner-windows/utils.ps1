@@ -10,6 +10,27 @@ function Show-Output() {
   Write-Host "[provisioner] $args" -BackgroundColor White -ForegroundColor Black
 }
 
+function InitializeYAMLConfig(){
+  <#
+    .SYNOPSIS
+        Usually used once on top of the script.
+    .EXAMPLE
+        $Config = InitializeYAMLConfig
+  #>
+  Install-Module -Name powershell-yaml -Force
+  Import-Module -Name powershell-yaml
+
+  if (-Not (Test-Path ".\config.yml")) {
+    Show-Output "!!! Copying '.\config.example.yml' to (gitignored) '.\config.yml'."
+    Copy-Item ".\config.example.yml" ".\config.yml"
+  }
+
+  Show-Output "Reading .\config.yml"
+  $_content = Get-Content -Raw ".\config.yml"
+  $Config = ConvertFrom-YAML -Ordered $_content
+  return $Config
+}
+
 function Test-CommandExists {
   [OutputType([bool])]
   Param(

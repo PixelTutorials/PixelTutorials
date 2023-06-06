@@ -26,7 +26,7 @@ $UpdateAppsIfInstalled = $true
 . ".\utils.ps1"
 Start-Transcript -Path "${LogsPath}\$($MyInvocation.MyCommand.Name)--$(Get-Date -Format "yyyy-MM-dd--HH_mm_ss").txt"
 Elevate($MyInvocation.MyCommand.Definition)
-
+$Config = InitializeYAMLConfig
 
 ### Functions
 function InstallAndUpdateApplications() {
@@ -35,8 +35,6 @@ function InstallAndUpdateApplications() {
   Install-Winget
 
   Show-Output "Reading .\applications.yml"
-  Install-Module -Name powershell-yaml -Force
-  Import-Module -Name powershell-yaml
   $_content = Get-Content -Raw ".\applications.yml"
   $applicationsYAML = ConvertFrom-YAML -Ordered $_content
 
@@ -47,9 +45,10 @@ function InstallAndUpdateApplications() {
   ForEach ($app in $applicationsYAML.applications) {
     #$app
     Show-Output "-> Looping: " $app.display_name " (" $app.description_short ")"
-    if ($app.status -eq "not-used"){
+    if ($app.status -eq "not-used") {
       Show-Output "--> Skipping (status: not-used)"
-    } elseif ($app.provider -eq "winget") {
+    }
+    elseif ($app.provider -eq "winget") {
       $listApp = winget list  --accept-source-agreements --exact -q $app.winget_id
       if (![String]::Join("", $listApp).Contains($app.winget_id) -And !$app.uninstall) {
         # if ($app.interactive) {
@@ -184,12 +183,29 @@ function ConfigureGit() {
 
 function AddGodMode() {
   Show-Output ">> Add Windows God Mode Icon to desktop"
-	$GodModeSplat = @{
-		Path = "$HOME\Desktop"
-		Name = "GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"
-		ItemType = 'Directory'
-	}
-	$null = new-item @GodModeSplat
+  $GodModeSplat = @{
+    Path     = "$HOME\Desktop"
+    Name     = "GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"
+    ItemType = 'Directory'
+  }
+  $null = new-item @GodModeSplat
+  Write-Host ""
+}
+
+function Install-WSL() {
+  param (
+    [Parameter(Mandatory = $true)] [string] $distribution
+  )
+  Show-Output ">> Install WSL"
+  Show-Output "Enabling WSL features"
+  dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+  dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+  # no longer needed:
+  #.\wsl_update_x64.msi /quiet
+  # no longer exists, ""replaced"" by --enable-wsl1 as wsl2 is now default
+  #wsl --set-default-version 2
+  Show-Output "Install WSL Distribution '$distribution'"
+  wsl --install --distribution "$distribution"
   Write-Host ""
 }
 
@@ -202,6 +218,13 @@ InstallAndUpdateApplications
 SetupPowershellProfile
 ConfigureGit
 RunAntivirus -ScanType "QuickScan"
+if ($Config.wsl_install) {
+  Install-WSL "$Config.wsl_distro"
+}
+else {
+  Show-Output ">> Skipping WSL Install (disabled by configuration option)"
+  Write-Host ""
+}
 
 ### End
 Stop-Transcript

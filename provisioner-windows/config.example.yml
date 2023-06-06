@@ -1,0 +1,4 @@
+# Per-Computer (gitignored '.\config.yml') Configuration File as used by all scripts in this folder
+
+wsl_install: false
+wsl_distro: Ubuntu-20.04
