@@ -1,3 +1,4 @@
+---
 # Per-Computer (gitignored '.\config.yml') Configuration File as used by all scripts in this folder
 
 wsl_install: false
@@ -6,6 +7,6 @@ wsl_distro: Ubuntu-20.04
 setup_gpg: true
 gpg_email: opensource@jonaspammer.at
 # may use "{{ gpg_email }}"" placeholder
-gpg_1password_pk_item_name: "PGP/GnuGPG private key {{ gpg_email }}"
+gpg_1password_pk_item_name: "PGP/GnuGPG private key {{ gpg_email }}" # pragma: allowlist secret
 # may use "{{ gpg_email }}"" placeholder
-gpg_1password_passphrase_item_name: "PGP/GnuGPG Passphrase {{ gpg_email }}"
+gpg_1password_passphrase_item_name: "PGP/GnuGPG Passphrase {{ gpg_email }}" # pragma: allowlist secret

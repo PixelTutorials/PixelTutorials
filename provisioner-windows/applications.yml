@@ -222,10 +222,12 @@ applications:
       ** Project Manager for Java
       ** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven[Maven for Java]
       * https://marketplace.visualstudio.com/items?itemName=redhat.ansible[Ansible language support by RedHat]
-      * https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML language support by RedHat] -- also features built-in Kubernetes syntax support
+      * https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML language support by RedHat]
+        -- also features built-in Kubernetes syntax support
       * https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml[Better Jinja Syntax Highlighting]
       * https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz[Graphviz language support]
-      * https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker[Docker] (includes extension to GUI, which I don't use)
+      * https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker[Docker]
+        (includes extension to GUI, which I don't use)
       * https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp[_C#_]
       * https://marketplace.visualstudio.com/items?itemName=ms-vscode.powershell[PowerShell]
       * https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense[npm IntelliSense]
@@ -233,9 +235,11 @@ applications:
       * https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[Asciidoctor]
 
       In-Editor::
-      * https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments[Better Comments] -- Categorize Comments into alerts, queries, TODOs, Highlights and explicitily-Commented-Out-Code.
+      * https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments[Better Comments]
+        -- Categorize Comments into alerts, queries, TODOs, Highlights and explicitily-Commented-Out-Code.
       * https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles[Markdown Preview GitHub]
-      * https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost[Import Cost] -- Display import/require package size in the editor
+      * https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost[Import Cost]
+        -- Display import/require package size in the editor
       * https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer[Log Output Colorizer]
       * https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer[SQLite Viewer]
       * https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf[vscode-pdf]
@@ -247,16 +251,22 @@ applications:
       * https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format[shell-format]
 
       Other::
-      * https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype[Paste JSON as code] -- Copy JSON, paste as Go, TypeScript, C#, C++ and more.
-      * https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode[Discord Presence] -- Update your discord status with a rich presence.
+      * https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype[Paste JSON as code]
+          -- Copy JSON, paste as Go, TypeScript, C#, C++ and more.
+      * https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode[Discord Presence]
+          -- Update your discord status with a rich presence.
       * https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime[WakaTime]
       * https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser[Open In Browser]
       * https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack[Remote Development Extension pack]
-      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[*Remote - Containers*] -- Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
-      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[Remote - SSH] -- Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[*Remote - Containers*]
+          -- Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[Remote - SSH]
+          -- Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set.
       ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit[Remote - SSH: Extension]
-      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[Remote - WSL] -- Open any folder in the Windows Subsystem for Linux (WSL) and take advantage of Visual Studio Code's full feature set.
-      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories[Remote Repositories] -- Remotely browse and edit git repositories
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[Remote - WSL]
+          -- Open any folder in the Windows Subsystem for Linux (WSL) and take advantage of Visual Studio Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories[Remote Repositories]
+          -- Remotely browse and edit git repositories
 
       * https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-de[German Language Pack]
       * https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings[IntelliJ Key Bindings]
@@ -284,7 +294,8 @@ applications:
       Editor Theming::
       * https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme[*GitHub VSCode Theme*]
       * https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons[*vscode-icons*]
-      * https://marketplace.visualstudio.com/items?itemName=muuvmuuv.vscode-sundial[*Sundial*] -- Automatic night mode and settings switch
+      * https://marketplace.visualstudio.com/items?itemName=muuvmuuv.vscode-sundial[*Sundial*]
+        -- Automatic night mode and settings switch
 
       Language Support / IntelliSense Extensions::
       * https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack[*Python Language Extension Pack*]
@@ -304,10 +315,12 @@ applications:
       ** Project Manager for Java
       ** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven[Maven for Java]
       * https://marketplace.visualstudio.com/items?itemName=redhat.ansible[Ansible language support by RedHat]
-      * https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML language support by RedHat] -- also features built-in Kubernetes syntax support
+      * https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML language support by RedHat]
+        -- also features built-in Kubernetes syntax support
       * https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml[Better Jinja Syntax Highlighting]
       * https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz[Graphviz language support]
-      * https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker[Docker] (includes extension to GUI, which I don't use)
+      * https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker[Docker]
+        (includes extension to GUI, which I don't use)
       * https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp[_C#_]
       * https://marketplace.visualstudio.com/items?itemName=ms-vscode.powershell[PowerShell]
       * https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense[npm IntelliSense]
@@ -315,9 +328,11 @@ applications:
       * https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[Asciidoctor]
 
       In-Editor::
-      * https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments[Better Comments] -- Categorize Comments into alerts, queries, TODOs, Highlights and explicitily-Commented-Out-Code.
+      * https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments[Better Comments]
+        -- Categorize Comments into alerts, queries, TODOs, Highlights and explicitily-Commented-Out-Code.
       * https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles[Markdown Preview GitHub]
-      * https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost[Import Cost] -- Display import/require package size in the editor
+      * https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost[Import Cost]
+        -- Display import/require package size in the editor
       * https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer[Log Output Colorizer]
       * https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer[SQLite Viewer]
       * https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf[vscode-pdf]
@@ -329,16 +344,22 @@ applications:
       * https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format[shell-format]
 
       Other::
-      * https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype[Paste JSON as code] -- Copy JSON, paste as Go, TypeScript, C#, C++ and more.
-      * https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode[Discord Presence] -- Update your discord status with a rich presence.
+      * https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype[Paste JSON as code]
+        -- Copy JSON, paste as Go, TypeScript, C#, C++ and more.
+      * https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode[Discord Presence]
+        -- Update your discord status with a rich presence.
       * https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime[WakaTime]
       * https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser[Open In Browser]
       * https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack[Remote Development Extension pack]
-      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[*Remote - Containers*] -- Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
-      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[Remote - SSH] -- Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[*Remote - Containers*]
+        -- Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[Remote - SSH]
+        -- Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set.
       ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit[Remote - SSH: Extension]
-      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[Remote - WSL] -- Open any folder in the Windows Subsystem for Linux (WSL) and take advantage of Visual Studio Code's full feature set.
-      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories[Remote Repositories] -- Remotely browse and edit git repositories
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[Remote - WSL]
+        -- Open any folder in the Windows Subsystem for Linux (WSL) and take advantage of Visual Studio Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories[Remote Repositories]
+        -- Remotely browse and edit git repositories
 
       * https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-de[German Language Pack]
       * https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings[IntelliJ Key Bindings]
@@ -1170,42 +1191,42 @@ applications:
   ### Uninstall
   - display_name: "Skype"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: Microsoft.Skype
     winget_scope: machine
 
   - display_name: "Xbox"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: 9MV0B5HZVK9Z
     winget_scope: machine
 
   - display_name: "Cortana"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: 9NFFX4SZZ23L
     winget_scope: machine
 
   - display_name: "Disney+"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: 9NXQXXLFST89
     winget_scope: machine
 
   - display_name: "Mail and Calendar"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: 9WZDNCRFHVQM
     winget_scope: machine
 
   - display_name: "Microsoft News"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: 9WZDNCRFHVFW
     winget_scope: machine
@@ -1219,14 +1240,14 @@ applications:
 
   - display_name: "Microsoft Tips"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: 9WZDNCRDTBJJ
     winget_scope: machine
 
   - display_name: "MSN Weather"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: 9WZDNCRFJ3Q2
     winget_scope: machine
@@ -1239,7 +1260,7 @@ applications:
 
   - display_name: "Spotify"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: Spotify.Spotify
     winget_scope: machine
@@ -1247,7 +1268,7 @@ applications:
 
   - display_name: "Microsoft Maps"
     category: Bloat
-    uninstall: True
+    uninstall: true
     status: not-used
     winget_id: 9WZDNCRDTBVB
     winget_scope: machine
