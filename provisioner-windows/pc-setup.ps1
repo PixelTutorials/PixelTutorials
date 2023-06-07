@@ -119,7 +119,6 @@ function SetupPowershellProfile() {
   Write-Host ""
 }
 
-
 function ConfigureGit() {
   Show-Output ">> Configure Git"
   Show-Output "Changing max-cache-ttl in gpg-agent.conf..."
@@ -225,6 +224,7 @@ else {
   Show-Output ">> Skipping WSL Install (disabled by configuration option)"
   Write-Host ""
 }
+
 
 ### End
 Stop-Transcript

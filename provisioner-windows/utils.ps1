@@ -31,6 +31,17 @@ function InitializeYAMLConfig(){
   return $Config
 }
 
+function New-TemporaryDirectory {
+  <#
+    .LINK
+        https://stackoverflow.com/a/34559554/13953427
+  #>
+  $parent = [System.IO.Path]::GetTempPath()
+  [string] $name = [System.Guid]::NewGuid()
+  $retv = New-Item -ItemType Directory -Path (Join-Path $parent $name)
+  return $retv
+}
+
 function Test-CommandExists {
   [OutputType([bool])]
   Param(

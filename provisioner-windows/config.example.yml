@@ -2,3 +2,10 @@
 
 wsl_install: false
 wsl_distro: Ubuntu-20.04
+
+setup_gpg: true
+gpg_email: opensource@jonaspammer.at
+# may use "{{ gpg_email }}"" placeholder
+gpg_1password_pk_item_name: "PGP/GnuGPG private key {{ gpg_email }}"
+# may use "{{ gpg_email }}"" placeholder
+gpg_1password_passphrase_item_name: "PGP/GnuGPG Passphrase {{ gpg_email }}"
