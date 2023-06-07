@@ -7,10 +7,9 @@
 #>
 
 ### Constants
-# TODO change Branch when merged!
 $Account = "JonasPammer"
 $Repository = "JonasPammer"
-$Branch = "pc-setup-windows"
+$Branch = "master"
 $ParentDestination = "$USERPROFILE\Documents\Programmieren"
 $SubfolderToOpen = "provisioner-windows"
 

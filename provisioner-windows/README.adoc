@@ -21,10 +21,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 
 ### Git-free install
 
-// TODO change Branch when merged!
 [source,powershell]
 ====
-Invoke-Expression ((New-Object net.webclient).DownloadString('https://raw.githubusercontent.com/JonasPammer/JonasPammer/pc-setup-windows/provisioner-windows/bootstrap.ps1'))
+Invoke-Expression ((New-Object net.webclient).DownloadString('https://raw.githubusercontent.com/JonasPammer/JonasPammer/master/provisioner-windows/bootstrap.ps1'))
 ====
 
 ### Scripts
