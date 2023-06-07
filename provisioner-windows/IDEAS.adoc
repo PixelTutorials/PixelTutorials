@@ -1,0 +1,6 @@
+* Add script that starts with a menu of options for more miscellaneous functions
+  * one could literally just be to run pc-setup or pc-repair (both which are automatic scripts)
+  * one could be the "setup gpg using 1password" (--> removes pc-setup-other.ps1)
+  * another could be another menu that lists the user all "not-used" apps and allows him to select one's to install anyway
+  * one could be to open every url of every app that has not install method
+  * one could be to open every app that requires a login (useful for initial pc setup)

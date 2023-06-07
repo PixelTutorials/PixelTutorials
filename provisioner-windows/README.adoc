@@ -1,0 +1,50 @@
+Attributions:
+
+https://github.com/AgenttiX/windows-scripts (Powershell Goodies)::
+MIT License (c) 2020-2023 Mika Mäki
+
+https://gist.github.com/dougwaldron/d510f2d67a922da169aca1aeff7e4c4d (Winget)::
+This got me started on my private pc-setup script back in 2022-03-02
+
+
+## Usage
+
+Every script is required to be run in a powershell window.
+If admin rights are required, the respective script elevates itself.
+
+The following command is required to run anything that follows:
+
+[source,powershell]
+====
+Set-ExecutionPolicy Bypass -Scope Process -Force
+====
+
+### Git-free install
+
+[source,powershell]
+====
+Invoke-Expression ((New-Object net.webclient).DownloadString('https://raw.githubusercontent.com/JonasPammer/JonasPammer/master/provisioner-windows/bootstrap.ps1'))
+====
+
+### Scripts
+
+#### Install/Update Apps and Configure PC (automatic)
+
+[WARNING]
+May restart the computer.
+
+[source,powershell]
+====
+ ./pc-setup.ps1
+====
+
+#### Fix potential windows problems (automatic)
+
+[NOTE]
+Restarting the computer afterwards is recommended and necessary for it do fully do its job.
+
+[source,powershell]
+====
+ ./pc-repair.ps1
+====
+

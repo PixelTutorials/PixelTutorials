@@ -1,0 +1,1274 @@
+# yaml-language-server: $schema=./applications.schema.json
+---
+applications:
+  ### Programming
+  - display_name: "Git"
+    link: "https://git-scm.com/"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: Git.Git
+    winget_scope: machine
+    description_short: de-facto Version Control System
+    description_full: |
+      Favored Version Control System.
+
+      Associated tools in use:
+      https://cli.github.com/[Official GitHub command line utility (`gh`)],
+      https://git-lfs.com/[GitLFS]
+
+  - display_name: "Windows Terminal"
+    link: https://github.com/microsoft/terminal
+    category: Programming
+    status: normal
+    provider: winget
+    winget_id: Microsoft.WindowsTerminal
+    winget_scope: machine
+    description_short: A modern, tabbed command line aggregator by Microsoft
+
+  - display_name: "Oh My POSH"
+    link: https://github.com/jandedobbeleer/oh-my-posh
+    category: Programming
+    status: normal
+    provider: winget
+    winget_id: JanDeDobbeleer.OhMyPosh
+    winget_scope: machine
+    description_short: Prompt theme engine for any shell (Compareable to oh-my-zsh or bash-it)
+
+  - display_name: "GnuPG.Gpg4win"
+    category: Programming
+    status: daily-driver # background
+    provider: winget
+    winget_id: GnuPG.Gpg4win
+    winget_scope: machine
+    description_short: GnuPG (encryption tool) for Windows
+
+  - display_name: "draw.io"
+    link: "https://www.draw.io/"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: JGraph.Draw
+    winget_scope: machine
+    description_short: Modern Diagramming Tool
+    description_full: |
+      The BEST and most multi-Purpose Diagramming Software in existence.
+      Works on every Computer, even in the Web.
+
+      https://stackshare.io/JonasPammer/decisions/108572592002597404[
+      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+
+  - display_name: "Docker Desktop"
+    link: "https://www.docker.com/products/docker-desktop/"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: Docker.DockerDesktop
+    winget_scope: machine
+    description_short: All-in-One OCI-Compliant Container Manager
+    description_full: |
+      Easy way of installing and managing Docker for easy graphical home use
+
+  - display_name: "Vagrant"
+    link: "https://www.vagrantup.com/"
+    category: Programming
+    status: normal
+    provider: winget
+    winget_id: Hashicorp.Vagrant
+    winget_scope: machine
+    description_short: Software for Code-defined software development environment VMs
+    description_full: |
+      Vagrant enables the creation and configuration of lightweight,
+      reproducible, and portable virtual machine environments.
+
+  - display_name: "Hashicorp Terraform"
+    link: "https://github.com/hashicorp/terraform"
+    category: Programming
+    status: normal
+    provider: chocolatey
+    chocolatey_name: terraform
+    description_short: Infrastructure as Code
+
+  - display_name: "Github CLI"
+    category: Programming
+    status: normal
+    provider: chocolatey
+    chocolatey_name: packer
+    description_short: Used in combination with Terraform
+
+  - display_name: "Github LFS"
+    category: Programming
+    status: daily-driver
+    provider: winget
+    winget_id: GitHub.GitLFS
+    winget_scope: machine
+    description_short: Command line extension for managing large files with Git
+
+  - display_name: "Hashicorp Packer"
+    link: "https://github.com/hashicorp/packer"
+    category: Programming
+    status: normal
+    provider: chocolatey
+    chocolatey_name: packer
+    description_short: Used in combination with Terraform
+
+  - display_name: "VMWare Workstation Pro"
+    link: ""
+    category: Programming
+    status: not-used
+    provider: winget
+    # winget_id: VMware.WorkstationPro
+    # winget_scope: machine
+    description_short: de-facto industry standard desktop hypervisor for IT professionals
+    description_full: |
+      no longer used since i now have an own server (again) running VMWare ESXi
+      and my PC isnt that strong anymore.
+
+  - display_name: "SVN (Subversion)"
+    link: "https://subversion.apache.org/"
+    category: Programming
+    status: not-used
+    provider: winget
+    winget_id: TortoiseSVN.TortoiseSVN
+    winget_scope: machine
+    description_short: Inferior Version Control System
+    description_full: |
+      Version Control System (VCS) used in one of my past companies
+
+  - display_name: "SmartSVN"
+    link: "https://www.smartsvn.com/"
+    category: Programming
+    status: eh
+    description_full: |
+      The only sane way one can use SVN without headaches.
+      Awesome License-Plan: Buy it one time, have it forever -
+      Only need to buy a new License if one wants to use a version
+      that comes out 2 years later after current version.
+
+  - display_name: "XAMPP"
+    link: "https://www.apachefriends.org/"
+    category: Programming
+    status: not-used
+    provider: winget
+    winget_id: ApacheFriends.Xampp.8.2 # never tested
+    winget_scope: machine # never tested
+    description_full: |
+      Easily installable https://de.wikipedia.org/wiki/LAMP_(Softwarepaket)[LAMP]-Stack
+      (**C**ross Plattform, **A**pache Webserver, **M**ariaDB, **P**erl und **P**HP)
+      with phpMyAdmin.
+
+  - display_name: "JDGUI"
+    link: "http://java-decompiler.github.io/"
+    category: Programming
+    status: eh
+    provider: chocolatey # never tested
+    chocolatey_name: javadecompiler-gui
+    description_full: |
+      Fast, Standalone, Open-Source Java-Decompiler with many nice features
+      (Drag and Drop, supports CLASS/JAR/WAR/EAR/ZIP-files,
+      color-coded preview of decompiled source-code with class-hierarchy, ...).
+      Available for any OS (Java/Groovy-Program).
+
+  ### Programming / Editors
+  - display_name: "Visual Studio Code"
+    link: "https://code.visualstudio.com/"
+    category: Programming / Editors
+    status: daily-driver
+    provider: winget
+    winget_id: Microsoft.VisualStudioCode
+    winget_scope: machine
+    description_short: "Modern Editor / IDE"
+    description_full: |
+      https://stackshare.io/JonasPammer/decisions/108521050744396979[
+      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+
+      [[vscode-extensions]]
+      Extensions in use:
+
+      GUI::
+      * https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager[*Project Manager*]
+      * https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency[Project Manager for Java]
+      * https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens[*GitLens*]
+      * https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory[*Git History*]
+      * https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph[*Git Graph*]
+      * https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm[SVN]
+      * https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub[*GitHub Remote Repositories*]
+      * https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github[GitHub Pull Requests]
+      * https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions[Github Actions]
+      * https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow[GitLab Workflow]
+      * https://marketplace.visualstudio.com/items?itemName=humao.rest-client[REST Client]
+      * https://marketplace.visualstudio.com/items?itemName=mutantdino.resourcemonitor[Resource Monitor]
+
+      Editor Theming::
+      * https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme[*GitHub VSCode Theme*]
+      * https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons[*vscode-icons*]
+      * https://marketplace.visualstudio.com/items?itemName=muuvmuuv.vscode-sundial[*Sundial*] -- Automatic night mode and settings switch
+
+      Language Support / IntelliSense Extensions::
+      * https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack[*Python Language Extension Pack*]
+      ** https://marketplace.visualstudio.com/items?itemName=ms-python.python[Python]
+      ** https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja[Jinja]
+      ** https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django[Django]
+      ** https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode[Visual Studio IntelliCode]
+      ** Python Environment Manager
+      ** https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring[*Python Docstring Generator*]
+      ** https://marketplace.visualstudio.com/items?itemName=wwm.better-align[Python Indent]
+      ** https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter[Jupyter]
+      * https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance[Pylance]
+      * https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack[*Java Language Extension Pack*]
+      ** https://marketplace.visualstudio.com/items?itemName=redhat.java[Language Support for Java by Red Hat]
+      ** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug[Debugger for Java]
+      ** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test[Test Runner for Java]
+      ** Project Manager for Java
+      ** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven[Maven for Java]
+      * https://marketplace.visualstudio.com/items?itemName=redhat.ansible[Ansible language support by RedHat]
+      * https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML language support by RedHat]
+        -- also features built-in Kubernetes syntax support
+      * https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml[Better Jinja Syntax Highlighting]
+      * https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz[Graphviz language support]
+      * https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker[Docker]
+        (includes extension to GUI, which I don't use)
+      * https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp[_C#_]
+      * https://marketplace.visualstudio.com/items?itemName=ms-vscode.powershell[PowerShell]
+      * https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense[npm IntelliSense]
+      * https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense[Path IntelliSense]
+      * https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[Asciidoctor]
+
+      In-Editor::
+      * https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments[Better Comments]
+        -- Categorize Comments into alerts, queries, TODOs, Highlights and explicitily-Commented-Out-Code.
+      * https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles[Markdown Preview GitHub]
+      * https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost[Import Cost]
+        -- Display import/require package size in the editor
+      * https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer[Log Output Colorizer]
+      * https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer[SQLite Viewer]
+      * https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf[vscode-pdf]
+      * https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer[Excel Viewer]
+
+      Auto Formatting::
+      * https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig[EditorConfig]
+      * https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode[Prettier]
+      * https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format[shell-format]
+
+      Other::
+      * https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype[Paste JSON as code]
+          -- Copy JSON, paste as Go, TypeScript, C#, C++ and more.
+      * https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode[Discord Presence]
+          -- Update your discord status with a rich presence.
+      * https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime[WakaTime]
+      * https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser[Open In Browser]
+      * https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack[Remote Development Extension pack]
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[*Remote - Containers*]
+          -- Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[Remote - SSH]
+          -- Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit[Remote - SSH: Extension]
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[Remote - WSL]
+          -- Open any folder in the Windows Subsystem for Linux (WSL) and take advantage of Visual Studio Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories[Remote Repositories]
+          -- Remotely browse and edit git repositories
+
+      * https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-de[German Language Pack]
+      * https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings[IntelliJ Key Bindings]
+
+      https://stackshare.io/JonasPammer/decisions/108521050744396979[
+      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+
+      [[vscode-extensions]]
+      Extensions in use:
+
+      GUI::
+      * https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager[*Project Manager*]
+      * https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency[Project Manager for Java]
+      * https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens[*GitLens*]
+      * https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory[*Git History*]
+      * https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph[*Git Graph*]
+      * https://marketplace.visualstudio.com/items?itemName=johnstoncode.svn-scm[SVN]
+      * https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub[*GitHub Remote Repositories*]
+      * https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github[GitHub Pull Requests]
+      * https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions[Github Actions]
+      * https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow[GitLab Workflow]
+      * https://marketplace.visualstudio.com/items?itemName=humao.rest-client[REST Client]
+      * https://marketplace.visualstudio.com/items?itemName=mutantdino.resourcemonitor[Resource Monitor]
+
+      Editor Theming::
+      * https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme[*GitHub VSCode Theme*]
+      * https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons[*vscode-icons*]
+      * https://marketplace.visualstudio.com/items?itemName=muuvmuuv.vscode-sundial[*Sundial*]
+        -- Automatic night mode and settings switch
+
+      Language Support / IntelliSense Extensions::
+      * https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack[*Python Language Extension Pack*]
+      ** https://marketplace.visualstudio.com/items?itemName=ms-python.python[Python]
+      ** https://marketplace.visualstudio.com/items?itemName=wholroyd.jinja[Jinja]
+      ** https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django[Django]
+      ** https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode[Visual Studio IntelliCode]
+      ** Python Environment Manager
+      ** https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring[*Python Docstring Generator*]
+      ** https://marketplace.visualstudio.com/items?itemName=wwm.better-align[Python Indent]
+      ** https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter[Jupyter]
+      * https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance[Pylance]
+      * https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack[*Java Language Extension Pack*]
+      ** https://marketplace.visualstudio.com/items?itemName=redhat.java[Language Support for Java by Red Hat]
+      ** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug[Debugger for Java]
+      ** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test[Test Runner for Java]
+      ** Project Manager for Java
+      ** https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven[Maven for Java]
+      * https://marketplace.visualstudio.com/items?itemName=redhat.ansible[Ansible language support by RedHat]
+      * https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml[YAML language support by RedHat]
+        -- also features built-in Kubernetes syntax support
+      * https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml[Better Jinja Syntax Highlighting]
+      * https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz[Graphviz language support]
+      * https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker[Docker]
+        (includes extension to GUI, which I don't use)
+      * https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp[_C#_]
+      * https://marketplace.visualstudio.com/items?itemName=ms-vscode.powershell[PowerShell]
+      * https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense[npm IntelliSense]
+      * https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense[Path IntelliSense]
+      * https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[Asciidoctor]
+
+      In-Editor::
+      * https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments[Better Comments]
+        -- Categorize Comments into alerts, queries, TODOs, Highlights and explicitily-Commented-Out-Code.
+      * https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles[Markdown Preview GitHub]
+      * https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost[Import Cost]
+        -- Display import/require package size in the editor
+      * https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer[Log Output Colorizer]
+      * https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer[SQLite Viewer]
+      * https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf[vscode-pdf]
+      * https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer[Excel Viewer]
+
+      Auto Formatting::
+      * https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig[EditorConfig]
+      * https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode[Prettier]
+      * https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format[shell-format]
+
+      Other::
+      * https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype[Paste JSON as code]
+        -- Copy JSON, paste as Go, TypeScript, C#, C++ and more.
+      * https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode[Discord Presence]
+        -- Update your discord status with a rich presence.
+      * https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime[WakaTime]
+      * https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser[Open In Browser]
+      * https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack[Remote Development Extension pack]
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[*Remote - Containers*]
+        -- Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh[Remote - SSH]
+        -- Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit[Remote - SSH: Extension]
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl[Remote - WSL]
+        -- Open any folder in the Windows Subsystem for Linux (WSL) and take advantage of Visual Studio Code's full feature set.
+      ** https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories[Remote Repositories]
+        -- Remotely browse and edit git repositories
+
+      * https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-de[German Language Pack]
+      * https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings[IntelliJ Key Bindings]
+
+  - display_name: "Jetbrains IntelliJ IDEA"
+    link: "https://www.jetbrains.com/idea/"
+    category: Programming / Editors
+    status: eh
+    description_full: |
+      *My favorite IDE for Java-Development or when I need to go real and am not out of money :).*
+
+      https://stackshare.io/JonasPammer/decisions/108521050744396979[
+      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+
+  - display_name: "Jetbrains.Toolbox"
+    category: Programming / Editors
+    status: eh
+    provider: winget
+    winget_id: JetBrains.Toolbox
+    winget_scope: ~
+    description_short: "Hub Software to install and manage all of Jetbrains' IDEs"
+
+  - display_name: "Arduino IDE"
+    link: "https://www.arduino.cc/"
+    category: Programming / Editors
+    status: eh
+    provider: winget
+    winget_id: ArduinoSA.IDE.stable
+    winget_scope: ~ # not tested
+    description_full: |
+      IDE for programming with the https://jonaspammer.at/mediawiki/index.php/Arduino[Arduino Micro Controller]
+
+  - display_name: "Jetbrains' CLion"
+    link: "https://www.jetbrains.com/clion/"
+    category: Programming / Editors
+    status: not-used
+    description_full: |
+      C++ IDE which has all the Stuff which I like most about IntelliJ, but for C\+\+. Projects
+
+  - display_name: "Visual Studio"
+    link: "https://visualstudio.microsoft.com/"
+    category: Programming / Editors
+    status: not-used
+    description_full: |
+      C++ IDE
+      (Primarily used out of convinience to be able to completely
+      follow along with most C related Tutorials)
+
+  ### Programming / Programming Languages
+  - display_name: "Java (JDK)"
+    link: "https://www.oracle.com/java/technologies/downloads/#java8"
+    category: Programming / Programming Languages
+    status: eh
+    provider: winget
+    winget_id: AdoptOpenJDK.OpenJDK.16 # some programs require more than 8 nowadays :=)
+    winget_scope: machine
+    description_full: |
+      Java 8+ with https://groovy-lang.org/[Groovy Lang]
+
+  - display_name: "Groovy (Alternative JVM Language)"
+    category: Programming / Programming Languages
+    status: eh
+    provider: winget
+    winget_id: Apache.Groovy.4
+    winget_scope: ~
+    description_full: |
+      More dynamic JVM Programming Language. Primary use: Grails Web Development
+
+  - display_name: "Python"
+    link: ""
+    category: Programming / Programming Languages
+    status: daily-driver
+    provider: winget
+    winget_id: Python.Python.3.9
+    winget_scope: machine
+    description_full: |
+      https://www.python.org/dev/peps/pep-0484/[PEP 484] is love.
+      I am a strong defender of the benefits of typing.
+
+  - display_name: "Python Anaconda3"
+    link: ""
+    category: Programming / Programming Languages
+    status: eh
+    provider: winget
+    winget_id: Anaconda.Anaconda3
+    winget_scope: machine
+    description_full: |
+      Python Programming in Form of interactive Step-by-Step Notebooks
+      (apparently loved by Data Scienticts)
+
+  ### Web / Browsers
+  - display_name: "Firefox"
+    link: "https://www.mozilla.org/de/firefox/new/"
+    category: Web / Browsers
+    status: daily-driver
+    provider: winget
+    winget_id: Mozilla.Firefox
+    winget_scope: machine
+    description_full: |
+      Originally switched to Firefox as it runs much better with some web apps
+      and has since earned its way into my heart because of its OSS princibles.
+
+  - display_name: "Brave"
+    link: "https://brave.com/"
+    category: Web / Browsers
+    status: normal
+    provider: winget
+    winget_id: Brave.Brave
+    winget_scope: machine
+    description_full: |
+      "'More Secure' Chromium Web Browser"
+
+  - display_name: "Vivaldi"
+    link: "https://vivaldi.com"
+    category: Web / Browsers
+    status: not-used
+    provider: winget
+    winget_id: VivaldiTechnologies.Vivaldi # never tested
+    winget_scope: machine # never tested
+    description_full: |
+      lorem ipsum
+
+  ### General
+  - display_name: "OneDrive"
+    category: General
+    status: normal
+    winget_id: 9WZDNCRFJ1P3
+    winget_scope: machine
+
+  - display_name: "Microsoft 365 (Office)"
+    category: General
+    status: normal
+    winget_id: 9WZDNCRD29V9
+    winget_scope: machine
+
+  - display_name: "Discord"
+    link: "https://discordapp.com/"
+    category: General
+    status: daily-driver
+    provider: winget
+    winget_id: Discord.Discord
+    winget_scope: ~
+    description_short: Modern Get-Together Communications Platform
+    description_full: |
+      Discord is the ultimate cross-platform community chat application for text,
+      video, and voice communication, with a whopping 250+ million users worldwide.
+      It's like the best of Skype and TeamSpeak³ combined,
+      but without any cost and available on every platform,
+      and dozens of other brand-new features.
+      Everyone can create his own community server, totally for free with a lot of
+      settings, permissions, groups, bots, and much more.
+
+      .Disclaimer
+      [NOTE]
+      However, it's essential to keep in mind that while Discord is an excellent communication tool,
+      it may not be the most secure chatting application out there.
+      It's important to treat every message and chat with caution,
+      knowing that anyone could potentially screenshot and read it.
+      So, be mindful of the content you share and who you communicate with on the platform.
+
+  - display_name: "Outlook"
+    category: General
+    status: daily-driver
+    description_short: Favored E-Mail Client
+    description_full: |
+      I especially like it for its Export-to-File Functionality.
+
+  - display_name: "OBS Studio"
+    link: "https://obsproject.com/de/download"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: OBSProject.OBSStudio
+    winget_scope: machine
+    description_short: Free and open source software for video recording and live streaming
+
+  - display_name: "OBS Virtual Cam"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: Fenrirthviti.obs-virtual-cam
+    winget_scope: machine
+    description_short: OBS-Studio plugin to simulate a directshow webcam
+
+  - display_name: "KDEenlive"
+    link: "https://kdenlive.org/"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: KDE.Kdenlive
+    winget_scope: machine
+    description_short: Free and Open Source Video Editor
+
+  - display_name: "KDE Digikam"
+    link: "https://www.digikam.org/"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: KDE.digikam
+    winget_scope: machine
+    description_short: Professional Photo Management Software
+    description_full: |
+      light-weight (uses flat-file sqlite db for caching);
+      has Face Recognizition ability
+
+  - display_name: "Greenshot"
+    link: "https://getgreenshot.org/downloads/"
+    category: General
+    status: daily-driver
+    provider: winget
+    winget_id: Greenshot.Greenshot
+    winget_scope: machine
+    description_short: Easy go-to screenshot tool
+
+  - display_name: "ScreenToGif"
+    link: "https://www.screentogif.com/"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: NickeManarin.ScreenToGif
+    winget_scope: machine
+    description_short: Windows-Replacement for Peek
+    description_full: |
+      Easily Record and Export a selected part of the screen
+
+  - display_name: "Qoppa's PDFStudio PRO"
+    link: "https://www.qoppa.com/pdfstudio"
+    category: General
+    status: eh
+    description_full: |
+      THE BEST PDF Editing Software, available for all major OS (Java Application)!
+      It has got *everything* you can do with a PDF, and even more.
+      Some of my main use cases are: Bookmarking (scanned) PDFs, Merging/Splitting PDF's
+      *WHILE* keeping all the bookmarks
+      (I wouldn't use this program without these 2 features),
+      OCR with After-Editing features, Conversion to/from other formats.
+
+  - display_name: "PicPick"
+    link: "https://picpick.app/"
+    category: General
+    status: not-used
+    provider: winget
+    winget_id: NGWIN.PicPick # never tested
+    winget_scope: machine # never tested
+    description_full: |
+      All-in-one Graphic Design, Screen Capture Software, Image Editor,
+      Color Picker, Pixel Ruler and More.
+      Started using it when i started to make pictures for adhoc documentation.
+
+  - display_name: "Sagethumbs 2"
+    link: "https://sourceforge.net/projects/sagethumbs/"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: CherubicSoftware.SageThumbs
+    winget_scope: ~
+    description_full: |
+      Extends the Preview-Icon-Functionality of Windows's Explorer with
+      an enormous amount of formats (e.g. Photoshop Files).
+
+  - display_name: "youtube-dl"
+    link: "https://github.com/MrS0m30n3/youtube-dl-gui"
+    category: General
+    status: eh
+    provider: winget # doesnt seem to install all required deps
+    winget_id: jely2002.youtube-dl-gui
+    winget_scope: user
+    description_short: youtube downloader
+
+  - display_name: "Handbrake"
+    link: "https://handbrake.fr/"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: HandBrake.HandBrake
+    winget_scope: machine
+    description_short: Video file format/codec converter with compression capability
+
+  - display_name: "CaesiumPH"
+    link: "https://github.com/Lymphatus/caesium-image-compressor"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: SaeraSoft.CaesiumPH
+    winget_scope: machine
+    description_short: Image compression tool
+
+  - display_name: "VLC Media Player"
+    link: "https://www.videolan.org/vlc"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: VideoLAN.VLC
+    winget_scope: machine
+    description_full: |
+      Media Player for `.vlc`-Files (OBS-Studio exports as `.vlc`)
+
+  - display_name: "Rainmeter"
+    link: "https://www.rainmeter.net/"
+    category: General
+    status: not-used
+    description_full: |
+      My Widget-Packs:
+
+      * https://www.deviantart.com/satyajit00/art/Flat-and-Blurry-v1-5-524848816[Flat & Blurry]
+      (CPU, RAM, Netzwork <3, C Drive, Uptime and Weather)
+      * https://www.deviantart.com/arkenthera/art/TranslucentTaskbar-1-2-656402039[Translucent Taskbar]
+      (Sample)
+      * https://github.com/khanhas/mnmlUI[mnmlUI]
+      (Clock Future Style)
+
+  - display_name: "Notepad++.Notepad++"
+    link: "https://visualstudio.microsoft.com/"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: Notepad++.Notepad++
+    winget_scope: machine
+    description_short: Notepad++
+    description_full: I mean, come on -- It's on everyone's PC
+
+  - display_name: "Microsoft Teams"
+    link: "https://www.microsoft.com/en-us/microsoft-teams/download-app"
+    category: General
+    status: eh
+    provider: winget
+    winget_id: Microsoft.Teams
+    winget_scope: machine
+    description_short: Bussiness Communcations Platform
+
+  ### Networking Tools
+  - display_name: "TeamViewer"
+    link: "https://www.teamviewer.com/"
+    category: Networking Tools
+    status: daily-driver
+    provider: winget
+    winget_id: TeamViewer.TeamViewer
+    winget_scope: machine
+    description_full: |
+      Remote Control Software used nearly everywhere and known by nearly everyone (2022)
+
+  - display_name: "FileZilla"
+    link: "https://filezilla-project.org/"
+    category: Networking Tools
+    status: eh
+    provider: chocolatey
+    chocolatey_name: filezilla
+    description_full: |
+      Widely-used FTP (File-Transfer Protocol)-Client
+
+  - display_name: "WinSCP"
+    category: Networking Tools
+    status: not-used
+    provider: winget
+    winget_id: WinSCP.WinSCP
+    winget_scope: machine
+    description_short: FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer application
+
+  - display_name: "PuTTY"
+    link: "https://www.putty.org/"
+    category: Networking Tools
+    status: eh
+    provider: winget
+    winget_id: PuTTY.PuTTY
+    winget_scope: machine
+    description_short: SSH Client with integrated xterm terminal emulator
+    description_full: |
+      https://stackshare.io/JonasPammer/decisions/108493381948748350[
+      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+
+  - display_name: "SuperPuTTY"
+    link: "https://github.com/jimradford/superputty/releases"
+    category: Networking Tools
+    status: normal
+    provider: chocolatey
+    chocolatey_name: superputty.install
+    description_short: Graphical PuTTY multiplexer
+    description_full: |
+      Wrapper for PuTTY in which one can maintain multiple SSH/RDP-Sessions in one window.
+      This tool simplifies the process of saving connections
+      and provides a more streamlined experience to do so.
+      Each Session is represented by a Tab.
+
+      Only available for Windows, though (Linux Equivalent: Remmina)!
+
+      https://stackshare.io/JonasPammer/decisions/108493381948748350[
+      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+      (links to same as PuTTY)
+
+  - display_name: "TeraTerm"
+    link: "https://ttssh2.osdn.jp/index.html.en"
+    category: Networking Tools
+    status: normal
+    provider: winget
+    winget_id: TeraTermProject.teraterm
+    winget_scope: machine
+    description_short: Easier way of connecting to a console cable on Windows
+    description_full: |
+      TeraTerm is a console application that simplifies the process of
+      "does my console cable work / which COM port is it"
+      by providing a clear display of all detected serial cables
+      and allowing for easy selection via a convenient drop-down menu
+      even displaying the detected name given by the driver.
+
+      https://stackshare.io/JonasPammer/decisions/108493381948748350[
+      image:https://img.shields.io/badge/View_Decision_on-stackshare-blue?logo=stackshare&logoColor=white[View Decision on StackShare]]
+      (links to same as PuTTY)
+
+  - display_name: "nmap"
+    link: "https://nmap.org/"
+    category: Networking Tools
+    status: normal
+    provider: winget
+    winget_id: Insecure.Nmap
+    winget_scope: machine
+    description_full: |
+      Free and open source portable utility for network discovery
+      and (through the use of nmap scripts) security auditing.
+
+  - display_name: "Cisco Packet Tracer"
+    link: "https://www.netacad.com/courses/packet-tracer"
+    category: Networking Tools
+    status: normal
+    description_full: |
+      Easy to use networking simulation tool.
+      Used in my School and many others.
+      The best way to learn about networking, routing, switching, how the
+      TCP/OSI-Layers and Packets work (You can inspect and watch the process
+      and steps an individual packet goes through - on each Layer - and see
+      why something (doesnt) work), etc...
+
+      Available only by signing up for the free official Cisco Packet Tracer Introductory Course.
+
+  - display_name: "Wireshark"
+    link: "https://www.wireshark.org/"
+    category: Networking Tools
+    status: eh
+    provider: winget
+    winget_id: WiresharkFoundation.Wireshark
+    winget_scope: ~
+    description_short: Network Protocol Analyzer
+    description_full: |
+      [quote]
+      The world's foremost and widely-used network protocol analyzer
+      which lets you see what's happening on your network at a microscopic level and is the de facto
+      (and often de jure) standard across many commercial and non-profit
+      enterprises, government agencies, and educational institutions.
+
+      Terminal User Interface (TUI) Alternative:
+      https://github.com/gcla/termshark[termshark]
+
+  - display_name: "qBittorrent Enhanced Edition"
+    link: "https://github.com/c0re100/qBittorrent-Enhanced-Edition"
+    category: Networking Tools
+    status: eh
+    provider: winget
+    winget_id: c0re100.qBittorrent-Enhanced-Edition
+    winget_scope: machine
+    description_short: Enhanced qBittorrent, 10k stars on GitHub
+    description_full: |
+      Although not often used it's nice to have a torrent client for some heavy load ocassions.
+
+  ### Security/Privacy Tools
+  - display_name: "1Password"
+    link: "https://1password.com/"
+    category: Security/Privacy Tools
+    status: daily-driver
+    provider: winget
+    winget_id: AgileBits.1Password
+    winget_scope: user
+    description_short: Cloud-Based Secret/Credentials Manager
+
+  - display_name: "NordVPN"
+    link: "https://nordvpn.com/"
+    category: Security/Privacy Tools
+    status: eh
+    provider: winget
+    winget_id: NordVPN.NordVPN
+    winget_scope: machine
+    description_full: |
+      Paid Public VPN service available for all Platforms;
+      Honestly bought it for its cheap 5-years deal
+      and immense advertising somehow convinced me.
+
+  - display_name: "Windows Defender"
+    category: Security/Privacy Tools
+    status: eh
+    description_short: Favored Antivirus for Windows.
+    description_full: |
+      Bitdefender if i need to go real otherwise.
+
+  - display_name: "KeePass"
+    link: "https://keepass.info/"
+    category: Security/Privacy Tools
+    status: not-used
+    provider: winget
+    winget_id: DominikReichl.KeePass
+    winget_scope: machine
+    description_short: File-based Password Manager
+
+  ### Computer Management Utilities
+  - display_name: "Chocolatey"
+    link: "https://chocolatey.org/"
+    category: Computer Management Utilities
+    status: normal
+    description_full: |
+      A Package Manager for Windows. A dream come true.
+      Nowadays replaced by the official `winget` where feasable.
+
+  - display_name: "Duplicate Cleaner Pro"
+    link: "https://www.duplicatecleaner.com"
+    category: Computer Management Utilities
+    status: normal
+    description_short: BEST Duplicate Cleaning Application.
+    description_full: |
+      Paid.
+
+  - display_name: "WinDirStat"
+    link: "https://windirstat.net/"
+    category: Computer Management Utilities
+    status: normal
+    provider: winget
+    winget_id: WinDirStat.WinDirStat
+    winget_scope: machine
+    description_short: Disk Usage Statistics Viewer (treemap)
+
+  - display_name: "CrystalDiskMark"
+    link: "https://crystalmark.info/en/software/crystaldiskmark/"
+    category: Computer Management Utilities
+    status: normal
+    provider: winget
+    winget_id: CrystalDewWorld.CrystalDiskMark
+    winget_scope: machine
+    description_short: Disk Perfomance Benchmark Tool
+    description_full: |
+      (Can also benchmark my NAS with the feature to select a specific Folder).
+      lorem ipsum
+
+  - display_name: "CCleaner"
+    link: "https://www.ccleaner.com/"
+    category: Computer Management Utilities
+    status: not-used
+    description_short: Computer and Registry Cleaner
+    description_full: |
+      (Used on rare occasions). Replaced by OSS bleachbit.
+
+  - display_name: "HWiNFO"
+    link: "https://www.hwinfo.com/download/"
+    category: Computer Management Utilities
+    status: eh
+    provider: winget
+    winget_id: REALiX.HWiNFO
+    winget_scope: machine
+    description_short: Hardware Monitoring Tool
+    description_full: |
+      "Advanced System Monitoring Utility".
+      Use case of mine is to measure Temperatures.
+
+  - display_name: "HiSuite"
+    link: "https://consumer.huawei.com/en/support/hisuite/"
+    category: Computer Management Utilities
+    status: eh
+    description_full: |
+      Used to backup and restore all files and settings off of my Huawei Smartphone.
+
+  - display_name: "ShutUp10"
+    link: "https://www.oo-software.com/en/shutup10"
+    category: Computer Management Utilities
+    status: eh
+    provider: winget
+    winget_id: OO-Software.ShutUp10
+    winget_scope: machine
+    description_full: |
+      Free antispy tool to change many Windows settings to
+      a more sane suite of values at the click of a button.
+
+  - display_name: "Microsoft PowerToys"
+    link: "https://learn.microsoft.com/en-us/windows/powertoys/"
+    category: Computer Management Utilities
+    status: eh
+    provider: winget
+    winget_id: Microsoft.PowerToys
+    winget_scope: machine
+    description_full: |
+      Extends Windows with many Microsoft-made power user capabilities
+
+  - display_name: "CrystalDiskInfo"
+    link: "https://crystalmark.info/en/software/crystaldiskinfo/"
+    category: Computer Management Utilities
+    status: eh
+    provider: winget
+    winget_id: CrystalDewWorld.CrystalDiskInfo
+    winget_scope: machine
+    description_short: Disk Information Viewer Tool
+
+  - display_name: "Intel DSA"
+    link: "https://downloadcenter.intel.com/de/download/28425/Intel-Driver-Support-Assistant"
+    category: Computer Management Utilities
+    status: not-used
+    provider: winget
+    winget_id: Intel.IntelDriverAndSupportAssistant # never tested
+    winget_scope: machine # never tested
+    description_full: |
+      Intel's "Driver Support Assistent" (to find newest Intel drivers, e.g. WiFi/Bluetooth).
+
+  - display_name: "Logitech Options"
+    link: "https://www.logitech.com/de-at/product/options"
+    category: Computer Management Utilities
+    status: eh
+    provider: winget
+    winget_id: Logitech.Options
+    winget_scope: ~
+    description_full: |
+      _If one is on Windows 10 and plugs in a Logitech Mouse, a pop-up
+      (like the one known from most Antivirus Softwares)
+      appears which hints one to install this Software._
+
+  - display_name: "Intel XTU"
+    link: "https://downloadcenter.intel.com/de/download/24075/Intel-Extreme-Tuning-Utility-Intel-XTU-"
+    category: Computer Management Utilities
+    status: not-used
+    provider: chocolatey
+    chocolatey_name: intel-xtu
+    description_short: "'Extreme Tuning Utility' for Intel CPU's"
+    description_full: |
+      Intel's "Extreme Tuning Utility" lets you tune, overview and
+      benchmark like every parameter a cpu can possibly have
+      (And it isn't software-level-configuration. It is configuring
+      the cpu parameters itself - so they stay until a system-crash
+      (like BSOD) occurs and resets them to their defaults).
+      I used it for undervolting my Razer Laptops CPU's
+      and to check if it was Power-Throtteling.
+
+  - display_name: "Razer Synapse 3"
+    link: "https://www.razer.com/de-de/synapse-3"
+    category: Computer Management Utilities
+    status: not-used
+    provider: chocolatey
+    chocolatey_name: razer-synapse-3 # never tested
+    description_short: Razer's Laptop Control Software.
+    description_full: |
+      2023: No longer have a Razer computer and will never buy one again.
+
+  ### Gaming
+  - display_name: "Steam"
+    link: "https://steampowered.com/"
+    category: Gaming
+    status: daily-driver
+    provider: winget
+    winget_id: Valve.Steam
+    winget_scope: machine
+    description_short: Biggest Game Store
+    description_full: |
+      Game-Hub for:
+
+      * Anno 2205
+      * ARK: Survival Evolved
+      * Bloons TD Battles
+      * Bloons TD 5
+      * Borderlands 2
+      * Call of Duty: Black Ops III
+      * _Counter Strike: Global Offensive_
+      * _Don't Starve Together_
+      * Factorio
+      * LEGO Star Wars: The Complete Saga
+      * _Shellshock Live_
+      * _Space Engineers_
+      * Stronghold Crusader 2
+      * Tom Clancy's Rainbow Six Siege
+      * Phasmophobia
+
+  - display_name: "Ubisoft Connect"
+    link: "https://ubisoftconnect.com/"
+    category: Gaming
+    status: eh
+    provider: winget
+    winget_id: Ubisoft.Connect
+    winget_scope: machine
+    description_short: Game-Hub for Anno and R6.
+
+  - display_name: "BattleNET-Launcher"
+    link: "https://www.blizzard.com/"
+    category: Gaming
+    status: eh
+    description_short: Game-Hub for Overwatch
+
+  - display_name: "Minecraft"
+    link: "https://minecraft.net"
+    category: Gaming
+    status: daily-driver
+    provider: winget
+    winget_id: Mojang.MinecraftLauncher
+    winget_scope: machine
+    description_short: My favourite game of all time.
+    description_full: |
+      * Clients
+      ** ...
+      * Recource-Packs:
+      ** https://resourcepack.net/oerlis-realistic-photo-pro-resource-pack/[
+      Oerlis Realistic Photo Pro x256] - mostly used in context with the below
+      mentioned shaders for that awesome realistic feel from time to time
+      ** https://rodrigo-al.jimdo.com/texture-packs/8x8-rodrigo-s-pack/[
+      Rodrigo's Pack] - for the sweet and awesome minimalistic look
+      ** (Before 2018 I mostly/always used
+      https://bdcraft.net/["Spaxh" BDCraft] for _everything ;)_.)
+      * Shaders
+      ** http://shadersmods.com/sildurs-shaders-mod/[Sildurs Vibrant Shaders]
+      * Mod-Packs
+      ** https://www.feed-the-beast.com/projects/ftb-lite[FTB-Lite] - Good old
+      https://www.youtube.com/watch?v=ItOTriUJIaM&list=PL2CkP1Bfxjsv8PqTWLpnm48afT32Z_1sf[#MegaProjekt]-Times,
+      hottests Modpack for me with a lot of technology / energy and even magic stuff
+      ** https://www.technicpack.net/modpack/tekkitlite.552675[Tekkit Lite] -
+      Similar to FTB-Lite, but without magic
+      ** https://www.technicpack.net/modpack/tekkit.552560[Tekkit-Classic] -
+      *Most awesome Skyblock-Idea of all time which i fell in love with*:
+      *** Concept: Nearly each block in the game has a "material-value". Using
+      a magic table or chest, you can transform your farmed items into this
+      value, store it, and also exchange it back into items that match your
+      gathered value.
+      *** You can build automated farms to harvest the value and exchange them
+      into the items you want (e.G: Tubes for Item-Transport, Redstone that
+      can stick to side of blocks, Block-Breakers, "Solar-like Panels" which
+      turn sun-energy into the material-value, and much more...)
+      *** The Modpack includes a big amount of Mods from Tekkit-Lite with
+      energy but also adds lots of magic (e.G: A ring that lets you fly freely
+      at the cost of the mentioned material-value)
+      *** Old Minecraft Version (1.2.5) Vibes hard
+
+  - display_name: "Oculus Quest Link"
+    link: "https://www.oculus.com/setup/"
+    category: Gaming
+    status: eh
+    description_full: |
+      Official Software needed to connect my Oculus Quest headset
+      to the "power" of the computer over USB
+      in order to essentially make it a Oculus Rift headset.
+
+  - display_name: "NVIDIA Geforce Experience"
+    link: "https://www.nvidia.com/de-at/geforce/geforce-experience/"
+    category: Gaming
+    status: normal
+    provider: winget
+    winget_id: Nvidia.GeForceExperience
+    winget_scope: machine
+    description_full: |
+      My main use-case is its Instant Replay functionality;
+      Also no longer need to worry about GPU driver installation and updates
+
+  ## Other
+  - display_name: "Rufus"
+    link: "https://rufus.ie/"
+    category: Other
+    status: eh
+    provider: winget
+    winget_id: Rufus.Rufus
+    winget_scope: machine
+    description_short: Most well-known Bootable USB Image Flasing Utility for Windows.
+
+  - display_name: "Balena Etcher"
+    link: "https://www.balena.io/etcher/"
+    category: Other
+    status: eh
+    provider: winget
+    winget_id: Balena.Etcher # never tested
+    winget_scope: machine # never tested
+    description_full: |
+      Cross-Plattform (https://electronjs.org/[Electron.js])
+      Image Flashing Utility for SD-Cards as well as USB.
+
+  - display_name: "NanaZip"
+    link: "https://github.com/M2Team/NanaZip"
+    category: Other
+    status: daily-driver
+    provider: winget
+    winget_id: M2Team.NanaZip
+    winget_scope: machine
+    description_short: Modern Fork of 7-Zip
+
+  ### Other (previously not mentioned in adoc)
+  - display_name: "Windows Auto Dark Mode"
+    link: "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode"
+    category: Other
+    status: eh
+    # TODO app doesnt seem to work
+    provider: winget
+    winget_id: Armin2208.WindowsAutoNightMode
+    winget_scope: machine
+    description_short: automatically switches Windows Theme depending on time
+
+  - display_name: "Search Deflector"
+    link: ""
+    category: Other
+    status: eh
+    # TODO app doesnt seem to work
+    provider: winget
+    winget_id: SearchDeflector.SearchDeflector
+    winget_scope: machine
+    description_short: Makes Start Menu Searches use the preferred Browser
+
+  - display_name: "Electrum"
+    link: "https://github.com/spesmilo/electrum"
+    category: Other
+    status: eh
+    provider: winget
+    winget_id: Electrum.Electrum
+    winget_scope: machine
+    description_short: Bitcoin wallet
+
+  - display_name: "Sweet Home 3D"
+    link: "https://www.sweethome3d.com/"
+    category: Other
+    status: eh
+    provider: winget
+    winget_id: eTeks.SweetHome3D
+    winget_scope: user
+    description_short: OSS Java interior design application
+
+  - display_name: "FortiExplorer for Windows (Development Discontinued)"
+    category: Networking Tools
+    status: not-used
+    description_full: |
+      FortiExplorer allows one to have access to the FortiOS setup wizard, Web-based
+      Manager, and a simulated CLI console by connecting the PC to a older Fortinet
+      Device (e.g. FortiWifi-30D) that has a USB-AB Port.
+      It's a standalone Application that also installs some brand-own drivers.
+      It was discontinued in 2016 but is still available for download on their
+      Support Website (Login needed).
+
+  ### Uninstall
+  - display_name: "Skype"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: Microsoft.Skype
+    winget_scope: machine
+
+  - display_name: "Xbox"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: 9MV0B5HZVK9Z
+    winget_scope: machine
+
+  - display_name: "Cortana"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: 9NFFX4SZZ23L
+    winget_scope: machine
+
+  - display_name: "Disney+"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: 9NXQXXLFST89
+    winget_scope: machine
+
+  - display_name: "Mail and Calendar"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: 9WZDNCRFHVQM
+    winget_scope: machine
+
+  - display_name: "Microsoft News"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: 9WZDNCRFHVFW
+    winget_scope: machine
+
+  # - display_name: OneDrive
+  #   category: Bloat
+  #   status: not-used
+  #   winget_id: Microsoft.OneDrive
+  #   winget_scope: machine
+  #   description_short:
+
+  - display_name: "Microsoft Tips"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: 9WZDNCRDTBJJ
+    winget_scope: machine
+
+  - display_name: "MSN Weather"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: 9WZDNCRFJ3Q2
+    winget_scope: machine
+
+  # - display_name: Movies & TV
+  #   category: Bloat
+  #   status: not-used
+  #   winget_id: 9WZDNCRFJ3P2
+  #   winget_scope: machine
+
+  - display_name: "Spotify"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: Spotify.Spotify
+    winget_scope: machine
+    description_short: I use Youtube Music
+
+  - display_name: "Microsoft Maps"
+    category: Bloat
+    uninstall: true
+    status: not-used
+    winget_id: 9WZDNCRDTBVB
+    winget_scope: machine
