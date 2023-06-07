@@ -94,15 +94,15 @@ image::./github-metrics.svg[Metrics]
 [discrete]
 === A bit about my journey
 
-NOTE: The following document is very lenghty and nostalgic.
+NOTE: Nostalgia-based document.
 
 link:JOURNEY.adoc[]
-
 
 
 == My Private / Work Setup
 
 include::SETUP.adoc[]
+
 
 == My Applications
 
