@@ -10,11 +10,7 @@
   "$defs": {
     "Application": {
       "type": "object",
-      "required": [
-        "display_name",
-        "category",
-        "status"
-      ],
+      "required": ["display_name", "category", "status"],
       "properties": {
         "display_name": {
           "type": "string"
@@ -26,18 +22,18 @@
         "category": {
           "type": "string",
           "enum": [
-              "Programming",
-              "Programming / Editors",
-              "Programming",
-              "Programming / Programming Languages",
-              "Web / Browsers",
-              "General",
-              "Networking Tools",
-              "Security/Privacy Tools",
-              "Computer Management Utilities",
-              "Gaming",
-              "Other",
-              "Bloat"
+            "Programming",
+            "Programming / Editors",
+            "Programming",
+            "Programming / Programming Languages",
+            "Web / Browsers",
+            "General",
+            "Networking Tools",
+            "Security/Privacy Tools",
+            "Computer Management Utilities",
+            "Gaming",
+            "Other",
+            "Bloat"
           ]
         },
         "status": {

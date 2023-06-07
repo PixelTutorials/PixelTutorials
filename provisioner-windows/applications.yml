@@ -1,6 +1,5 @@
 # yaml-language-server: $schema=./applications.schema.json
 ---
-
 applications:
   ### Programming
   - display_name: "Git"
