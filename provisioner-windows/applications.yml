@@ -443,9 +443,11 @@ applications:
     link: ""
     category: Programming / Programming Languages
     status: eh
-    provider: winget
-    winget_id: Anaconda.Anaconda3
-    winget_scope: machine
+    provider: chocolatey
+    # install using winget fails midway
+    # winget_id: Anaconda.Anaconda3
+    # winget_scope: machine
+    chocolatey_name: anaconda3
     description_full: |
       Python Programming in Form of interactive Step-by-Step Notebooks
       (apparently loved by Data Scienticts)
@@ -684,7 +686,8 @@ applications:
   - display_name: "Microsoft Teams"
     link: "https://www.microsoft.com/en-us/microsoft-teams/download-app"
     category: General
-    status: eh
+    # winget install may fail because a different version/kind (business, ...) of teams had been installed already
+    status: not-used
     provider: winget
     winget_id: Microsoft.Teams
     winget_scope: machine
@@ -755,7 +758,7 @@ applications:
     status: normal
     provider: winget
     winget_id: TeraTermProject.teraterm
-    winget_scope: machine
+    winget_scope: ~
     description_short: Easier way of connecting to a console cable on Windows
     description_full: |
       TeraTerm is a console application that simplifies the process of
@@ -1101,9 +1104,11 @@ applications:
     link: "https://www.nvidia.com/de-at/geforce/geforce-experience/"
     category: Gaming
     status: normal
-    provider: winget
-    winget_id: Nvidia.GeForceExperience
-    winget_scope: machine
+    provider: chocolatey
+    # winget always reinstalls
+    # winget_id: Nvidia.GeForceExperience
+    # winget_scope: machine
+    chocolatey_name: geforce-experience
     description_full: |
       My main use-case is its Instant Replay functionality;
       Also no longer need to worry about GPU driver installation and updates
@@ -1174,7 +1179,7 @@ applications:
     status: eh
     provider: winget
     winget_id: eTeks.SweetHome3D
-    winget_scope: user
+    winget_scope: machine
     description_short: OSS Java interior design application
 
   - display_name: "FortiExplorer for Windows (Development Discontinued)"
