@@ -7,8 +7,11 @@ I started watching Videos of people making tutorials on interesting concepts tha
 up to the point of recreating games and making fun parkour / story maps.
 // I also loved SkyBlock and Mods that added Technical Stuff.
 
-I got my first own PC - of course with the primary purpose being for ~Minecraft~ School.
+I got my first own PC (Medion) - of course with the primary purpose being for ~Minecraft~ School.
 I installed Windows 10 on it and watched Videos and read diverse Materials Internet on using it.
+
+// dunno the exact time here
+Quite a while after watching many videos on building PCs and accumulating gift money I got myself to self-build a gaming PC for ~1000€ (i7-4700, GTX 1070, 16GB RAM, HDD)
 
 I started watching videos that showed how to create software that could add/change the functionality of Minecraft servers using Java and Eclipse.
 I bought an aaS Minecraft Server.
