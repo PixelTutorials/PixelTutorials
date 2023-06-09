@@ -44,7 +44,7 @@ function InstallAndUpdateApplications() {
 
   ForEach ($app in $applicationsYAML.applications) {
     #$app
-    Show-Output "-> Looping: " $app.display_name " (" $app.description_short ")"
+    Show-Output "-> Looping: $($app.display_name) ($($app.description_short))"
     if ($app.status -eq "not-used") {
       Show-Output "--> Skipping (status: not-used)"
     }
@@ -77,9 +77,21 @@ function InstallAndUpdateApplications() {
       }
     }
     elseif ($app.provider -eq "chocolatey") {
-      Show-Output "Installing " $app.chocolatey_name "..."
+      $listApp = choco list --exact $app.chocolatey_name --by-id-only --idonly --no-progress --limitoutput
       #choco feature enable -n=allowGlobalConfirmation#
-      choco install -y $app.chocolatey_name
+      if (![String]::Join("", $listApp).Contains($app.chocolatey_name) -And !$app.uninstall) {
+        Show-Output "Installing " $app.chocolatey_name "..."
+        choco install -y $app.chocolatey_name
+      } else {
+        if ($app.uninstall) {
+          Show-Output "--> Uninstalling " $app.chocolatey_name "..."
+          choco uninstall $app.chocolatey_name
+        }
+        elseif ($UpdateAppsIfInstalled) {
+          Show-Output "--> Updating " $app.chocolatey_name "..."
+          choco upgrade $app.chocolatey_name
+        }
+      }
       #choco feature disable -n=allowGlobalConfirmation#
     }
     else {
