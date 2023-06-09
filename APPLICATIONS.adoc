@@ -1,6 +1,6 @@
 = Applications I use
-// :toc:
-// :toc-placement!:
+:toc:
+:toc-placement!:
 
 [NOTE]
 I now manage my applications in machine-readable format over at
@@ -14,6 +14,39 @@ For now this document contains only stuff not fitting for the current yaml file'
 // Applications I no longer use are striked through.
 
 toc::[]
+
+== Useful Sites / Bookmarks
+
+Work::
+https://www.spelltool.com/de/[spelltool] +
+https://www.cbtnuggets.com/certification-playlist[CBTNuggets] +
+https://fahrplan.vmobil.at/[VVV Routenplaner]
+
+Dev::
+https://devdocs.io/[DevDocs Universal API Documentation] +
+https://excalidraw.com/[Excalidraw] +
+https://pandoc.org/try/?text=&from=markdown&to=asciidoctor&standalone=0[Pandoc Online] +
+https://alldocs.app/convert-mediawiki-markup-to-asciidoc[Pandoc Online, but better] +
+https://td4a.codethenetwork.com/[Ansible Template Designer] +
+https://docs.ansible.com/ansible-core/2.11/collections/ansible/builtin/index.html#plugins-in-ansible-builtin[Ansible.Builtin — Ansible Core Documentation] +
+https://docs.ansible.com/ansible/latest/collections/ansible/utils/[Ansible.Utils — Ansible Documentation] +
+https://docs.ansible.com/ansible/latest/collections/community/general/index.html[Community.General — Ansible Documentation] +
+https://www.twitch.tv/anthonywritescode[anthonywritescode]
+
+Learn::
+https://tryhackme.com/[TryHackMe] +
+https://docs.microsoft.com/en-us/learn/[Microsoft Learn] +
+http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[Basics of the Unix Philosophy]
+
+Misc::
+https://www.lofiatc.com/?icao=koak[lofi air traffic control] +
+https://www.supercook.com/#/desktop[SuperCook - Zero Waste Recipe Generator] +
+https://pixlr.com/de/x/#editor[Photo Editor : Pixlr X] +
+https://vscodecandothat.com/[VS Code Can Do That?] +
+https://github.com/iluwatar/java-design-patterns[GitHub - java-design-patterns] +
+https://www.exploit-db.com/[exploit-db]
+
+link:about:profiles[Firefox Profiles]
 
 == Firefox Extensions
 
@@ -84,39 +117,6 @@ right in the address bar
 | https://addons.mozilla.org/en-US/firefox/addon/image-search-options[_Image Search Options_]
 | Extends the right click context option menu with diverse array of Image Search Tools
 |===
-
-=== Useful Sites / Bookmarks
-
-Work::
-https://www.spelltool.com/de/[spelltool] +
-https://www.cbtnuggets.com/certification-playlist[CBTNuggets] +
-https://fahrplan.vmobil.at/[VVV Routenplaner]
-
-Dev::
-https://devdocs.io/[DevDocs Universal API Documentation] +
-https://excalidraw.com/[Excalidraw] +
-https://pandoc.org/try/?text=&from=markdown&to=asciidoctor&standalone=0[Pandoc Online] +
-https://alldocs.app/convert-mediawiki-markup-to-asciidoc[Pandoc Online, but better] +
-https://td4a.codethenetwork.com/[Ansible Template Designer] +
-https://docs.ansible.com/ansible-core/2.11/collections/ansible/builtin/index.html#plugins-in-ansible-builtin[Ansible.Builtin — Ansible Core Documentation] +
-https://docs.ansible.com/ansible/latest/collections/ansible/utils/[Ansible.Utils — Ansible Documentation] +
-https://docs.ansible.com/ansible/latest/collections/community/general/index.html[Community.General — Ansible Documentation] +
-https://www.twitch.tv/anthonywritescode[anthonywritescode]
-
-Learn::
-https://tryhackme.com/[TryHackMe] +
-https://docs.microsoft.com/en-us/learn/[Microsoft Learn] +
-http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[Basics of the Unix Philosophy]
-
-Misc::
-https://www.lofiatc.com/?icao=koak[lofi air traffic control] +
-https://www.supercook.com/#/desktop[SuperCook - Zero Waste Recipe Generator] +
-https://pixlr.com/de/x/#editor[Photo Editor : Pixlr X] +
-https://vscodecandothat.com/[VS Code Can Do That?] +
-https://github.com/iluwatar/java-design-patterns[GitHub - java-design-patterns] +
-https://www.exploit-db.com/[exploit-db]
-
-link:about:profiles[Firefox Profiles]
 
 == Linux
 
