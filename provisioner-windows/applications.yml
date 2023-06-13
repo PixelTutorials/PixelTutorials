@@ -89,6 +89,16 @@ applications:
     chocolatey_name: terraform
     description_short: Infrastructure as Code
 
+  - display_name: "Hashicorp Vault"
+    link: "https://github.com/hashicorp/vault"
+    category: Programming
+    status: normal
+    provider: winget
+    winget_id: Hashicorp.Vault
+    winget_scope: machine
+    chocolatey_name: vault
+    description_short: Infrastructure as Code
+
   - display_name: "Github CLI"
     category: Programming
     status: normal
