@@ -78,7 +78,8 @@ function InstallAndUpdateApplications() {
     }
     elseif ($app.provider -eq "chocolatey") {
       $listApp = choco list --exact $app.chocolatey_name --by-id-only --idonly --no-progress --limitoutput
-      #choco feature enable -n=allowGlobalConfirmation#
+      # `allowGlobalConfirmation` to not get stuck at "The package packer wants to run 'chocolateyInstall.ps1'." message (and maybe others).
+      choco feature enable -n=allowGlobalConfirmation
       if (![String]::Join("", $listApp).Contains($app.chocolatey_name) -And !$app.uninstall) {
         Show-Output "Installing " $app.chocolatey_name "..."
         choco install -y $app.chocolatey_name
@@ -92,7 +93,7 @@ function InstallAndUpdateApplications() {
           choco upgrade $app.chocolatey_name
         }
       }
-      #choco feature disable -n=allowGlobalConfirmation#
+      choco feature disable -n=allowGlobalConfirmation#
     }
     else {
       Show-Output "--> Application does not have an installation provider!"
