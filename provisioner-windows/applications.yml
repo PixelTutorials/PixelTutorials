@@ -103,7 +103,7 @@ applications:
     category: Programming
     status: normal
     provider: chocolatey
-    chocolatey_name: packer
+    chocolatey_name: gh
     description_short: Used in combination with Terraform
 
   - display_name: "Github LFS"
