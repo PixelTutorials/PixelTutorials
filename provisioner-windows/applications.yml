@@ -873,6 +873,14 @@ applications:
     winget_scope: machine
     description_short: File-based Password Manager
 
+  - display_name: "John The Ripper (Jumbo)"
+    link: "https://www.openwall.com/john/"
+    category: Security/Privacy Tools
+    status: eh
+    description_short: open source password security auditing
+    description_full: |
+      Included in Kali Linux / TryHackMe
+
   ### Computer Management Utilities
   - display_name: "Chocolatey"
     link: "https://chocolatey.org/"
