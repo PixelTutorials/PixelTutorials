@@ -106,6 +106,10 @@ function InstallAndUpdateApplications() {
   Write-Host ""
 }
 
+function InstallAndUpdateApplicationsPostCommands() {
+  Add-ToSystemPath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\amd64\Oscdimg"
+}
+
 function SetupPowershellProfile() {
   Show-Output ">> Setup Powershell Profile"
   ## PowerShell environment for Git (e.g. adds tab completion)
@@ -227,6 +231,7 @@ UpdateWindows
 AddGodMode
 Install-1PasswordCLI
 InstallAndUpdateApplications
+InstallAndUpdateApplicationsPostCommands
 SetupPowershellProfile
 ConfigureGit
 RunAntivirus -ScanType "QuickScan"
@@ -237,7 +242,6 @@ else {
   Show-Output ">> Skipping WSL Install (disabled by configuration option)"
   Write-Host ""
 }
-
 
 ### End
 Stop-Transcript

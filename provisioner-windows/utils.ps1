@@ -168,6 +168,27 @@ function Update-PathEnvironmentVariable() {
   }
 }
 
+function Add-ToSystemPath([string]$ValueToAdd) {
+  # Get the current system's PATH environment variable
+  $existingPath = [Environment]::GetEnvironmentVariable('PATH', 'Machine')
+
+  # Split the PATH into individual directories
+  $pathDirectories = $existingPath -split ';'
+
+  # Check if the value already exists in the PATH
+  if ($pathDirectories -contains $ValueToAdd) {
+      Show-Output "'$ValueToAdd' already exists in the system's PATH."
+      return
+  }
+
+  # Append the new value to the PATH
+  $newPath = "$existingPath;$ValueToAdd"
+
+  # Set the updated PATH environment variable
+  [Environment]::SetEnvironmentVariable('PATH', $newPath, 'Machine')
+  Show-Output "'$ValueToAdd' has been added to the system's PATH."
+}
+
 function Install-Winget {
   [OutputType([bool])]
   Param()
