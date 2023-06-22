@@ -122,6 +122,17 @@ applications:
     chocolatey_name: packer
     description_short: Used in combination with Terraform
 
+  - display_name: Windows Assessment and Deployment Kit
+    link: https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install
+    category: Computer Management Utilities
+    status: eh
+    provider: winget
+    winget_id: Microsoft.WindowsADK
+    winget_scope: ~
+    description_long: |
+      Needed for installation of `oscdimg` needed for packer vsphere-iso to work.
+      (https://github.com/hashicorp/packer-plugin-vsphere/issues/181)
+
   - display_name: "VMWare Workstation Pro"
     link: ""
     category: Programming
