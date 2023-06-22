@@ -93,7 +93,7 @@ function InstallAndUpdateApplications() {
           choco upgrade $app.chocolatey_name
         }
       }
-      choco feature disable -n=allowGlobalConfirmation#
+      choco feature disable -n=allowGlobalConfirmation
     }
     else {
       Show-Output "--> Application does not have an installation provider!"
