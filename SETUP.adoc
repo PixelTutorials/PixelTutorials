@@ -1,4 +1,4 @@
-image::https://media.licdn.com/dms/image/C5622AQG0SIdaiNIl1Q/feedshare-shrink_2048_1536/0/1656249780243?e=1689206400&v=beta&t=Zw6Admllz9qzomer2ii50i-fqN8FGZy28BlZHcZRims[]
+image::home_setup.jpg[]
 
 PC (not pictured)::
 Got rid of Gaming Laptop - was a bad idea i will never recommend to anyone. Battery life is miserable and heat is a problem.
