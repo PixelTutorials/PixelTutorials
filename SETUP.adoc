@@ -45,7 +45,9 @@ Logitech MX Vertical::
 Wanted to try the benefits
 
 
-== Server
+== Server / Infra
+
+image::Diagram.drawio.png[]
 
 Dell R620::
 I used to have a Root Server over at Hetzner and then OVH for years,
