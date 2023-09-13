@@ -42,7 +42,9 @@ Wanted to get myself to use 10 fingers
 // .. but turned out i got weird hands / maybe just too unfit
 
 Logitech MX Vertical::
-Wanted to try the benefits
+Wanted to try the benefits.
+Update 2023/09 after 7~ Months: Not now.
+// problem here probably is just my 0 fitness
 
 
 == Server / Infra
