@@ -13,7 +13,6 @@ My mantra is to never forget that https://blog.nelhage.com/post/computers-can-be
 // - This applies to computer systems, computer networks, communication patterns/flows, and everything else as well.
 // One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the [new] software and things actually
 // (mostly just only) do, but the important thing is that it is still of course possible.
-_It is still all just sand that we tricked into thinking by arranging it in complex logical patterns through which electricity paths its way in a very fast way._
 
 I like Software that does one thing very awesomely (not necesarrily one thing _only_ - i don't use Arch btw).
 
