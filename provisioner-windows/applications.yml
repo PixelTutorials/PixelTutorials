@@ -579,11 +579,11 @@ applications:
   - display_name: "KDE Digikam"
     link: "https://www.digikam.org/"
     category: General
-    status: eh
+    status: normal
     provider: winget
     winget_id: KDE.digikam
     winget_scope: machine
-    description_short: Professional Photo Management Software
+    description_short: Photo Tags Management
     description_full: |
       light-weight (uses flat-file sqlite db for caching);
       has Face Recognizition ability
