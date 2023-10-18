@@ -8,16 +8,14 @@ https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/st
 I know my way around Linux, Windows, IT, programming and
 generally like to always try to understand most of the things I stumble across every day.
 
-In today's IT world there are a lot of patterns and software.
-My mantra is to never forget that https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*] --
-// - This applies to computer systems, computer networks, communication patterns/flows, and everything else as well.
-// One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the [new] software and things actually
-// (mostly just only) do, but the important thing is that it is still of course possible.
+My mantra in IT is to never forget that https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*]. Enough with sales talk.
+// One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the [new] software and things actually (mostly-just-only) do, but the important thing is that it is still of course possible.
+// This applies to computer systems, computer networks, communication patterns/flows, and everything else as well.
 
 I like Software that does one thing very awesomely (not necesarrily one thing _only_ - i don't use Arch btw).
 
 I like to place a high value on adherence to
-http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions], documentation and structured problem analyzation.
+http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions] and documentation.
 __In other words__, I still live in my own little https://www.stilldrinking.org/programming-sucks[dream world] 🙂.
 // because of my lack in experience working on more real projects with more real people in a more real/defined field.
 
@@ -35,11 +33,9 @@ EU, Austria, Vorarlberg (CET +1 hour)
 
 == My Interest in IT
 
-* I don't limit myself to knowing only part of it. +
-  I'm interested in programming, Linux, and the whole world around https://roadmap.sh/backend[Dev] https://roadmap.sh/devops[Ops],
-  but I also cherish an good understanding of IT infrastructures and network protocols/network parts and design.
+* I don't limit myself to knowing only part of it. If I would need to define my keen interest area, it would be https://roadmap.sh/backend[Dev] - https://roadmap.sh/devops[Ops].
 +
-I also could talk for hours about my enthusiasm for Web Development, especially about the concepts of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
+I could talk for hours about my enthusiasm for Web Development, especially about the concepts of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
 // At the end of the day the browser is like a JRE, and HTML/CSS/JS/HTTP/... are the Specifications for it's JVM -
 // just with the fact that a "program" (website) "runs it's code" as a second class citizen,
 // and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
@@ -56,7 +52,7 @@ https://landscape.cncf.io/[done].
 Servers / VMs are transformed from sacred "don't touch" black box systems into simple disposable and on-demand createable goods.
 It is the pinnacle of automation and reproducibility.
 +
-And the crazy thing is that nothing has fundamentally changed -
+And the crazy thing is that **nothing has fundamentally changed** -
 It's just that the solutions (Linux, SSH, HTTP, TLS, ..) and concepts (TCP/IP, ..) that were created a long time ago by very smart people are so crazily thought-of princibles
 which we're all just slowly sticking together and extending continously. IT is amazing.
 
@@ -92,8 +88,6 @@ image::./github-metrics.svg[Metrics]
 
 [discrete]
 === A bit about my journey
-
-NOTE: Nostalgia-based document.
 
 link:JOURNEY.adoc[]
 
