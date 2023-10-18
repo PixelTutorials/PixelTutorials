@@ -5,8 +5,7 @@
 https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]]
 https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]]
 
-I know my way around Linux, Windows, IT, programming and
-generally like to always try to understand most of the things I stumble across every day.
+I know my way around Linux, Windows, IT, programming and generally like to always try to understand most of the things I stumble across every day.
 
 My mantra in IT is to never forget that https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*]. Enough with sales talk.
 // One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the [new] software and things actually (mostly-just-only) do, but the important thing is that it is still of course possible.
@@ -33,9 +32,8 @@ EU, Austria, Vorarlberg (CET +1 hour)
 
 == My Interest in IT
 
-* I don't limit myself to knowing only part of it. If I would need to define my keen interest area, it would be https://roadmap.sh/backend[Dev] - https://roadmap.sh/devops[Ops].
-+
-I could talk for hours about my enthusiasm for Web Development, especially about the concepts of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
+* If I would need to define my keen interest area, it would be https://roadmap.sh/backend[Dev] - https://roadmap.sh/devops[Ops]. 
+I could talk for hours about my enthusiasm for Web Development, especially about the concept of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
 // At the end of the day the browser is like a JRE, and HTML/CSS/JS/HTTP/... are the Specifications for it's JVM -
 // just with the fact that a "program" (website) "runs it's code" as a second class citizen,
 // and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
