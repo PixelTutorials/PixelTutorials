@@ -435,7 +435,8 @@ applications:
     category: Programming / Programming Languages
     status: eh
     provider: winget
-    winget_id: AdoptOpenJDK.OpenJDK.16 # some programs require more than 8 nowadays :=)
+    # Latest as of 2023-11 (Mojang's "policy" is ~1.17 according to FAWE Plugin)
+    winget_id: Azul.Zulu.21.JDK
     winget_scope: machine
     description_full: |
       Java 8+ with https://groovy-lang.org/[Groovy Lang]
