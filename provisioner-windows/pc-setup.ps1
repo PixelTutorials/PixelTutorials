@@ -113,20 +113,27 @@ function InstallAndUpdateApplicationsPostCommands() {
 
 function SetupPowershellProfile() {
   Show-Output ">> Setup Powershell Profile"
+
   ## PowerShell environment for Git (e.g. adds tab completion)
   Show-Output "Adding PoshGit to PowerShell Profile"
   Set-ExecutionPolicy RemoteSigned -Scope Process
   PowerShellGet\Install-Module posh-git -Scope AllUsers -Force
   PowerShellGet\Update-Module posh-git
   # This will add a line containing Import-Module posh-git to the file $profile.CurrentUserAllHosts:
-  Add-PoshGitToProfile -AllHosts
+  # Would display the following Warning Message when used multiple times, if not for '-SilentlyContinue':
+  # "Skipping add of posh-git import to file 'C:\Users\priva\Documents\WindowsPowerShell\profile.ps1'"
+  # "posh-git appears to already be imported in one of your profile scripts."
+  Add-PoshGitToProfile -AllHosts -WarningAction SilentlyContinue
 
   ## PowerShell helpers for SSH (e.g. Start-SshAgent -Quiet)
   Show-Output "Adding PoshSshell to PowerShell Profile"
   PowerShellGet\Install-Module posh-sshell -Scope AllUsers -Force
   PowerShellGet\Update-Module posh-sshell
   # This will add a line containing Import-Module posh-sshell to the file $profile.CurrentUserAllHosts:
-  Add-PoshSshellToProfile -AllHosts
+  # Would display the following Warning Message when used multiple times, if not for '-SilentlyContinue':
+  # "Skipping add of posh-posh-sshell import to file 'C:\Users\priva\Documents\WindowsPowerShell\profile.ps1'"
+  # "posh-posh-sshell appears to already be imported in one of your profile scripts."
+  Add-PoshSshellToProfile -AllHosts -WarningAction SilentlyContinue
 
   Show-Output "Adding StartSshAgent Command to PowerShell Profile"
   Get-Service -Name ssh-agent | Set-Service -StartupType Manual
