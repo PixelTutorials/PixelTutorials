@@ -334,8 +334,10 @@ function RunWindowsMemoryDiag() {
 
 
 ### Main
+$allow_reboot = if($Config.allow_reboot -ne $null) { $Config.allow_reboot } else { $true }
+$exit_anyways_if_reboot_required = if($Config.exit_anyways_if_reboot_required -ne $null) { $Config.exit_anyways_if_reboot_required } else { $false }
+UpdateWindows $allow_reboot $exit_anyways_if_reboot_required
 Update-Help
-UpdateWindows
 RunBleachBit
 RunWindowsSFC
 RunWindowsCHKDSK

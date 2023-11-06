@@ -295,17 +295,39 @@ function RunAntivirus() {
 }
 
 function UpdateWindows() {
-  Show-Output ">> Update Windows and Reboot if necessary."
+  param (
+    [Parameter(Mandatory = $true)][bool]$allow_reboot,
+    [Parameter(Mandatory = $false)][bool]$exit_anyways_if_reboot_required = $false
+  )
+  if($allow_reboot){
+    Show-Output ">> Update Windows and Reboot if necessary."
+  } else {
+    Show-Output ">> Update Windows (without Reboot)."
+  }
+
   Install-Module -Name PSWindowsUpdate -Scope AllUsers -Force
   Import-Module -Name PSWindowsUpdate
-  $updates = Get-WindowsUpdate -AcceptAll -AutoReboot -Install
+  if($allow_reboot){
+    $updates = Get-WindowsUpdate -AcceptAll -AutoReboot -Install
+  } else {
+    $updates = Get-WindowsUpdate -AcceptAll -Install
+  }
   $rebootRequired = $updates.IsRebootRequired
   if ($rebootRequired) {
-    Show-Output "Reboot required because of update! Aborting script."
-    # reboot with a warning (curiously not always initiated by above command):
-    shutdown /r
-    Stop-Transcript
-    exit 0
+    Show-Output "Windows Update signals that a reboot is required!"
+    if($allow_reboot){
+      Show-Output "Aborting script and initiating reboot request. Cancel by entering 'shutdown /a'. Disable in future runs with 'allow_reboot' config variable."
+      # reboot with a warning (curiously not always initiated by -AutoReboot flag):
+      shutdown /r
+      Stop-Transcript
+      exit 0
+    } else {
+      if($exit_anyways_if_reboot_required){
+        Show-Output "Aborting the script anyways."
+      } else {
+        Show-Output "Continuing with script anyways."
+      }
+    }
   }
   Show-Output "No Reboot required, at least not because of update!"
   Write-Host ""

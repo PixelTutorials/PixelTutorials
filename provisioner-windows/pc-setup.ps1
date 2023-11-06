@@ -18,10 +18,6 @@ Param(
   [switch]$Elevated
 )
 
-### Constants
-$UpdateAppsIfInstalled = $true
-
-
 ### Init
 . ".\utils.ps1"
 Start-Transcript -Path "${LogsPath}\$($MyInvocation.MyCommand.Name)--$(Get-Date -Format "yyyy-MM-dd--HH_mm_ss").txt"
@@ -33,6 +29,11 @@ function InstallAndUpdateApplications() {
   Show-Output ">> Install and Update Applications"
   Install-Chocolatey
   Install-Winget
+
+  $applications_update = if($Config.applications_update -ne $null) { $Config.applications_update } else { $true }
+  if ($applications_update -eq $false){
+    Show-Output "'applications_update' is set to false. Not updating any already installed application!"
+  }
 
   Show-Output "Reading .\applications.yml"
   $_content = Get-Content -Raw ".\applications.yml"
@@ -70,7 +71,7 @@ function InstallAndUpdateApplications() {
           Show-Output "--> Uninstalling " $app.winget_id "..."
           winget uninstall $app.winget_id
         }
-        elseif ($UpdateAppsIfInstalled) {
+        elseif ($applications_update) {
           Show-Output "--> Updating " $app.winget_id "..."
           winget upgrade $app.winget_id
         }
@@ -88,7 +89,7 @@ function InstallAndUpdateApplications() {
           Show-Output "--> Uninstalling " $app.chocolatey_name "..."
           choco uninstall $app.chocolatey_name
         }
-        elseif ($UpdateAppsIfInstalled) {
+        elseif ($applications_update) {
           Show-Output "--> Updating " $app.chocolatey_name "..."
           choco upgrade $app.chocolatey_name
         }
@@ -227,7 +228,9 @@ function Install-WSL() {
 
 
 ### Main
-UpdateWindows
+$allow_reboot = if($Config.allow_reboot -ne $null) { $Config.allow_reboot } else { $true }
+$exit_anyways_if_reboot_required = if($Config.exit_anyways_if_reboot_required -ne $null) { $Config.exit_anyways_if_reboot_required } else { $false }
+UpdateWindows $allow_reboot $exit_anyways_if_reboot_required
 AddGodMode
 Install-1PasswordCLI
 InstallAndUpdateApplications

@@ -1,6 +1,10 @@
 ---
 # Per-Computer (gitignored '.\config.yml') Configuration File as used by all scripts in this folder
 
+applications_update: false
+allow_reboot: true
+exit_anyways_if_reboot_required: false
+
 wsl_install: false
 wsl_distro: Ubuntu-20.04
 
