@@ -233,6 +233,10 @@ $exit_anyways_if_reboot_required = if($Config.exit_anyways_if_reboot_required -n
 UpdateWindows $allow_reboot $exit_anyways_if_reboot_required
 AddGodMode
 Install-1PasswordCLI
+
+# won't uninstall otherwhise
+Stop-Process -Name "Greenshot" -Force -ErrorAction SilentlyContinue
+
 InstallAndUpdateApplications
 InstallAndUpdateApplicationsPostCommands
 SetupPowershellProfile

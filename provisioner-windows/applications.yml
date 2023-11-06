@@ -589,9 +589,12 @@ applications:
       light-weight (uses flat-file sqlite db for caching);
       has Face Recognizition ability
 
+  # Keep uninstallation of Greenshot above the installation of ShareX so that
+  # ShareX has more success at registering the prntscr button
   - display_name: "Greenshot"
     link: "https://getgreenshot.org/downloads/"
     category: General
+    uninstall: true # replaced by ShareX (2023-11)
     status: daily-driver
     provider: winget
     winget_id: Greenshot.Greenshot
@@ -601,6 +604,7 @@ applications:
   - display_name: "ScreenToGif"
     link: "https://www.screentogif.com/"
     category: General
+    uninstall: true # replaced by ShareX (2023-11)
     status: eh
     provider: winget
     winget_id: NickeManarin.ScreenToGif
@@ -608,6 +612,15 @@ applications:
     description_short: Windows-Replacement for Peek
     description_full: |
       Easily Record and Export a selected part of the screen
+
+  - display_name: "ShareX"
+    link: "https://getsharex.com/"
+    category: General
+    status: daily-driver
+    provider: winget
+    winget_id: ShareX.ShareX
+    winget_scope: machine
+    description_short: 'Cross-Platform OSS "Greenshot" & "ScreenToGif" Replacement'
 
   - display_name: "Qoppa's PDFStudio PRO"
     link: "https://www.qoppa.com/pdfstudio"
