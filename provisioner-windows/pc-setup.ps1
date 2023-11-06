@@ -81,7 +81,7 @@ function InstallAndUpdateApplications() {
       $listApp = choco list --exact $app.chocolatey_name --by-id-only --idonly --no-progress --limitoutput
       # `allowGlobalConfirmation` to not get stuck at "The package packer wants to run 'chocolateyInstall.ps1'." message (and maybe others).
       choco feature enable -n=allowGlobalConfirmation
-      if (![String]::Join("", $listApp).Contains($app.chocolatey_name) -And !$app.uninstall) {
+      if (!$app.uninstall -And ($listApp -eq $null -Or ![String]::Join("", $listApp).Contains($app.chocolatey_name))) {
         Show-Output "Installing " $app.chocolatey_name "..."
         choco install -y $app.chocolatey_name
       } else {
