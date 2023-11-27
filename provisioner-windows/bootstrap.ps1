@@ -51,8 +51,32 @@ function Update-PathEnvironmentVariable() {
   }
 }
 
+# replica of function found in utils.ps1:
+function Elevate {
+  Param(
+    [Parameter(Mandatory = $true)][string]$command
+  )
+  if (! (Test-Admin)) {
+    if ($elevated) {
+      Show-Output "Elevation did not work."
+    }
+    else {
+      Show-Output "This script requires admin access. Elevating."
+      Show-Output "$command"
+      # Use newer PowerShell if available.
+      if (Test-CommandExists "pwsh") { $shell = "pwsh" } else { $shell = "powershell" }
+      Start-Process -FilePath "$shell" -Verb RunAs -ArgumentList ('-NoProfile -NoExit -Command "cd {0}; {1}" -elevated' -f ($pwd, $command))
+      Show-Output "The script has been started in another window. You can close this window now."
+    }
+    exit
+  }
+  Show-Output "Running as Administrator!"
+}
+
 
 ### Main
+Elevate($MyInvocation.MyCommand.Definition)
+
 if (Test-CommandExists "choco") {
   Show-Output "Chocolatey seems to be already installed."
 } else {
