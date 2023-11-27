@@ -52,6 +52,13 @@ function Update-PathEnvironmentVariable() {
 }
 
 # replica of function found in utils.ps1:
+function Test-Admin {
+  [OutputType([bool])]
+  $currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent())
+  return $currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
+}
+
+# replica of function found in utils.ps1:
 function Elevate {
   Param(
     [Parameter(Mandatory = $true)][string]$command
