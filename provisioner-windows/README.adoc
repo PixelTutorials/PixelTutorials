@@ -15,16 +15,16 @@ If admin rights are required, the respective script elevates itself.
 The following command is required to run anything that follows:
 
 [source,powershell]
-====
+----
 Set-ExecutionPolicy Bypass -Scope Process -Force
-====
+----
 
 ### Git-free install
 
 [source,powershell]
-====
+----
 Invoke-Expression ((New-Object net.webclient).DownloadString('https://raw.githubusercontent.com/JonasPammer/JonasPammer/master/provisioner-windows/bootstrap.ps1'))
-====
+----
 
 ### Scripts
 
@@ -34,9 +34,9 @@ Invoke-Expression ((New-Object net.webclient).DownloadString('https://raw.github
 May restart the computer.
 
 [source,powershell]
-====
+----
  ./pc-setup.ps1
-====
+----
 
 #### Fix potential windows problems (automatic)
 
@@ -44,7 +44,7 @@ May restart the computer.
 Restarting the computer afterwards is recommended and necessary for it do fully do its job.
 
 [source,powershell]
-====
+----
  ./pc-repair.ps1
-====
+----
 
