@@ -17,6 +17,7 @@ function InitializeYAMLConfig(){
     .EXAMPLE
         $Config = InitializeYAMLConfig
   #>
+  Show-Output "Reading .\config.yml"
 
   # Would display the following Warning Message when used multiple times, if not for '-SilentlyContinue':
   # "The version '0.4.7' of module 'powershell-yaml' is currently in use."
@@ -28,7 +29,6 @@ function InitializeYAMLConfig(){
     Copy-Item ".\config.example.yml" ".\config.yml"
   }
 
-  Show-Output "Reading .\config.yml"
   $_content = Get-Content -Raw ".\config.yml"
   $Config = ConvertFrom-YAML -Ordered $_content
   return $Config
