@@ -84,15 +84,23 @@ applications:
   - display_name: "Hashicorp Terraform"
     link: "https://github.com/hashicorp/terraform"
     category: Programming
-    status: normal
+    status: eh
     provider: chocolatey
     chocolatey_name: terraform
     description_short: Infrastructure as Code
 
+  - display_name: "Hashicorp Packer"
+    link: "https://github.com/hashicorp/packer"
+    category: Programming
+    status: eh
+    provider: chocolatey
+    chocolatey_name: packer
+    description_short: Used in combination with Terraform
+
   - display_name: "Hashicorp Vault"
     link: "https://github.com/hashicorp/vault"
     category: Programming
-    status: normal
+    status: eh
     provider: winget
     winget_id: Hashicorp.Vault
     winget_scope: machine
@@ -108,19 +116,11 @@ applications:
 
   - display_name: "Github LFS"
     category: Programming
-    status: daily-driver
+    status: eh
     provider: winget
     winget_id: GitHub.GitLFS
     winget_scope: machine
     description_short: Command line extension for managing large files with Git
-
-  - display_name: "Hashicorp Packer"
-    link: "https://github.com/hashicorp/packer"
-    category: Programming
-    status: normal
-    provider: chocolatey
-    chocolatey_name: packer
-    description_short: Used in combination with Terraform
 
   - display_name: Windows Assessment and Deployment Kit
     link: https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install
@@ -388,7 +388,7 @@ applications:
   - display_name: "Jetbrains IntelliJ IDEA"
     link: "https://www.jetbrains.com/idea/"
     category: Programming / Editors
-    status: eh
+    status: normal
     description_full: |
       *My favorite IDE for Java-Development or when I need to go real and am not out of money :).*
 
@@ -433,7 +433,7 @@ applications:
   - display_name: "Java (JDK)"
     link: "https://www.oracle.com/java/technologies/downloads/#java8"
     category: Programming / Programming Languages
-    status: eh
+    status: normal
     provider: winget
     # Latest as of 2023-11 (Mojang's "policy" is ~1.17 according to FAWE Plugin)
     winget_id: Azul.Zulu.21.JDK
@@ -442,6 +442,7 @@ applications:
       Java 8+ with https://groovy-lang.org/[Groovy Lang]
 
   - display_name: "Groovy (Alternative JVM Language)"
+    link: "https://groovy-lang.org/"
     category: Programming / Programming Languages
     status: eh
     provider: winget
@@ -451,18 +452,18 @@ applications:
       More dynamic JVM Programming Language. Primary use: Grails Web Development
 
   - display_name: "Python"
-    link: ""
+    link: "https://www.python.org/downloads/"
     category: Programming / Programming Languages
     status: daily-driver
     provider: winget
-    winget_id: Python.Python.3.9
+    winget_id: Python.Python.3.11
     winget_scope: machine
     description_full: |
       https://www.python.org/dev/peps/pep-0484/[PEP 484] is love.
-      I am a strong defender of the benefits of typing.
+      https://peps.python.org/pep-0020/[PEP 020] is life.
 
   - display_name: "Python Anaconda3"
-    link: ""
+    link: "https://www.anaconda.com/download"
     category: Programming / Programming Languages
     status: eh
     provider: chocolatey
@@ -508,6 +509,7 @@ applications:
 
   ### General
   - display_name: "OneDrive"
+    link: "https://www.microsoft.com/de-de/microsoft-365/onedrive/download"
     category: General
     status: normal
     winget_id: 9WZDNCRFJ1P3
@@ -580,7 +582,7 @@ applications:
   - display_name: "KDE Digikam"
     link: "https://www.digikam.org/"
     category: General
-    status: normal
+    status: daily-driver
     provider: winget
     winget_id: KDE.digikam
     winget_scope: machine
