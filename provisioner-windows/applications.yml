@@ -732,12 +732,22 @@ applications:
   - display_name: "TeamViewer"
     link: "https://www.teamviewer.com/"
     category: Networking Tools
-    status: daily-driver
+    status: normal
     provider: winget
     winget_id: TeamViewer.TeamViewer
     winget_scope: machine
     description_full: |
-      Remote Control Software used nearly everywhere and known by nearly everyone (2022)
+      Remote Control Software used by my company
+
+  - display_name: "RustDesk"
+    link: "https://rustdesk.com/"
+    category: Networking Tools
+    status: normal
+    provider: winget
+    winget_id: RustDesk.RustDesk
+    winget_scope: machine
+    description_full: |
+      RustDesk is a full-featured open source remote control alternative that you can self-host with minimal configuration and security in mind.
 
   - display_name: "FileZilla"
     link: "https://filezilla-project.org/"
