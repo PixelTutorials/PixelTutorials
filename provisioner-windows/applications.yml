@@ -475,6 +475,15 @@ applications:
       Python Programming in Form of interactive Step-by-Step Notebooks
       (apparently loved by Data Scienticts)
 
+  - display_name: "NVM for Windows"
+    link: "https://github.com/coreybutler/nvm-windows"
+    category: Programming / Programming Languages
+    status: normal
+    provider: winget
+    winget_id: CoreyButler.NVMforWindows
+    winget_scope: machine
+    description_short: Node (NPM) Version Manager
+
   ### Web / Browsers
   - display_name: "Firefox"
     link: "https://www.mozilla.org/de/firefox/new/"
