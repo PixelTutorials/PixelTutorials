@@ -6,45 +6,73 @@ MIT License (c) 2020-2023 Mika Mäki
 https://gist.github.com/dougwaldron/d510f2d67a922da169aca1aeff7e4c4d (Winget)::
 This got me started on my private pc-setup script back in 2022-03-02
 
+[NOTE]
+If admin rights are required, the respective script tries to spawn a new elevated powershell process (with the originally executed command and preseved current working directory). This is done for convenience, so you can _just_ execute the script.
 
-## Usage
+## Git-free install using Powershell script
 
-Every script is required to be run in a powershell window.
-If admin rights are required, the respective script elevates itself.
-
-The following command is required to run anything that follows:
-
-[source,powershell]
-----
-Set-ExecutionPolicy Bypass -Scope Process -Force
-----
-
-### Git-free install
+Installs chocolatey, 
+installs git using chocolatey, 
+git checkout's this repository to `$USERPROFILE\Documents\Programmieren\JonasPammer\JonasPammer` and 
+cd's to this (sub)folder (containing the scripts).
 
 [source,powershell]
 ----
 Invoke-Expression ((New-Object net.webclient).DownloadString('https://raw.githubusercontent.com/JonasPammer/JonasPammer/master/provisioner-windows/bootstrap.ps1'))
 ----
 
-### Scripts
+## Command required to use Scripts
 
-#### Install/Update Apps and Configure PC (automatic)
+The following command is required to run powershell scripts:
+
+[source,powershell]
+----
+Set-ExecutionPolicy Bypass -Scope Process -Force
+----
+
+## Script: PC Setup
 
 [WARNING]
 May restart the computer.
 
 [source,powershell]
 ----
- ./pc-setup.ps1
+./pc-setup.ps1
 ----
 
-#### Fix potential windows problems (automatic)
+This will:
 
-[NOTE]
-Restarting the computer afterwards is recommended and necessary for it do fully do its job.
+1. Install and update applications.yml, 
+2. setup powershell profile, 
+3. configure git, 
+4. run antivirus, 
+5. install wsl (if enabled)
+
+This script aims to be fully automated and not ask anything.
+
+### Second, Semi-Automatic part
+
+[source,powershell]
+----
+./pc-setup-other.ps1
+----
+
+This will:
+
+1. Setup GPG using 1Password (if enabled)
+
+## Script: PC Repair
+
+Fixes potential windows problems (automatic)
 
 [source,powershell]
 ----
  ./pc-repair.ps1
 ----
 
+[NOTE]
+Restarting the computer afterwards is recommended and necessary for it do fully do its job.
+
+## Manual Post-Setup Steps
+
+tbw (to be written)
