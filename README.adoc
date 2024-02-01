@@ -19,7 +19,7 @@ Ansible Automation and CI/CD (because its Awesome), Cooking (I spend too much â‚
 EU, Austria, Vorarlberg (CET +1 hour)
 
 [[it]]
-== IT (link:Diagram.drawio.png[image:https://img.shields.io/badge/Home%20Setup%20Diagram-orange?logo=diagrams.net&logoColor=black[Home Setup Diagram]]) 
+== IT (link:Diagram.drawio.png[image:https://img.shields.io/badge/Home%20Setup%20Diagram-orange?logo=diagrams.net&logoColor=black[Home Setup Diagram]])
 
 > __https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*].__
 
@@ -27,7 +27,7 @@ I know my way around Linux, Windows, IT, programming and generally like to alway
 
 // I like Software that does one thing very awesomely (not necesarrily one thing _only_ - i don't use Arch btw).
 
-My current keen interest area is https://roadmap.sh/backend[Dev] - https://roadmap.sh/devops[Ops] -- 
+My current keen interest area is https://roadmap.sh/backend[Dev] - https://roadmap.sh/devops[Ops] --
 Specifically, in my current decision case, *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
 
 I will never get bored of my enthusiasm for web development, the browser, the backend and everything around it, as well as the perspectives that they still offer and make possible for us today.

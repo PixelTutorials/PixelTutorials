@@ -758,7 +758,8 @@ applications:
     winget_id: RustDesk.RustDesk
     winget_scope: machine
     description_full: |
-      RustDesk is a full-featured open source remote control alternative that you can self-host with minimal configuration and security in mind.
+      RustDesk is a full-featured open source remote control alternative
+      that you can self-host with minimal configuration and security in mind.
 
   - display_name: "FileZilla"
     link: "https://filezilla-project.org/"

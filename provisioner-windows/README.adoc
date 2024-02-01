@@ -11,9 +11,9 @@ If admin rights are required, the respective script tries to spawn a new elevate
 
 ## Git-free install using Powershell script
 
-Installs chocolatey, 
-installs git using chocolatey, 
-git checkout's this repository to `$USERPROFILE\Documents\Programmieren\JonasPammer\JonasPammer` and 
+Installs chocolatey,
+installs git using chocolatey,
+git checkout's this repository to `$USERPROFILE\Documents\Programmieren\JonasPammer\JonasPammer` and
 cd's to this (sub)folder (containing the scripts).
 
 [source,powershell]
@@ -42,10 +42,10 @@ May restart the computer.
 
 This will:
 
-1. Install and update applications.yml, 
-2. setup powershell profile, 
-3. configure git, 
-4. run antivirus, 
+1. Install and update applications.yml,
+2. setup powershell profile,
+3. configure git,
+4. run antivirus,
 5. install wsl (if enabled)
 
 This script aims to be fully automated and not ask anything.
