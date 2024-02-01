@@ -6,19 +6,6 @@ https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/
 https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]]
 link:Diagram.drawio.png[image:https://img.shields.io/badge/Home%20Setup%20Diagram-orange?logo=diagrams.net&logoColor=black[Home Setup Diagram]]
 
-I know my way around Linux, Windows, IT, programming and generally like to always try to understand most of the things I stumble across every day.
-
-My mantra in IT is to never forget that https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*]. Enough with sales talk.
-// One may have to dig very deep and jump over promises upon sales talk upon buzzwords to figure out what all the [new] software and things actually (mostly-just-only) do, but the important thing is that it is still of course possible.
-// This applies to computer systems, computer networks, communication patterns/flows, and everything else as well.
-
-I like Software that does one thing very awesomely (not necesarrily one thing _only_ - i don't use Arch btw).
-
-I like to place a high value on adherence to
-http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions] and documentation.
-__In other words__, I still live in my own little https://www.stilldrinking.org/programming-sucks[dream world] 🙂.
-// because of my lack in experience working on more real projects with more real people in a more real/defined field.
-
 📺 Favourite Series::
 Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
 
@@ -31,77 +18,40 @@ Ansible Automation and CI/CD (because its Awesome), Cooking (I spend too much �
 📍 Location::
 EU, Austria, Vorarlberg (CET +1 hour)
 
-== My Interest in IT
+== IT https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]] https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]] https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]]
 
-* If I would need to define my keen interest area, it would be https://roadmap.sh/backend[Dev] - https://roadmap.sh/devops[Ops].
-I could talk for hours about my enthusiasm for Web Development, especially about the concept of the Browser and its accompanying protocols/specifications and the prospects they still offer and continue to enable us today.
-// At the end of the day the browser is like a JRE, and HTML/CSS/JS/HTTP/... are the Specifications for it's JVM -
-// just with the fact that a "program" (website) "runs it's code" as a second class citizen,
-// and the primary "application code" is just structued text (HTML) that is being rendered by the some Engine. +
-// (You can hang me for this comparison if you want but it's true).
+> __https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*].__
 
-// NOTE: The following sentence is to be kept in sync with my LinkedIn Info
-* 🌱 Having just completed an IT apprenticeship, I am currently studying for various networking certifications (CCNA, MSCA, FSNE 1-4, RHCSA, ...) to solidify my knowledge and help myself making the decision on which path to truly pursue by digging into each of them.
+I know my way around Linux, Windows, IT, programming and generally like to always try to understand most of the things I stumble across every day.
 
-// NOTE: The following sentence is to be kept in sync with my LinkedIn Info
-* 🌱 I'm currently heavily diving into the topics of *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
-+
+// I like Software that does one thing very awesomely (not necesarrily one thing _only_ - i don't use Arch btw).
+
+My current keen interest area is https://roadmap.sh/backend[Dev] - https://roadmap.sh/devops[Ops] -- 
+Specifically, in my current decision case, *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
+
+I will never get bored of my enthusiasm for web development, the browser, the backend and everything around it, as well as the perspectives that they still offer and make possible for us today.
+
+🌱 Having just completed an IT apprenticeship, I am currently studying for various certifications (CCNA, MSCA, FSNE 1-4, RHCSA, ...) to solidify my knowledge and help myself making the decision on which path to truly pursue by digging into each of them.
+
 These are very fascinating topics that are fundamentally changing the way software development and deployment is
 https://landscape.cncf.io/[done].
 Servers / VMs are transformed from sacred "don't touch" black box systems into simple disposable and on-demand createable goods.
 It is the pinnacle of automation and reproducibility.
-+
+
 And the crazy thing is that **nothing has fundamentally changed** -
 It's just that the solutions (Linux, SSH, HTTP, TLS, ..) and concepts (TCP/IP, ..) that were created a long time ago by very smart people are so crazily thought-of princibles
 which we're all just slowly sticking together and extending continously. IT is amazing.
 
+=== Recent Activities
 
-== My Experience in IT
+🙋‍♂️ I https://github.com/JonasPammer?tab=stars[actively star repositories I find useful and interesting].
+Below is an automatically generated overview of my GitHub profile, showing mostly my recently starred projects (which may give somewhat of an indication of what I'm currently onto):
 
-* A broad overview of the knowledge and experience I acquired over the years can be found on my
-https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]] and
-https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]] profiles
-// https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]]  -
-as well of course on my OSS GitHub Projects.
-+
-I also actively https://github.com/JonasPammer?tab=stars[star repositories I find useful and interesting].
-Below is an automatically generated overview of my GitHub profile, showing mostly my recently starred projects
-(which may give somewhat of an indication of what I'm currently onto):
-+
 image::./github-metrics.svg[Metrics]
-// +
-// .Footnote on GitHub
-// ____
-// I use GitHub as my primary version control and collaboration platform.
-//
-// I also sync my projects to a privately hosted GitLab instance.
-// I do this mainly for archival purposes (GitHub is owned by Microsoft),
-// but also to just try things out of course.
-//
-// Do note that I am currently in the process of refactoring every of my projects
-// and also try to figure out new development schemes
-// now that I'm fairly confident in the knowledge i posses
-// ____
 
-// === My knowledge in IT, a more in-depth Stack Overview
-
-
-[discrete]
-=== A bit more about my journey
-
-For the interested..
-link:JOURNEY.adoc[]
-
-
-== My Private, Work and Infrastructure Setup
+=== Private, Work and Infrastructure Setup
 
 include::SETUP.adoc[]
-
-
-== My Applications
-
-link:APPLICATIONS.adoc[]
-
 
 == Demystifying
 
@@ -115,9 +65,13 @@ Sources always linked.
 * link:demystifying/gitignore.adoc[Demystifying `.gitignore`]
 * link:demystifying/conventional_commits.adoc[Demystifying Conventional Commits]
 
----
-image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe from the nerd above."]
+==== Some Links
+
+http://www.catb.org/~esr/writings/taoup/html/ch01s06.html[conventions] +
+https://www.stilldrinking.org/programming-sucks[dream{sp}world]
+
+image:https://komarev.com/ghpvc/?username=JonasPammer&style=flat-square[image:https://hit.yhype.me/github/profile?user_id=32995541[.,title="Do not worry weary traveller - I am but a simple counter that can only track hits, not visitors. I am being proxied through GitHub to keep your identity safe."]
 
 // keep at bottom 😉
 == Pinned Repositories / Recent Contributions
-(see below)
+// (see below)
