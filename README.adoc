@@ -4,7 +4,7 @@
 
 https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]]
 https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]]
-link:Diagram.drawio.png[image:https://img.shields.io/badge/Home%20Setup%20Diagram-orange?logo=diagrams.net&logoColor=black[Home Setup Diagram]]
+https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]]
 
 📺 Favourite Series::
 Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
@@ -18,7 +18,8 @@ Ansible Automation and CI/CD (because its Awesome), Cooking (I spend too much �
 📍 Location::
 EU, Austria, Vorarlberg (CET +1 hour)
 
-== IT https://www.linkedin.com/in/jonas-pammer-2b340a1aa[image:https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white[LinkedIn]] https://stackshare.io/JonasPammer/my-stack[image:https://img.shields.io/badge/stackshare-blue?logo=stackshare&logoColor=white[stackshare]] https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHackMe-004daa?logo=tryhackme&logoColor=white[tryhackme]]
+[[it]]
+== IT (link:Diagram.drawio.png[image:https://img.shields.io/badge/Home%20Setup%20Diagram-orange?logo=diagrams.net&logoColor=black[Home Setup Diagram]]) 
 
 > __https://blog.nelhage.com/post/computers-can-be-understood/[*Computers are not magic and Software _can_ be understood*].__
 
