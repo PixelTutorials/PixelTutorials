@@ -10,7 +10,7 @@ https://tryhackme.com/p/PixelTutorials[image:https://img.shields.io/badge/TryHac
 Avatar: The Last Airbender, Star Trek (VOY / TNG / PICARD / DISCOVERY)
 
 ⛳ Hobbies and Interests::
-Cooking, Watching Movies with Friends, Programming / Linux / IT News, Keeping a clean and organized home and setup
+Watching Movies with Friends, Programming / Linux, Keeping a clean and organized home and setup
 
 🔝 Current Primary Fascinations::
 Ansible Automation and CI/CD (because its Awesome), Cooking (I spend too much € on other things ;))
