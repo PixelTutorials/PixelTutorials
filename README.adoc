@@ -28,12 +28,10 @@ I know my way around Linux, Windows, IT, programming and generally like to alway
 // I like Software that does one thing very awesomely (not necesarrily one thing _only_ - i don't use Arch btw).
 
 My current keen interest area is https://roadmap.sh/backend[Dev] - https://roadmap.sh/devops[Ops] --
-Specifically, in my current decision case, *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker.
-
+Specifically, in my current decision case, *IaaC* with Ansible/Terraform/Amazon Web Services and **C**ontinious Automated **I**ntegration/**D**elivery with GitHub Actions and Docker. +
 I will never get bored of my enthusiasm for web development, the browser, the backend and everything around it, as well as the perspectives that they still offer and make possible for us today.
-
-🌱 Having just completed an IT apprenticeship, I am currently studying for various certifications (CCNA, MSCA, FSNE 1-4, RHCSA, ...) to solidify my knowledge and help myself making the decision on which path to truly pursue by digging into each of them.
-
+[%collapsible]
+====
 These are very fascinating topics that are fundamentally changing the way software development and deployment is
 https://landscape.cncf.io/[done].
 Servers / VMs are transformed from sacred "don't touch" black box systems into simple disposable and on-demand createable goods.
@@ -42,6 +40,9 @@ It is the pinnacle of automation and reproducibility.
 And the crazy thing is that **nothing has fundamentally changed** -
 It's just that the solutions (Linux, SSH, HTTP, TLS, ..) and concepts (TCP/IP, ..) that were created a long time ago by very smart people are so crazily thought-of princibles
 which we're all just slowly sticking together and extending continously. IT is amazing.
+====
+
+🌱 Having just completed an IT apprenticeship, I am currently studying for various certifications (CCNA, MSCA, FSNE 1-4, RHCSA, ...) to solidify my knowledge and help myself making the decision on which path to truly pursue by digging into each of them.
 
 === Recent Activities
 
