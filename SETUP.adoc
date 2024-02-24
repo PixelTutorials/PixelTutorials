@@ -1,3 +1,6 @@
+:toc:
+
+== Private Setup
 image::home_setup.jpg[]
 
 PC (not pictured)::
@@ -10,14 +13,25 @@ __self-configured and bought as a tested- and built package (to avoid troubles) 
 Samsung 34" Curved Monitor::
 no comment, really. just made a quick and in-need buy at local electronics shop
 
+Dell P2416Db Monitor (not pictured)::
+Got it cheap from work (Datacenter-Takeout).
+For Discord.
+// Also good for having "Them's Fighting Herds" (game a friend showed me) Keystrokes Cheatsheet opened ;)
+
 Roccat Vulcan Keyboard, German Layout::
 Felt the most nice at local electronics shop. White is nice. Really often use the sound wheel at the right top.
 
 Logitech MX Master 2::
-Heart of the setup, still going strong
+Heart of the setup, still going strong. Also had MX 1 (2018) and MX Anywhere 2.
 
 Razer Seiren Mini::
 Best 50€ Microphone according to some YouTube videos...
+
+Logitech Stereo Speakers Z120 (not pictured)::
+30€ speakers bought when switching to PC again in 2023.
+
+Logitech C920s HD PRO Webcam::
+For Discord with Friends. Has a physical cover panel.
 
 UE Megaboom Speaker::
 Also heart of the setup, still going strong even though all it's been through. It's waterproof³.
@@ -29,7 +43,7 @@ Huawei P30 Pro::
 Was https://www.notebookcheck.net/The-Best-Camera-Smartphones.283106.0.html[the best camera smartphone] at the time.
 
 Rowenta Fan::
-Very quiet
+Very quiet Companion for 5 years
 
 Chair::
 Cheap Moebelix Chair
@@ -37,15 +51,28 @@ Cheap Moebelix Chair
 Hilti Bottle::
 //Thanks to who'm I got to know about many interesting things about IT's day-to-day in a big corporation.
 
+Logitech MX Vertical (not pictured)::
+Logitech Ergo K860::
+Wanted to get myself to learn 10-Finger-Typing at the start of my Civil service (2023-03 -- 2023-11).
+Turns out still not for me 
+// (little fingers weird)
+
 == Work Setup
 
-2 Monitors. Ergonomic Chair :)
+2 Monitors,
+// only after i begged for it:
+Ergonomic Chair,
+// only after coming back from my civil service:
+Big Desk and
+// after having asked for it:
+Logitech MX Master 3s
 
 Cherry Keyboard with Brown Switches::
 Gifted by a colleague who didn't want it.
 Has the thing i like: RGB is able to be disabled and only react to key press.
 
-== Server / Infra
+
+== Private Infrastructure
 
 image::Diagram.drawio.png[]
 
@@ -60,4 +87,8 @@ I still have my E-Mail Server on OVH though because
 I want my E-Mails to just work (be trusted / delivered)
 and not care about configuration / maintenance of it.
 
-Also have my DNS at OVH for convenience.
+Also have my DNS at OVH for automatic setup of email mx records.
+
+== Books
+
+TBW
