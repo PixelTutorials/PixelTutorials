@@ -1,67 +1,68 @@
-Attributions:
-
-https://github.com/AgenttiX/windows-scripts (Powershell Goodies)::
-MIT License (c) 2020-2023 Mika Mäki
-
-https://gist.github.com/dougwaldron/d510f2d67a922da169aca1aeff7e4c4d (Winget)::
-This got me started on my private pc-setup script back in 2022-03-02
-
-[NOTE]
-If admin rights are required, the respective script tries to spawn a new elevated powershell process (with the originally executed command and preseved current working directory). This is done for convenience, so you can _just_ execute the script.
-
-## Git-free install using Powershell script
-
-Installs chocolatey,
-installs git using chocolatey,
-git checkout's this repository to `$USERPROFILE\Documents\Programmieren\JonasPammer\JonasPammer` and
-cd's to this (sub)folder (containing the scripts).
+[[install]]
+== Git-free install using Powershell script
 
 [source,powershell]
 ----
 Invoke-Expression ((New-Object net.webclient).DownloadString('https://raw.githubusercontent.com/JonasPammer/JonasPammer/master/provisioner-windows/bootstrap.ps1'))
 ----
 
-## Command required to use Scripts
+This will:
 
-The following command is required to run powershell scripts:
+* Install https://chocolatey.org/[chocolatey],
+* Install https://git-scm.com/[git] using chocolatey,
+* `git checkout` this repository to `$USERPROFILE\Documents\Programmieren\JonasPammer\JonasPammer`, and
+* `cd` to this folder
+
+
+[[config]]
+== Configuration
+
+* `config.yml` (git ignored) is read at beginning of each PowerShell Script, or initially created by copying from `config.example.yml` if not existent
+* `applications.yml` is used by "Install and Update Applications" Step.
+
+
+[[pc-setup]]
+== Script: PC Setup
+
+[WARNING]
+May restart the computer (if `allow_reboot: true`).
 
 [source,powershell]
 ----
 Set-ExecutionPolicy Bypass -Scope Process -Force
-----
-
-## Script: PC Setup
-
-[WARNING]
-May restart the computer.
-
-[source,powershell]
-----
 ./pc-setup.ps1
 ----
 
-This will:
-
-1. Install and update applications.yml,
-2. setup powershell profile,
-3. configure git,
-4. run antivirus,
-5. install wsl (if enabled)
-
 This script aims to be fully automated and not ask anything.
+It will:
 
-### Second, Semi-Automatic part
+. Update Windows
+. Install 1PasswordCLI (`op`) - to be used in other Script(s).
+. Reboot if Windows indicates it is necessary.
+.. If not allowed by config [i.e. `allow_reboot: false`], it will stop here [if `exit_anyways_if_reboot_required: true`].
+. Install and Update all Applications loaded from `applications.yml` [if `applications_update: true`]
+. Setup Powershell Profile (PoshGit, PoshSshell, StartSshAgent)
+. Configure Git (gpg-agent, user name/email, and a bunch of settings i once saw recommended)
+. Update Antivirus signatures and run a Scan (Windows Defender)
+. Install https://learn.microsoft.com/de-de/windows/wsl/[Windows Subsystem for Linux] [if `wsl_install: true`]
+. Do a few Windows Registry etc. Tweaks
+
+
+[[pc-setup-other]]
+=== Second, Semi-Automatic part
 
 [source,powershell]
 ----
+Set-ExecutionPolicy Bypass -Scope Process -Force
 ./pc-setup-other.ps1
 ----
 
 This will:
 
-1. Setup GPG using 1Password (if enabled)
+. Ask to signin to 1Password
+. Download GPG Key from 1Password, Import it, (necessarily) ask the user to enter its trust-level, and configure it as git's `user.signingKey` [`setup_gpg: true`]
 
-## Script: PC Repair
+== Script: PC Repair
 
 Fixes potential windows problems (automatic)
 
@@ -73,6 +74,64 @@ Fixes potential windows problems (automatic)
 [NOTE]
 Restarting the computer afterwards is recommended and necessary for it do fully do its job.
 
-## Manual Post-Setup Steps
 
-tbw (to be written)
+[[pc-setup-post]]
+== Manual Post-Setup Steps
+
+=== Sign-in
+
+First 2 are Crucial for convenience:
+
+. Firefox
+. 1Password Extension
+
+Others:
+
+* 1Password App
+* Docker Desktop
+* VSCode (easiest choosing GitHub)
+* Discord (easiest using Phone with QR Code)
+* Steam
+
+=== Enter License Keys
+
+Stored in 1Password.
+
+* Acronis
+* Duplicate Cleaner Pro
+
+=== Setup OneDrive
+
+Ensure to uncheck every box (Desktop, Documents, Music..) when asked to setup Backup.
+
+Ensure Folder is `O:\OneDrive` (Letter of Drive may have changed!).
+
+Click on OneDrive's tray Icon, go to (Gear Icon) -> Settings, "Sync and backup" tab, open "Advanced settings" and click "Download all files" under "Files On-Demand".
+
+=== Setup MEGA.nz Backup of Acronis Backup Storage
+
+TBW
+
+=== Setup MEGA.nz Syncs as required
+
+...
+
+=== Setup Acronis Job
+
+TBW
+
+=== Disable Acronis Hogging the System
+
+TBW
+
+=== _Pin Taskbar Items_
+
+
+
+== Attributions:
+
+https://github.com/AgenttiX/windows-scripts (Powershell Goodies)::
+MIT License (c) 2020-2023 Mika Mäki
+
+https://gist.github.com/dougwaldron/d510f2d67a922da169aca1aeff7e4c4d (Winget)::
+This got me started on my private pc-setup script back in 2022-03-02
