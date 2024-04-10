@@ -27,8 +27,8 @@ function SetupGpgUsing1Password() {
   Install-1PasswordCLI
   Write-Host ""
   Show-Output "Please SignIn to 1Password..."
-  #! Prompts:
-  Invoke-Expression $(op signin --account my.1password.com)
+  #! Prompts (or, given app integration, makes a popup with a blue "Authorize :)" button)
+  op signin
 
   $gpg_email = $Config.gpg_email
   $gpg_email_filesafe = $gpg_email.Split([IO.Path]::GetInvalidFileNameChars()) -join '_'
@@ -51,6 +51,7 @@ function SetupGpgUsing1Password() {
     #! Prompts:
     gpg --edit-key $(op item get "$1password_pk_item_name" --fields key) trust quit
 
+    Show-Output "Executing commands to alter git config..."
     git config --global commit.gpgSign true
     git config --global user.signingKey $(op item get "$1password_pk_item_name" --fields key)
     Write-Host ""

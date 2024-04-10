@@ -51,6 +51,14 @@ It will:
 [[pc-setup-other]]
 === Second, Semi-Automatic part
 
+Pre-requireset: Turn on the  https://developer.1password.com/docs/cli/get-started/#sign-in[1Password desktop app  integration]
+
+. Open and unlock the 1Password app.
+. Click your account or collection at the top of the sidebar.
+. Turn on Windows Hello in the app.
+. Navigate to Settings > Developer.
+. Check "Integrate with 1Password CLI".
+
 [source,powershell]
 ----
 Set-ExecutionPolicy Bypass -Scope Process -Force
