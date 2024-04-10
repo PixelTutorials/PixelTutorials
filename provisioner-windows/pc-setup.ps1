@@ -233,12 +233,23 @@ function Install-WSL() {
   Write-Host ""
 }
 
+function TweakRegistry(){
+  Show-Output 'Disabling "Show recently used files in Quick access" & "Show frequently used folders in Quick access" (Windows Explorer)'
+  Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer" -Name "ShowRecent" -Value 0
+  Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer" -Name "ShowFrequent" -Value 0
+  # Restart explorer.exe to apply the changes
+  Stop-Process -Name explorer -Force
+  Start-Process explorer
+
+  Show-Output "Disabling Bing Search in Start Menu..."
+	Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" -Name "BingSearchEnabled" -Type DWord -Value 0
+	Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" -Name "CortanaConsent" -Type DWord -Value 0
+}
 
 ### Main
 $allow_reboot = if($Config.allow_reboot -ne $null) { $Config.allow_reboot } else { $true }
 $exit_anyways_if_reboot_required = if($Config.exit_anyways_if_reboot_required -ne $null) { $Config.exit_anyways_if_reboot_required } else { $false }
 UpdateWindows $allow_reboot $exit_anyways_if_reboot_required
-AddGodMode
 Install-1PasswordCLI
 
 # won't uninstall otherwhise
@@ -246,9 +257,12 @@ Stop-Process -Name "Greenshot" -Force -ErrorAction SilentlyContinue
 
 InstallAndUpdateApplications
 InstallAndUpdateApplicationsPostCommands
+
 SetupPowershellProfile
 ConfigureGit
+
 RunAntivirus -ScanType "QuickScan"
+
 if ($Config.wsl_install) {
   Install-WSL "$Config.wsl_distro"
 }
@@ -256,6 +270,9 @@ else {
   Show-Output ">> Skipping WSL Install (disabled by configuration option)"
   Write-Host ""
 }
+
+TweakRegistry
+AddGodMode
 
 ### End
 Stop-Transcript
