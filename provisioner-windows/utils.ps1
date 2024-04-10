@@ -108,7 +108,7 @@ function Elevate {
       Show-Output "$command"
       # Use newer PowerShell if available.
       if (Test-CommandExists "pwsh") { $shell = "pwsh" } else { $shell = "powershell" }
-      Start-Process -FilePath "$shell" -Verb RunAs -ArgumentList ('-NoProfile -NoExit -Command "cd {0}; {1}" -elevated' -f ($pwd, $command))
+      Start-Process -FilePath "$shell" -Verb RunAs -ArgumentList ('-NoProfile -ExecutionPolicy Bypass -NoExit -Command "cd {0}; {1}" -elevated' -f ($pwd, $command))
       Show-Output "The script has been started in another window. You can close this window now."
     }
     exit
