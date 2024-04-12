@@ -54,7 +54,7 @@ Hilti Bottle::
 Logitech MX Vertical (not pictured)::
 Logitech Ergo K860::
 Wanted to get myself to learn 10-Finger-Typing at the start of my Civil service (2023-03 -- 2023-11).
-Turns out still not for me 
+Turns out still not for me
 // (little fingers weird)
 
 == Work Setup
