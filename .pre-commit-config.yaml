@@ -35,17 +35,3 @@ repos:
     hooks:
       - id: yamllint
         args: [-c=.yamllint]
-
-default_language_version:
-  python: python3
-ci:
-  skip: []
-  autofix_commit_msg: |
-    chore(pre-commit): auto fixes from hooks :rotating_light:
-
-    for more information, see https://pre-commit.ci
-  autoupdate_commit_msg: |
-    chore(pre-commit): autoupdate :arrow_up:
-
-    TIP: you can trigger a re-run on a pull request by commenting `pre-commit.ci run` (must appear on a line by itself)
-exclude: ".idea"
