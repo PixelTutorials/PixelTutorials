@@ -1,3 +1,10 @@
+= provisioner-windows
+:toc: macro
+
+Documentation on how I setup and manage my private Windows PC.
+
+toc::[]
+
 [[install]]
 == Git-free install using Powershell script
 
@@ -148,7 +155,7 @@ TBW
 
 
 
-== Attributions:
+== Attributions
 
 https://github.com/AgenttiX/windows-scripts (Powershell Goodies)::
 MIT License (c) 2020-2023 Mika Mäki
