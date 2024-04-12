@@ -116,6 +116,18 @@ Ensure Folder is `O:\OneDrive` (Letter of Drive may have changed!).
 
 Click on OneDrive's tray Icon, go to (Gear Icon) -> Settings, "Sync and backup" tab, open "Advanced settings" and click "Download all files" under "Files On-Demand".
 
+=== Fix PrntScr
+
+Click on OneDrive's tray Icon, go to (Gear Icon) -> Settings, "Sync and backup" tab, and turn off "Save Screenshots I capture to OneDrive".
+
+Then, ensure in current Screenshot Application of Choice works as expected. As of writing this is:
+
+* Click on ShareX's tray Icon -> "Hotkey Settings"
+* Capture Region: Change to "Print Screen" (just the key itself)
+* Capture entire screen: "Ctrl + Print Screen"
+
+image::https://github.com/JonasPammer/JonasPammer/assets/32995541/78236737-c416-4c9e-aa44-e80ffa5d61ad[]
+
 === Setup MEGA.nz Backup of Acronis Backup Storage
 
 TBW
