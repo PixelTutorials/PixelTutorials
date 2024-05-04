@@ -107,10 +107,6 @@ function InstallAndUpdateApplications() {
   Write-Host ""
 }
 
-function InstallAndUpdateApplicationsPostCommands() {
-  Add-ToSystemPath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\amd64\Oscdimg"
-}
-
 function SetupPowershellProfile() {
   Show-Output ">> Setup Powershell Profile"
 
@@ -252,11 +248,12 @@ $exit_anyways_if_reboot_required = if($null -ne $Config.exit_anyways_if_reboot_r
 UpdateWindows $allow_reboot $exit_anyways_if_reboot_required
 Install-1PasswordCLI
 
-# won't uninstall otherwhise
+# Manual PRE Commands:
 Stop-Process -Name "Greenshot" -Force -ErrorAction SilentlyContinue
-
+# Actual Loop:
 InstallAndUpdateApplications
-InstallAndUpdateApplicationsPostCommands
+# Manual POST Commands:
+Add-ToSystemPath "C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\amd64\Oscdimg"
 
 SetupPowershellProfile
 ConfigureGit
