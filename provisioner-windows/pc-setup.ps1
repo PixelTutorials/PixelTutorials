@@ -217,6 +217,12 @@ function Install-WSL() {
     [Parameter(Mandatory = $true)] [string] $distribution
   )
   Show-Output ">> Install WSL"
+
+  # https://aka.ms/enablevirtualization
+  Show-Output "Making sure that the hypervisor launch is enabled in your boot configuration"
+  bcdedit /set hypervisorlaunchtype Auto
+  bcdedit /enum | findstr -i hypervisorlaunchtype
+
   Show-Output "Enabling WSL features"
   dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
   dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
@@ -224,7 +230,8 @@ function Install-WSL() {
   #.\wsl_update_x64.msi /quiet
   # no longer exists, ""replaced"" by --enable-wsl1 as wsl2 is now default
   #wsl --set-default-version 2
-  Show-Output "Install WSL Distribution '$distribution'"
+
+  Show-Output "Installing WSL Distribution '$distribution'"
   wsl --install --distribution "$distribution"
   Write-Host ""
 }
