@@ -278,5 +278,8 @@ else {
 TweakRegistry
 AddGodMode
 
+# Reboot could be required because of WSL BIOS Change:
+UpdateWindows $allow_reboot $exit_anyways_if_reboot_required
+
 ### End
 Stop-Transcript
