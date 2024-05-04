@@ -264,7 +264,7 @@ ConfigureGit
 RunAntivirus -ScanType "QuickScan"
 
 if ($Config.wsl_install) {
-  Install-WSL "$Config.wsl_distro"
+  Install-WSL $Config.wsl_distro
 }
 else {
   Show-Output ">> Skipping WSL Install (disabled by configuration option)"
