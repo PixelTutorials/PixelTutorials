@@ -19,7 +19,7 @@ Param(
 )
 
 ### Init
-. ".\utils.ps1"
+. "$PSScriptRoot\utils.ps1"
 Start-Transcript -Path "${LogsPath}\$($MyInvocation.MyCommand.Name)--$(Get-Date -Format "yyyy-MM-dd--HH_mm_ss").txt"
 Elevate($MyInvocation.MyCommand.Definition)
 $Config = InitializeYAMLConfig
@@ -35,8 +35,8 @@ function InstallAndUpdateApplications() {
     Show-Output "'applications_update' is set to false. Not updating any already installed application!"
   }
 
-  Show-Output "Reading .\applications.yml"
-  $_content = Get-Content -Raw ".\applications.yml"
+  Show-Output "Reading $PSScriptRoot\applications.yml"
+  $_content = Get-Content -Raw "$PSScriptRoot\applications.yml"
   $applicationsYAML = ConvertFrom-YAML -Ordered $_content
 
   Show-Output "Updating all winget sources"

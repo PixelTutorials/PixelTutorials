@@ -242,7 +242,7 @@ $BleachBitCleaners = @(
 )
 
 ### Init
-. ".\utils.ps1"
+. "$PSScriptRoot\utils.ps1"
 Start-Transcript -Path "${LogsPath}\$($MyInvocation.MyCommand.Name)--$(Get-Date -Format "yyyy-MM-dd--HH_mm_ss").txt"
 Elevate($MyInvocation.MyCommand.Definition)
 

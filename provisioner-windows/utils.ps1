@@ -17,19 +17,19 @@ function InitializeYAMLConfig(){
     .EXAMPLE
         $Config = InitializeYAMLConfig
   #>
-  Show-Output "Reading .\config.yml"
+  Show-Output "Reading $PSScriptRoot\config.yml"
 
   # Would display the following Warning Message when used multiple times, if not for '-SilentlyContinue':
   # "The version '0.4.7' of module 'powershell-yaml' is currently in use."
   Install-Module -Name powershell-yaml -Force -WarningAction SilentlyContinue
   Import-Module -Name powershell-yaml -WarningAction SilentlyContinue
 
-  if (-Not (Test-Path ".\config.yml")) {
-    Show-Output "!!! Copying '.\config.example.yml' to (gitignored) '.\config.yml'."
-    Copy-Item ".\config.example.yml" ".\config.yml"
+  if (-Not (Test-Path "$PSScriptRoot\config.yml")) {
+    Show-Output "!!! Copying '$PSScriptRoot\config.example.yml' to (gitignored) '~\config.yml'."
+    Copy-Item "$PSScriptRoot\config.example.yml" "$PSScriptRoot\config.yml"
   }
 
-  $_content = Get-Content -Raw ".\config.yml"
+  $_content = Get-Content -Raw "$PSScriptRoot\config.yml"
   $Config = ConvertFrom-YAML -Ordered $_content
   return $Config
 }
