@@ -247,8 +247,8 @@ function TweakRegistry(){
 }
 
 ### Main
-$allow_reboot = if($Config.allow_reboot -ne $null) { $Config.allow_reboot } else { $true }
-$exit_anyways_if_reboot_required = if($Config.exit_anyways_if_reboot_required -ne $null) { $Config.exit_anyways_if_reboot_required } else { $false }
+$allow_reboot = if($null -ne $Config.allow_reboot) { $Config.allow_reboot } else { $true }
+$exit_anyways_if_reboot_required = if($null -ne $Config.exit_anyways_if_reboot_required) { $Config.exit_anyways_if_reboot_required } else { $false }
 UpdateWindows $allow_reboot $exit_anyways_if_reboot_required
 Install-1PasswordCLI
 
