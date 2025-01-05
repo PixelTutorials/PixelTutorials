@@ -1,5 +1,7 @@
 :toc:
 
+https://short.jonaspammer.at/setup[_self-link_]
+
 == Private Setup
 image::home_setup.jpg[]
 
@@ -80,7 +82,7 @@ Dell R620::
 I used to have a Root Server over at Hetzner and then OVH for years,
 then I noticed I've spent wayyyyyy to much money and got my own.
 It's the same one i used for
-https://www.linkedin.com/in/jonas-pammer-2b340a1aa/#education[my IT school project].
+https://short.jonaspammer.at/schoolproject[my IT school project].
 Very quiet.
 
 I still have my E-Mail Server on OVH though because
@@ -88,6 +90,10 @@ I want my E-Mails to just work (be trusted / delivered)
 and not care about configuration / maintenance of it.
 
 Also have my DNS at OVH for automatic setup of email mx records.
+Though, 2025 I switched the actual DNS zone to Cloudflare,
+so i have an extra layer of speed with the added benefit
+of Analytics and one-click DDoS protection (for free).
+If Cloudflare would be a registrar for NIC.at, i would use it directly.
 
 == Books
 
