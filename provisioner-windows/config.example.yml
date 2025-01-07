@@ -11,6 +11,9 @@ wsl_distro: Ubuntu-20.04
 setup_gpg: true
 gpg_email: opensource@jonaspammer.at
 # may use "{{ gpg_email }}"" placeholder
-gpg_1password_pk_item_name: "PGP/GnuGPG private key {{ gpg_email }}" # pragma: allowlist secret
-# may use "{{ gpg_email }}"" placeholder
-gpg_1password_passphrase_item_name: "PGP/GnuGPG Passphrase {{ gpg_email }}" # pragma: allowlist secret
+gpg_1password_item_name: "PGP/GnuGPG {{ gpg_email }}" # pragma: allowlist secret
+
+setup_ssh: true
+ssh_name: "BOESER-DRACHE-3"
+# may use "{{ ssh_name }}"" placeholder
+ssh_1password_item_name: "SSH Key {{ ssh_name}}"

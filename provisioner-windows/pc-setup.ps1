@@ -150,8 +150,8 @@ function ConfigureGit() {
 
   Show-Output "Executing commands to alter git config..."
   $gpg_program = $(Get-Command gpg | Select-Object source)
-  $gpg_program_source = $gpg_program.Source # i don't have much ps1 knowledge
-  git config --global gpg.program "$gpg_program_source"
+  $gpg_program_source = $gpg_program.Source
+  git config --global gpg.gpg.program "$gpg_program_source"
 
   git config --global pull.rebase true
 
